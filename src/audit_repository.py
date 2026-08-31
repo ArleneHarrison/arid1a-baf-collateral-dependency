@@ -25,12 +25,19 @@ REQUIRED = (
 )
 
 
+TEXT_SUFFIXES = {".cff", ".csv", ".json", ".md", ".py", ".r", ".tex", ".tsv", ".txt", ".yml", ".yaml"}
+BUILD_SUFFIXES = {".aux", ".bbl", ".blg", ".fdb_latexmk", ".fls", ".log", ".out"}
+
+
+def canonical_bytes(path: Path) -> bytes:
+    content = path.read_bytes()
+    if path.suffix.casefold() in TEXT_SUFFIXES:
+        content = content.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    return content
+
+
 def digest(path: Path) -> str:
-    hasher = hashlib.sha256()
-    with path.open("rb") as stream:
-        for block in iter(lambda: stream.read(1024 * 1024), b""):
-            hasher.update(block)
-    return hasher.hexdigest()
+    return hashlib.sha256(canonical_bytes(path)).hexdigest()
 
 
 def release_files() -> list[Path]:
@@ -41,13 +48,18 @@ def release_files() -> list[Path]:
     )
     files: set[Path] = set()
     for pattern in patterns:
-        files.update(path for path in ROOT.glob(pattern) if path.is_file() and "__pycache__" not in path.parts)
+        files.update(
+            path for path in ROOT.glob(pattern)
+            if path.is_file()
+            and "__pycache__" not in path.parts
+            and path.suffix.casefold() not in BUILD_SUFFIXES
+        )
     return sorted(files)
 
 
 def write_manifest() -> None:
     rows = [
-        {"path": path.relative_to(ROOT).as_posix(), "bytes": path.stat().st_size, "sha256": digest(path)}
+        {"path": path.relative_to(ROOT).as_posix(), "bytes": len(canonical_bytes(path)), "sha256": digest(path)}
         for path in release_files()
     ]
     pd.DataFrame(rows).to_csv(MANIFEST, sep="\t", index=False)
@@ -61,7 +73,7 @@ def verify_manifest() -> None:
         path = ROOT / row.path
         if not path.is_file():
             raise AssertionError(f"Manifest file is missing: {row.path}")
-        if path.stat().st_size != row.bytes or digest(path) != row.sha256:
+        if len(canonical_bytes(path)) != row.bytes or digest(path) != row.sha256:
             raise AssertionError(f"Manifest mismatch: {row.path}")
 
 
