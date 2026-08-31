@@ -1,0 +1,248 @@
+tissue,partner,complex_role,n_mutant,n_wt,mean_dep_mutant,mean_dep_wt,P,direction,padj_BH_global
+Haematopoietic and Lymphoid,SMARCB1,BAF/PBAF core (shared),4,80,,,,,
+Haematopoietic and Lymphoid,SMARCC1,BAF/PBAF core,4,80,,,,,
+Haematopoietic and Lymphoid,DPF2,BAF/ncBAF core,4,80,,,,,
+Haematopoietic and Lymphoid,SMARCA4,BAF/PBAF/ncBAF core ATPase,4,80,,,,,
+Haematopoietic and Lymphoid,ARID1B,BAF (paralog),4,80,,,,,
+Haematopoietic and Lymphoid,SMARCC2,BAF/PBAF core (alt.),4,80,,,,,
+Haematopoietic and Lymphoid,SMARCA2,BAF ATPase (alt.),4,80,,,,,
+Haematopoietic and Lymphoid,ARID2,PBAF-specific,4,80,,,,,
+Haematopoietic and Lymphoid,PBRM1,PBAF-specific,4,80,,,,,
+Haematopoietic and Lymphoid,BRD9,ncBAF-specific,4,80,,,,,
+Haematopoietic and Lymphoid,BICRA,ncBAF-specific,4,80,,,,,
+Haematopoietic and Lymphoid,BICRAL,ncBAF-specific,4,80,,,,,
+Haematopoietic and Lymphoid,SS18,ncBAF-specific,4,80,,,,,
+Lung,SMARCB1,BAF/PBAF core (shared),6,122,-0.9679466666666666,-0.9591111475409836,0.9605603089690503,mutant_more_dependent,1.0
+Lung,SMARCC1,BAF/PBAF core,6,122,-0.06701166666666666,-0.04523795081967212,0.6242006075214243,mutant_more_dependent,0.9744629280437542
+Lung,DPF2,BAF/ncBAF core,6,122,-0.3620833333333333,-0.26195090163934426,0.40409796188930375,mutant_more_dependent,0.867591657007798
+Lung,SMARCA4,BAF/PBAF/ncBAF core ATPase,6,122,0.045103333333333336,-0.019315901639344265,0.5407558285151416,mutant_less_dependent,0.9744629280437542
+Lung,ARID1B,BAF (paralog),6,122,-0.16473833333333335,0.0012068032786885252,0.3325864693250874,mutant_more_dependent,0.8314661733127184
+Lung,SMARCC2,BAF/PBAF core (alt.),6,122,0.10303833333333334,0.10091213114754097,0.8217033119925707,mutant_less_dependent,0.9823243120577322
+Lung,SMARCA2,BAF ATPase (alt.),6,122,-0.5409966666666667,-0.17506836065573772,0.5261745816145526,mutant_more_dependent,0.9744629280437542
+Lung,ARID2,PBAF-specific,6,122,-0.654445,-0.3487570491803279,0.024802383327182456,mutant_more_dependent,0.4030387290667149
+Lung,PBRM1,PBAF-specific,6,122,-0.27468333333333333,0.013574098360655738,0.02171566686048588,mutant_more_dependent,0.4030387290667149
+Lung,BRD9,ncBAF-specific,6,122,-0.002429999999999997,0.102225,0.2502162492768656,mutant_more_dependent,0.7358421693431422
+Lung,BICRA,ncBAF-specific,6,122,0.34933166666666665,0.2705652459016394,0.2502162492768656,mutant_less_dependent,0.7358421693431422
+Lung,BICRAL,ncBAF-specific,6,122,0.3528933333333333,0.24619483606557377,0.14434585723991428,mutant_less_dependent,0.6480275354682591
+Lung,SS18,ncBAF-specific,6,122,0.098715,0.18414180327868848,0.3160040310411632,mutant_more_dependent,0.8216104807070244
+Large Intestine,SMARCB1,BAF/PBAF core (shared),9,37,-0.9066944444444446,-0.7978164864864866,0.7188716624318352,mutant_more_dependent,0.9823243120577322
+Large Intestine,SMARCC1,BAF/PBAF core,9,37,0.04991000000000001,0.08740567567567567,0.8898856343200842,mutant_more_dependent,1.0
+Large Intestine,DPF2,BAF/ncBAF core,9,37,-0.2071,-0.39536702702702703,0.17484494384839344,mutant_less_dependent,0.6480275354682591
+Large Intestine,SMARCA4,BAF/PBAF/ncBAF core ATPase,9,37,0.13118555555555556,0.08273675675675675,0.8463101765420461,mutant_less_dependent,0.9823243120577322
+Large Intestine,ARID1B,BAF (paralog),9,37,0.03421222222222223,0.06628297297297299,0.34647292993172196,mutant_more_dependent,0.8341014979837751
+Large Intestine,SMARCC2,BAF/PBAF core (alt.),9,37,0.20067000000000002,0.18095054054054055,0.5988146244740915,mutant_less_dependent,0.9744629280437542
+Large Intestine,SMARCA2,BAF ATPase (alt.),9,37,0.1003622222222222,0.0545927027027027,0.637836173424697,mutant_less_dependent,0.9744629280437542
+Large Intestine,ARID2,PBAF-specific,9,37,-0.2828966666666667,-0.24044351351351353,0.8463101765420461,mutant_more_dependent,0.9823243120577322
+Large Intestine,PBRM1,PBAF-specific,9,37,0.14999555555555555,-0.03541459459459458,0.0432431044033003,mutant_less_dependent,0.46846696436908664
+Large Intestine,BRD9,ncBAF-specific,9,37,0.11813555555555554,0.08323918918918918,0.6577392953402474,mutant_less_dependent,0.9744629280437542
+Large Intestine,BICRA,ncBAF-specific,9,37,0.4621677777777778,0.25553027027027025,0.24484128774574088,mutant_less_dependent,0.7358421693431422
+Large Intestine,BICRAL,ncBAF-specific,9,37,0.3220733333333334,0.2225740540540541,0.166208703664804,mutant_less_dependent,0.6480275354682591
+Large Intestine,SS18,ncBAF-specific,9,37,0.18227,0.2183297297297297,0.8246889072549228,mutant_more_dependent,0.9823243120577322
+Skin,SMARCB1,BAF/PBAF core (shared),1,53,,,,,
+Skin,SMARCC1,BAF/PBAF core,1,53,,,,,
+Skin,DPF2,BAF/ncBAF core,1,53,,,,,
+Skin,SMARCA4,BAF/PBAF/ncBAF core ATPase,1,53,,,,,
+Skin,ARID1B,BAF (paralog),1,53,,,,,
+Skin,SMARCC2,BAF/PBAF core (alt.),1,53,,,,,
+Skin,SMARCA2,BAF ATPase (alt.),1,53,,,,,
+Skin,ARID2,PBAF-specific,1,53,,,,,
+Skin,PBRM1,PBAF-specific,1,53,,,,,
+Skin,BRD9,ncBAF-specific,1,53,,,,,
+Skin,BICRA,ncBAF-specific,1,53,,,,,
+Skin,BICRAL,ncBAF-specific,1,53,,,,,
+Skin,SS18,ncBAF-specific,1,53,,,,,
+Central Nervous System,SMARCB1,BAF/PBAF core (shared),1,76,,,,,
+Central Nervous System,SMARCC1,BAF/PBAF core,1,76,,,,,
+Central Nervous System,DPF2,BAF/ncBAF core,1,76,,,,,
+Central Nervous System,SMARCA4,BAF/PBAF/ncBAF core ATPase,1,76,,,,,
+Central Nervous System,ARID1B,BAF (paralog),1,76,,,,,
+Central Nervous System,SMARCC2,BAF/PBAF core (alt.),1,76,,,,,
+Central Nervous System,SMARCA2,BAF ATPase (alt.),1,76,,,,,
+Central Nervous System,ARID2,PBAF-specific,1,76,,,,,
+Central Nervous System,PBRM1,PBAF-specific,1,76,,,,,
+Central Nervous System,BRD9,ncBAF-specific,1,76,,,,,
+Central Nervous System,BICRA,ncBAF-specific,1,76,,,,,
+Central Nervous System,BICRAL,ncBAF-specific,1,76,,,,,
+Central Nervous System,SS18,ncBAF-specific,1,76,,,,,
+Esophagus,SMARCB1,BAF/PBAF core (shared),2,30,,,,,
+Esophagus,SMARCC1,BAF/PBAF core,2,30,,,,,
+Esophagus,DPF2,BAF/ncBAF core,2,30,,,,,
+Esophagus,SMARCA4,BAF/PBAF/ncBAF core ATPase,2,30,,,,,
+Esophagus,ARID1B,BAF (paralog),2,30,,,,,
+Esophagus,SMARCC2,BAF/PBAF core (alt.),2,30,,,,,
+Esophagus,SMARCA2,BAF ATPase (alt.),2,30,,,,,
+Esophagus,ARID2,PBAF-specific,2,30,,,,,
+Esophagus,PBRM1,PBAF-specific,2,30,,,,,
+Esophagus,BRD9,ncBAF-specific,2,30,,,,,
+Esophagus,BICRA,ncBAF-specific,2,30,,,,,
+Esophagus,BICRAL,ncBAF-specific,2,30,,,,,
+Esophagus,SS18,ncBAF-specific,2,30,,,,,
+Ovary,SMARCB1,BAF/PBAF core (shared),12,45,-0.6298491666666668,-0.884678,0.13945126436702776,mutant_less_dependent,0.6480275354682591
+Ovary,SMARCC1,BAF/PBAF core,12,45,-0.08940416666666666,-0.020409111111111104,0.8371603453645393,mutant_more_dependent,0.9823243120577322
+Ovary,DPF2,BAF/ncBAF core,12,45,-0.164295,-0.1494013333333333,0.659636443598849,mutant_more_dependent,0.9744629280437542
+Ovary,SMARCA4,BAF/PBAF/ncBAF core ATPase,12,45,-0.19548583333333336,-0.11086488888888889,0.4629333343003714,mutant_more_dependent,0.9403333352976294
+Ovary,ARID1B,BAF (paralog),12,45,-0.48903500000000005,0.0008897777777777844,0.02258564356404762,mutant_more_dependent,0.4030387290667149
+Ovary,SMARCC2,BAF/PBAF core (alt.),12,45,0.05184083333333333,0.15135733333333332,0.898757532658312,mutant_more_dependent,1.0
+Ovary,SMARCA2,BAF ATPase (alt.),12,45,0.19820249999999998,-0.034059111111111116,0.1558653368550276,mutant_less_dependent,0.6480275354682591
+Ovary,ARID2,PBAF-specific,12,45,-0.5742349999999999,-0.45595022222222215,0.5246752452322578,mutant_more_dependent,0.9744629280437542
+Ovary,PBRM1,PBAF-specific,12,45,-0.02648500000000001,-0.12997755555555557,0.39450869988760706,mutant_less_dependent,0.867591657007798
+Ovary,BRD9,ncBAF-specific,12,45,-0.019726666666666667,0.14093377777777774,0.06157862718765543,mutant_more_dependent,0.5718015381710861
+Ovary,BICRA,ncBAF-specific,12,45,0.14690916666666667,0.21869600000000003,0.1447679143904023,mutant_more_dependent,0.6480275354682591
+Ovary,BICRAL,ncBAF-specific,12,45,0.34975333333333336,0.25356288888888895,0.26037492145988106,mutant_less_dependent,0.7358421693431422
+Ovary,SS18,ncBAF-specific,12,45,0.30032083333333337,0.19330066666666668,0.07328981770322304,mutant_less_dependent,0.5954797688386873
+Head and Neck,SMARCB1,BAF/PBAF core (shared),0,70,,,,,
+Head and Neck,SMARCC1,BAF/PBAF core,0,70,,,,,
+Head and Neck,DPF2,BAF/ncBAF core,0,70,,,,,
+Head and Neck,SMARCA4,BAF/PBAF/ncBAF core ATPase,0,70,,,,,
+Head and Neck,ARID1B,BAF (paralog),0,70,,,,,
+Head and Neck,SMARCC2,BAF/PBAF core (alt.),0,70,,,,,
+Head and Neck,SMARCA2,BAF ATPase (alt.),0,70,,,,,
+Head and Neck,ARID2,PBAF-specific,0,70,,,,,
+Head and Neck,PBRM1,PBAF-specific,0,70,,,,,
+Head and Neck,BRD9,ncBAF-specific,0,70,,,,,
+Head and Neck,BICRA,ncBAF-specific,0,70,,,,,
+Head and Neck,BICRAL,ncBAF-specific,0,70,,,,,
+Head and Neck,SS18,ncBAF-specific,0,70,,,,,
+Pancreas,SMARCB1,BAF/PBAF core (shared),3,40,,,,,
+Pancreas,SMARCC1,BAF/PBAF core,3,40,,,,,
+Pancreas,DPF2,BAF/ncBAF core,3,40,,,,,
+Pancreas,SMARCA4,BAF/PBAF/ncBAF core ATPase,3,40,,,,,
+Pancreas,ARID1B,BAF (paralog),3,40,,,,,
+Pancreas,SMARCC2,BAF/PBAF core (alt.),3,40,,,,,
+Pancreas,SMARCA2,BAF ATPase (alt.),3,40,,,,,
+Pancreas,ARID2,PBAF-specific,3,40,,,,,
+Pancreas,PBRM1,PBAF-specific,3,40,,,,,
+Pancreas,BRD9,ncBAF-specific,3,40,,,,,
+Pancreas,BICRA,ncBAF-specific,3,40,,,,,
+Pancreas,BICRAL,ncBAF-specific,3,40,,,,,
+Pancreas,SS18,ncBAF-specific,3,40,,,,,
+Breast,SMARCB1,BAF/PBAF core (shared),4,39,,,,,
+Breast,SMARCC1,BAF/PBAF core,4,39,,,,,
+Breast,DPF2,BAF/ncBAF core,4,39,,,,,
+Breast,SMARCA4,BAF/PBAF/ncBAF core ATPase,4,39,,,,,
+Breast,ARID1B,BAF (paralog),4,39,,,,,
+Breast,SMARCC2,BAF/PBAF core (alt.),4,39,,,,,
+Breast,SMARCA2,BAF ATPase (alt.),4,39,,,,,
+Breast,ARID2,PBAF-specific,4,39,,,,,
+Breast,PBRM1,PBAF-specific,4,39,,,,,
+Breast,BRD9,ncBAF-specific,4,39,,,,,
+Breast,BICRA,ncBAF-specific,4,39,,,,,
+Breast,BICRAL,ncBAF-specific,4,39,,,,,
+Breast,SS18,ncBAF-specific,4,39,,,,,
+Bone,SMARCB1,BAF/PBAF core (shared),1,30,,,,,
+Bone,SMARCC1,BAF/PBAF core,1,30,,,,,
+Bone,DPF2,BAF/ncBAF core,1,30,,,,,
+Bone,SMARCA4,BAF/PBAF/ncBAF core ATPase,1,30,,,,,
+Bone,ARID1B,BAF (paralog),1,30,,,,,
+Bone,SMARCC2,BAF/PBAF core (alt.),1,30,,,,,
+Bone,SMARCA2,BAF ATPase (alt.),1,30,,,,,
+Bone,ARID2,PBAF-specific,1,30,,,,,
+Bone,PBRM1,PBAF-specific,1,30,,,,,
+Bone,BRD9,ncBAF-specific,1,30,,,,,
+Bone,BICRA,ncBAF-specific,1,30,,,,,
+Bone,BICRAL,ncBAF-specific,1,30,,,,,
+Bone,SS18,ncBAF-specific,1,30,,,,,
+Soft Tissue,SMARCB1,BAF/PBAF core (shared),0,37,,,,,
+Soft Tissue,SMARCC1,BAF/PBAF core,0,37,,,,,
+Soft Tissue,DPF2,BAF/ncBAF core,0,37,,,,,
+Soft Tissue,SMARCA4,BAF/PBAF/ncBAF core ATPase,0,37,,,,,
+Soft Tissue,ARID1B,BAF (paralog),0,37,,,,,
+Soft Tissue,SMARCC2,BAF/PBAF core (alt.),0,37,,,,,
+Soft Tissue,SMARCA2,BAF ATPase (alt.),0,37,,,,,
+Soft Tissue,ARID2,PBAF-specific,0,37,,,,,
+Soft Tissue,PBRM1,PBAF-specific,0,37,,,,,
+Soft Tissue,BRD9,ncBAF-specific,0,37,,,,,
+Soft Tissue,BICRA,ncBAF-specific,0,37,,,,,
+Soft Tissue,BICRAL,ncBAF-specific,0,37,,,,,
+Soft Tissue,SS18,ncBAF-specific,0,37,,,,,
+Kidney,SMARCB1,BAF/PBAF core (shared),1,24,,,,,
+Kidney,SMARCC1,BAF/PBAF core,1,24,,,,,
+Kidney,DPF2,BAF/ncBAF core,1,24,,,,,
+Kidney,SMARCA4,BAF/PBAF/ncBAF core ATPase,1,24,,,,,
+Kidney,ARID1B,BAF (paralog),1,24,,,,,
+Kidney,SMARCC2,BAF/PBAF core (alt.),1,24,,,,,
+Kidney,SMARCA2,BAF ATPase (alt.),1,24,,,,,
+Kidney,ARID2,PBAF-specific,1,24,,,,,
+Kidney,PBRM1,PBAF-specific,1,24,,,,,
+Kidney,BRD9,ncBAF-specific,1,24,,,,,
+Kidney,BICRA,ncBAF-specific,1,24,,,,,
+Kidney,BICRAL,ncBAF-specific,1,24,,,,,
+Kidney,SS18,ncBAF-specific,1,24,,,,,
+Stomach,SMARCB1,BAF/PBAF core (shared),6,26,-0.59368,-0.9582865384615383,0.1440577714215089,mutant_less_dependent,0.6480275354682591
+Stomach,SMARCC1,BAF/PBAF core,6,26,0.08782833333333334,-0.1325223076923077,0.18942343344456805,mutant_less_dependent,0.6480275354682591
+Stomach,DPF2,BAF/ncBAF core,6,26,-0.3424183333333333,-0.40004384615384614,0.9437889542172079,mutant_less_dependent,1.0
+Stomach,SMARCA4,BAF/PBAF/ncBAF core ATPase,6,26,0.23217166666666667,-0.18080153846153849,0.08677631230467714,mutant_less_dependent,0.6168829171377932
+Stomach,ARID1B,BAF (paralog),6,26,-0.51749,0.04032961538461539,0.0017590091283083498,mutant_more_dependent,0.11433559334004274
+Stomach,SMARCC2,BAF/PBAF core (alt.),6,26,0.08982166666666667,0.11947538461538464,0.7958821088687608,mutant_more_dependent,0.9823243120577322
+Stomach,SMARCA2,BAF ATPase (alt.),6,26,0.04662666666666668,0.09961615384615384,0.7597551070854742,mutant_more_dependent,0.9823243120577322
+Stomach,ARID2,PBAF-specific,6,26,-0.33188333333333336,-0.37767730769230773,0.9812379716439784,mutant_less_dependent,1.0
+Stomach,PBRM1,PBAF-specific,6,26,0.07745166666666665,0.005112692307692292,0.524288451012589,mutant_less_dependent,0.9744629280437542
+Stomach,BRD9,ncBAF-specific,6,26,-0.23575166666666666,-0.08955769230769227,0.407995215142045,mutant_more_dependent,0.867591657007798
+Stomach,BICRA,ncBAF-specific,6,26,0.17161833333333334,0.13500846153846155,0.7958821088687608,mutant_less_dependent,0.9823243120577322
+Stomach,BICRAL,ncBAF-specific,6,26,0.074195,0.15616153846153846,0.9437889542172079,mutant_more_dependent,1.0
+Stomach,SS18,ncBAF-specific,6,26,0.15149166666666666,0.11393269230769229,0.9812379716439784,mutant_less_dependent,1.0
+Peripheral Nervous System,SMARCB1,BAF/PBAF core (shared),0,30,,,,,
+Peripheral Nervous System,SMARCC1,BAF/PBAF core,0,30,,,,,
+Peripheral Nervous System,DPF2,BAF/ncBAF core,0,30,,,,,
+Peripheral Nervous System,SMARCA4,BAF/PBAF/ncBAF core ATPase,0,30,,,,,
+Peripheral Nervous System,ARID1B,BAF (paralog),0,30,,,,,
+Peripheral Nervous System,SMARCC2,BAF/PBAF core (alt.),0,30,,,,,
+Peripheral Nervous System,SMARCA2,BAF ATPase (alt.),0,30,,,,,
+Peripheral Nervous System,ARID2,PBAF-specific,0,30,,,,,
+Peripheral Nervous System,PBRM1,PBAF-specific,0,30,,,,,
+Peripheral Nervous System,BRD9,ncBAF-specific,0,30,,,,,
+Peripheral Nervous System,BICRA,ncBAF-specific,0,30,,,,,
+Peripheral Nervous System,BICRAL,ncBAF-specific,0,30,,,,,
+Peripheral Nervous System,SS18,ncBAF-specific,0,30,,,,,
+Bladder,SMARCB1,BAF/PBAF core (shared),4,25,,,,,
+Bladder,SMARCC1,BAF/PBAF core,4,25,,,,,
+Bladder,DPF2,BAF/ncBAF core,4,25,,,,,
+Bladder,SMARCA4,BAF/PBAF/ncBAF core ATPase,4,25,,,,,
+Bladder,ARID1B,BAF (paralog),4,25,,,,,
+Bladder,SMARCC2,BAF/PBAF core (alt.),4,25,,,,,
+Bladder,SMARCA2,BAF ATPase (alt.),4,25,,,,,
+Bladder,ARID2,PBAF-specific,4,25,,,,,
+Bladder,PBRM1,PBAF-specific,4,25,,,,,
+Bladder,BRD9,ncBAF-specific,4,25,,,,,
+Bladder,BICRA,ncBAF-specific,4,25,,,,,
+Bladder,BICRAL,ncBAF-specific,4,25,,,,,
+Bladder,SS18,ncBAF-specific,4,25,,,,,
+Biliary Tract,SMARCB1,BAF/PBAF core (shared),0,28,,,,,
+Biliary Tract,SMARCC1,BAF/PBAF core,0,28,,,,,
+Biliary Tract,DPF2,BAF/ncBAF core,0,28,,,,,
+Biliary Tract,SMARCA4,BAF/PBAF/ncBAF core ATPase,0,28,,,,,
+Biliary Tract,ARID1B,BAF (paralog),0,28,,,,,
+Biliary Tract,SMARCC2,BAF/PBAF core (alt.),0,28,,,,,
+Biliary Tract,SMARCA2,BAF ATPase (alt.),0,28,,,,,
+Biliary Tract,ARID2,PBAF-specific,0,28,,,,,
+Biliary Tract,PBRM1,PBAF-specific,0,28,,,,,
+Biliary Tract,BRD9,ncBAF-specific,0,28,,,,,
+Biliary Tract,BICRA,ncBAF-specific,0,28,,,,,
+Biliary Tract,BICRAL,ncBAF-specific,0,28,,,,,
+Biliary Tract,SS18,ncBAF-specific,0,28,,,,,
+Endometrium,SMARCB1,BAF/PBAF core (shared),12,9,-0.6605674999999999,-0.7232688888888889,0.4137744825729498,mutant_less_dependent,0.867591657007798
+Endometrium,SMARCC1,BAF/PBAF core,12,9,0.03673083333333333,-0.1621866666666667,0.0949050641750451,mutant_less_dependent,0.6168829171377932
+Endometrium,DPF2,BAF/ncBAF core,12,9,-0.2163008333333334,-0.2662755555555556,1.0,mutant_less_dependent,1.0
+Endometrium,SMARCA4,BAF/PBAF/ncBAF core ATPase,12,9,0.055366666666666654,-0.11259555555555556,0.18859805455922163,mutant_less_dependent,0.6480275354682591
+Endometrium,ARID1B,BAF (paralog),12,9,-0.34091166666666667,-0.23224,0.803566416196146,mutant_more_dependent,0.9823243120577322
+Endometrium,SMARCC2,BAF/PBAF core (alt.),12,9,0.21324666666666667,0.04902555555555555,0.04282560923089135,mutant_less_dependent,0.46846696436908664
+Endometrium,SMARCA2,BAF ATPase (alt.),12,9,0.0624575,0.052996666666666664,0.695894823170777,mutant_less_dependent,0.9823243120577322
+Endometrium,ARID2,PBAF-specific,12,9,-0.5695275000000001,-0.5069522222222222,0.3027893674905606,mutant_more_dependent,0.8200545369536018
+Endometrium,PBRM1,PBAF-specific,12,9,-0.17897833333333332,-0.1181711111111111,0.5940323405990415,mutant_more_dependent,0.9744629280437542
+Endometrium,BRD9,ncBAF-specific,12,9,0.014834166666666664,0.07846444444444443,0.5940323405990415,mutant_more_dependent,0.9744629280437542
+Endometrium,BICRA,ncBAF-specific,12,9,0.17902916666666668,0.19381666666666666,1.0,mutant_more_dependent,1.0
+Endometrium,BICRAL,ncBAF-specific,12,9,0.14525166666666667,0.17047888888888887,0.6441280160472187,mutant_more_dependent,0.9744629280437542
+Endometrium,SS18,ncBAF-specific,12,9,0.1946675,0.20582333333333336,0.803566416196146,mutant_more_dependent,0.9823243120577322
+Liver,SMARCB1,BAF/PBAF core (shared),2,21,,,,,
+Liver,SMARCC1,BAF/PBAF core,2,21,,,,,
+Liver,DPF2,BAF/ncBAF core,2,21,,,,,
+Liver,SMARCA4,BAF/PBAF/ncBAF core ATPase,2,21,,,,,
+Liver,ARID1B,BAF (paralog),2,21,,,,,
+Liver,SMARCC2,BAF/PBAF core (alt.),2,21,,,,,
+Liver,SMARCA2,BAF ATPase (alt.),2,21,,,,,
+Liver,ARID2,PBAF-specific,2,21,,,,,
+Liver,PBRM1,PBAF-specific,2,21,,,,,
+Liver,BRD9,ncBAF-specific,2,21,,,,,
+Liver,BICRA,ncBAF-specific,2,21,,,,,
+Liver,BICRAL,ncBAF-specific,2,21,,,,,
+Liver,SS18,ncBAF-specific,2,21,,,,,

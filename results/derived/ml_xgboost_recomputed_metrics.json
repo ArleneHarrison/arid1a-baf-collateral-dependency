@@ -1,0 +1,10 @@
+{
+  "provenance": "fully specified reconstruction; historical training driver unavailable",
+  "seed": 20260831,
+  "n_models": 1178,
+  "n_features": 3000,
+  "n_folds": 5,
+  "oof_r2": 0.3903418708231198,
+  "oof_rmse": 0.21982883543222376,
+  "oof_mae": 0.16990842839803308
+}

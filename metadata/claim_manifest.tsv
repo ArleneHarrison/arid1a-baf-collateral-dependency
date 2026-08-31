@@ -1,0 +1,7 @@
+claim_id	claim	source_file	field_or_rows	status
+C01	Lung contact-versus-noncontact median rho difference is 0.4356 (95% bootstrap CI 0.2927–0.5836)	results/derived/r3_structural_claim_audit.csv	binary_contact_vs_noncontact; lung	verified
+C02	Pan-cancer contact-versus-noncontact median rho difference is 0.3143 (95% bootstrap CI 0.1651–0.4511)	results/derived/r3_structural_claim_audit.csv	binary_contact_vs_noncontact; pan-cancer	verified
+C03	Graded 6LTJ contact-count association is not statistically significant	results/derived/r3_structural_claim_audit.csv	graded_contact_count_within_6LTJ_contacts	verified
+C04	Sample-level GSE131907 association uses 48 independent samples and yields rho 0.4158, P 0.00329	results/derived/r3_scrna_sample_level_summary.csv	all	verified
+C05	Sample-level low-versus-high ARID1A comparison yields exact Mann–Whitney P 0.02569	results/derived/r3_scrna_sample_level_summary.csv	all	verified
+C06	Fully specified XGBoost reconstruction recovers the same five leading BAF features and gives OOF R2 0.390	results/derived/ml_xgboost_recomputed_metrics.json; results/derived/ml_shap_arid1a_feature_importance_RECOMPUTED.csv	all	verified sensitivity analysis

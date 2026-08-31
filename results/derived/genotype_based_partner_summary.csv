@@ -1,0 +1,14 @@
+partner,n_tissues_tested,n_tissues_mutant_more_dependent,n_tissues_sig_global_BH
+ARID1B,5,5,0
+ARID2,5,4,0
+BICRA,5,2,0
+BICRAL,5,2,0
+BRD9,5,4,0
+DPF2,5,2,0
+PBRM1,5,2,0
+SMARCA2,5,2,0
+SMARCA4,5,1,0
+SMARCB1,5,2,0
+SMARCC1,5,3,0
+SMARCC2,5,2,0
+SS18,5,3,0

@@ -1,0 +1,12 @@
+gene,module_role,pct_rank_7270cells,pct_rank_2000cells,n_detections_7270
+ARID2,PBAF_specific,12.5,14.2,505
+SMARCE1,core_cBAF,19.0,20.0,1447
+ARID1B,core_cBAF,37.3,39.7,599
+SMARCA2,alt_ATPase,38.9,40.6,534
+SMARCD1,core_cBAF,41.8,37.8,682
+SMARCC1,core_cBAF,41.8,42.2,1062
+PBRM1,PBAF_specific,46.7,45.5,777
+PHF10,PBAF_specific,48.5,41.2,646
+BRD9,ncBAF_specific,51.7,50.5,915
+BCL7A,other,58.8,59.1,688
+SS18,core_cBAF,62.4,58.6,744

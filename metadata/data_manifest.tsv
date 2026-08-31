@@ -1,0 +1,13 @@
+resource	release_or_accession	file	persistent_location	used_for	redistributed
+NCI Genomic Data Commons	TCGA-LUAD; TCGA-LUSC	MAF and raw-count files	https://portal.gdc.cancer.gov/	mutation landscape and differential expression	no
+DepMap Public	24Q4	CRISPRGeneEffect.csv	https://ndownloader.figshare.com/files/51064667	co-dependency; modules; machine learning	no
+DepMap Public	24Q4	Model.csv	https://ndownloader.figshare.com/files/51065297	model metadata and lineage filters	no
+DepMap Public	24Q4	OmicsSomaticMutations.csv	https://ndownloader.figshare.com/files/51065732	ARID1A genotype-conditional analysis	no
+DepMap Public	24Q4	OmicsExpressionProteinCodingGenesTPMLogp1.csv	https://ndownloader.figshare.com/files/51065489	transcriptomic comparisons	no
+DepMap Public	24Q4 release	all release files	https://doi.org/10.25452/figshare.plus.27993248.v1	primary CRISPR source	no
+Project Score	current cited release	fitness data	https://cellmodelpassports.sanger.ac.uk/downloads	independent CRISPR replication	no
+RCSB PDB	6LTJ	6LTJ.pdb	https://files.rcsb.org/download/6LTJ.pdb	primary BAF contact map	no
+RCSB PDB	6LTH	6LTH.pdb	https://files.rcsb.org/download/6LTH.pdb	structural sensitivity analysis	no
+RCSB PDB	6C23	6C23.pdb	https://files.rcsb.org/download/6C23.pdb	structural sensitivity analysis	no
+RCSB PDB	9A0K	9A0K.cif	https://files.rcsb.org/download/9A0K.cif	independent structural replication	no
+NCBI GEO	GSE131907	GSE131907 series	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131907	single-cell sample-level analysis	no

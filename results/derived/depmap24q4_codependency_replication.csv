@@ -1,0 +1,10 @@
+partner,complex_role,projectscore_lung_rho,depmap24q4_lung_rho,depmap24q4_lung_P,depmap24q4_pancancer_rho,depmap24q4_pancancer_P
+ARID1B,cBAF (paralog),0.344,0.32,0.000265,0.241,5.16e-17
+SMARCB1,core shared,0.474,0.49,5.8e-09,0.487,4.24e-71
+SMARCE1,core shared,0.551,0.538,8.59e-11,0.443,7.84e-58
+DPF2,cBAF/ncBAF core,0.363,0.33,0.000164,0.301,3.59e-26
+SMARCA4,core ATPase,0.357,0.504,1.81e-09,0.252,1.63e-18
+PBRM1,PBAF-specific,-0.116,-0.105,0.243,0.002,0.938
+ARID2,PBAF-specific,-0.029,0.048,0.592,0.038,0.197
+SMARCA2,alt ATPase,-0.122,-0.037,0.681,-0.01,0.731
+BRD9,ncBAF-specific,,-0.025,0.779,-0.053,0.0701

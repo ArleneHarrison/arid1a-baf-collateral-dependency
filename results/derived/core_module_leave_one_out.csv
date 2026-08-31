@@ -1,0 +1,20 @@
+﻿tissue,removed_gene,contact_atoms_6LTJ,contact_status,rho_after_removal,delta_vs_full8,baseline_rho_full8,n_lines
+lung,ACTB,0.0,no_contact,0.5357,0.0609,0.4749,126
+lung,ACTL6A,0.0,no_contact,0.5118,0.0369,0.4749,126
+lung,SMARCD1,553.0,contact_but_paralog_redundant,0.4927,0.0178,0.4749,126
+lung,SMARCD2,,not_resolved_in_any_structure,0.4657,-0.0092,0.4749,126
+lung,SMARCC2,754.0,contact,0.4638,-0.0111,0.4749,126
+lung,SMARCC1,186.0,contact,0.4397,-0.0352,0.4749,126
+lung,SMARCB1,300.0,contact,0.3974,-0.0774,0.4749,126
+lung,SMARCE1,200.0,contact,0.3859,-0.089,0.4749,126
+pancancer,ACTB,0.0,no_contact,0.5334,0.0339,0.4995,1178
+pancancer,SMARCD1,553.0,contact_but_paralog_redundant,0.523,0.0235,0.4995,1178
+pancancer,ACTL6A,0.0,no_contact,0.4925,-0.007,0.4995,1178
+pancancer,SMARCD2,,not_resolved_in_any_structure,0.4848,-0.0147,0.4995,1178
+pancancer,SMARCC2,754.0,contact,0.4818,-0.0177,0.4995,1178
+pancancer,SMARCC1,186.0,contact,0.4701,-0.0293,0.4995,1178
+pancancer,SMARCE1,200.0,contact,0.4382,-0.0613,0.4995,1178
+pancancer,SMARCB1,300.0,contact,0.4094,-0.0901,0.4995,1178
+"# Leave-one-out on the curated eight-subunit core AS DEFINED IN TABLE 1 (SMARCB1 SMARCC1 SMARCC2 SMARCD1 SMARCD2 SMARCE1 ACTL6A ACTB), DepMap 24Q4, Spearman, anchor excluded.",,,,,,,
+"# Supersedes the earlier version, which used a different eight-subunit set (SMARCA4 in place of SMARCD2) and so did not match the module the refinement result is computed on.",,,,,,,
+# SMARCC1 contact count is from 9A0K (6LTJ does not resolve it); SMARCD2 is resolved in no cBAF structure.,,,,,,,

@@ -1,0 +1,35 @@
+{
+  "module_refinement_all_complexes": {
+    "n_pairs": 3701,
+    "n_complexes": 310,
+    "n_pairs_rho_gt_0_2": 2245,
+    "frac_any_gain": 0.9932450689002972,
+    "frac_gain_gt_0_05": 0.10699810861929208,
+    "median_gain": 0.01851107755882857,
+    "real_median_gain": 0.016161558312886737,
+    "real_frac_gain_gt_0_05": 0.09621380846325167,
+    "null_median_gain": 0.02618500818584253,
+    "null_frac_gain_gt_0_05": 0.128343949044586,
+    "mannwhitney_real_vs_null_P": 1.0
+  },
+  "dropped_member_reproducibility": {
+    "n_real": 227,
+    "n_null": 225,
+    "real_median_concordance": 0.7,
+    "null_median_concordance": 0.3,
+    "real_median_chance": 0.125,
+    "real_frac_above_half": 0.5903083700440529,
+    "null_frac_above_half": 0.32,
+    "mannwhitney_P": 4.896680014874038e-13
+  },
+  "protein_vs_mrna_layers": {
+    "n_lines_shared": 677,
+    "n_contacting": 7,
+    "n_noncontacting": 8,
+    "median_delta_contacting": 0.044047069225180424,
+    "median_delta_noncontacting": -0.25195282215308845,
+    "mannwhitney_two_sided_P": 0.020512820512820513,
+    "spearman_contacts_vs_delta": 0.4764722555659769,
+    "spearman_contacts_vs_delta_P": 0.07255782637722094
+  }
+}

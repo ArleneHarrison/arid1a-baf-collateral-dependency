@@ -1,0 +1,2 @@
+n_cells,n_samples,spearman_rho_ARID1A_vs_coreBAF,spearman_p,median_coreBAF_low_samples,median_coreBAF_high_samples,mannwhitney_u,mannwhitney_p
+35600,48,0.41576204950065127,0.0032940975407258605,-0.017890480615401973,-0.003188433974473052,180.0,0.02569220626226525

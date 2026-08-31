@@ -1,0 +1,22 @@
+name: reproducibility-audit
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install audit dependencies
+        run: python -m pip install numpy==2.3.5 pandas==2.3.3 scipy==1.17.1 pytest==9.1.1
+      - name: Verify release integrity
+        run: python src/audit_repository.py
+      - name: Recompute structural audit
+        run: python src/05_structural_claim_audit.py --verify
+      - name: Run tests
+        run: pytest -q

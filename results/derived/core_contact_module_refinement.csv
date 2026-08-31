@@ -1,0 +1,15 @@
+tissue,module,definition,n_subunits,n_lines,rho,P,note
+lung,Core_shared,"原始定义(Mashtalir 2018 经典组成),含ACTB/ACTL6A",8,126,0.475,1.93e-08,与ARID1A无物理接触的ACTB/ACTL6A被计入
+lung,Core_contact,"仅保留冷冻电镜(6LTJ)证实与ARID1A直接接触的核心亚基",6,126,0.584,6.70e-13,剔除非接触亚基后相关性显著增强
+lung,cBAF_specific,经典cBAF特异亚基,9,126,0.441,2.44e-07,
+lung,PBAF_specific,PBAF特异亚基,4,126,-0.083,3.54e-01,null
+lung,ncBAF_specific,ncBAF特异亚基,3,126,-0.044,6.21e-01,null
+pancancer,Core_shared,"原始定义,含ACTB/ACTL6A",8,1178,0.499,2.38e-75,
+pancancer,Core_contact,仅直接接触核心亚基,6,1178,0.533,2.17e-87,剔除非接触亚基后相关性增强
+pancancer,cBAF_specific,经典cBAF特异亚基,9,1178,0.332,1.05e-31,
+pancancer,PBAF_specific,PBAF特异亚基,4,1178,0.011,7.01e-01,null
+pancancer,ncBAF_specific,ncBAF特异亚基,3,1178,-0.061,3.48e-02,弱负相关
+lung,ACTB_single,单基因(无接触核心亚基),1,126,0.043,6.30e-01,null-支持其为稀释项
+lung,ACTL6A_single,单基因(无接触核心亚基),1,126,0.122,1.75e-01,null-支持其为稀释项
+pancancer,ACTB_single,单基因(无接触核心亚基),1,1178,0.043,1.45e-01,null
+pancancer,ACTL6A_single,单基因(无接触核心亚基),1,1178,0.154,1.17e-07,弱正(大样本下显著但效应小)

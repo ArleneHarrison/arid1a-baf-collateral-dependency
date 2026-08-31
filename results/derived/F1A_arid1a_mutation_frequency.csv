@@ -1,0 +1,4 @@
+"cohort","gene","n_mut_patients","n_total","freq_pct"
+"LUAD","ARID1A",32,514,6.23
+"LUSC","ARID1A",33,485,6.8
+"NSCLC","ARID1A",65,999,6.51

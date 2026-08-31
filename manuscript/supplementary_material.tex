@@ -1,0 +1,58 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{setspace}
+\usepackage{float}
+\graphicspath{{figures/}}
+\setstretch{1.15}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+
+\title{\textbf{Supplementary material}\\[0.4em]
+\large Structure-informed CRISPR co-dependency maps the ARID1A-associated BAF
+module across cancer cell lines}
+\author{Zhiyong Tao, Juan Xiong, Yiwei Zhang, Chulin Zhong, Wenkai Gao, Guohua Fan}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Supplementary Figure S1}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.94\textwidth]{FigS1_architecture.pdf}
+\caption*{\textbf{Sub-complex composition and the structure of the convergence
+argument.} (I) The three SWI/SNF sub-complexes drawn by subunit membership. Each
+subunit is coloured by its pan-cancer co-dependency with ARID1A; ARID1A carries a
+dashed ring. (II) The five methodologically distinct analyses and the subunits
+each recovers. The analyses share one dependency matrix; four use no complex
+composition during discovery.}
+\end{figure}
+
+\clearpage
+\section*{Supplementary Figure S2}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{FigS2_landscape.pdf}
+\caption*{\textbf{Genome-wide ARID1A co-dependency landscape and the subset with
+existing chemical probes.} (I) Top 150 genes ranked by pan-cancer co-dependency
+in DepMap 24Q4. (II) Co-dependent genes for which a chemical probe or
+clinical-stage inhibitor exists. These rankings describe co-dependency and do
+not establish genotype-selective efficacy.}
+\end{figure}
+
+\clearpage
+\section*{Supplementary Figure S3}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.98\textwidth]{FigM_singlecell.pdf}
+\caption*{\textbf{Single-cell expression context and foundation-model control.}
+(I) GSE131907 cell types, ARID1A expression, core/cBAF module score and the
+descriptive cell-level split. Statistical inference in the main text uses 48
+sample-level aggregates. (II) CRISPR co-dependency separates core/cBAF from
+PBAF/ncBAF, whereas the scGPT transcriptional representation places every module
+above chance and therefore does not resolve genetic specificity.}
+\end{figure}
+
+\end{document}

@@ -1,0 +1,8 @@
+{
+  "core_shared": ["SMARCB1", "SMARCE1", "SMARCC1", "SMARCC2", "SMARCD1", "SMARCD2", "ACTB", "ACTL6A"],
+  "cBAF_associated": ["ARID1A", "ARID1B", "DPF1", "DPF2", "DPF3", "SS18", "BCL7A", "BCL7B", "BCL7C"],
+  "PBAF": ["PBRM1", "ARID2", "BRD7", "PHF10"],
+  "ncBAF": ["BRD9", "BICRA", "BICRAL"],
+  "alternative_ATPase": ["SMARCA2"]
+}
+

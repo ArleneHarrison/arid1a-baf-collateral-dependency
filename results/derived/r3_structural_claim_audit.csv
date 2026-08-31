@@ -1,0 +1,5 @@
+analysis,cohort,n_contacting,n_noncontacting,estimate,estimate_type,ci95_low,ci95_high,statistic,effect_size,effect_size_type,p_value
+binary_contact_vs_noncontact,lung,7,8.0,0.4355973036073978,median_rho_difference,0.292694790331441,0.5835956097784288,52.0,0.8571428571428572,Cliffs_delta,0.0037296037296037296
+graded_contact_count_within_6LTJ_contacts,lung,6,,-0.6571428571428573,Spearman_rho,,,,,not_applicable,0.1561749271137024
+binary_contact_vs_noncontact,pan-cancer,7,8.0,0.31434597940183,median_rho_difference,0.1651134504359012,0.45109024358195754,51.0,0.8214285714285714,Cliffs_delta,0.005905205905205905
+graded_contact_count_within_6LTJ_contacts,pan-cancer,6,,-0.6,Spearman_rho,,,,,not_applicable,0.208

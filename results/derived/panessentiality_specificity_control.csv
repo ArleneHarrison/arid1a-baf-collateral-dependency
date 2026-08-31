@@ -1,0 +1,13 @@
+gene,essentiality_class,mean_gene_effect,std,pct_lines_dep_lt_-0.5,pct_lines_dep_lt_-1.0,arid1a_codep_rho
+ARID1A,selective,-0.24,0.28,15.4,1.3,
+ARID1B,selective,-0.01,0.19,2.8,0.3,0.241
+SMARCB1,intermediate,-0.82,0.37,83.3,30.1,0.487
+SMARCE1,intermediate,-0.77,0.3,82.2,19.3,0.443
+DPF2,selective,-0.36,0.25,26.6,1.4,0.301
+SMARCA4,selective,-0.31,0.31,24.6,2.7,0.252
+PBRM1,selective,-0.2,0.22,8.7,0.2,0.002
+RPL3,PAN-ESSENTIAL,-2.53,0.33,100.0,100.0,-0.07
+RPS3,PAN-ESSENTIAL,-2.47,0.32,100.0,100.0,0.013
+PSMA1,PAN-ESSENTIAL,-2.25,0.37,100.0,99.7,0.024
+EIF3B,PAN-ESSENTIAL,-1.77,0.34,100.0,99.3,0.012
+RRM1,PAN-ESSENTIAL,-2.86,0.49,100.0,99.8,-0.002
