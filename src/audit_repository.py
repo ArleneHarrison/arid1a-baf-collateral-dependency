@@ -25,13 +25,13 @@ REQUIRED = (
 )
 
 
-TEXT_SUFFIXES = {".cff", ".csv", ".json", ".md", ".py", ".r", ".tex", ".tsv", ".txt", ".yml", ".yaml"}
+BINARY_SUFFIXES = {".pdf", ".png", ".jpg", ".jpeg"}
 BUILD_SUFFIXES = {".aux", ".bbl", ".blg", ".fdb_latexmk", ".fls", ".log", ".out"}
 
 
 def canonical_bytes(path: Path) -> bytes:
     content = path.read_bytes()
-    if path.suffix.casefold() in TEXT_SUFFIXES:
+    if path.suffix.casefold() not in BINARY_SUFFIXES:
         content = content.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
     return content
 
