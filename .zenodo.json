@@ -14,7 +14,7 @@
   "keywords": ["ARID1A", "BAF complex", "co-dependency", "DepMap", "NSCLC", "structural biology"],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency",
+      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.0.4",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

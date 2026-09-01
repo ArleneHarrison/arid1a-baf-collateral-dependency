@@ -1,5 +1,7 @@
 # ARID1A–BAF collateral dependency — reproducibility repository
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22218065.svg)](https://doi.org/10.5281/zenodo.22218065)
+
 This repository accompanies the manuscript **“Structure-informed co-dependency
 analysis localises the collateral dependency of ARID1A-deficient non-small-cell
 lung cancer to the subunits ARID1A physically contacts.”** The submission-ready
@@ -79,6 +81,7 @@ resource. No raw source dataset is relicensed by this repository.
 
 ## Citation and licence
 
-Use `CITATION.cff` or the archived DOI shown in the release metadata. Code is
+Use `CITATION.cff` or the archived release DOI
+[`10.5281/zenodo.22218065`](https://doi.org/10.5281/zenodo.22218065). Code is
 licensed under MIT (`LICENSE`); manuscript text and third-party data retain
 their respective rights. Correspondence: Guohua Fan, `fgh202604@163.com`.
