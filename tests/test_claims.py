@@ -1,4 +1,5 @@
 from pathlib import Path
+import json
 
 import numpy as np
 import pandas as pd
@@ -45,3 +46,47 @@ def test_recomputed_machine_learning_sensitivity():
     assert metrics.n_models == 1178
     assert np.isclose(metrics.oof_r2, 0.3903418708231198)
     assert importance.head(5).feature.tolist() == ["SMARCB1", "SMARCE1", "SMARCC1", "ARID1B", "DPF2"]
+
+
+def test_selection_symmetric_nested_validation():
+    summary = json.loads(
+        (ROOT / "results" / "derived" / "r5_nested_validation" / "nested_summary.json")
+        .read_text(encoding="utf-8")
+    )
+    assert summary["n_paired_complexes_analyzed"] == 266
+    assert summary["n_splits_per_module"] == 30
+    assert np.isclose(summary["real_median_concordance"], 0.6)
+    assert np.isclose(summary["matched_null_median_concordance"], 1 / 3)
+    assert np.isclose(summary["paired_median_difference"], 0.25)
+    assert summary["paired_wilcoxon_one_sided_P"] < 1.1e-19
+
+
+def test_structure_quality_sensitivity():
+    summary = json.loads(
+        (ROOT / "results" / "derived" / "r5_structure_validation" /
+         "structure_validation_summary.json").read_text(encoding="utf-8")
+    )
+    assert summary["all_six_contacts_persist_4_0_to_5_0A"]
+    assert summary["all_six_contacts_persist_after_bottom10pct_Q_filter"]
+    global_q = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_structure_validation" /
+        "structure_global_validation.csv"
+    ).set_index("pdbid")
+    assert np.isclose(global_q.loc["6LTJ", "global_Q_score"], 0.007)
+    assert np.isclose(global_q.loc["6LTH", "global_Q_score"], 0.526)
+
+
+def test_abundance_defined_nulls_and_positive_control():
+    nulls = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_arid1a_null_modules" /
+        "arid1a_low_module_sensitivity.csv"
+    )
+    assert len(nulls) == 42
+    assert nulls.BH_q_within_threshold.min() > 0.05
+    controls = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_arid1a_null_modules" /
+        "smarca4_low_smarca2_positive_control.csv"
+    )
+    control = controls.loc[np.isclose(controls.bottom_fraction, 0.10)].iloc[0]
+    assert np.isclose(control.mean_difference, -1.01184847648039)
+    assert control.BH_q_across_thresholds < 3.1e-9

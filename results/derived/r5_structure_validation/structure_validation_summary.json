@@ -1,0 +1,11 @@
+{
+  "6LTJ_interface_residue_count": 196,
+  "6LTH_interface_residue_count": 196,
+  "shared_ARID1A_residues_with_Q": 467,
+  "median_Q_6LTJ_shared": -0.014,
+  "median_Q_6LTH_shared": 0.563,
+  "paired_Q_wilcoxon_one_sided_P": 1.5586165494565003e-78,
+  "all_six_contacts_persist_4_0_to_5_0A": true,
+  "all_six_contacts_persist_after_bottom10pct_Q_filter": true,
+  "random_seed": 20260901
+}

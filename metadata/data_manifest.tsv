@@ -6,8 +6,13 @@ DepMap Public	24Q4	OmicsSomaticMutations.csv	https://ndownloader.figshare.com/fi
 DepMap Public	24Q4	OmicsExpressionProteinCodingGenesTPMLogp1.csv	https://ndownloader.figshare.com/files/51065489	transcriptomic comparisons	no
 DepMap Public	24Q4 release	all release files	https://doi.org/10.25452/figshare.plus.27993248.v1	primary CRISPR source	no
 Project Score	current cited release	fitness data	https://cellmodelpassports.sanger.ac.uk/downloads	independent CRISPR replication	no
+Sanger Cell Model Passports	Protein_matrix_averaged_20250211.tsv	protein abundance matrix	https://cellmodelpassports.sanger.ac.uk/downloads	ARID1A protein-low module-score sensitivity analysis	no
+GDSC / Cell Model Passports	current cited release	cell-line annotation	https://cellmodelpassports.sanger.ac.uk/downloads	lineage labels for within-lineage standardisation	no
+Complex Portal	accessed 2026-09-01	human complex membership TSV	https://www.ebi.ac.uk/complexportal/download	selection-symmetric nested complex-module validation	no
+UniProt	accessed 2026-09-01	accession-to-gene-symbol mapping	https://rest.uniprot.org/	Complex Portal identifier mapping	no
 RCSB PDB	6LTJ	6LTJ.pdb	https://files.rcsb.org/download/6LTJ.pdb	primary BAF contact map	no
 RCSB PDB	6LTH	6LTH.pdb	https://files.rcsb.org/download/6LTH.pdb	structural sensitivity analysis	no
 RCSB PDB	6C23	6C23.pdb	https://files.rcsb.org/download/6C23.pdb	structural sensitivity analysis	no
 RCSB PDB	9A0K	9A0K.cif	https://files.rcsb.org/download/9A0K.cif	independent structural replication	no
+wwPDB validation archive	6LTJ; 6LTH	validation XML and residue-level Q-score files	https://www.wwpdb.org/validation/validation-reports	global, chain-level and interface-residue structure-quality sensitivity analysis	no
 NCBI GEO	GSE131907	GSE131907 series	https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131907	single-cell sample-level analysis	no

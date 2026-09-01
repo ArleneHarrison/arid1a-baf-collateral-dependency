@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import hashlib
+import json
 from pathlib import Path
 
 import numpy as np
@@ -20,8 +21,14 @@ REQUIRED = (
     "results/derived/r3_scrna_sample_level_summary.csv",
     "results/derived/ml_xgboost_recomputed_metrics.json",
     "results/derived/ml_shap_arid1a_feature_importance_RECOMPUTED.csv",
+    "results/derived/r5_nested_validation/nested_summary.json",
+    "results/derived/r5_structure_validation/structure_validation_summary.json",
+    "results/derived/r5_structure_validation/structure_global_validation.csv",
+    "results/derived/r5_arid1a_null_modules/arid1a_low_module_sensitivity.csv",
+    "results/derived/r5_arid1a_null_modules/smarca4_low_smarca2_positive_control.csv",
     "manuscript/manuscript.pdf",
     "manuscript/supplementary_material.pdf",
+    "manuscript/figures/FigS8_robustness_validation.pdf",
 )
 
 
@@ -107,6 +114,45 @@ def verify_claims() -> None:
     assert int(metrics.n_models) == 1178 and int(metrics.n_features) == 3000
     assert np.isclose(metrics.oof_r2, 0.3903418708231198, atol=1e-12)
     assert shap.head(5).feature.tolist() == ["SMARCB1", "SMARCE1", "SMARCC1", "ARID1B", "DPF2"]
+
+    nested = json.loads(
+        (ROOT / "results" / "derived" / "r5_nested_validation" / "nested_summary.json")
+        .read_text(encoding="utf-8")
+    )
+    assert nested["n_paired_complexes_analyzed"] == 266
+    assert nested["n_splits_per_module"] == 30
+    assert nested["n_size_matched_null_modules_per_complex"] == 2
+    assert np.isclose(nested["real_median_concordance"], 0.6)
+    assert np.isclose(nested["matched_null_median_concordance"], 1 / 3)
+    assert np.isclose(nested["paired_median_difference"], 0.25)
+    assert nested["paired_wilcoxon_one_sided_P"] < 1.1e-19
+
+    structure_summary = json.loads(
+        (ROOT / "results" / "derived" / "r5_structure_validation" /
+         "structure_validation_summary.json").read_text(encoding="utf-8")
+    )
+    assert structure_summary["all_six_contacts_persist_4_0_to_5_0A"] is True
+    assert structure_summary["all_six_contacts_persist_after_bottom10pct_Q_filter"] is True
+    global_q = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_structure_validation" /
+        "structure_global_validation.csv"
+    ).set_index("pdbid")
+    assert np.isclose(global_q.loc["6LTJ", "global_Q_score"], 0.007)
+    assert np.isclose(global_q.loc["6LTH", "global_Q_score"], 0.526)
+
+    null_modules = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_arid1a_null_modules" /
+        "arid1a_low_module_sensitivity.csv"
+    )
+    assert len(null_modules) == 42
+    assert null_modules.BH_q_within_threshold.min() > 0.05
+    positive = pd.read_csv(
+        ROOT / "results" / "derived" / "r5_arid1a_null_modules" /
+        "smarca4_low_smarca2_positive_control.csv"
+    )
+    ten_percent = positive.loc[np.isclose(positive.bottom_fraction, 0.10)].iloc[0]
+    assert np.isclose(ten_percent.mean_difference, -1.01184847648039)
+    assert ten_percent.BH_q_across_thresholds < 3.1e-9
 
 
 def main() -> None:

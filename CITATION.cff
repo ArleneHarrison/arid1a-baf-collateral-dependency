@@ -2,15 +2,15 @@ cff-version: 1.2.0
 message: "If you use this code or its derived results, please cite this release and the associated manuscript."
 title: "ARID1A–BAF collateral dependency: reproducibility repository"
 type: software
-version: 1.0.4
-date-released: 2026-08-31
-doi: 10.5281/zenodo.22218065
-url: "https://doi.org/10.5281/zenodo.22218065"
+version: 1.0.5
+date-released: 2026-09-01
+doi: 10.5281/zenodo.22218064
+url: "https://doi.org/10.5281/zenodo.22218064"
 repository-code: "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency"
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.22218065
-    description: "Archived software release"
+    value: 10.5281/zenodo.22218064
+    description: "Version-independent Zenodo concept DOI"
 authors:
   - family-names: Tao
     given-names: Zhiyong

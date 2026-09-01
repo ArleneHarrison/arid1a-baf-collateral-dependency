@@ -1,6 +1,6 @@
 {
   "title": "ARID1A–BAF collateral dependency: reproducibility repository",
-  "description": "Code, compact derived tables, and manuscript materials for a structure-informed analysis of ARID1A-associated BAF-complex co-dependency in non-small-cell lung cancer.",
+  "description": "Code, compact derived tables, and manuscript materials for a structure-informed analysis of ARID1A-associated BAF-complex co-dependency across cancer cell lines, including nested module validation, wwPDB structure-quality sensitivity analyses, and abundance-defined null tests.",
   "upload_type": "software",
   "license": "MIT",
   "creators": [
@@ -14,7 +14,7 @@
   "keywords": ["ARID1A", "BAF complex", "co-dependency", "DepMap", "NSCLC", "structural biology"],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.0.4",
+      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.0.5",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

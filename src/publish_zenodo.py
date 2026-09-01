@@ -1,4 +1,4 @@
-"""Reserve and publish the ARID1A–BAF software archive on Zenodo.
+"""Reserve or version and publish the ARID1A–BAF software archive on Zenodo.
 
 The token is read from ``ZENODO_TOKEN`` or an interactive masked prompt. It is
 never accepted as a command-line argument, written to disk, or printed.
@@ -79,12 +79,23 @@ def metadata(version: str) -> dict:
 
 def reserve(args: argparse.Namespace) -> None:
     access_token = token()
-    response = request(
-        "POST",
-        f"{API}/deposit/depositions",
-        access_token,
-        json=metadata(args.version),
-    ).json()
+    if args.previous_deposit_id:
+        version_action = request(
+            "POST",
+            f"{API}/deposit/depositions/{args.previous_deposit_id}/actions/newversion",
+            access_token,
+        ).json()
+        latest_draft = version_action.get("links", {}).get("latest_draft")
+        if not latest_draft:
+            raise RuntimeError("Zenodo did not return a latest_draft link")
+        response = request("GET", latest_draft, access_token).json()
+    else:
+        response = request(
+            "POST",
+            f"{API}/deposit/depositions",
+            access_token,
+            json=metadata(args.version),
+        ).json()
     reserved = response.get("metadata", {}).get("prereserve_doi", {})
     receipt = {
         "deposit_id": response["id"],
@@ -112,6 +123,11 @@ def finalize(args: argparse.Namespace) -> None:
     deposit = request(
         "GET", f"{API}/deposit/depositions/{deposit_id}", access_token
     ).json()
+    for old_file in deposit.get("files", []):
+        delete_url = old_file.get("links", {}).get("self")
+        if not delete_url:
+            raise RuntimeError("An inherited Zenodo file has no deletion link")
+        request("DELETE", delete_url, access_token)
     bucket = deposit["links"]["bucket"]
     with archive.open("rb") as stream:
         request("PUT", f"{bucket}/{archive.name}", access_token, data=stream)
@@ -148,9 +164,15 @@ def finalize(args: argparse.Namespace) -> None:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     subparsers = parser.add_subparsers(dest="command", required=True)
-    reserve_parser = subparsers.add_parser("reserve", help="Create a draft and reserve its DOI")
+    reserve_parser = subparsers.add_parser(
+        "reserve", help="Create a first draft or a new-version draft and reserve its DOI"
+    )
     reserve_parser.add_argument("--version", required=True)
     reserve_parser.add_argument("--receipt", required=True)
+    reserve_parser.add_argument(
+        "--previous-deposit-id", type=int,
+        help="Published Zenodo deposit to version; omit only for the first release",
+    )
     reserve_parser.set_defaults(function=reserve)
     finalize_parser = subparsers.add_parser("finalize", help="Upload the final archive and optionally publish")
     finalize_parser.add_argument("--receipt", required=True)

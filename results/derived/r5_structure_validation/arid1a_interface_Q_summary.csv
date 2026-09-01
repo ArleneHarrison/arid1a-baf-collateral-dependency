@@ -1,0 +1,3 @@
+pdbid,n_interface,n_noninterface,median_Q_interface,median_Q_noninterface,mannwhitney_two_sided_P
+6LTH,196,271,0.5595000000000001,0.566,0.16911619595046112
+6LTJ,196,271,0.0,-0.021,0.18220032282599652

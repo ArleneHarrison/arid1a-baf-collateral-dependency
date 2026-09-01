@@ -13,6 +13,7 @@
 \usepackage{lmodern}
 \usepackage[margin=2.4cm]{geometry}
 \usepackage{graphicx}
+\usepackage{pdflscape}
 \usepackage{booktabs}
 \usepackage{array}
 \usepackage{amsmath,amssymb}
@@ -47,7 +48,7 @@ ARID1A-associated BAF module across cancer cell lines}
 \author{%
   Zhiyong Tao$^{1,\dagger}$ \quad
   Juan Xiong$^{1,\dagger}$ \quad
-  Yiwei Zhang$^{1,\dagger}$ \quad
+  Yiwei Zhang$^{1,\dagger}$ \\[0.35em]
   Chulin Zhong$^{1}$ \quad
   Wenkai Gao$^{1}$ \quad
   Guohua Fan$^{1,*}$%
@@ -98,12 +99,16 @@ Cliff's $\delta=0.86$, exact $P=0.0037$). Contact count did not show a positive
 dose--response among the six contacts resolved in the same structure, defining
 structural contact as a binary prior rather than a quantitative predictor.
 Restricting the core module to load-bearing members improved its anchor-excluded
-correlation, and the identity of a dilutive member was more reproducible for 227
-curated complexes than for size-matched random sets. Genotype-conditional tests
-did not survive multiple-testing correction; the results therefore map
-co-essential organization and do not establish an ARID1A-loss synthetic-lethal
-vulnerability. This distinction provides a rigorous framework for using CRISPR
-co-dependency to refine protein-complex modules.
+correlation. In a symmetric nested analysis of 266 curated complexes, with both
+anchor and dropped member selected only in the discovery half, held-out
+drop-identity concordance exceeded that of size-matched null modules by a median
+0.25 (95\% bootstrap interval 0.175--0.308; paired $P=1.0\times10^{-19}$).
+Mutation-, protein- and mRNA-defined ARID1A-low tests did not survive
+multiple-testing correction, despite detection of a prespecified
+SMARCA4-low--SMARCA2 positive control. The results therefore map co-essential
+organization and do not establish an ARID1A-loss synthetic-lethal vulnerability.
+This distinction provides a rigorous framework for using CRISPR co-dependency
+to refine protein-complex modules.
 
 \medskip\noindent \textbf{Keywords:} ARID1A; SWI/SNF (BAF) complex;
 non-small cell lung cancer; co-dependency; co-essentiality; protein complex;
@@ -140,7 +145,7 @@ ARID1B \citep{helming2014}, a relationship since generalised into systematic
 paralogue-dependency maps \citep{ito2021,koferle2022}. The residual-complex
 compensation paradigm holds instead that cBAF loss drives compensatory
 upregulation of ncBAF/PBAF and a switch in dependency to those residual
-complexes. The two point to different target sets, but loss-conditioned
+complexes \citep{stlaurent2025}. The two point to different target sets, but loss-conditioned
 dependency and continuous co-dependency must be analysed and interpreted
 separately.
 
@@ -165,21 +170,24 @@ rather than assumed. These analyses share a dependency matrix and are therefore
 convergent views of one functional-genomic measurement, not five independent
 biological experiments. The experimental structure supplies an orthogonal test
 and nominates candidate members for refinement; we show that its second role is
-heuristic rather than decisive. Figure~\ref{fig:workflow} sets out the design and
-the control applied at each stage.
+heuristic rather than decisive. Figure~\ref{fig:workflow} sets out the complete
+evidence architecture, including the orthogonal structural test, replication,
+cross-layer checks and the bounded therapeutic analyses that are kept outside
+the primary evidentiary chain.
 
-\begin{figure}[htbp]
+\clearpage
+\begin{landscape}
 \centering
-\includegraphics[width=\textwidth]{Fig_workflow.pdf}
-\caption{\textbf{Study design.} Five methodologically distinct, hypothesis-agnostic
-analyses of the same genome-scale dependency matrix are required to converge
-(stages 1--3); an experimentally determined structure, measured independently
-of the genetics, then tests that conclusion and is used to interrogate the
-curated module definition (stages 4--5). The right-hand rail lists the controls
-applied throughout: no gene list is pre-specified at the discovery stages, which
-keeps the complex-level conclusion non-circular.}
+\includegraphics[width=0.82\linewidth]{Fig_workflow_complete.png}
+\captionsetup{font=footnotesize}
+\captionof{figure}{\textbf{Complete evidence architecture.} Five genome-scale
+views converge on the core/cBAF module; experimental structure, module
+refinement, replication and cross-layer checks then test and bound the result.
+The structural thumbnail renders the experimentally determined cryo-EM
+coordinate model (PDB 6LTJ), not a raw micrograph or density map. Therapeutic
+analyses remain outside the primary evidence chain.}
 \label{fig:workflow}
-\end{figure}
+\end{landscape}
 
 %==============================================================================
 \section{Results}
@@ -238,10 +246,11 @@ SWI/SNF subunits inside the top 0.06\% of the genome (hypergeometric enrichment 
 the top 1\%: $P = 3.2\times10^{-12}$ lung, $5.5\times10^{-14}$ pan-cancer), while
 PBAF- and ncBAF-specific subunits ranked in the bottom 90--97\%. The pan-cancer
 ranking has the same shape (Supplementary Figure~S2): eight of the top nine genes
-are SWI/SNF subunits, with the paralogue ARID1B only 32nd. Among the
-co-dependencies for which a chemical probe or clinical-stage inhibitor exists,
-SMARCA4 ranks first; we list these as starting points
-for combination work, not as findings of this study.
+are SWI/SNF subunits, with the paralogue ARID1B only 32nd. A network-guided
+druggability overlay places SMARCA4 first among co-dependencies for which a
+chemical probe or clinical-stage inhibitor exists. This overlay prioritises
+follow-up targets; it is not a compound--target--pathway network-pharmacology
+analysis and does not establish genotype-selective efficacy.
 
 \paragraph{Module scoring.} Core-shared and cBAF-specific modules were
 significantly positive at both levels; PBAF-specific and alternative-ATPase
@@ -319,7 +328,8 @@ module definition}
 The preceding section rests entirely on genetic correlation, so we introduced
 evidence of an entirely different kind: the cryo-EM structure of the assembled
 human BAF complex (PDB 6LTJ, 3.70\,\AA{}; base module 6LTH, 3.00\,\AA{})
-\citep{he2020}, with the nucleosome-bound PBAF structure \citep{yuan2022} as a
+\citep{he2020}, with the nucleosome-bound PBAF structure (PDB 7VDV)
+\citep{yuan2022} as a
 negative control --- it contains no ARID1A chain at all, confirming cBAF/PBAF
 mutual exclusivity structurally rather than by assumption.
 
@@ -334,6 +344,20 @@ ARID1A in the integrative model of the endogenous complex (PDB 9A0K; 186 pairs,
 2.58\,\AA{}) \citep{mashtalir2020}; the two agree on all six subunits 9A0K models
 to comparable depth, diverging only for SMARCE1 and DPF2, which it covers over 79
 and 37 residues. We count SMARCC1 as contacting.
+
+The wwPDB validation reports qualify how these coordinates should be used. The
+full 6LTJ deposit has a low global map--model Q-score (0.007; 0.6th percentile
+among same-resolution entries), whereas the independently deposited,
+higher-resolution 6LTH base module has Q=0.526 (67.5th percentile). We therefore
+use 6LTH as the primary replication of the interface rather than treating 6LTJ
+alone as definitive. All six contact calls persisted in both deposits at 4.0,
+4.5 and 5.0\,\AA{} and after removing the bottom decile of residue Q-scores
+within every analysed chain (Supplementary Figure~S8b). The 196 ARID1A interface
+residues were not selectively lower quality than non-interface ARID1A residues
+in either deposit (two-sided Mann--Whitney $P=0.182$ for 6LTJ and $P=0.169$ for
+6LTH). Thus the binary interface assignment is deposit- and threshold-robust,
+although the low global quality of 6LTJ precludes stronger atom-by-atom
+mechanistic claims.
 
 \begin{figure}[p]
 \centering
@@ -366,6 +390,15 @@ the same structure, contact count was not positively associated with
 co-dependency (lung Spearman $\rho=-0.657$, $P=0.156$; pan-cancer
 $\rho=-0.600$, $P=0.208$). Physical contact is therefore used as a binary prior,
 not as a quantitative predictor of dependency strength.
+
+The group comparison was also insensitive to the contact definition
+(Supplementary Figure~S8c). Excluding integrative-model-only SMARCC1 gave lung
+and pan-cancer median differences of 0.432 (95\% bootstrap interval
+0.162--0.590; exact $P=0.0080$) and 0.279 (0.090--0.471; $P=0.0127$),
+respectively. All 15 leave-one-gene-out versions remained significant in each
+cohort ($P<0.05$). Restriction to the eight subunits physically present in 6LTJ
+retained the direction but, with only two non-contacting comparators, was
+underpowered ($P=0.286$ in each cohort).
 
 \paragraph{Curated module definitions are not optimal.} Restricting the core
 module to the subunits the structure shows to contact the anchor gives a better
@@ -409,13 +442,18 @@ $+0.109$ (SWI/SNF, lung), $+0.138$ (PRC2, EZH2) and $+0.142$ (PRC2, SUZ12) over
 the curated definition.
 
 \paragraph{The reproducibility criterion generalises beyond the two examples.}
-Across 227 curated human complexes with sufficient DepMap coverage, choosing the
-largest leave-one-out gain was not informative by itself: size-matched random
-gene sets gained at least as much (median $+0.026$ versus $+0.019$). In contrast,
-the identity of the member nominated as dilutive replicated across random
-half-splits with median concordance 0.70, compared with 0.30 for random sets and
-0.125 expected from module size ($P=9.8\times10^{-13}$). Thus the transferable
-result is a resampling criterion for module refinement, not a universal rule
+We replaced the initial asymmetric survey with a fully nested, symmetric null
+design (Supplementary Figure~S8a). For every split, both the anchor and the
+member to drop were selected only in the discovery half and carried unchanged
+into the held-out half; each curated complex was compared with two
+size-matched random modules under the identical procedure. Of 277 eligible
+human complexes, 266 yielded a paired comparison over 30 splits. Median held-out
+drop-identity concordance was 0.60 for curated complexes and 0.333 for matched
+null modules; the paired median difference was 0.25 (95\% bootstrap interval
+0.175--0.308; one-sided paired Wilcoxon $P=1.03\times10^{-19}$; Cliff's
+$\delta=0.425$). The held-out gain was positive in a median 0.933 of splits for
+curated complexes and 0.767 for null modules. Thus the transferable result is a
+nested reproducibility criterion for module refinement, not a universal rule
 that non-contacting members should be removed.
 
 \begin{figure}[htbp]
@@ -484,9 +522,25 @@ In lung ($n=6$ mutant, $n=122$ wild type), PBRM1 and ARID2 were nominally more
 essential in mutant lines ($P=0.0217$ and $0.0248$), but both had $q=0.403$;
 the principal contacting subunits were non-significant. Thus the continuous
 co-dependency pattern is robust, whereas this dataset does not establish an
-ARID1A-loss-conditioned vulnerability. Mutation status also combines variants
-with different consequences for protein abundance, making protein-defined or
-isogenic loss models the appropriate next test.
+ARID1A-loss-conditioned vulnerability.
+
+We therefore repeated the analysis using ARID1A protein abundance as the
+primary state definition and mRNA abundance as a larger-sample sensitivity
+definition. Gene effects were standardized within lineage before pooling, and
+the bottom 5\%, 10\% and 15\% of ARID1A abundance were compared with the
+remainder. The protein analysis included 535 usable lines (25, 52 and 80 in the
+low groups); no individual subunit or prespecified BAF module passed
+Benjamini--Hochberg correction at any threshold. At the protein bottom 10\%,
+ARID1B was directionally more dependent (mean within-lineage $z$ difference
+$-0.277$, 95\% bootstrap interval $-0.608$ to $+0.048$; $q=0.187$), whereas the
+ARID1A-contacting module was directionally less dependent ($+0.152$,
+$0.013$--$0.292$; $q=0.187$). The mRNA analysis gave the same corrected-null
+conclusion. As an assay-dynamic-range control, the identical pooled design
+strongly detected the established SMARCA4-low--SMARCA2 dependency: at the mRNA
+bottom 10\%, $Delta z=-1.012$ ($-1.355$ to $-0.689$; $q=3.05\times10^{-9}$).
+The negative ARID1A result is therefore not explained by an intrinsically
+insensitive pooled pipeline (Supplementary Figure~S8d), but protein-defined
+low abundance is still not equivalent to engineered biallelic loss.
 
 \begin{figure}[htbp]
 \centering
@@ -662,10 +716,66 @@ Likewise, genotype-conditional CRISPR effects for SMARCA4 and SMARCA2 did not
 survive correction. The present study consequently makes no therapeutic-efficacy
 claim: co-dependency prioritizes functional relationships, not drug targets, and
 requires protein-loss-defined or isogenic validation before pharmacological
-translation. The docking, repurposing and short single-trajectory simulations
-from an earlier exploratory analysis were removed from the evidentiary chain
-because they interrogated ATPase/bromodomain pockets rather than the scaffolding
-relationships identified by the primary analysis.
+translation.
+
+As a bounded structural-plausibility check, redocking PFI-3
+\citep{fedorov2015} into its crystallographic SMARCA2/4 bromodomain pocket (PDB
+5DKC) with AutoDock Vina \citep{eberhardt2021} reproduced the deposited pose at
+0.48\,\AA{} RMSD and gave a score of $-8.4$\,kcal\,mol$^{-1}$
+(Figure~\ref{fig:docking}A,B; Supplementary Figure~S4). Blind docking of the
+clinical-stage dual SMARCA2/4 ATPase inhibitor FHD-286 \citep{fhd286trial2025}
+into PDB 7VDT gave $-9.17$\,kcal\,mol$^{-1}$ (Figure~\ref{fig:docking}A;
+Supplementary Figure~S6). No
+public co-crystal validates that pose, however, and neither docking score is a
+measured affinity or evidence of ARID1A-genotype selectivity. As a secondary
+pose-persistence check, one explicit-solvent trajectory per complex was analysed
+(Supplementary Figure~S5). Pocket-fitted ligand RMSD was $1.75 \pm 0.88$\,\AA{}
+for PFI-3 over 30\,ns and $2.21 \pm 0.21$\,\AA{} for FHD-286 over 20\,ns;
+the corresponding binding-site backbone RMSD values were $0.54 \pm 0.13$ and
+$1.33 \pm 0.16$\,\AA{}. Single-trajectory MM/GBSA endpoint estimates were
+$-27.93 \pm 2.33$ and $-33.45 \pm 4.29$\,kcal\,mol$^{-1}$, respectively.
+These framewise summaries show bounded behaviour within the sampled
+trajectories only. They do not validate the blind-docked FHD-286 pose, estimate
+absolute affinity or establish genotype selectivity, and remain outside the
+primary evidentiary chain.
+
+Not every tractability argument rests on a predicted pose. The ACBI1 ternary
+complex has been resolved experimentally by X-ray diffraction (PDB 7S4E,
+2.25\,\AA{}), directly showing engagement of the human SMARCA2 bromodomain by
+ACBI1 together with VHL--ElonginC--ElonginB \citep{dixon2022}. We did not redock
+or resimulate that deposited complex. It provides a structural precedent for
+ligandable SMARCA2 engagement and targeted degradation, but it does not establish
+that ARID1A-deficient cells are selectively sensitive to ACBI1 or to any other
+SMARCA2/4-directed agent.
+
+An archived AutoDock Vina screen of a 6{,}392-entry project compound library was
+also recovered and audited (Supplementary Figure~S7). Within the project's
+$-13$ to $-5$\,kcal\,mol$^{-1}$ artefact-exclusion window, 5{,}311 bromodomain
+and 5{,}493 ATPase scores remained. YM-750, arcyriaflavin~A and BINA led the
+bromodomain ranking; MK-3207, BT-11 and SR-1664 led the ATPase ranking. The run
+was resumed at lower exhaustiveness and the exact library source/version
+metadata were not retained, so the result is reported only as a ranking
+sensitivity analysis. These scores are neither binding affinities nor evidence
+that the compounds are repurposing candidates.
+
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.92\textwidth]{Fig8_docking.pdf}
+\caption{\textbf{Exploratory target-engagement plausibility does not establish
+ARID1A-genotype selectivity.} (\textbf{A}) AutoDock Vina scores for PFI-3 in the
+SMARCA2/4 bromodomain (PDB 5DKC) and FHD-286 in the SMARCA4 ATPase nucleotide
+pocket (PDB 7VDT); dashed outlines mark the second-ranked mode.
+(\textbf{B}) Positive-control redocking reproduces the PFI-3 crystallographic
+pose at 0.48\,\AA{} RMSD. (\textbf{C}) Representative GDSC responses stratified
+by ARID1A genotype. None of the thirteen tested compounds survived
+within-stratum Benjamini--Hochberg correction; PFI-3 and I-BRD9 were near the
+inactive end of the lung panel, limiting the ability to detect an interaction.
+(\textbf{D}) Bounded therapeutic hypothesis linking ARID1A loss, collateral BAF
+dependence and pharmacological inhibition. Panels A, B and D are exploratory:
+docking scores rank modelled poses rather than measuring binding affinity, and
+the diagram is a hypothesis rather than an efficacy claim.}
+\label{fig:docking}
+\end{figure}
 
 %==============================================================================
 \section{Discussion}
@@ -676,16 +786,18 @@ pan-essentiality and lineage controls, is reproduced in a second processing
 resource and across 19 tissues, and aligns with a binary contact partition in an
 experimental structure. Together these results map co-essential organization of
 the ARID1A-associated BAF module. They do not show that ARID1A loss creates the
-pattern, because the separate genotype-conditional analysis is underpowered and
-non-significant after correction.
+pattern, because mutation-, protein- and mRNA-defined conditional analyses are
+non-significant after correction even though the pooled design detects a known
+paralogue-dependency positive control.
 
-\paragraph{Curated module definitions can be tested empirically.} The 227-complex
-survey shifts the methodological emphasis from maximizing an in-sample
-correlation to reproducing the identity of a dilutive member under resampling.
-The former is guaranteed to improve under best-of-$k$ selection even for random
-sets; the latter discriminates curated complexes from the matched null. This
-criterion is useful beyond SWI/SNF, while remaining a statistical refinement
-rather than proof that the nominated member is biologically dispensable.
+\paragraph{Curated module definitions can be tested empirically.} The
+266-complex nested survey shifts the methodological emphasis from maximizing an
+in-sample correlation to reproducing the identity of a dilutive member in
+held-out data. Applying the same discovery-half anchor and drop selection to
+curated and matched-null modules removes the main selection asymmetry of the
+initial survey; the paired concordance advantage remains large. This criterion
+is useful beyond SWI/SNF, while remaining a statistical refinement rather than
+proof that the nominated member is biologically dispensable.
 
 \paragraph{Structure is a prior, not a rule.} We expected structural contact to
 supply the decision criterion. In SWI/SNF the prior happens to be correct,
@@ -714,12 +826,29 @@ usable one, within the limits of what mass spectrometry detects.
 continuous co-dependency with ARID1A, superficially opposite to synthetic
 lethality \citep{helming2014}, and is robust across pipelines. In the separate
 genotype-stratified analysis ARID1B had the expected direction in all five
-tissues, but no tissue-specific comparison survived multiplicity correction.
-The result is compatible with the established ARID1A--ARID1B relationship but
-does not independently reproduce it. More broadly, continuous co-dependency
+tissues, and the protein- and mRNA-defined pooled analyses also pointed toward
+greater ARID1B dependency, but no comparison survived multiplicity correction.
+The same pooled pipeline recovered the SMARCA4-low--SMARCA2 positive control, so
+the corrected-null ARID1A result is biologically informative rather than a
+generic lack of assay sensitivity. It is compatible with the established
+ARID1A--ARID1B relationship but does not independently reproduce it. More
+broadly, continuous co-dependency
 across heterogeneous lines and conditional essentiality after complete loss are
 different estimands. Protein-defined null models or isogenic perturbations are
 needed before translating the former into a synthetic-lethal claim.
+
+\paragraph{Relationship to residual-complex compensation.} In dedifferentiated
+endometrial carcinoma, ARID1A/ARID1B deficiency has been shown to reduce cBAF
+while increasing the biochemical abundance and chromatin activity of ncBAF and
+PBAF, accompanied by sensitivity to disruption of residual complexes
+\citep{stlaurent2025}. Our continuous co-dependency map points in a different
+direction: core/cBAF-associated subunits are positive, whereas the defining
+PBAF/ncBAF subunits are null or negative. The two results need not conflict.
+The endometrial study measures a loss-conditioned change in complex abundance and
+function in a defined tumour state; we measure baseline co-essential covariance
+across heterogeneous cell lines. The apparent contrast is therefore a testable
+context and estimand difference, not evidence that either layer substitutes for
+the other.
 
 %==============================================================================
 \section*{Limitations of the study}
@@ -728,24 +857,29 @@ needed before translating the former into a synthetic-lethal claim.
 The study is entirely computational and correlative. Positive co-dependency
 identifies cell lines in which two genes tend to be essential together; it does
 not establish that loss of one gene creates dependence on the other. The
-genotype-conditional tests were underpowered and non-significant after correction,
-and mutation status does not guarantee loss of ARID1A protein. Protein-defined
-null models, isogenic perturbations and rescue experiments are the necessary next
-tests of loss-conditioned vulnerability.
+mutation-defined genotype tests were underpowered and non-significant after
+correction. Protein- and mRNA-defined low-abundance analyses used more lines and
+an internally validated pooled design but likewise yielded no corrected module
+dependency; abundance tails do not guarantee biallelic loss or absence of
+residual protein. Isogenic perturbations and rescue experiments remain the
+necessary next tests of loss-conditioned vulnerability.
 
 The structural contact analysis supplies an orthogonal physical rationale rather
-than a mechanism. It uses a static wild-type assembly and therefore cannot show
+than a mechanism. The full 6LTJ model has a poor global wwPDB Q-score relative
+to same-resolution entries; the binary interface is supported by the
+higher-quality 6LTH replicate, distance-threshold sensitivity and residue-Q
+filtering, but fine atom-level interpretation of 6LTJ is not warranted. The
+analysis uses static wild-type assemblies and therefore cannot show
 the composition or conformation of a residual complex after ARID1A loss. Contact
 status separates the co-dependency groups, but contact count does not show a
 positive dose--response among resolved contacts. Co-immunoprecipitation or
 native-gel assays would be needed to test complex integrity directly.
 
-Module refinement is characterised on two complexes and three anchors and
-surveyed across 227; the survey establishes that the dilutive member replicates,
-not that dropping it is biologically correct, and the mechanism is unresolved.
-The real-complex survey selected the highest-correlating anchor before
-resampling, whereas the random-set null used an arbitrary anchor; a future nested
-analysis should mirror anchor selection in both arms.
+Module refinement is characterised mechanistically on two complexes and three
+anchors and surveyed statistically across 266; the symmetric nested survey
+establishes held-out reproducibility of the nominated member relative to a
+matched null, not that dropping it is biologically correct, and the mechanism is
+unresolved.
 Two subunits are placed by an integrative model rather than refined density:
 SMARCC1, which no experimental cBAF structure resolves, and SMARCD2, whose
 position is inferred from its paralogue. Computational structural methods
@@ -755,6 +889,16 @@ are not fully inert. The five discovery analyses share one dependency matrix and
 are methodologically distinct rather than biologically independent. The
 single-cell result is sample-aggregated but remains an expression analysis, and
 the transcript- and foundation-model negatives are unexplained mechanistically.
+The molecular-dynamics analyses comprise one short trajectory per complex;
+their framewise variation is not uncertainty across independent simulations.
+Moreover, MM/GBSA omits conformational entropy and FHD-286 starts from a
+blind-docked rather than crystallographic pose. These analyses test persistence
+of the modelled poses over the sampled windows, not pose correctness, absolute
+binding affinity or therapeutic efficacy. The recovered virtual screen combines
+an initial run at Vina exhaustiveness 8 with a resumed run at exhaustiveness 4,
+and its exact compound-library source/version metadata were not archived.
+Consequently its ranks are exploratory, are not directly comparable to a
+uniform-exhaustiveness screen and cannot support repurposing claims.
 
 %==============================================================================
 \section*{Methods}
@@ -826,6 +970,21 @@ modelled residue coverage was compared subunit by subunit first. Subunit promisc
 complexes containing that protein \citep{meldal2022}, tested against the
 leave-one-out delta by Spearman correlation.
 
+\paragraph{Structure-quality and contact-call sensitivity.} Official wwPDB
+validation XML reports and deposited mmCIF coordinates were parsed for 6LTJ and
+6LTH. We extracted resolution, EMDB accession, global and chain Q-scores,
+same-resolution percentiles, atom inclusion, clashscore, Ramachandran outliers
+and rotamer outliers. Heavy-atom contacts were recomputed at 4.0, 4.5 and
+5.0\,\AA{}. To test sensitivity to locally weak model support, residues in the
+bottom decile of wwPDB residue Q-score were removed separately within each
+analysed chain before contact calls were repeated. Interface versus
+non-interface ARID1A residue Q-scores were compared by two-sided Mann--Whitney,
+and shared ARID1A residues were compared between deposits by paired Wilcoxon.
+Structural genetic-group sensitivity used exact two-sided Mann--Whitney,
+Cliff's delta and 20{,}000-resample percentile bootstrap intervals (seed
+20260901) for the original, experimental-contact-only and
+physically-present-subunit definitions, plus leave-one-gene-out analyses.
+
 \paragraph{Protein versus transcript layer.} Sanger cell-line proteomics
 \citep{goncalves2022} and CCLE expression were matched through Cell Model
 Passports identifiers, giving 677 lines with both. Per subunit, the ARID1A-partner
@@ -837,21 +996,61 @@ well a protein is measured, detection rate and abundance were tested as
 confounders and the comparison repeated on subunits detected in over 90\% of
 lines.
 
-\paragraph{Generalisation survey.} Every Complex Portal human complex with at
-least six subunits in the DepMap matrix was tested (227 after keeping the
-highest-correlating anchor per complex), each scored against its anchor-excluded
-module as above. Reproducibility of the dilutive member was measured by 20 random
-half-splits of the cell lines per complex, recording how often both halves
-nominate the same subunit. The comparison used size-matched random gene sets.
-Because the real complexes were first reduced to their highest-correlating anchor
-whereas each random set used an arbitrary anchor, the survey is treated as
-exploratory and this asymmetry is stated in Limitations.
+\paragraph{Generalisation survey.} Complex Portal human complexes containing
+6--21 DepMap-covered subunits were eligible (277). In each of 30 random
+half-splits, the highest-correlating anchor and the member whose removal most
+improved the anchor-excluded module score were selected using only the discovery
+half, then carried unchanged into the held-out half. Two random gene modules
+matched to each complex's size were processed identically, including discovery
+of their anchor and dropped member. A complex contributed to the paired analysis
+when the real and matched-null modules had valid results (266 complexes).
+Primary outcome was held-out drop-identity concordance; secondary outcome was
+the fraction of splits with positive held-out gain. Real-minus-null differences
+were summarized at the complex level, with a 20{,}000-resample paired bootstrap
+interval, one-sided paired Wilcoxon test and Cliff's delta (seed 20260901).
 
 \paragraph{Interface prediction.} AlphaFold2-Multimer v3 via ColabFold
 \citep{jumper2021,evans2024,mirdita2022} on the ARID1A domain (UniProt 1639--2285)
 with partner sequences; interface compared on the ARID1A side at 4.5\,\AA{}.
 Blind rigid-body docking with LightDock \citep{jimenez2018} used 200 swarms and
 6{,}000 poses per partner as an interface-recovery sensitivity analysis.
+
+\paragraph{Exploratory small-molecule docking.} AutoDock Vina 1.2
+\citep{eberhardt2021} was used for a positive-control redocking of PFI-3 into the
+SMARCA2/4 bromodomain co-crystal structure (PDB 5DKC) and for blind docking of
+FHD-286 into the SMARCA4 ATPase nucleotide pocket (PDB 7VDT). The PFI-3 control
+was evaluated by heavy-atom RMSD from the deposited ligand pose. Vina scores were
+treated only as within-protocol pose scores; no conversion to binding affinity
+and no genotype-selective activity inference was made.
+
+\paragraph{Exploratory virtual screen.} An archived 6{,}392-entry project
+compound library was converted from SMILES to PDBQT with Open Babel using
+three-dimensional coordinate generation and protonation at pH~7.4. One Vina
+mode was retained per compound and target. For the 5DKC bromodomain, the search
+box was centred at $(12.52, 33.77, 60.45)$\,\AA{} with dimensions
+$22\times22\times22$\,\AA{}; for the 7VDT ATPase pocket, the centre was
+$(126.04, 201.63, 244.04)$\,\AA{} with dimensions
+$24\times24\times24$\,\AA{}. The archived result combines the initial run at
+exhaustiveness 8 with a recovery run at exhaustiveness 4. The audit retained the
+project's $-13$ to $-5$\,kcal\,mol$^{-1}$ display window and recorded missing
+and out-of-window values rather than treating them as hits. Because the exact
+library source/version metadata were not retained and exhaustiveness was not
+uniform, ranks are presented only as hypothesis-generating within-target scores.
+
+\paragraph{Exploratory molecular dynamics and MM/GBSA.} The PFI-3--SMARCA2
+bromodomain and FHD-286--SMARCA4 ATPase systems were constructed with AmberTools
+using ff14SB protein parameters \citep{maier2015}, GAFF2 ligand parameters and
+TIP3P water, then propagated in OpenMM \citep{eastman2017}. Simulations used
+particle-mesh Ewald electrostatics, a 1.0-nm non-bonded cutoff, constrained bonds
+to hydrogen, hydrogen-mass repartitioning and a 4-fs step. After minimisation and
+300\,ps of position-restrained NPT equilibration, one unrestrained production
+trajectory was generated per complex at 300\,K and 1\,atm (PFI-3, 30\,ns;
+FHD-286, 20\,ns), saving coordinates every 10\,ps. Ligand RMSD was calculated
+after fitting binding-site residues, and binding-site backbone RMSD was
+calculated separately. Single-trajectory MM/GBSA \citep{miller2012} used the
+GB model igb=2 with 0.15\,M salt, sampling from frame 100 at stride 10 and
+omitting conformational entropy. Values are descriptive endpoint estimates from
+single trajectories, not replicate-based affinity estimates.
 
 \paragraph{Protein-level expression in tumour tissue.} Immunohistochemistry
 annotations for ARID1A, SMARCB1 and SMARCA4 were read from the Human Protein
@@ -889,6 +1088,20 @@ correction. Subunits are summarised by the number of tissues in which mutant lin
 are the more dependent group, a categorical read-out distinct from the continuous
 gradient used elsewhere.
 
+For abundance-defined sensitivity analyses, Sanger ARID1A protein abundance was
+the primary anchor and CCLE ARID1A mRNA the secondary anchor. For every tested
+dependency gene, effects were standardized within OncoTree lineage; lineages
+with fewer than eight models were excluded, after which lines were pooled.
+Bottom 5\%, 10\% and 15\% abundance groups were compared with the remainder by
+two-sided Mann--Whitney, with Benjamini--Hochberg correction within each
+threshold. Prespecified module scores were per-line means of the standardized
+gene effects for ARID1A-contacting cBAF, shared core, cBAF-specific,
+PBAF-specific and ncBAF-specific members; ARID1B and SMARCA2 were also tested
+individually. Mean differences and 95\% percentile bootstrap intervals used
+20{,}000 resamples (seed 20260901). The assay-dynamic-range control applied the
+identical design to SMARCA4 mRNA abundance and SMARCA2 dependency, with correction
+across the three thresholds.
+
 \paragraph{Virtual knockout and Mendelian randomization.} Geneformer
 \citep{theodoris2023} on GSE131907 malignant epithelial cells, run on a
 2{,}000-cell downsample and on all 7{,}270 cells; scGPT \citep{cui2024} on the
@@ -924,14 +1137,17 @@ subunits, but contact count does not predict co-dependency within resolved
 contacts; structure is a binary prior, not a quantitative rule.
 \item Curated protein-complex module definitions are sub-optimal for dependency
 analysis; refining the SWI/SNF core raises its correlation from 0.475 to 0.584
-while dropping two of eight genes, and the refinement generalises to PRC2.
+while dropping two of eight genes, and a symmetric nested test across 266
+complexes outperforms size-matched null modules in held-out data.
 \item Module-score co-dependency is inflated unless the anchor is excluded from
 its own module, which reversed conclusions in two of the modules tested here.
 \item Five methodologically distinct analyses with pan-essentiality and lineage controls
 assign 14/14 anchors of known membership to their correct mutually exclusive
 module across two complexes.
-\item Genotype-conditional tests do not survive multiple-testing correction, so
-the study maps co-essential organization rather than synthetic lethality.
+\item Mutation-, protein- and mRNA-defined ARID1A-low tests do not survive
+multiple-testing correction despite detection of a SMARCA4-low--SMARCA2 positive
+control, so the study maps co-essential organization rather than synthetic
+lethality.
 \item Transcript-level data cannot resolve complex specificity, and
 AlphaFold-Multimer's ipTM does not track interface accuracy within a large
 assembly.
@@ -969,8 +1185,8 @@ Versioned analysis code, a pinned software environment, random seeds, automated
 numerical checks, compact derived tables and the submitted manuscript snapshot
 are publicly available at
 \url{https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency}
-(release v1.0.4) and archived at Zenodo
-(\url{https://doi.org/10.5281/zenodo.22218065}). Raw
+(release v1.0.5) and archived at Zenodo under the version-independent concept DOI
+(\url{https://doi.org/10.5281/zenodo.22218064}). Raw
 source datasets are not redistributed and remain available from the persistent
 accessions and URLs listed in the repository data manifest. No claim in the
 manuscript depends on data available only on request.

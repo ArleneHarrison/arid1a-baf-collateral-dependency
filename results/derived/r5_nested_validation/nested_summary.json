@@ -1,0 +1,20 @@
+{
+  "design": "nested discovery-half anchor/drop selection with held-out validation",
+  "n_curated_complexes_available": 277,
+  "n_paired_complexes_analyzed": 266,
+  "n_splits_per_module": 30,
+  "n_size_matched_null_modules_per_complex": 2,
+  "real_median_concordance": 0.6,
+  "matched_null_median_concordance": 0.33333333333333337,
+  "paired_median_difference": 0.25,
+  "paired_median_difference_bootstrap_95ci": [
+    0.175,
+    0.30833333333333335
+  ],
+  "paired_wilcoxon_statistic": 28288.0,
+  "paired_wilcoxon_one_sided_P": 1.0307267411027835e-19,
+  "cliffs_delta_real_vs_paired_null": 0.42537735315732944,
+  "real_median_positive_gain_fraction": 0.9333333333333333,
+  "matched_null_median_positive_gain_fraction": 0.7666666666666666,
+  "random_seed": 20260901
+}

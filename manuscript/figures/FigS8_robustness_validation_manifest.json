@@ -1,0 +1,18 @@
+{
+  "figure": "Supplementary Figure S8",
+  "outputs": [
+    "manuscript\\figures\\FigS8_robustness_validation.pdf",
+    "manuscript\\figures\\FigS8_robustness_validation.png"
+  ],
+  "source_tables": [
+    "results/derived/r5_nested_validation/nested_paired_comparison.csv",
+    "results/derived/r5_nested_validation/nested_summary.json",
+    "results/derived/r5_structure_validation/structure_global_validation.csv",
+    "results/derived/r5_structure_validation/structural_group_sensitivity.csv",
+    "results/derived/r5_arid1a_null_modules/arid1a_low_module_sensitivity.csv",
+    "results/derived/r5_arid1a_null_modules/smarca4_low_smarca2_positive_control.csv"
+  ],
+  "uncertainty": "95% percentile bootstrap CI, 20,000 resamples",
+  "random_seed": 20260901,
+  "missing_data": "No values imputed for plotting; server analysis required complete module scores."
+}
