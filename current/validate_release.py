@@ -1,4 +1,4 @@
-"""Read-only audit of v1.1.0 assets and frozen numerical claims."""
+"""Read-only audit of v1.1.1 assets and frozen numerical claims."""
 from pathlib import Path
 import hashlib
 import json

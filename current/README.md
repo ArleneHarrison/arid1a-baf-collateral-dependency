@@ -1,9 +1,9 @@
-# Reproducibility materials: v1.1.0 (23 October 2026)
+# Reproducibility materials: v1.1.1 (23 October 2026)
 
 Structure-Guided Proteogenomics Identifies ARID1A-Associated cBAF Protein Co-variation in Lung Cancer
 
 Version DOI: https://doi.org/10.5281/zenodo.23587002
-Repository: https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.1.0
+Repository: https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.1.1
 
 This release tests a fixed structure-selected six-protein cBAF panel. Its central
 result is replicated residual protein co-variation, not contact-specific causality,
@@ -47,7 +47,7 @@ TeX Live 2025, `achemso` 3.13h and BibTeX were used. Figures are deterministic
 exports. S3/S6 contain frozen analysis inputs; the data-specific README and CLI
 `--help` specify exact replay parameters. Full bootstrap/omics computations should
 run on a research server, not be inferred from figure images. Older root-level
-scripts/results are legacy provenance, not the v1.1.0 primary estimand.
+scripts/results are legacy provenance, not the v1.1.1 primary estimand.
 
 ## Data rights and provenance
 
@@ -65,7 +65,7 @@ exploratory and are not experimental validation.
 
 ## Change from prior releases
 
-v1.1.0 refocuses the article on a bounded protein co-variation question, includes
+v1.1.1 refocuses the article on a bounded protein co-variation question, includes
 independent LUAD/LUSC analyses and their null/sensitivity controls, distinguishes
 ARID1B fitness evidence from whole-panel null results, corrects reference metadata,
 and supplies ACS-format sources and original TOC artwork. Old tags remain intact.

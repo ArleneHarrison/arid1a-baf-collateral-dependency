@@ -1,5 +1,5 @@
 {
-  "title": "Structure-Guided Proteogenomics Identifies ARID1A-Associated cBAF Protein Co-variation in Lung Cancer — code and data, v1.1.0",
+  "title": "Structure-Guided Proteogenomics Identifies ARID1A-Associated cBAF Protein Co-variation in Lung Cancer — code and data, v1.1.1",
   "upload_type": "dataset",
   "description": "Reproducibility materials for a structure-selected ARID1A-associated cBAF protein co-variation analysis in lung cancer. Includes exact analysis inputs, code, derived results and an unpublished manuscript. Observational protein co-variation is not whole-panel synthetic lethality. See README for dataset-specific licenses and replay instructions.",
   "creators": [
@@ -33,7 +33,7 @@
       "orcid": "0000-0003-1714-1734"
     }
   ],
-  "version": "1.1.0",
+  "version": "1.1.1",
   "publication_date": "2026-10-23",
   "access_right": "open",
   "license": "cc-by-4.0",
@@ -46,7 +46,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.1.0",
+      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.1.1",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

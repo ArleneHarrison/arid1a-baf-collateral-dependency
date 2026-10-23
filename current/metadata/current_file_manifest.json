@@ -466,13 +466,13 @@
   },
   {
     "file": "manuscript.pdf",
-    "bytes": 534048,
-    "sha256": "7e65f161531ccd2c0c124d98717f468e067d687cc6b0ed434edaeb16412bf2b9"
+    "bytes": 534079,
+    "sha256": "9965be19d28f81a529803c432664520507c7872de4cfd75ffaaa92459e1a9af2"
   },
   {
     "file": "manuscript.tex",
-    "bytes": 38315,
-    "sha256": "31794f616eb3f7234d0a0059f12ffe6e1d9900702a7e36202b8615b6cb045d4f"
+    "bytes": 38333,
+    "sha256": "fc0dcd6e303ed5e76e8fc50c3131c787ffeb1bf92d3bb00ddbb34d1992625bac"
   },
   {
     "file": "metadata/abstract_word_count.json",
@@ -497,12 +497,12 @@
   {
     "file": "README.md",
     "bytes": 4125,
-    "sha256": "bc2016bae5600c1981e358914bdddda573d0dbdcab48fc87f1d17b5df5fddb54"
+    "sha256": "2e4f82b2409614b7bc8622e95273d10f65fec524ec1655128ce2666f46d84bd3"
   },
   {
     "file": "references_jpr.bib",
     "bytes": 25545,
-    "sha256": "454301885c2c704687777e432843da7dd285f46bd75c9b05bf3127065b27ab71"
+    "sha256": "12a23914cb204aaee69ffe687f5c138053b942a9c00b6ef3dfd7e171967430e9"
   },
   {
     "file": "requirements-render.txt",
@@ -1032,6 +1032,6 @@
   {
     "file": "validate_release.py",
     "bytes": 3373,
-    "sha256": "7f8a032f239cfdbf310e2bbe7c85a26ec98a52c7942907a18eaf5f57740b18dd"
+    "sha256": "eafe14809840444adb9dbf2c8b173140170cb77b831c43b4309d446c058ecd5d"
   }
 ]
