@@ -1,0 +1,27 @@
+{
+  "date_utc": "2026-09-05T02:25:51.748454+00:00",
+  "status": "PASS",
+  "production_helpers_imported": false,
+  "model": "Explicit statsmodels OLS intercept+lineage dummies+own or common RNA/CNV",
+  "n_all_npz_summary_fields": 367,
+  "n_genes_in_summary": 17,
+  "n_contrasts": 19,
+  "all_draws_input_scan": 10000,
+  "scan_rule": "At least two pair-complete rows within lineage, with EXACTLY equal y and all model-specific numeric X; constants tested independently for both own and both joint models",
+  "replay_selection": "First 50 shared draws for all 12 primary genes plus first occurrence of every gene/lineage/model/sourceIDs/repeat-count pattern; defined from inputs, not association values",
+  "n_constant_patterns": 1604,
+  "n_constant_model_group_events": 719316,
+  "n_selected_gene_draw_pairs": 879,
+  "n_OLS_rho_replayed": 3516,
+  "maximum_replay_absolute_difference": 2.220446049250313e-16,
+  "failures": [],
+  "spec_sha256": "d6a11136f62bf1551adc6b3df0cc2a2014bb1456860c17b836ac9878056a9cae",
+  "original_npz_sha256": "ea4e936262a72198626e6b0a049fcf8b9778b45386b99f568bac92b76473a05b",
+  "script_sha256": "9b8951453157495f5d2be79b771baddcf5b52afc32c96a9719c2283bad9ff9ef",
+  "output_sha256": {
+    "r12_cellline_all_npz_summary_audit.csv": "77124c0f80249944ab535ad090ed8e05afb6f07899cc6c98215688b81f11002e",
+    "r12_cellline_constant_input_patterns.csv": "0e1cc3c0c91aef2401d08d75c8e6aa7190ef2bb1b969cb5bf3465437f889b772",
+    "r12_cellline_constant_input_events.npz": "cf5d7fe1cd2da76eca36f30e8fb22b3abc3bc181455a78ce1744c390ebf1c04c",
+    "r12_cellline_input_pattern_OLS_replay.csv": "3c828041cc55262a7c87cda9638eb0cc02534b3176aa37bc97d72409470824bf"
+  }
+}

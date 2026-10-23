@@ -1,0 +1,7 @@
+module,genes_requested,genes_tested,minimum_gene_q,descriptive_median_interaction,inference
+ARID1A_contact_experimental,6,6,0.920735978098329,0.30394524840911397,Descriptive summary only; no module-level dependency or specificity claim
+PBAF_specific,4,4,0.920735978098329,0.0410012710654683,Descriptive summary only; no module-level dependency or specificity claim
+alternative_ATPase,1,1,0.993753551851095,-0.0328931222162619,Descriptive summary only; no module-level dependency or specificity claim
+cBAF_specific,9,8,0.920735978098329,0.16305162640264698,Descriptive summary only; no module-level dependency or specificity claim
+core_shared,8,8,0.920735978098329,0.27554201877318396,Descriptive summary only; no module-level dependency or specificity claim
+ncBAF_specific,3,3,0.920735978098329,0.212330240075621,Descriptive summary only; no module-level dependency or specificity claim

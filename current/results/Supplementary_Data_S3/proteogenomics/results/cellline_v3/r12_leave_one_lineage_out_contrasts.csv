@@ -1,0 +1,55 @@
+omitted_lineage,omitted_rows,remaining_rows,test,estimate,evaluable,non_evaluable_reason,minimum_pair_n,minimum_model_residual_df,contact_genes,background_genes,inference
+Adrenal Gland,1,693,primary_own_adjusted,0.2545808815842544,True,,113,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Adrenal Gland,1,693,primary_raw_layer_difference,0.2367935603853088,True,,113,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Biliary Tract,2,692,primary_own_adjusted,0.2550987303148541,True,,113,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Biliary Tract,2,692,primary_raw_layer_difference,0.23736881754638628,True,,113,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bladder/Urinary Tract,16,678,primary_own_adjusted,0.256002096714899,True,,111,88.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bladder/Urinary Tract,16,678,primary_raw_layer_difference,0.2368047932251202,True,,111,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bone,17,677,primary_own_adjusted,0.2531432580979055,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bone,17,677,primary_raw_layer_difference,0.2372239830732384,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bowel,42,652,primary_own_adjusted,0.2591025411305316,True,,103,80.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Bowel,42,652,primary_raw_layer_difference,0.24793835475679854,True,,103,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Breast,45,649,primary_own_adjusted,0.2555738452883942,True,,104,81.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Breast,45,649,primary_raw_layer_difference,0.22458712627719374,True,,104,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+CNS/Brain,36,658,primary_own_adjusted,0.2724490844827693,True,,106,83.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+CNS/Brain,36,658,primary_raw_layer_difference,0.24121137985364505,True,,106,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Cervix,11,683,primary_own_adjusted,0.2559575331699986,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Cervix,11,683,primary_raw_layer_difference,0.25005887375624813,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Esophagus/Stomach,50,644,primary_own_adjusted,0.25158994141131374,True,,108,85.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Esophagus/Stomach,50,644,primary_raw_layer_difference,0.23560191551549547,True,,108,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Fibroblast,1,693,primary_own_adjusted,0.2545808815842544,True,,113,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Fibroblast,1,693,primary_raw_layer_difference,0.23522828068577156,True,,113,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Head and Neck,24,670,primary_own_adjusted,0.2520193284290048,True,,108,85.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Head and Neck,24,670,primary_raw_layer_difference,0.21099453677555202,True,,108,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Kidney,19,675,primary_own_adjusted,0.25658560502946687,True,,112,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Kidney,19,675,primary_raw_layer_difference,0.24306257347275834,True,,112,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Liver,14,680,primary_own_adjusted,0.256664968737122,True,,111,88.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Liver,14,680,primary_raw_layer_difference,0.23818742404010873,True,,111,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Lung,132,562,primary_own_adjusted,0.2764589015071105,True,,87,64.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Lung,132,562,primary_raw_layer_difference,0.22562544371095278,True,,87,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Lymphoid,81,613,primary_own_adjusted,0.26311271963264315,True,,98,75.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Lymphoid,81,613,primary_raw_layer_difference,0.29162333855061756,True,,98,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Myeloid,32,662,primary_own_adjusted,0.2557375246694629,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Myeloid,32,662,primary_raw_layer_difference,0.23626246130787093,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Ovary/Fallopian Tube,34,660,primary_own_adjusted,0.2560397069958636,True,,109,86.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Ovary/Fallopian Tube,34,660,primary_raw_layer_difference,0.22882679674515677,True,,109,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Pancreas,27,667,primary_own_adjusted,0.25083928253410165,True,,111,88.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Pancreas,27,667,primary_raw_layer_difference,0.2359626367581168,True,,111,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Peripheral Nervous System,17,677,primary_own_adjusted,0.25067385389775476,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Peripheral Nervous System,17,677,primary_raw_layer_difference,0.2318154367247201,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Pleura,7,687,primary_own_adjusted,0.2513281916140114,True,,112,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Pleura,7,687,primary_raw_layer_difference,0.24275266992223277,True,,112,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Prostate,7,687,primary_own_adjusted,0.25384187997375585,True,,112,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Prostate,7,687,primary_raw_layer_difference,0.2416524874202282,True,,112,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Skin,35,659,primary_own_adjusted,0.25091151472485973,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Skin,35,659,primary_raw_layer_difference,0.2289171541868656,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Soft Tissue,11,683,primary_own_adjusted,0.2568079590263652,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Soft Tissue,11,683,primary_raw_layer_difference,0.2373441389094894,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Testis,2,692,primary_own_adjusted,0.2560486942492065,True,,113,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Testis,2,692,primary_raw_layer_difference,0.23566536879033395,True,,113,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Thyroid,13,681,primary_own_adjusted,0.25726158003300137,True,,111,88.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Thyroid,13,681,primary_raw_layer_difference,0.23639181349819133,True,,111,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Uterus,16,678,primary_own_adjusted,0.2410032393688864,True,,110,87.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Uterus,16,678,primary_raw_layer_difference,0.22950641548127187,True,,110,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Vulva/Vagina,2,692,primary_own_adjusted,0.2519972782100741,True,,113,89.0,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P
+Vulva/Vagina,2,692,primary_raw_layer_difference,0.23604867790482864,True,,113,,SMARCC2;SMARCA4;SMARCD1;SMARCB1;SMARCE1;DPF2,ACTL6A;PBRM1;ARID2;BRD7;PHF10;BRD9,descriptive_point_estimate_only_no_CI_or_P

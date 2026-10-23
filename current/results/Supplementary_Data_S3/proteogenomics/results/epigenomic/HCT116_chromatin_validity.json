@@ -1,0 +1,15 @@
+{
+  "checked_utc": "2026-09-05T01:35:22.360517+00:00",
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "GSE101966_chromatin_files": 40,
+  "formal_chromatin_interaction_status": "Not estimable from independently called per-sample peaks; common-region read counts absent",
+  "scope_of_peak_support": "Descriptive same-promoter overlap only; no inferred enhancer-gene targets or differential p values",
+  "verified_module_aliases": {
+    "BICRA": "GLTSCR1",
+    "BICRAL": "GLTSCR1L"
+  },
+  "alias_primary_sources": [
+    "https://www.ncbi.nlm.nih.gov/gene/29998",
+    "https://www.ncbi.nlm.nih.gov/gene/23506"
+  ]
+}

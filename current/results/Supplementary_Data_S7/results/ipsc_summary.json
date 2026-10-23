@@ -1,0 +1,55 @@
+{
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "source_sha256": "aa64378ba73b23407d78d54b563dc608dd8531cc5deda204d19782cd6a4b6649",
+  "article": "10.1016/j.celrep.2017.08.010",
+  "endpoint": "Published author-normalized protein log2 mean(KO)/mean(WT); source DESeq2 RNA log2FC and adjusted P retained",
+  "source_sample_units": "Two labelled clones per protein condition; RNA source methods report six biological replicates per KO and four WT. These are not twelve independent proteins or new lung cancer models.",
+  "no_new_gene_or_module_P_values": true,
+  "source_protein_ANOVA_not_ARID1A_pairwise": true,
+  "no_added_imputation": true,
+  "contrasts": [
+    {
+      "query": "ARID1A",
+      "contact_protein_median": -0.4681511241411718,
+      "background_protein_median": -0.05884573036155388,
+      "contact_minus_background": -0.40930539377961794,
+      "contact_RNA_median": -0.0263538655,
+      "contact_protein_down_count": 6,
+      "contact_source_RNA_padj_below_005_count": 0,
+      "contact_coverage": 6,
+      "background_coverage": 6,
+      "background_without_query_n": 6,
+      "background_without_query_protein_median": -0.05884573036155388,
+      "contrast_without_query": -0.40930539377961794
+    },
+    {
+      "query": "ARID2",
+      "contact_protein_median": -0.28234576344646156,
+      "background_protein_median": -0.8102110997118614,
+      "contact_minus_background": 0.5278653362653999,
+      "contact_RNA_median": 0.014695262350052534,
+      "contact_protein_down_count": 6,
+      "contact_source_RNA_padj_below_005_count": 0,
+      "contact_coverage": 6,
+      "background_coverage": 6,
+      "background_without_query_n": 5,
+      "background_without_query_protein_median": -0.8901701372122838,
+      "contrast_without_query": 0.6078243737658222
+    },
+    {
+      "query": "PBRM1",
+      "contact_protein_median": 0.08780981541125507,
+      "background_protein_median": -0.08675731913058982,
+      "contact_minus_background": 0.1745671345418449,
+      "contact_RNA_median": -0.0656865479907406,
+      "contact_protein_down_count": 2,
+      "contact_source_RNA_padj_below_005_count": 0,
+      "contact_coverage": 6,
+      "background_coverage": 6,
+      "background_without_query_n": 5,
+      "background_without_query_protein_median": -0.062461901857725904,
+      "contrast_without_query": 0.15027171726898098
+    }
+  ],
+  "source_preprocessing_limitation": "Published methods include peptide-channel minimum-intensity handling and loading normalization. No new imputation was performed; upstream imputation cannot be undone from this table."
+}

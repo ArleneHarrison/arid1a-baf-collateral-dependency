@@ -1,0 +1,17 @@
+{
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "completed_utc": "2026-09-05T01:36:28.260084+00:00",
+  "python_vs_R_interaction_max_absolute_error": 7.549516567451064e-15,
+  "Python_statsmodels_vs_R_BH_max_absolute_error": 1.7330581414398694e-13,
+  "unique_gene_rows_confirmed": true,
+  "alternate_transcript_rule_changed_representatives": 0,
+  "transcript_sensitivity_note": "If zero representatives change, this is a mapping consistency check rather than independent sensitivity evidence.",
+  "primary_genes_tested": 13505,
+  "primary_genes_q_lt_005": 0,
+  "module_alias_mapping": {
+    "BICRA": "GLTSCR1",
+    "BICRAL": "GLTSCR1L"
+  },
+  "not_count_confirmatory": true,
+  "chromatin_formal_interaction_not_run": "Only thresholded per-sample called peaks are deposited; common-interval quantitative counts not available"
+}

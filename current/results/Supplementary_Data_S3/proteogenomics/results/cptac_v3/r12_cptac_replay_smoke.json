@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "cohort": "LUSC",
+  "n": 107,
+  "draws": 50,
+  "genes": 12,
+  "layers": 4,
+  "maximum_absolute_difference": 2.220446049250313e-16,
+  "production_sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad"
+}

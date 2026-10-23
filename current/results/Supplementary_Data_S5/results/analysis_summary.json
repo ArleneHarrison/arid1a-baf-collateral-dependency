@@ -1,0 +1,54 @@
+{
+  "status": "exploratory analysis added after prior primary results were known",
+  "new_patients": 0,
+  "original_primary_results_unchanged": true,
+  "archived_primary_point_and_CI_replay": "passed within 1e-12",
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "python": "3.12.9",
+  "numpy": "2.3.2",
+  "pandas": "2.3.3",
+  "seed": 20260908,
+  "input_sha256": {
+    "LUAD/r12_coupling_by_gene.csv": "b9e53f6e336b004bb547d69f8ef576d94be25fc45ff77a6689d440cb8d69002e",
+    "LUAD/r12_coupling_contrasts.csv": "500fa4473e1fa8c2ef5dded17dcd2ae2fe84c6f0b7b67d39e88bd3a92f2cb356",
+    "LUAD/r12_shared_refit_bootstrap.npz": "8d4a85ac43fc05befc2d7b445f84b6c82f6e3d5a3a5d41338d512b52805a201c",
+    "LUSC/r12_coupling_by_gene.csv": "475646bc49dbb9da00baf660c1163d1c84397d71e945108024ede6aabf9ea423",
+    "LUSC/r12_coupling_contrasts.csv": "0a1a8d4f976fb85d185de3749f333204b8058dfab159207da7e0d25b51ee52fd",
+    "LUSC/r12_shared_refit_bootstrap.npz": "5ca8e0beeafea1ac995be7c97358b7c003297a9ec823141eba986e87aa8ea60f"
+  },
+  "histology_difference": {
+    "contrast": "LUAD minus LUSC contact-background median residual correlation contrast",
+    "estimate": 0.08014801057870669,
+    "ci_low": -0.1052897500504866,
+    "ci_high": 0.26484456762333775,
+    "two_sided_centered_bootstrap_p": 0.40735926407359263,
+    "n_bootstrap": 10000,
+    "seed": 20260908,
+    "interpretation": "exploratory difference test; nonsignificance does not establish equivalence"
+  },
+  "replicated_genes": [
+    "SMARCC2",
+    "SMARCA4",
+    "SMARCD1",
+    "SMARCB1",
+    "SMARCE1",
+    "DPF2",
+    "PBRM1",
+    "ARID2",
+    "BRD7",
+    "BRD9"
+  ],
+  "leave_one_out": {
+    "LUAD": {
+      "point_min": 0.21783512913582365,
+      "point_max": 0.28278887650404416,
+      "minimum_nominal_lower_CI": 0.10351240745572822
+    },
+    "LUSC": {
+      "point_min": 0.16671564881757084,
+      "point_max": 0.17361233566488365,
+      "minimum_nominal_lower_CI": 0.03175515899984688
+    }
+  },
+  "gene_profile_spearman_descriptive": 0.7412587412587414
+}

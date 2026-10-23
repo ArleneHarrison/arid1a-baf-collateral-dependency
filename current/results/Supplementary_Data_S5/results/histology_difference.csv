@@ -1,0 +1,2 @@
+contrast,estimate,ci_low,ci_high,two_sided_centered_bootstrap_p,n_bootstrap,seed,interpretation
+LUAD minus LUSC contact-background median residual correlation contrast,0.08014801057870669,-0.1052897500504866,0.26484456762333775,0.40735926407359263,10000,20260908,exploratory difference test; nonsignificance does not establish equivalence

@@ -1,0 +1,5 @@
+contrast,genes_tested,genes_q05_across_all_secondary,purpose
+A_KO_vs_WT,13505,759,Diagnostic known-biology contrast; cannot replace the primary interaction
+B_KD_in_A_KO,13505,141,Diagnostic known-biology contrast; cannot replace the primary interaction
+B_KD_in_WT,13505,11,Diagnostic known-biology contrast; cannot replace the primary interaction
+double_vs_WT,13505,1416,Diagnostic known-biology contrast; cannot replace the primary interaction

@@ -1,0 +1,16 @@
+{
+  "LUAD": {
+    "correlation_max_error": 9.974659986866641e-17,
+    "PC_contrast_max_error": 5.551115123125783e-17,
+    "patient_omission_max_error": 8.326672684688674e-17,
+    "all_40000_seeded_panels_exact": true,
+    "all_600_matched_candidates_exact": true
+  },
+  "LUSC": {
+    "correlation_max_error": 9.974659986866641e-17,
+    "PC_contrast_max_error": 8.326672684688674e-17,
+    "patient_omission_max_error": 8.326672684688674e-17,
+    "all_40000_seeded_panels_exact": true,
+    "all_600_matched_candidates_exact": true
+  }
+}

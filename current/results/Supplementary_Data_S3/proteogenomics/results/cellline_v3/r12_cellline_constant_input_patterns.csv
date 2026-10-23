@@ -1,0 +1,1605 @@
+pattern_id,gene,lineage,model,source_ids,n_repeated_rows,first_draw,n_events
+0,SMARCC2,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+1,SMARCC2,Biliary Tract,own_partner,ACH-001861,2,0,2527
+2,SMARCC2,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+3,SMARCC2,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+4,SMARCC2,Testis,own_anchor,ACH-001578,2,0,2559
+5,SMARCC2,Testis,own_partner,ACH-001578,2,0,2559
+6,SMARCC2,Testis,joint_anchor,ACH-001578,2,0,2559
+7,SMARCC2,Testis,joint_partner,ACH-001578,2,0,2559
+8,SMARCC2,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+9,SMARCC2,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+10,SMARCC2,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+11,SMARCC2,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+12,SMARCA4,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+13,SMARCA4,Biliary Tract,own_partner,ACH-001861,2,0,2527
+14,SMARCA4,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+15,SMARCA4,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+16,SMARCA4,Testis,own_anchor,ACH-001578,2,0,2559
+17,SMARCA4,Testis,own_partner,ACH-001578,2,0,2559
+18,SMARCA4,Testis,joint_anchor,ACH-001578,2,0,2559
+19,SMARCA4,Testis,joint_partner,ACH-001578,2,0,2559
+20,SMARCA4,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+21,SMARCA4,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+22,SMARCA4,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+23,SMARCA4,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+24,SMARCD1,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+25,SMARCD1,Biliary Tract,own_partner,ACH-001861,2,0,2527
+26,SMARCD1,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+27,SMARCD1,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+28,SMARCD1,Testis,own_anchor,ACH-001578,2,0,2559
+29,SMARCD1,Testis,own_partner,ACH-001578,2,0,2559
+30,SMARCD1,Testis,joint_anchor,ACH-001578,2,0,2559
+31,SMARCD1,Testis,joint_partner,ACH-001578,2,0,2559
+32,SMARCD1,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+33,SMARCD1,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+34,SMARCD1,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+35,SMARCD1,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+36,SMARCB1,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+37,SMARCB1,Biliary Tract,own_partner,ACH-001861,2,0,2527
+38,SMARCB1,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+39,SMARCB1,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+40,SMARCB1,Testis,own_anchor,ACH-001578,2,0,2559
+41,SMARCB1,Testis,own_partner,ACH-001578,2,0,2559
+42,SMARCB1,Testis,joint_anchor,ACH-001578,2,0,2559
+43,SMARCB1,Testis,joint_partner,ACH-001578,2,0,2559
+44,SMARCB1,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+45,SMARCB1,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+46,SMARCB1,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+47,SMARCB1,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+48,SMARCE1,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+49,SMARCE1,Biliary Tract,own_partner,ACH-001861,2,0,2527
+50,SMARCE1,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+51,SMARCE1,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+52,SMARCE1,Testis,own_anchor,ACH-001578,2,0,2559
+53,SMARCE1,Testis,own_partner,ACH-001578,2,0,2559
+54,SMARCE1,Testis,joint_anchor,ACH-001578,2,0,2559
+55,SMARCE1,Testis,joint_partner,ACH-001578,2,0,2559
+56,SMARCE1,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+57,SMARCE1,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+58,SMARCE1,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+59,SMARCE1,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+60,DPF2,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+61,DPF2,Biliary Tract,own_partner,ACH-001861,2,0,2527
+62,DPF2,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+63,DPF2,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+64,DPF2,Testis,own_anchor,ACH-001578,2,0,2559
+65,DPF2,Testis,own_partner,ACH-001578,2,0,2559
+66,DPF2,Testis,joint_anchor,ACH-001578,2,0,2559
+67,DPF2,Testis,joint_partner,ACH-001578,2,0,2559
+68,DPF2,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+69,DPF2,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+70,DPF2,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+71,DPF2,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+72,ACTL6A,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+73,ACTL6A,Biliary Tract,own_partner,ACH-001861,2,0,2527
+74,ACTL6A,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+75,ACTL6A,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+76,ACTL6A,Testis,own_anchor,ACH-001578,2,0,2559
+77,ACTL6A,Testis,own_partner,ACH-001578,2,0,2559
+78,ACTL6A,Testis,joint_anchor,ACH-001578,2,0,2559
+79,ACTL6A,Testis,joint_partner,ACH-001578,2,0,2559
+80,ACTL6A,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+81,ACTL6A,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+82,ACTL6A,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+83,ACTL6A,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+84,PBRM1,Biliary Tract,own_anchor,ACH-001861,2,0,2527
+85,PBRM1,Biliary Tract,own_partner,ACH-001861,2,0,2527
+86,PBRM1,Biliary Tract,joint_anchor,ACH-001861,2,0,2527
+87,PBRM1,Biliary Tract,joint_partner,ACH-001861,2,0,2527
+88,PBRM1,Testis,own_anchor,ACH-001578,2,0,2559
+89,PBRM1,Testis,own_partner,ACH-001578,2,0,2559
+90,PBRM1,Testis,joint_anchor,ACH-001578,2,0,2559
+91,PBRM1,Testis,joint_partner,ACH-001578,2,0,2559
+92,PBRM1,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+93,PBRM1,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+94,PBRM1,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+95,PBRM1,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+96,ARID2,Testis,own_anchor,ACH-001578,2,0,2559
+97,ARID2,Testis,own_partner,ACH-001578,2,0,2559
+98,ARID2,Testis,joint_anchor,ACH-001578,2,0,2559
+99,ARID2,Testis,joint_partner,ACH-001578,2,0,2559
+100,ARID2,Vulva/Vagina,own_anchor,ACH-002040,2,0,2487
+101,ARID2,Vulva/Vagina,own_partner,ACH-002040,2,0,2487
+102,ARID2,Vulva/Vagina,joint_anchor,ACH-002040,2,0,2487
+103,ARID2,Vulva/Vagina,joint_partner,ACH-002040,2,0,2487
+104,BRD7,Testis,own_anchor,ACH-001578,2,0,2559
+105,BRD7,Testis,own_partner,ACH-001578,2,0,2559
+106,BRD7,Testis,joint_anchor,ACH-001578,2,0,2559
+107,BRD7,Testis,joint_partner,ACH-001578,2,0,2559
+108,PHF10,Testis,own_anchor,ACH-001578,2,0,2559
+109,PHF10,Testis,own_partner,ACH-001578,2,0,2559
+110,PHF10,Testis,joint_anchor,ACH-001578,2,0,2559
+111,PHF10,Testis,joint_partner,ACH-001578,2,0,2559
+112,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000720,2,0,762
+113,BRD9,Bladder/Urinary Tract,own_partner,ACH-000720,2,0,762
+114,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000720,2,0,762
+115,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000720,2,0,762
+116,BRD9,Pleura,own_anchor,ACH-000335,2,0,2028
+117,BRD9,Pleura,own_partner,ACH-000335,2,0,2028
+118,BRD9,Pleura,joint_anchor,ACH-000335,2,0,2028
+119,BRD9,Pleura,joint_partner,ACH-000335,2,0,2028
+120,BRD9,Thyroid,own_anchor,ACH-000191,2,0,714
+121,BRD9,Thyroid,own_partner,ACH-000191,2,0,714
+122,BRD9,Thyroid,joint_anchor,ACH-000191,2,0,714
+123,BRD9,Thyroid,joint_partner,ACH-000191,2,0,714
+124,SMARCC2,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+125,SMARCC2,Biliary Tract,own_partner,ACH-000976,2,1,2516
+126,SMARCC2,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+127,SMARCC2,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+128,SMARCA4,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+129,SMARCA4,Biliary Tract,own_partner,ACH-000976,2,1,2516
+130,SMARCA4,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+131,SMARCA4,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+132,SMARCD1,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+133,SMARCD1,Biliary Tract,own_partner,ACH-000976,2,1,2516
+134,SMARCD1,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+135,SMARCD1,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+136,SMARCB1,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+137,SMARCB1,Biliary Tract,own_partner,ACH-000976,2,1,2516
+138,SMARCB1,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+139,SMARCB1,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+140,SMARCE1,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+141,SMARCE1,Biliary Tract,own_partner,ACH-000976,2,1,2516
+142,SMARCE1,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+143,SMARCE1,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+144,DPF2,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+145,DPF2,Biliary Tract,own_partner,ACH-000976,2,1,2516
+146,DPF2,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+147,DPF2,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+148,ACTL6A,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+149,ACTL6A,Biliary Tract,own_partner,ACH-000976,2,1,2516
+150,ACTL6A,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+151,ACTL6A,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+152,PBRM1,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+153,PBRM1,Biliary Tract,own_partner,ACH-000976,2,1,2516
+154,PBRM1,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+155,PBRM1,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+156,ARID2,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+157,ARID2,Biliary Tract,own_partner,ACH-000976,2,1,2516
+158,ARID2,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+159,ARID2,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+160,BRD7,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+161,BRD7,Biliary Tract,own_partner,ACH-000976,2,1,2516
+162,BRD7,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+163,BRD7,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+164,PHF10,Biliary Tract,own_anchor,ACH-000976,2,1,2516
+165,PHF10,Biliary Tract,own_partner,ACH-000976,2,1,2516
+166,PHF10,Biliary Tract,joint_anchor,ACH-000976,2,1,2516
+167,PHF10,Biliary Tract,joint_partner,ACH-000976,2,1,2516
+168,BRD9,Bone,own_anchor,ACH-000087,2,1,293
+169,BRD9,Bone,own_partner,ACH-000087,2,1,293
+170,BRD9,Bone,joint_anchor,ACH-000087,2,1,293
+171,BRD9,Bone,joint_partner,ACH-000087,2,1,293
+172,BRD9,Esophagus/Stomach,own_anchor,ACH-000679,2,1,33
+173,BRD9,Esophagus/Stomach,own_partner,ACH-000679,2,1,33
+174,BRD9,Esophagus/Stomach,joint_anchor,ACH-000679,2,1,33
+175,BRD9,Esophagus/Stomach,joint_partner,ACH-000679,2,1,33
+176,BRD9,Soft Tissue,own_anchor,ACH-000607,2,1,257
+177,BRD9,Soft Tissue,own_partner,ACH-000607,2,1,257
+178,BRD9,Soft Tissue,joint_anchor,ACH-000607,2,1,257
+179,BRD9,Soft Tissue,joint_partner,ACH-000607,2,1,257
+180,BRD9,Kidney,own_anchor,ACH-000250,3,2,578
+181,BRD9,Kidney,own_partner,ACH-000250,3,2,578
+182,BRD9,Kidney,joint_anchor,ACH-000250,3,2,578
+183,BRD9,Kidney,joint_partner,ACH-000250,3,2,578
+184,BRD9,Pleura,own_anchor,ACH-000335,3,2,537
+185,BRD9,Pleura,own_partner,ACH-000335,3,2,537
+186,BRD9,Pleura,joint_anchor,ACH-000335,3,2,537
+187,BRD9,Pleura,joint_partner,ACH-000335,3,2,537
+188,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000973,4,3,60
+189,BRD9,Bladder/Urinary Tract,own_partner,ACH-000973,4,3,60
+190,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000973,4,3,60
+191,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000973,4,3,60
+192,BRD9,Peripheral Nervous System,own_anchor,ACH-000149,2,3,245
+193,BRD9,Peripheral Nervous System,own_partner,ACH-000149,2,3,245
+194,BRD9,Peripheral Nervous System,joint_anchor,ACH-000149,2,3,245
+195,BRD9,Peripheral Nervous System,joint_partner,ACH-000149,2,3,245
+196,BRD9,Prostate,own_anchor,ACH-000979,2,3,2031
+197,BRD9,Prostate,own_partner,ACH-000979,2,3,2031
+198,BRD9,Prostate,joint_anchor,ACH-000979,2,3,2031
+199,BRD9,Prostate,joint_partner,ACH-000979,2,3,2031
+200,BRD9,Thyroid,own_anchor,ACH-000174,2,3,714
+201,BRD9,Thyroid,own_partner,ACH-000174,2,3,714
+202,BRD9,Thyroid,joint_anchor,ACH-000174,2,3,714
+203,BRD9,Thyroid,joint_partner,ACH-000174,2,3,714
+204,SMARCC2,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+205,SMARCC2,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+206,SMARCC2,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+207,SMARCC2,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+208,SMARCA4,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+209,SMARCA4,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+210,SMARCA4,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+211,SMARCA4,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+212,SMARCD1,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+213,SMARCD1,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+214,SMARCD1,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+215,SMARCD1,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+216,SMARCB1,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+217,SMARCB1,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+218,SMARCB1,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+219,SMARCB1,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+220,SMARCE1,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+221,SMARCE1,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+222,SMARCE1,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+223,SMARCE1,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+224,DPF2,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+225,DPF2,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+226,DPF2,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+227,DPF2,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+228,ACTL6A,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+229,ACTL6A,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+230,ACTL6A,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+231,ACTL6A,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+232,PBRM1,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+233,PBRM1,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+234,PBRM1,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+235,PBRM1,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+236,ARID2,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+237,ARID2,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+238,ARID2,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+239,ARID2,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+240,BRD7,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+241,BRD7,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+242,BRD7,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+243,BRD7,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+244,PHF10,Vulva/Vagina,own_anchor,ACH-001400,2,4,2495
+245,PHF10,Vulva/Vagina,own_partner,ACH-001400,2,4,2495
+246,PHF10,Vulva/Vagina,joint_anchor,ACH-001400,2,4,2495
+247,PHF10,Vulva/Vagina,joint_partner,ACH-001400,2,4,2495
+248,BRD9,Bone,own_anchor,ACH-002067,4,4,24
+249,BRD9,Bone,own_partner,ACH-002067,4,4,24
+250,BRD9,Bone,joint_anchor,ACH-002067,4,4,24
+251,BRD9,Bone,joint_partner,ACH-002067,4,4,24
+252,BRD9,Pancreas,own_anchor,ACH-000535,5,4,13
+253,BRD9,Pancreas,own_partner,ACH-000535,5,4,13
+254,BRD9,Pancreas,joint_anchor,ACH-000535,5,4,13
+255,BRD9,Pancreas,joint_partner,ACH-000535,5,4,13
+256,BRD9,Head and Neck,own_anchor,ACH-000546,3,5,11
+257,BRD9,Head and Neck,own_partner,ACH-000546,3,5,11
+258,BRD9,Head and Neck,joint_anchor,ACH-000546,3,5,11
+259,BRD9,Head and Neck,joint_partner,ACH-000546,3,5,11
+260,BRD9,Liver,own_anchor,ACH-000577,2,6,747
+261,BRD9,Liver,own_partner,ACH-000577,2,6,747
+262,BRD9,Liver,joint_anchor,ACH-000577,2,6,747
+263,BRD9,Liver,joint_partner,ACH-000577,2,6,747
+264,BRD9,Myeloid,own_anchor,ACH-000551,2,6,233
+265,BRD9,Myeloid,own_partner,ACH-000551,2,6,233
+266,BRD9,Myeloid,joint_anchor,ACH-000551,2,6,233
+267,BRD9,Myeloid,joint_partner,ACH-000551,2,6,233
+268,SMARCC2,Testis,own_anchor,ACH-002291,2,8,2390
+269,SMARCC2,Testis,own_partner,ACH-002291,2,8,2390
+270,SMARCC2,Testis,joint_anchor,ACH-002291,2,8,2390
+271,SMARCC2,Testis,joint_partner,ACH-002291,2,8,2390
+272,SMARCA4,Testis,own_anchor,ACH-002291,2,8,2390
+273,SMARCA4,Testis,own_partner,ACH-002291,2,8,2390
+274,SMARCA4,Testis,joint_anchor,ACH-002291,2,8,2390
+275,SMARCA4,Testis,joint_partner,ACH-002291,2,8,2390
+276,SMARCD1,Testis,own_anchor,ACH-002291,2,8,2390
+277,SMARCD1,Testis,own_partner,ACH-002291,2,8,2390
+278,SMARCD1,Testis,joint_anchor,ACH-002291,2,8,2390
+279,SMARCD1,Testis,joint_partner,ACH-002291,2,8,2390
+280,SMARCB1,Testis,own_anchor,ACH-002291,2,8,2390
+281,SMARCB1,Testis,own_partner,ACH-002291,2,8,2390
+282,SMARCB1,Testis,joint_anchor,ACH-002291,2,8,2390
+283,SMARCB1,Testis,joint_partner,ACH-002291,2,8,2390
+284,SMARCE1,Testis,own_anchor,ACH-002291,2,8,2390
+285,SMARCE1,Testis,own_partner,ACH-002291,2,8,2390
+286,SMARCE1,Testis,joint_anchor,ACH-002291,2,8,2390
+287,SMARCE1,Testis,joint_partner,ACH-002291,2,8,2390
+288,DPF2,Testis,own_anchor,ACH-002291,2,8,2390
+289,DPF2,Testis,own_partner,ACH-002291,2,8,2390
+290,DPF2,Testis,joint_anchor,ACH-002291,2,8,2390
+291,DPF2,Testis,joint_partner,ACH-002291,2,8,2390
+292,ACTL6A,Testis,own_anchor,ACH-002291,2,8,2390
+293,ACTL6A,Testis,own_partner,ACH-002291,2,8,2390
+294,ACTL6A,Testis,joint_anchor,ACH-002291,2,8,2390
+295,ACTL6A,Testis,joint_partner,ACH-002291,2,8,2390
+296,PBRM1,Testis,own_anchor,ACH-002291,2,8,2390
+297,PBRM1,Testis,own_partner,ACH-002291,2,8,2390
+298,PBRM1,Testis,joint_anchor,ACH-002291,2,8,2390
+299,PBRM1,Testis,joint_partner,ACH-002291,2,8,2390
+300,ARID2,Testis,own_anchor,ACH-002291,2,8,2390
+301,ARID2,Testis,own_partner,ACH-002291,2,8,2390
+302,ARID2,Testis,joint_anchor,ACH-002291,2,8,2390
+303,ARID2,Testis,joint_partner,ACH-002291,2,8,2390
+304,BRD7,Testis,own_anchor,ACH-002291,2,8,2390
+305,BRD7,Testis,own_partner,ACH-002291,2,8,2390
+306,BRD7,Testis,joint_anchor,ACH-002291,2,8,2390
+307,BRD7,Testis,joint_partner,ACH-002291,2,8,2390
+308,PHF10,Testis,own_anchor,ACH-002291,2,8,2390
+309,PHF10,Testis,own_partner,ACH-002291,2,8,2390
+310,PHF10,Testis,joint_anchor,ACH-002291,2,8,2390
+311,PHF10,Testis,joint_partner,ACH-002291,2,8,2390
+312,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000973,2,9,677
+313,BRD9,Bladder/Urinary Tract,own_partner,ACH-000973,2,9,677
+314,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000973,2,9,677
+315,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000973,2,9,677
+316,BRD9,Soft Tissue,own_anchor,ACH-000100,2,9,247
+317,BRD9,Soft Tissue,own_partner,ACH-000100,2,9,247
+318,BRD9,Soft Tissue,joint_anchor,ACH-000100,2,9,247
+319,BRD9,Soft Tissue,joint_partner,ACH-000100,2,9,247
+320,BRD9,Kidney,own_anchor,ACH-000250,2,11,1918
+321,BRD9,Kidney,own_partner,ACH-000250,2,11,1918
+322,BRD9,Kidney,joint_anchor,ACH-000250,2,11,1918
+323,BRD9,Kidney,joint_partner,ACH-000250,2,11,1918
+324,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000688,3,11,33
+325,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000688,3,11,33
+326,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000688,3,11,33
+327,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000688,3,11,33
+328,BRD9,Pancreas,own_anchor,ACH-000023,2,12,710
+329,BRD9,Pancreas,own_partner,ACH-000023,2,12,710
+330,BRD9,Pancreas,joint_anchor,ACH-000023,2,12,710
+331,BRD9,Pancreas,joint_partner,ACH-000023,2,12,710
+332,BRD9,Uterus,own_anchor,ACH-000192,2,12,292
+333,BRD9,Uterus,own_partner,ACH-000192,2,12,292
+334,BRD9,Uterus,joint_anchor,ACH-000192,2,12,292
+335,BRD9,Uterus,joint_partner,ACH-000192,2,12,292
+336,BRD9,Pancreas,own_anchor,ACH-000535,3,13,283
+337,BRD9,Pancreas,own_partner,ACH-000535,3,13,283
+338,BRD9,Pancreas,joint_anchor,ACH-000535,3,13,283
+339,BRD9,Pancreas,joint_partner,ACH-000535,3,13,283
+340,BRD9,Cervix,own_anchor,ACH-001086,2,16,228
+341,BRD9,Cervix,own_partner,ACH-001086,2,16,228
+342,BRD9,Cervix,joint_anchor,ACH-001086,2,16,228
+343,BRD9,Cervix,joint_partner,ACH-001086,2,16,228
+344,BRD9,Uterus,own_anchor,ACH-000192,3,17,83
+345,BRD9,Uterus,own_partner,ACH-000192,3,17,83
+346,BRD9,Uterus,joint_anchor,ACH-000192,3,17,83
+347,BRD9,Uterus,joint_partner,ACH-000192,3,17,83
+348,BRD9,Bone,own_anchor,ACH-000613,2,19,262
+349,BRD9,Bone,own_partner,ACH-000613,2,19,262
+350,BRD9,Bone,joint_anchor,ACH-000613,2,19,262
+351,BRD9,Bone,joint_partner,ACH-000613,2,19,262
+352,BRD9,Thyroid,own_anchor,ACH-000174,3,19,287
+353,BRD9,Thyroid,own_partner,ACH-000174,3,19,287
+354,BRD9,Thyroid,joint_anchor,ACH-000174,3,19,287
+355,BRD9,Thyroid,joint_partner,ACH-000174,3,19,287
+356,BRD9,Myeloid,own_anchor,ACH-000386,2,21,274
+357,BRD9,Myeloid,own_partner,ACH-000386,2,21,274
+358,BRD9,Myeloid,joint_anchor,ACH-000386,2,21,274
+359,BRD9,Myeloid,joint_partner,ACH-000386,2,21,274
+360,BRD9,Peripheral Nervous System,own_anchor,ACH-000149,3,21,126
+361,BRD9,Peripheral Nervous System,own_partner,ACH-000149,3,21,126
+362,BRD9,Peripheral Nervous System,joint_anchor,ACH-000149,3,21,126
+363,BRD9,Peripheral Nervous System,joint_partner,ACH-000149,3,21,126
+364,BRD9,Cervix,own_anchor,ACH-001525,2,23,297
+365,BRD9,Cervix,own_partner,ACH-001525,2,23,297
+366,BRD9,Cervix,joint_anchor,ACH-001525,2,23,297
+367,BRD9,Cervix,joint_partner,ACH-001525,2,23,297
+368,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-001373,2,23,70
+369,BRD9,Ovary/Fallopian Tube,own_partner,ACH-001373,2,23,70
+370,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-001373,2,23,70
+371,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-001373,2,23,70
+372,BRD9,Skin,own_anchor,ACH-000425,2,23,252
+373,BRD9,Skin,own_partner,ACH-000425,2,23,252
+374,BRD9,Skin,joint_anchor,ACH-000425,2,23,252
+375,BRD9,Skin,joint_partner,ACH-000425,2,23,252
+376,BRD9,Pancreas,own_anchor,ACH-000535,2,24,666
+377,BRD9,Pancreas,own_partner,ACH-000535,2,24,666
+378,BRD9,Pancreas,joint_anchor,ACH-000535,2,24,666
+379,BRD9,Pancreas,joint_partner,ACH-000535,2,24,666
+380,BRD9,Soft Tissue,own_anchor,ACH-000100,3,24,98
+381,BRD9,Soft Tissue,own_partner,ACH-000100,3,24,98
+382,BRD9,Soft Tissue,joint_anchor,ACH-000100,3,24,98
+383,BRD9,Soft Tissue,joint_partner,ACH-000100,3,24,98
+384,PHF10,Pleura,own_anchor,ACH-000569,2,25,764
+385,PHF10,Pleura,own_partner,ACH-000569,2,25,764
+386,PHF10,Pleura,joint_anchor,ACH-000569,2,25,764
+387,PHF10,Pleura,joint_partner,ACH-000569,2,25,764
+388,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000973,3,26,243
+389,BRD9,Bladder/Urinary Tract,own_partner,ACH-000973,3,26,243
+390,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000973,3,26,243
+391,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000973,3,26,243
+392,BRD9,Liver,own_anchor,ACH-000848,2,26,687
+393,BRD9,Liver,own_partner,ACH-000848,2,26,687
+394,BRD9,Liver,joint_anchor,ACH-000848,2,26,687
+395,BRD9,Liver,joint_partner,ACH-000848,2,26,687
+396,BRD7,Soft Tissue,own_anchor,ACH-001702,3,29,1
+397,BRD7,Soft Tissue,own_partner,ACH-001702,3,29,1
+398,BRD7,Soft Tissue,joint_anchor,ACH-001702,3,29,1
+399,BRD7,Soft Tissue,joint_partner,ACH-001702,3,29,1
+400,BRD9,Cervix,own_anchor,ACH-001086,4,29,26
+401,BRD9,Cervix,own_partner,ACH-001086,4,29,26
+402,BRD9,Cervix,joint_anchor,ACH-001086,4,29,26
+403,BRD9,Cervix,joint_partner,ACH-001086,4,29,26
+404,BRD9,Skin,own_anchor,ACH-000827,2,30,286
+405,BRD9,Skin,own_partner,ACH-000827,2,30,286
+406,BRD9,Skin,joint_anchor,ACH-000827,2,30,286
+407,BRD9,Skin,joint_partner,ACH-000827,2,30,286
+408,PHF10,Pleura,own_anchor,ACH-000335,2,34,814
+409,PHF10,Pleura,own_partner,ACH-000335,2,34,814
+410,PHF10,Pleura,joint_anchor,ACH-000335,2,34,814
+411,PHF10,Pleura,joint_partner,ACH-000335,2,34,814
+412,BRD7,Pleura,own_anchor,ACH-000092,3,36,7
+413,BRD7,Pleura,own_partner,ACH-000092,3,36,7
+414,BRD7,Pleura,joint_anchor,ACH-000092,3,36,7
+415,BRD7,Pleura,joint_partner,ACH-000092,3,36,7
+416,BRD9,Kidney,own_anchor,ACH-000250,4,38,126
+417,BRD9,Kidney,own_partner,ACH-000250,4,38,126
+418,BRD9,Kidney,joint_anchor,ACH-000250,4,38,126
+419,BRD9,Kidney,joint_partner,ACH-000250,4,38,126
+420,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000720,4,39,53
+421,BRD9,Bladder/Urinary Tract,own_partner,ACH-000720,4,39,53
+422,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000720,4,39,53
+423,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000720,4,39,53
+424,BRD9,Cervix,own_anchor,ACH-001525,3,39,94
+425,BRD9,Cervix,own_partner,ACH-001525,3,39,94
+426,BRD9,Cervix,joint_anchor,ACH-001525,3,39,94
+427,BRD9,Cervix,joint_partner,ACH-001525,3,39,94
+428,PHF10,Pleura,own_anchor,ACH-000335,3,42,244
+429,PHF10,Pleura,own_partner,ACH-000335,3,42,244
+430,PHF10,Pleura,joint_anchor,ACH-000335,3,42,244
+431,PHF10,Pleura,joint_partner,ACH-000335,3,42,244
+432,BRD9,Head and Neck,own_anchor,ACH-000207,2,43,41
+433,BRD9,Head and Neck,own_partner,ACH-000207,2,43,41
+434,BRD9,Head and Neck,joint_anchor,ACH-000207,2,43,41
+435,BRD9,Head and Neck,joint_partner,ACH-000207,2,43,41
+436,BRD9,Cervix,own_anchor,ACH-000556,2,44,268
+437,BRD9,Cervix,own_partner,ACH-000556,2,44,268
+438,BRD9,Cervix,joint_anchor,ACH-000556,2,44,268
+439,BRD9,Cervix,joint_partner,ACH-000556,2,44,268
+440,BRD9,Myeloid,own_anchor,ACH-000386,3,47,82
+441,BRD9,Myeloid,own_partner,ACH-000386,3,47,82
+442,BRD9,Myeloid,joint_anchor,ACH-000386,3,47,82
+443,BRD9,Myeloid,joint_partner,ACH-000386,3,47,82
+444,BRD9,Pancreas,own_anchor,ACH-000535,4,47,61
+445,BRD9,Pancreas,own_partner,ACH-000535,4,47,61
+446,BRD9,Pancreas,joint_anchor,ACH-000535,4,47,61
+447,BRD9,Pancreas,joint_partner,ACH-000535,4,47,61
+448,BRD9,Uterus,own_anchor,ACH-000879,2,47,243
+449,BRD9,Uterus,own_partner,ACH-000879,2,47,243
+450,BRD9,Uterus,joint_anchor,ACH-000879,2,47,243
+451,BRD9,Uterus,joint_partner,ACH-000879,2,47,243
+452,BRD9,Peripheral Nervous System,own_anchor,ACH-001674,3,48,92
+453,BRD9,Peripheral Nervous System,own_partner,ACH-001674,3,48,92
+454,BRD9,Peripheral Nervous System,joint_anchor,ACH-001674,3,48,92
+455,BRD9,Peripheral Nervous System,joint_partner,ACH-001674,3,48,92
+456,BRD9,Prostate,own_anchor,ACH-000979,4,48,95
+457,BRD9,Prostate,own_partner,ACH-000979,4,48,95
+458,BRD9,Prostate,joint_anchor,ACH-000979,4,48,95
+459,BRD9,Prostate,joint_partner,ACH-000979,4,48,95
+460,BRD9,Soft Tissue,own_anchor,ACH-000145,2,48,240
+461,BRD9,Soft Tissue,own_partner,ACH-000145,2,48,240
+462,BRD9,Soft Tissue,joint_anchor,ACH-000145,2,48,240
+463,BRD9,Soft Tissue,joint_partner,ACH-000145,2,48,240
+464,BRD9,Thyroid,own_anchor,ACH-000191,4,48,63
+465,BRD9,Thyroid,own_partner,ACH-000191,4,48,63
+466,BRD9,Thyroid,joint_anchor,ACH-000191,4,48,63
+467,BRD9,Thyroid,joint_partner,ACH-000191,4,48,63
+468,BRD9,Thyroid,own_anchor,ACH-000191,3,50,254
+469,BRD9,Thyroid,own_partner,ACH-000191,3,50,254
+470,BRD9,Thyroid,joint_anchor,ACH-000191,3,50,254
+471,BRD9,Thyroid,joint_partner,ACH-000191,3,50,254
+472,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000720,3,53,231
+473,BRD9,Bladder/Urinary Tract,own_partner,ACH-000720,3,53,231
+474,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000720,3,53,231
+475,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000720,3,53,231
+476,PHF10,Pleura,own_anchor,ACH-000569,4,55,46
+477,PHF10,Pleura,own_partner,ACH-000569,4,55,46
+478,PHF10,Pleura,joint_anchor,ACH-000569,4,55,46
+479,PHF10,Pleura,joint_partner,ACH-000569,4,55,46
+480,PHF10,Prostate,own_anchor,ACH-000977,4,58,3
+481,PHF10,Prostate,own_partner,ACH-000977,4,58,3
+482,PHF10,Prostate,joint_anchor,ACH-000977,4,58,3
+483,PHF10,Prostate,joint_partner,ACH-000977,4,58,3
+484,BRD9,Skin,own_anchor,ACH-001704,2,58,253
+485,BRD9,Skin,own_partner,ACH-001704,2,58,253
+486,BRD9,Skin,joint_anchor,ACH-001704,2,58,253
+487,BRD9,Skin,joint_partner,ACH-001704,2,58,253
+488,BRD9,Bone,own_anchor,ACH-002067,2,61,259
+489,BRD9,Bone,own_partner,ACH-002067,2,61,259
+490,BRD9,Bone,joint_anchor,ACH-002067,2,61,259
+491,BRD9,Bone,joint_partner,ACH-002067,2,61,259
+492,BRD9,Myeloid,own_anchor,ACH-000294,3,63,90
+493,BRD9,Myeloid,own_partner,ACH-000294,3,63,90
+494,BRD9,Myeloid,joint_anchor,ACH-000294,3,63,90
+495,BRD9,Myeloid,joint_partner,ACH-000294,3,63,90
+496,BRD9,Pancreas,own_anchor,ACH-000023,3,64,215
+497,BRD9,Pancreas,own_partner,ACH-000023,3,64,215
+498,BRD9,Pancreas,joint_anchor,ACH-000023,3,64,215
+499,BRD9,Pancreas,joint_partner,ACH-000023,3,64,215
+500,BRD9,Cervix,own_anchor,ACH-000556,3,65,99
+501,BRD9,Cervix,own_partner,ACH-000556,3,65,99
+502,BRD9,Cervix,joint_anchor,ACH-000556,3,65,99
+503,BRD9,Cervix,joint_partner,ACH-000556,3,65,99
+504,BRD9,Uterus,own_anchor,ACH-000879,3,69,106
+505,BRD9,Uterus,own_partner,ACH-000879,3,69,106
+506,BRD9,Uterus,joint_anchor,ACH-000879,3,69,106
+507,BRD9,Uterus,joint_partner,ACH-000879,3,69,106
+508,BRD9,Cervix,own_anchor,ACH-001086,3,74,105
+509,BRD9,Cervix,own_partner,ACH-001086,3,74,105
+510,BRD9,Cervix,joint_anchor,ACH-001086,3,74,105
+511,BRD9,Cervix,joint_partner,ACH-001086,3,74,105
+512,BRD9,Liver,own_anchor,ACH-000577,3,75,269
+513,BRD9,Liver,own_partner,ACH-000577,3,75,269
+514,BRD9,Liver,joint_anchor,ACH-000577,3,75,269
+515,BRD9,Liver,joint_partner,ACH-000577,3,75,269
+516,BRD9,Peripheral Nervous System,own_anchor,ACH-001674,2,78,258
+517,BRD9,Peripheral Nervous System,own_partner,ACH-001674,2,78,258
+518,BRD9,Peripheral Nervous System,joint_anchor,ACH-001674,2,78,258
+519,BRD9,Peripheral Nervous System,joint_partner,ACH-001674,2,78,258
+520,BRD9,Soft Tissue,own_anchor,ACH-000607,3,78,87
+521,BRD9,Soft Tissue,own_partner,ACH-000607,3,78,87
+522,BRD9,Soft Tissue,joint_anchor,ACH-000607,3,78,87
+523,BRD9,Soft Tissue,joint_partner,ACH-000607,3,78,87
+524,BRD9,Myeloid,own_anchor,ACH-000294,2,83,253
+525,BRD9,Myeloid,own_partner,ACH-000294,2,83,253
+526,BRD9,Myeloid,joint_anchor,ACH-000294,2,83,253
+527,BRD9,Myeloid,joint_partner,ACH-000294,2,83,253
+528,BRD9,Prostate,own_anchor,ACH-000979,3,87,537
+529,BRD9,Prostate,own_partner,ACH-000979,3,87,537
+530,BRD9,Prostate,joint_anchor,ACH-000979,3,87,537
+531,BRD9,Prostate,joint_partner,ACH-000979,3,87,537
+532,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000688,2,90,91
+533,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000688,2,90,91
+534,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000688,2,90,91
+535,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000688,2,90,91
+536,BRD9,Pleura,own_anchor,ACH-000335,4,92,101
+537,BRD9,Pleura,own_partner,ACH-000335,4,92,101
+538,BRD9,Pleura,joint_anchor,ACH-000335,4,92,101
+539,BRD9,Pleura,joint_partner,ACH-000335,4,92,101
+540,BRD9,Skin,own_anchor,ACH-000827,3,92,103
+541,BRD9,Skin,own_partner,ACH-000827,3,92,103
+542,BRD9,Skin,joint_anchor,ACH-000827,3,92,103
+543,BRD9,Skin,joint_partner,ACH-000827,3,92,103
+544,PHF10,Pleura,own_anchor,ACH-000569,3,96,286
+545,PHF10,Pleura,own_partner,ACH-000569,3,96,286
+546,PHF10,Pleura,joint_anchor,ACH-000569,3,96,286
+547,PHF10,Pleura,joint_partner,ACH-000569,3,96,286
+548,BRD9,Bone,own_anchor,ACH-000613,3,98,97
+549,BRD9,Bone,own_partner,ACH-000613,3,98,97
+550,BRD9,Bone,joint_anchor,ACH-000613,3,98,97
+551,BRD9,Bone,joint_partner,ACH-000613,3,98,97
+552,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000720,5,99,12
+553,BRD9,Bladder/Urinary Tract,own_partner,ACH-000720,5,99,12
+554,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000720,5,99,12
+555,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000720,5,99,12
+556,BRD9,Soft Tissue,own_anchor,ACH-000100,5,108,3
+557,BRD9,Soft Tissue,own_partner,ACH-000100,5,108,3
+558,BRD9,Soft Tissue,joint_anchor,ACH-000100,5,108,3
+559,BRD9,Soft Tissue,joint_partner,ACH-000100,5,108,3
+560,BRD9,Uterus,own_anchor,ACH-000864,2,109,241
+561,BRD9,Uterus,own_partner,ACH-000864,2,109,241
+562,BRD9,Uterus,joint_anchor,ACH-000864,2,109,241
+563,BRD9,Uterus,joint_partner,ACH-000864,2,109,241
+564,BRD9,Uterus,own_anchor,ACH-000879,4,110,29
+565,BRD9,Uterus,own_partner,ACH-000879,4,110,29
+566,BRD9,Uterus,joint_anchor,ACH-000879,4,110,29
+567,BRD9,Uterus,joint_partner,ACH-000879,4,110,29
+568,BRD9,Peripheral Nervous System,own_anchor,ACH-000227,2,115,255
+569,BRD9,Peripheral Nervous System,own_partner,ACH-000227,2,115,255
+570,BRD9,Peripheral Nervous System,joint_anchor,ACH-000227,2,115,255
+571,BRD9,Peripheral Nervous System,joint_partner,ACH-000227,2,115,255
+572,BRD9,Uterus,own_anchor,ACH-000864,5,118,6
+573,BRD9,Uterus,own_partner,ACH-000864,5,118,6
+574,BRD9,Uterus,joint_anchor,ACH-000864,5,118,6
+575,BRD9,Uterus,joint_partner,ACH-000864,5,118,6
+576,BRD9,Head and Neck,own_anchor,ACH-000254,2,121,26
+577,BRD9,Head and Neck,own_partner,ACH-000254,2,121,26
+578,BRD9,Head and Neck,joint_anchor,ACH-000254,2,121,26
+579,BRD9,Head and Neck,joint_partner,ACH-000254,2,121,26
+580,BRD9,Esophagus/Stomach,own_anchor,ACH-000383,4,122,3
+581,BRD9,Esophagus/Stomach,own_partner,ACH-000383,4,122,3
+582,BRD9,Esophagus/Stomach,joint_anchor,ACH-000383,4,122,3
+583,BRD9,Esophagus/Stomach,joint_partner,ACH-000383,4,122,3
+584,BRD9,CNS/Brain,own_anchor,ACH-000376,2,123,6
+585,BRD9,CNS/Brain,own_partner,ACH-000376,2,123,6
+586,BRD9,CNS/Brain,joint_anchor,ACH-000376,2,123,6
+587,BRD9,CNS/Brain,joint_partner,ACH-000376,2,123,6
+588,BRD9,Liver,own_anchor,ACH-000848,3,125,243
+589,BRD9,Liver,own_partner,ACH-000848,3,125,243
+590,BRD9,Liver,joint_anchor,ACH-000848,3,125,243
+591,BRD9,Liver,joint_partner,ACH-000848,3,125,243
+592,BRD9,Esophagus/Stomach,own_anchor,ACH-001368,2,128,32
+593,BRD9,Esophagus/Stomach,own_partner,ACH-001368,2,128,32
+594,BRD9,Esophagus/Stomach,joint_anchor,ACH-001368,2,128,32
+595,BRD9,Esophagus/Stomach,joint_partner,ACH-001368,2,128,32
+596,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000527,3,128,32
+597,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000527,3,128,32
+598,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000527,3,128,32
+599,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000527,3,128,32
+600,BRD7,Pleura,own_anchor,ACH-000092,2,131,12
+601,BRD7,Pleura,own_partner,ACH-000092,2,131,12
+602,BRD7,Pleura,joint_anchor,ACH-000092,2,131,12
+603,BRD7,Pleura,joint_partner,ACH-000092,2,131,12
+604,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000103,3,133,28
+605,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000103,3,133,28
+606,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000103,3,133,28
+607,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000103,3,133,28
+608,BRD9,Myeloid,own_anchor,ACH-000294,4,148,16
+609,BRD9,Myeloid,own_partner,ACH-000294,4,148,16
+610,BRD9,Myeloid,joint_anchor,ACH-000294,4,148,16
+611,BRD9,Myeloid,joint_partner,ACH-000294,4,148,16
+612,BRD9,Myeloid,own_anchor,ACH-000551,4,150,21
+613,BRD9,Myeloid,own_partner,ACH-000551,4,150,21
+614,BRD9,Myeloid,joint_anchor,ACH-000551,4,150,21
+615,BRD9,Myeloid,joint_partner,ACH-000551,4,150,21
+616,BRD9,Uterus,own_anchor,ACH-000864,3,158,66
+617,BRD9,Uterus,own_partner,ACH-000864,3,158,66
+618,BRD9,Uterus,joint_anchor,ACH-000864,3,158,66
+619,BRD9,Uterus,joint_partner,ACH-000864,3,158,66
+620,BRD9,Bone,own_anchor,ACH-000613,4,165,28
+621,BRD9,Bone,own_partner,ACH-000613,4,165,28
+622,BRD9,Bone,joint_anchor,ACH-000613,4,165,28
+623,BRD9,Bone,joint_partner,ACH-000613,4,165,28
+624,BRD9,Thyroid,own_anchor,ACH-000174,4,166,56
+625,BRD9,Thyroid,own_partner,ACH-000174,4,166,56
+626,BRD9,Thyroid,joint_anchor,ACH-000174,4,166,56
+627,BRD9,Thyroid,joint_partner,ACH-000174,4,166,56
+628,BRD9,Head and Neck,own_anchor,ACH-001626,2,167,22
+629,BRD9,Head and Neck,own_partner,ACH-001626,2,167,22
+630,BRD9,Head and Neck,joint_anchor,ACH-001626,2,167,22
+631,BRD9,Head and Neck,joint_partner,ACH-001626,2,167,22
+632,BRD9,Esophagus/Stomach,own_anchor,ACH-000949,2,169,27
+633,BRD9,Esophagus/Stomach,own_partner,ACH-000949,2,169,27
+634,BRD9,Esophagus/Stomach,joint_anchor,ACH-000949,2,169,27
+635,BRD9,Esophagus/Stomach,joint_partner,ACH-000949,2,169,27
+636,BRD9,Liver,own_anchor,ACH-000848,4,169,67
+637,BRD9,Liver,own_partner,ACH-000848,4,169,67
+638,BRD9,Liver,joint_anchor,ACH-000848,4,169,67
+639,BRD9,Liver,joint_partner,ACH-000848,4,169,67
+640,BRD9,Bone,own_anchor,ACH-000087,3,173,84
+641,BRD9,Bone,own_partner,ACH-000087,3,173,84
+642,BRD9,Bone,joint_anchor,ACH-000087,3,173,84
+643,BRD9,Bone,joint_partner,ACH-000087,3,173,84
+644,BRD9,Myeloid,own_anchor,ACH-000551,5,178,6
+645,BRD9,Myeloid,own_partner,ACH-000551,5,178,6
+646,BRD9,Myeloid,joint_anchor,ACH-000551,5,178,6
+647,BRD9,Myeloid,joint_partner,ACH-000551,5,178,6
+648,PBRM1,Pleura,own_anchor,ACH-000569,2,191,1
+649,PBRM1,Pleura,own_partner,ACH-000569,2,191,1
+650,PBRM1,Pleura,joint_anchor,ACH-000569,2,191,1
+651,PBRM1,Pleura,joint_partner,ACH-000569,2,191,1
+652,BRD7,Pleura,own_anchor,ACH-000569,2,191,10
+653,BRD7,Pleura,own_partner,ACH-000569,2,191,10
+654,BRD7,Pleura,joint_anchor,ACH-000569,2,191,10
+655,BRD7,Pleura,joint_partner,ACH-000569,2,191,10
+656,BRD9,Head and Neck,own_anchor,ACH-000546,2,195,25
+657,BRD9,Head and Neck,own_partner,ACH-000546,2,195,25
+658,BRD9,Head and Neck,joint_anchor,ACH-000546,2,195,25
+659,BRD9,Head and Neck,joint_partner,ACH-000546,2,195,25
+660,BRD9,Peripheral Nervous System,own_anchor,ACH-000227,3,196,77
+661,BRD9,Peripheral Nervous System,own_partner,ACH-000227,3,196,77
+662,BRD9,Peripheral Nervous System,joint_anchor,ACH-000227,3,196,77
+663,BRD9,Peripheral Nervous System,joint_partner,ACH-000227,3,196,77
+664,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000103,2,208,73
+665,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000103,2,208,73
+666,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000103,2,208,73
+667,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000103,2,208,73
+668,BRD9,Esophagus/Stomach,own_anchor,ACH-000383,2,213,35
+669,BRD9,Esophagus/Stomach,own_partner,ACH-000383,2,213,35
+670,BRD9,Esophagus/Stomach,joint_anchor,ACH-000383,2,213,35
+671,BRD9,Esophagus/Stomach,joint_partner,ACH-000383,2,213,35
+672,BRD9,Uterus,own_anchor,ACH-000192,4,217,22
+673,BRD9,Uterus,own_partner,ACH-000192,4,217,22
+674,BRD9,Uterus,joint_anchor,ACH-000192,4,217,22
+675,BRD9,Uterus,joint_partner,ACH-000192,4,217,22
+676,PHF10,Prostate,own_anchor,ACH-001453,3,219,11
+677,PHF10,Prostate,own_partner,ACH-001453,3,219,11
+678,PHF10,Prostate,joint_anchor,ACH-001453,3,219,11
+679,PHF10,Prostate,joint_partner,ACH-001453,3,219,11
+680,BRD9,Skin,own_anchor,ACH-000827,5,220,6
+681,BRD9,Skin,own_partner,ACH-000827,5,220,6
+682,BRD9,Skin,joint_anchor,ACH-000827,5,220,6
+683,BRD9,Skin,joint_partner,ACH-000827,5,220,6
+684,BRD9,Head and Neck,own_anchor,ACH-000228,3,223,11
+685,BRD9,Head and Neck,own_partner,ACH-000228,3,223,11
+686,BRD9,Head and Neck,joint_anchor,ACH-000228,3,223,11
+687,BRD9,Head and Neck,joint_partner,ACH-000228,3,223,11
+688,BRD9,Myeloid,own_anchor,ACH-000386,4,226,22
+689,BRD9,Myeloid,own_partner,ACH-000386,4,226,22
+690,BRD9,Myeloid,joint_anchor,ACH-000386,4,226,22
+691,BRD9,Myeloid,joint_partner,ACH-000386,4,226,22
+692,BRD9,Soft Tissue,own_anchor,ACH-000100,4,226,20
+693,BRD9,Soft Tissue,own_partner,ACH-000100,4,226,20
+694,BRD9,Soft Tissue,joint_anchor,ACH-000100,4,226,20
+695,BRD9,Soft Tissue,joint_partner,ACH-000100,4,226,20
+696,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000527,2,229,101
+697,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000527,2,229,101
+698,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000527,2,229,101
+699,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000527,2,229,101
+700,BRD9,Bone,own_anchor,ACH-002067,3,231,82
+701,BRD9,Bone,own_partner,ACH-002067,3,231,82
+702,BRD9,Bone,joint_anchor,ACH-002067,3,231,82
+703,BRD9,Bone,joint_partner,ACH-002067,3,231,82
+704,BRD9,Peripheral Nervous System,own_anchor,ACH-001674,4,234,28
+705,BRD9,Peripheral Nervous System,own_partner,ACH-001674,4,234,28
+706,BRD9,Peripheral Nervous System,joint_anchor,ACH-001674,4,234,28
+707,BRD9,Peripheral Nervous System,joint_partner,ACH-001674,4,234,28
+708,PHF10,Pleura,own_anchor,ACH-000335,5,239,4
+709,PHF10,Pleura,own_partner,ACH-000335,5,239,4
+710,PHF10,Pleura,joint_anchor,ACH-000335,5,239,4
+711,PHF10,Pleura,joint_partner,ACH-000335,5,239,4
+712,BRD9,Pleura,own_anchor,ACH-000335,5,239,5
+713,BRD9,Pleura,own_partner,ACH-000335,5,239,5
+714,BRD9,Pleura,joint_anchor,ACH-000335,5,239,5
+715,BRD9,Pleura,joint_partner,ACH-000335,5,239,5
+716,BRD9,Skin,own_anchor,ACH-001704,4,246,26
+717,BRD9,Skin,own_partner,ACH-001704,4,246,26
+718,BRD9,Skin,joint_anchor,ACH-001704,4,246,26
+719,BRD9,Skin,joint_partner,ACH-001704,4,246,26
+720,BRD9,Liver,own_anchor,ACH-000577,4,256,53
+721,BRD9,Liver,own_partner,ACH-000577,4,256,53
+722,BRD9,Liver,joint_anchor,ACH-000577,4,256,53
+723,BRD9,Liver,joint_partner,ACH-000577,4,256,53
+724,BRD9,Head and Neck,own_anchor,ACH-000228,2,263,22
+725,BRD9,Head and Neck,own_partner,ACH-000228,2,263,22
+726,BRD9,Head and Neck,joint_anchor,ACH-000228,2,263,22
+727,BRD9,Head and Neck,joint_partner,ACH-000228,2,263,22
+728,BRD7,Pleura,own_anchor,ACH-000153,3,264,9
+729,BRD7,Pleura,own_partner,ACH-000153,3,264,9
+730,BRD7,Pleura,joint_anchor,ACH-000153,3,264,9
+731,BRD7,Pleura,joint_partner,ACH-000153,3,264,9
+732,BRD9,Head and Neck,own_anchor,ACH-000207,3,268,10
+733,BRD9,Head and Neck,own_partner,ACH-000207,3,268,10
+734,BRD9,Head and Neck,joint_anchor,ACH-000207,3,268,10
+735,BRD9,Head and Neck,joint_partner,ACH-000207,3,268,10
+736,PHF10,Prostate,own_anchor,ACH-000977,2,273,10
+737,PHF10,Prostate,own_partner,ACH-000977,2,273,10
+738,PHF10,Prostate,joint_anchor,ACH-000977,2,273,10
+739,PHF10,Prostate,joint_partner,ACH-000977,2,273,10
+740,BRD9,Pancreas,own_anchor,ACH-000023,4,276,56
+741,BRD9,Pancreas,own_partner,ACH-000023,4,276,56
+742,BRD9,Pancreas,joint_anchor,ACH-000023,4,276,56
+743,BRD9,Pancreas,joint_partner,ACH-000023,4,276,56
+744,BRD9,Thyroid,own_anchor,ACH-000174,5,293,14
+745,BRD9,Thyroid,own_partner,ACH-000174,5,293,14
+746,BRD9,Thyroid,joint_anchor,ACH-000174,5,293,14
+747,BRD9,Thyroid,joint_partner,ACH-000174,5,293,14
+748,BRD7,Pleura,own_anchor,ACH-000153,2,295,9
+749,BRD7,Pleura,own_partner,ACH-000153,2,295,9
+750,BRD7,Pleura,joint_anchor,ACH-000153,2,295,9
+751,BRD7,Pleura,joint_partner,ACH-000153,2,295,9
+752,BRD9,Soft Tissue,own_anchor,ACH-000145,4,296,29
+753,BRD9,Soft Tissue,own_partner,ACH-000145,4,296,29
+754,BRD9,Soft Tissue,joint_anchor,ACH-000145,4,296,29
+755,BRD9,Soft Tissue,joint_partner,ACH-000145,4,296,29
+756,BRD9,Skin,own_anchor,ACH-000425,3,315,78
+757,BRD9,Skin,own_partner,ACH-000425,3,315,78
+758,BRD9,Skin,joint_anchor,ACH-000425,3,315,78
+759,BRD9,Skin,joint_partner,ACH-000425,3,315,78
+760,BRD9,Uterus,own_anchor,ACH-000864,4,317,34
+761,BRD9,Uterus,own_partner,ACH-000864,4,317,34
+762,BRD9,Uterus,joint_anchor,ACH-000864,4,317,34
+763,BRD9,Uterus,joint_partner,ACH-000864,4,317,34
+764,BRD9,Bowel,own_anchor,ACH-000963,3,318,1
+765,BRD9,Bowel,own_partner,ACH-000963,3,318,1
+766,BRD9,Bowel,joint_anchor,ACH-000963,3,318,1
+767,BRD9,Bowel,joint_partner,ACH-000963,3,318,1
+768,BRD9,Esophagus/Stomach,own_anchor,ACH-000678,2,335,22
+769,BRD9,Esophagus/Stomach,own_partner,ACH-000678,2,335,22
+770,BRD9,Esophagus/Stomach,joint_anchor,ACH-000678,2,335,22
+771,BRD9,Esophagus/Stomach,joint_partner,ACH-000678,2,335,22
+772,BRD9,Skin,own_anchor,ACH-001704,3,337,79
+773,BRD9,Skin,own_partner,ACH-001704,3,337,79
+774,BRD9,Skin,joint_anchor,ACH-001704,3,337,79
+775,BRD9,Skin,joint_partner,ACH-001704,3,337,79
+776,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-001373,3,352,29
+777,BRD9,Ovary/Fallopian Tube,own_partner,ACH-001373,3,352,29
+778,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-001373,3,352,29
+779,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-001373,3,352,29
+780,BRD9,Cervix,own_anchor,ACH-000556,4,357,24
+781,BRD9,Cervix,own_partner,ACH-000556,4,357,24
+782,BRD9,Cervix,joint_anchor,ACH-000556,4,357,24
+783,BRD9,Cervix,joint_partner,ACH-000556,4,357,24
+784,BRD9,Soft Tissue,own_anchor,ACH-000145,3,366,100
+785,BRD9,Soft Tissue,own_partner,ACH-000145,3,366,100
+786,BRD9,Soft Tissue,joint_anchor,ACH-000145,3,366,100
+787,BRD9,Soft Tissue,joint_partner,ACH-000145,3,366,100
+788,BRD9,Esophagus/Stomach,own_anchor,ACH-000383,3,388,6
+789,BRD9,Esophagus/Stomach,own_partner,ACH-000383,3,388,6
+790,BRD9,Esophagus/Stomach,joint_anchor,ACH-000383,3,388,6
+791,BRD9,Esophagus/Stomach,joint_partner,ACH-000383,3,388,6
+792,BRD9,Myeloid,own_anchor,ACH-000386,5,408,7
+793,BRD9,Myeloid,own_partner,ACH-000386,5,408,7
+794,BRD9,Myeloid,joint_anchor,ACH-000386,5,408,7
+795,BRD9,Myeloid,joint_partner,ACH-000386,5,408,7
+796,BRD9,Esophagus/Stomach,own_anchor,ACH-000678,4,409,3
+797,BRD9,Esophagus/Stomach,own_partner,ACH-000678,4,409,3
+798,BRD9,Esophagus/Stomach,joint_anchor,ACH-000678,4,409,3
+799,BRD9,Esophagus/Stomach,joint_partner,ACH-000678,4,409,3
+800,BRD9,Peripheral Nervous System,own_anchor,ACH-000149,4,412,10
+801,BRD9,Peripheral Nervous System,own_partner,ACH-000149,4,412,10
+802,BRD9,Peripheral Nervous System,joint_anchor,ACH-000149,4,412,10
+803,BRD9,Peripheral Nervous System,joint_partner,ACH-000149,4,412,10
+804,PHF10,Prostate,own_anchor,ACH-000177,3,491,5
+805,PHF10,Prostate,own_partner,ACH-000177,3,491,5
+806,PHF10,Prostate,joint_anchor,ACH-000177,3,491,5
+807,PHF10,Prostate,joint_partner,ACH-000177,3,491,5
+808,BRD9,Soft Tissue,own_anchor,ACH-000607,4,495,24
+809,BRD9,Soft Tissue,own_partner,ACH-000607,4,495,24
+810,BRD9,Soft Tissue,joint_anchor,ACH-000607,4,495,24
+811,BRD9,Soft Tissue,joint_partner,ACH-000607,4,495,24
+812,BRD9,Skin,own_anchor,ACH-000827,6,540,1
+813,BRD9,Skin,own_partner,ACH-000827,6,540,1
+814,BRD9,Skin,joint_anchor,ACH-000827,6,540,1
+815,BRD9,Skin,joint_partner,ACH-000827,6,540,1
+816,BRD9,CNS/Brain,own_anchor,ACH-000756,2,564,1
+817,BRD9,CNS/Brain,own_partner,ACH-000756,2,564,1
+818,BRD9,CNS/Brain,joint_anchor,ACH-000756,2,564,1
+819,BRD9,CNS/Brain,joint_partner,ACH-000756,2,564,1
+820,BRD7,Pleura,own_anchor,ACH-000335,4,605,3
+821,BRD7,Pleura,own_partner,ACH-000335,4,605,3
+822,BRD7,Pleura,joint_anchor,ACH-000335,4,605,3
+823,BRD7,Pleura,joint_partner,ACH-000335,4,605,3
+824,PHF10,Pleura,own_anchor,ACH-000335,4,605,63
+825,PHF10,Pleura,own_partner,ACH-000335,4,605,63
+826,PHF10,Pleura,joint_anchor,ACH-000335,4,605,63
+827,PHF10,Pleura,joint_partner,ACH-000335,4,605,63
+828,BRD9,CNS/Brain,own_anchor,ACH-000609,2,620,5
+829,BRD9,CNS/Brain,own_partner,ACH-000609,2,620,5
+830,BRD9,CNS/Brain,joint_anchor,ACH-000609,2,620,5
+831,BRD9,CNS/Brain,joint_partner,ACH-000609,2,620,5
+832,BRD9,Liver,own_anchor,ACH-000848,5,622,11
+833,BRD9,Liver,own_partner,ACH-000848,5,622,11
+834,BRD9,Liver,joint_anchor,ACH-000848,5,622,11
+835,BRD9,Liver,joint_partner,ACH-000848,5,622,11
+836,BRD7,Pleura,own_anchor,ACH-000648,4,624,2
+837,BRD7,Pleura,own_partner,ACH-000648,4,624,2
+838,BRD7,Pleura,joint_anchor,ACH-000648,4,624,2
+839,BRD7,Pleura,joint_partner,ACH-000648,4,624,2
+840,PHF10,Prostate,own_anchor,ACH-001453,4,685,5
+841,PHF10,Prostate,own_partner,ACH-001453,4,685,5
+842,PHF10,Prostate,joint_anchor,ACH-001453,4,685,5
+843,PHF10,Prostate,joint_partner,ACH-001453,4,685,5
+844,PHF10,Prostate,own_anchor,ACH-001453,2,686,11
+845,PHF10,Prostate,own_partner,ACH-001453,2,686,11
+846,PHF10,Prostate,joint_anchor,ACH-001453,2,686,11
+847,PHF10,Prostate,joint_partner,ACH-001453,2,686,11
+848,BRD9,Myeloid,own_anchor,ACH-000551,3,690,79
+849,BRD9,Myeloid,own_partner,ACH-000551,3,690,79
+850,BRD9,Myeloid,joint_anchor,ACH-000551,3,690,79
+851,BRD9,Myeloid,joint_partner,ACH-000551,3,690,79
+852,SMARCC2,Prostate,own_anchor,ACH-000977,3,710,1
+853,SMARCC2,Prostate,own_partner,ACH-000977,3,710,1
+854,SMARCC2,Prostate,joint_anchor,ACH-000977,3,710,1
+855,SMARCC2,Prostate,joint_partner,ACH-000977,3,710,1
+856,SMARCA4,Prostate,own_anchor,ACH-000977,3,710,1
+857,SMARCA4,Prostate,own_partner,ACH-000977,3,710,1
+858,SMARCA4,Prostate,joint_anchor,ACH-000977,3,710,1
+859,SMARCA4,Prostate,joint_partner,ACH-000977,3,710,1
+860,SMARCD1,Prostate,own_anchor,ACH-000977,3,710,1
+861,SMARCD1,Prostate,own_partner,ACH-000977,3,710,1
+862,SMARCD1,Prostate,joint_anchor,ACH-000977,3,710,1
+863,SMARCD1,Prostate,joint_partner,ACH-000977,3,710,1
+864,SMARCB1,Prostate,own_anchor,ACH-000977,3,710,1
+865,SMARCB1,Prostate,own_partner,ACH-000977,3,710,1
+866,SMARCB1,Prostate,joint_anchor,ACH-000977,3,710,1
+867,SMARCB1,Prostate,joint_partner,ACH-000977,3,710,1
+868,SMARCE1,Prostate,own_anchor,ACH-000977,3,710,1
+869,SMARCE1,Prostate,own_partner,ACH-000977,3,710,1
+870,SMARCE1,Prostate,joint_anchor,ACH-000977,3,710,1
+871,SMARCE1,Prostate,joint_partner,ACH-000977,3,710,1
+872,DPF2,Prostate,own_anchor,ACH-000977,3,710,1
+873,DPF2,Prostate,own_partner,ACH-000977,3,710,1
+874,DPF2,Prostate,joint_anchor,ACH-000977,3,710,1
+875,DPF2,Prostate,joint_partner,ACH-000977,3,710,1
+876,ACTL6A,Prostate,own_anchor,ACH-000977,3,710,1
+877,ACTL6A,Prostate,own_partner,ACH-000977,3,710,1
+878,ACTL6A,Prostate,joint_anchor,ACH-000977,3,710,1
+879,ACTL6A,Prostate,joint_partner,ACH-000977,3,710,1
+880,PBRM1,Prostate,own_anchor,ACH-000977,3,710,1
+881,PBRM1,Prostate,own_partner,ACH-000977,3,710,1
+882,PBRM1,Prostate,joint_anchor,ACH-000977,3,710,1
+883,PBRM1,Prostate,joint_partner,ACH-000977,3,710,1
+884,ARID2,Prostate,own_anchor,ACH-000977,3,710,1
+885,ARID2,Prostate,own_partner,ACH-000977,3,710,1
+886,ARID2,Prostate,joint_anchor,ACH-000977,3,710,1
+887,ARID2,Prostate,joint_partner,ACH-000977,3,710,1
+888,BRD7,Prostate,own_anchor,ACH-000977,3,710,1
+889,BRD7,Prostate,own_partner,ACH-000977,3,710,1
+890,BRD7,Prostate,joint_anchor,ACH-000977,3,710,1
+891,BRD7,Prostate,joint_partner,ACH-000977,3,710,1
+892,PHF10,Prostate,own_anchor,ACH-000977,3,710,6
+893,PHF10,Prostate,own_partner,ACH-000977,3,710,6
+894,PHF10,Prostate,joint_anchor,ACH-000977,3,710,6
+895,PHF10,Prostate,joint_partner,ACH-000977,3,710,6
+896,PHF10,Pleura,own_anchor,ACH-000569,5,738,5
+897,PHF10,Pleura,own_partner,ACH-000569,5,738,5
+898,PHF10,Pleura,joint_anchor,ACH-000569,5,738,5
+899,PHF10,Pleura,joint_partner,ACH-000569,5,738,5
+900,PHF10,Kidney,own_anchor,ACH-000649,3,759,1
+901,PHF10,Kidney,own_partner,ACH-000649,3,759,1
+902,PHF10,Kidney,joint_anchor,ACH-000649,3,759,1
+903,PHF10,Kidney,joint_partner,ACH-000649,3,759,1
+904,BRD9,Peripheral Nervous System,own_anchor,ACH-000149,5,764,5
+905,BRD9,Peripheral Nervous System,own_partner,ACH-000149,5,764,5
+906,BRD9,Peripheral Nervous System,joint_anchor,ACH-000149,5,764,5
+907,BRD9,Peripheral Nervous System,joint_partner,ACH-000149,5,764,5
+908,PHF10,Prostate,own_anchor,ACH-000115,4,780,7
+909,PHF10,Prostate,own_partner,ACH-000115,4,780,7
+910,PHF10,Prostate,joint_anchor,ACH-000115,4,780,7
+911,PHF10,Prostate,joint_partner,ACH-000115,4,780,7
+912,BRD9,Peripheral Nervous System,own_anchor,ACH-000227,5,782,8
+913,BRD9,Peripheral Nervous System,own_partner,ACH-000227,5,782,8
+914,BRD9,Peripheral Nervous System,joint_anchor,ACH-000227,5,782,8
+915,BRD9,Peripheral Nervous System,joint_partner,ACH-000227,5,782,8
+916,BRD9,Skin,own_anchor,ACH-000425,4,798,23
+917,BRD9,Skin,own_partner,ACH-000425,4,798,23
+918,BRD9,Skin,joint_anchor,ACH-000425,4,798,23
+919,BRD9,Skin,joint_partner,ACH-000425,4,798,23
+920,BRD9,Cervix,own_anchor,ACH-001525,4,801,37
+921,BRD9,Cervix,own_partner,ACH-001525,4,801,37
+922,BRD9,Cervix,joint_anchor,ACH-001525,4,801,37
+923,BRD9,Cervix,joint_partner,ACH-001525,4,801,37
+924,BRD9,Bone,own_anchor,ACH-002067,7,829,1
+925,BRD9,Bone,own_partner,ACH-002067,7,829,1
+926,BRD9,Bone,joint_anchor,ACH-002067,7,829,1
+927,BRD9,Bone,joint_partner,ACH-002067,7,829,1
+928,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-001373,4,830,4
+929,BRD9,Ovary/Fallopian Tube,own_partner,ACH-001373,4,830,4
+930,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-001373,4,830,4
+931,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-001373,4,830,4
+932,BRD9,Esophagus/Stomach,own_anchor,ACH-000679,3,849,19
+933,BRD9,Esophagus/Stomach,own_partner,ACH-000679,3,849,19
+934,BRD9,Esophagus/Stomach,joint_anchor,ACH-000679,3,849,19
+935,BRD9,Esophagus/Stomach,joint_partner,ACH-000679,3,849,19
+936,PHF10,Prostate,own_anchor,ACH-000177,2,870,7
+937,PHF10,Prostate,own_partner,ACH-000177,2,870,7
+938,PHF10,Prostate,joint_anchor,ACH-000177,2,870,7
+939,PHF10,Prostate,joint_partner,ACH-000177,2,870,7
+940,BRD9,Prostate,own_anchor,ACH-000979,5,870,7
+941,BRD9,Prostate,own_partner,ACH-000979,5,870,7
+942,BRD9,Prostate,joint_anchor,ACH-000979,5,870,7
+943,BRD9,Prostate,joint_partner,ACH-000979,5,870,7
+944,BRD9,Pancreas,own_anchor,ACH-000023,6,899,3
+945,BRD9,Pancreas,own_partner,ACH-000023,6,899,3
+946,BRD9,Pancreas,joint_anchor,ACH-000023,6,899,3
+947,BRD9,Pancreas,joint_partner,ACH-000023,6,899,3
+948,BRD9,Uterus,own_anchor,ACH-000192,5,918,4
+949,BRD9,Uterus,own_partner,ACH-000192,5,918,4
+950,BRD9,Uterus,joint_anchor,ACH-000192,5,918,4
+951,BRD9,Uterus,joint_partner,ACH-000192,5,918,4
+952,BRD9,Skin,own_anchor,ACH-000827,4,937,15
+953,BRD9,Skin,own_partner,ACH-000827,4,937,15
+954,BRD9,Skin,joint_anchor,ACH-000827,4,937,15
+955,BRD9,Skin,joint_partner,ACH-000827,4,937,15
+956,BRD9,Head and Neck,own_anchor,ACH-001626,4,991,5
+957,BRD9,Head and Neck,own_partner,ACH-001626,4,991,5
+958,BRD9,Head and Neck,joint_anchor,ACH-001626,4,991,5
+959,BRD9,Head and Neck,joint_partner,ACH-001626,4,991,5
+960,BRD9,Myeloid,own_anchor,ACH-000294,5,1027,4
+961,BRD9,Myeloid,own_partner,ACH-000294,5,1027,4
+962,BRD9,Myeloid,joint_anchor,ACH-000294,5,1027,4
+963,BRD9,Myeloid,joint_partner,ACH-000294,5,1027,4
+964,BRD9,CNS/Brain,own_anchor,ACH-000464,2,1029,4
+965,BRD9,CNS/Brain,own_partner,ACH-000464,2,1029,4
+966,BRD9,CNS/Brain,joint_anchor,ACH-000464,2,1029,4
+967,BRD9,CNS/Brain,joint_partner,ACH-000464,2,1029,4
+968,BRD9,Cervix,own_anchor,ACH-000556,5,1040,3
+969,BRD9,Cervix,own_partner,ACH-000556,5,1040,3
+970,BRD9,Cervix,joint_anchor,ACH-000556,5,1040,3
+971,BRD9,Cervix,joint_partner,ACH-000556,5,1040,3
+972,BRD9,Skin,own_anchor,ACH-000425,5,1062,6
+973,BRD9,Skin,own_partner,ACH-000425,5,1062,6
+974,BRD9,Skin,joint_anchor,ACH-000425,5,1062,6
+975,BRD9,Skin,joint_partner,ACH-000425,5,1062,6
+976,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000688,4,1076,3
+977,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000688,4,1076,3
+978,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000688,4,1076,3
+979,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000688,4,1076,3
+980,PHF10,Prostate,own_anchor,ACH-001453,5,1110,1
+981,PHF10,Prostate,own_partner,ACH-001453,5,1110,1
+982,PHF10,Prostate,joint_anchor,ACH-001453,5,1110,1
+983,PHF10,Prostate,joint_partner,ACH-001453,5,1110,1
+984,BRD9,Thyroid,own_anchor,ACH-000191,5,1136,12
+985,BRD9,Thyroid,own_partner,ACH-000191,5,1136,12
+986,BRD9,Thyroid,joint_anchor,ACH-000191,5,1136,12
+987,BRD9,Thyroid,joint_partner,ACH-000191,5,1136,12
+988,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000103,4,1143,8
+989,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000103,4,1143,8
+990,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000103,4,1143,8
+991,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000103,4,1143,8
+992,BRD9,Peripheral Nervous System,own_anchor,ACH-000227,4,1157,21
+993,BRD9,Peripheral Nervous System,own_partner,ACH-000227,4,1157,21
+994,BRD9,Peripheral Nervous System,joint_anchor,ACH-000227,4,1157,21
+995,BRD9,Peripheral Nervous System,joint_partner,ACH-000227,4,1157,21
+996,BRD9,CNS/Brain,own_anchor,ACH-000389,2,1158,3
+997,BRD9,CNS/Brain,own_partner,ACH-000389,2,1158,3
+998,BRD9,CNS/Brain,joint_anchor,ACH-000389,2,1158,3
+999,BRD9,CNS/Brain,joint_partner,ACH-000389,2,1158,3
+1000,BRD9,Kidney,own_anchor,ACH-000250,5,1220,16
+1001,BRD9,Kidney,own_partner,ACH-000250,5,1220,16
+1002,BRD9,Kidney,joint_anchor,ACH-000250,5,1220,16
+1003,BRD9,Kidney,joint_partner,ACH-000250,5,1220,16
+1004,BRD9,Cervix,own_anchor,ACH-001525,5,1331,5
+1005,BRD9,Cervix,own_partner,ACH-001525,5,1331,5
+1006,BRD9,Cervix,joint_anchor,ACH-001525,5,1331,5
+1007,BRD9,Cervix,joint_partner,ACH-001525,5,1331,5
+1008,BRD9,Esophagus/Stomach,own_anchor,ACH-000678,3,1335,11
+1009,BRD9,Esophagus/Stomach,own_partner,ACH-000678,3,1335,11
+1010,BRD9,Esophagus/Stomach,joint_anchor,ACH-000678,3,1335,11
+1011,BRD9,Esophagus/Stomach,joint_partner,ACH-000678,3,1335,11
+1012,BRD9,Esophagus/Stomach,own_anchor,ACH-000679,5,1339,1
+1013,BRD9,Esophagus/Stomach,own_partner,ACH-000679,5,1339,1
+1014,BRD9,Esophagus/Stomach,joint_anchor,ACH-000679,5,1339,1
+1015,BRD9,Esophagus/Stomach,joint_partner,ACH-000679,5,1339,1
+1016,BRD9,CNS/Brain,own_anchor,ACH-000622,2,1345,2
+1017,BRD9,CNS/Brain,own_partner,ACH-000622,2,1345,2
+1018,BRD9,CNS/Brain,joint_anchor,ACH-000622,2,1345,2
+1019,BRD9,CNS/Brain,joint_partner,ACH-000622,2,1345,2
+1020,BRD7,Pleura,own_anchor,ACH-000569,3,1362,8
+1021,BRD7,Pleura,own_partner,ACH-000569,3,1362,8
+1022,BRD7,Pleura,joint_anchor,ACH-000569,3,1362,8
+1023,BRD7,Pleura,joint_partner,ACH-000569,3,1362,8
+1024,BRD9,Bone,own_anchor,ACH-000087,5,1382,3
+1025,BRD9,Bone,own_partner,ACH-000087,5,1382,3
+1026,BRD9,Bone,joint_anchor,ACH-000087,5,1382,3
+1027,BRD9,Bone,joint_partner,ACH-000087,5,1382,3
+1028,BRD7,Pleura,own_anchor,ACH-000648,2,1383,7
+1029,BRD7,Pleura,own_partner,ACH-000648,2,1383,7
+1030,BRD7,Pleura,joint_anchor,ACH-000648,2,1383,7
+1031,BRD7,Pleura,joint_partner,ACH-000648,2,1383,7
+1032,BRD9,Uterus,own_anchor,ACH-000879,5,1509,4
+1033,BRD9,Uterus,own_partner,ACH-000879,5,1509,4
+1034,BRD9,Uterus,joint_anchor,ACH-000879,5,1509,4
+1035,BRD9,Uterus,joint_partner,ACH-000879,5,1509,4
+1036,BRD9,Esophagus/Stomach,own_anchor,ACH-000678,5,1528,2
+1037,BRD9,Esophagus/Stomach,own_partner,ACH-000678,5,1528,2
+1038,BRD9,Esophagus/Stomach,joint_anchor,ACH-000678,5,1528,2
+1039,BRD9,Esophagus/Stomach,joint_partner,ACH-000678,5,1528,2
+1040,BRD9,Soft Tissue,own_anchor,ACH-000145,5,1548,4
+1041,BRD9,Soft Tissue,own_partner,ACH-000145,5,1548,4
+1042,BRD9,Soft Tissue,joint_anchor,ACH-000145,5,1548,4
+1043,BRD9,Soft Tissue,joint_partner,ACH-000145,5,1548,4
+1044,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000973,5,1714,8
+1045,BRD9,Bladder/Urinary Tract,own_partner,ACH-000973,5,1714,8
+1046,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000973,5,1714,8
+1047,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000973,5,1714,8
+1048,BRD9,Pancreas,own_anchor,ACH-000535,6,1751,2
+1049,BRD9,Pancreas,own_partner,ACH-000535,6,1751,2
+1050,BRD9,Pancreas,joint_anchor,ACH-000535,6,1751,2
+1051,BRD9,Pancreas,joint_partner,ACH-000535,6,1751,2
+1052,BRD9,Pancreas,own_anchor,ACH-000023,5,1752,9
+1053,BRD9,Pancreas,own_partner,ACH-000023,5,1752,9
+1054,BRD9,Pancreas,joint_anchor,ACH-000023,5,1752,9
+1055,BRD9,Pancreas,joint_partner,ACH-000023,5,1752,9
+1056,BRD9,Cervix,own_anchor,ACH-001086,6,1783,1
+1057,BRD9,Cervix,own_partner,ACH-001086,6,1783,1
+1058,BRD9,Cervix,joint_anchor,ACH-001086,6,1783,1
+1059,BRD9,Cervix,joint_partner,ACH-001086,6,1783,1
+1060,BRD9,Head and Neck,own_anchor,ACH-000254,3,1796,11
+1061,BRD9,Head and Neck,own_partner,ACH-000254,3,1796,11
+1062,BRD9,Head and Neck,joint_anchor,ACH-000254,3,1796,11
+1063,BRD9,Head and Neck,joint_partner,ACH-000254,3,1796,11
+1064,BRD9,Esophagus/Stomach,own_anchor,ACH-001368,4,1829,6
+1065,BRD9,Esophagus/Stomach,own_partner,ACH-001368,4,1829,6
+1066,BRD9,Esophagus/Stomach,joint_anchor,ACH-001368,4,1829,6
+1067,BRD9,Esophagus/Stomach,joint_partner,ACH-001368,4,1829,6
+1068,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000688,5,1837,1
+1069,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000688,5,1837,1
+1070,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000688,5,1837,1
+1071,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000688,5,1837,1
+1072,BRD9,Bone,own_anchor,ACH-002067,5,1844,4
+1073,BRD9,Bone,own_partner,ACH-002067,5,1844,4
+1074,BRD9,Bone,joint_anchor,ACH-002067,5,1844,4
+1075,BRD9,Bone,joint_partner,ACH-002067,5,1844,4
+1076,BRD9,Esophagus/Stomach,own_anchor,ACH-000383,5,1874,1
+1077,BRD9,Esophagus/Stomach,own_partner,ACH-000383,5,1874,1
+1078,BRD9,Esophagus/Stomach,joint_anchor,ACH-000383,5,1874,1
+1079,BRD9,Esophagus/Stomach,joint_partner,ACH-000383,5,1874,1
+1080,BRD9,Esophagus/Stomach,own_anchor,ACH-000949,3,1934,12
+1081,BRD9,Esophagus/Stomach,own_partner,ACH-000949,3,1934,12
+1082,BRD9,Esophagus/Stomach,joint_anchor,ACH-000949,3,1934,12
+1083,BRD9,Esophagus/Stomach,joint_partner,ACH-000949,3,1934,12
+1084,BRD9,Esophagus/Stomach,own_anchor,ACH-000679,4,1940,4
+1085,BRD9,Esophagus/Stomach,own_partner,ACH-000679,4,1940,4
+1086,BRD9,Esophagus/Stomach,joint_anchor,ACH-000679,4,1940,4
+1087,BRD9,Esophagus/Stomach,joint_partner,ACH-000679,4,1940,4
+1088,BRD9,Soft Tissue,own_anchor,ACH-000607,5,1942,5
+1089,BRD9,Soft Tissue,own_partner,ACH-000607,5,1942,5
+1090,BRD9,Soft Tissue,joint_anchor,ACH-000607,5,1942,5
+1091,BRD9,Soft Tissue,joint_partner,ACH-000607,5,1942,5
+1092,BRD9,Esophagus/Stomach,own_anchor,ACH-001368,3,1965,8
+1093,BRD9,Esophagus/Stomach,own_partner,ACH-001368,3,1965,8
+1094,BRD9,Esophagus/Stomach,joint_anchor,ACH-001368,3,1965,8
+1095,BRD9,Esophagus/Stomach,joint_partner,ACH-001368,3,1965,8
+1096,BRD9,Esophagus/Stomach,own_anchor,ACH-000949,5,1994,1
+1097,BRD9,Esophagus/Stomach,own_partner,ACH-000949,5,1994,1
+1098,BRD9,Esophagus/Stomach,joint_anchor,ACH-000949,5,1994,1
+1099,BRD9,Esophagus/Stomach,joint_partner,ACH-000949,5,1994,1
+1100,BRD9,Esophagus/Stomach,own_anchor,ACH-000949,4,2014,1
+1101,BRD9,Esophagus/Stomach,own_partner,ACH-000949,4,2014,1
+1102,BRD9,Esophagus/Stomach,joint_anchor,ACH-000949,4,2014,1
+1103,BRD9,Esophagus/Stomach,joint_partner,ACH-000949,4,2014,1
+1104,BRD9,Head and Neck,own_anchor,ACH-000228,4,2092,3
+1105,BRD9,Head and Neck,own_partner,ACH-000228,4,2092,3
+1106,BRD9,Head and Neck,joint_anchor,ACH-000228,4,2092,3
+1107,BRD9,Head and Neck,joint_partner,ACH-000228,4,2092,3
+1108,BRD9,Head and Neck,own_anchor,ACH-000254,5,2174,1
+1109,BRD9,Head and Neck,own_partner,ACH-000254,5,2174,1
+1110,BRD9,Head and Neck,joint_anchor,ACH-000254,5,2174,1
+1111,BRD9,Head and Neck,joint_partner,ACH-000254,5,2174,1
+1112,BRD9,Bone,own_anchor,ACH-000087,4,2185,18
+1113,BRD9,Bone,own_partner,ACH-000087,4,2185,18
+1114,BRD9,Bone,joint_anchor,ACH-000087,4,2185,18
+1115,BRD9,Bone,joint_partner,ACH-000087,4,2185,18
+1116,SMARCC2,Prostate,own_anchor,ACH-000090,2,2220,1
+1117,SMARCC2,Prostate,own_partner,ACH-000090,2,2220,1
+1118,SMARCC2,Prostate,joint_anchor,ACH-000090,2,2220,1
+1119,SMARCC2,Prostate,joint_partner,ACH-000090,2,2220,1
+1120,SMARCA4,Prostate,own_anchor,ACH-000090,2,2220,1
+1121,SMARCA4,Prostate,own_partner,ACH-000090,2,2220,1
+1122,SMARCA4,Prostate,joint_anchor,ACH-000090,2,2220,1
+1123,SMARCA4,Prostate,joint_partner,ACH-000090,2,2220,1
+1124,SMARCD1,Prostate,own_anchor,ACH-000090,2,2220,1
+1125,SMARCD1,Prostate,own_partner,ACH-000090,2,2220,1
+1126,SMARCD1,Prostate,joint_anchor,ACH-000090,2,2220,1
+1127,SMARCD1,Prostate,joint_partner,ACH-000090,2,2220,1
+1128,SMARCB1,Prostate,own_anchor,ACH-000090,2,2220,1
+1129,SMARCB1,Prostate,own_partner,ACH-000090,2,2220,1
+1130,SMARCB1,Prostate,joint_anchor,ACH-000090,2,2220,1
+1131,SMARCB1,Prostate,joint_partner,ACH-000090,2,2220,1
+1132,SMARCE1,Prostate,own_anchor,ACH-000090,2,2220,1
+1133,SMARCE1,Prostate,own_partner,ACH-000090,2,2220,1
+1134,SMARCE1,Prostate,joint_anchor,ACH-000090,2,2220,1
+1135,SMARCE1,Prostate,joint_partner,ACH-000090,2,2220,1
+1136,DPF2,Prostate,own_anchor,ACH-000090,2,2220,1
+1137,DPF2,Prostate,own_partner,ACH-000090,2,2220,1
+1138,DPF2,Prostate,joint_anchor,ACH-000090,2,2220,1
+1139,DPF2,Prostate,joint_partner,ACH-000090,2,2220,1
+1140,ACTL6A,Prostate,own_anchor,ACH-000090,2,2220,1
+1141,ACTL6A,Prostate,own_partner,ACH-000090,2,2220,1
+1142,ACTL6A,Prostate,joint_anchor,ACH-000090,2,2220,1
+1143,ACTL6A,Prostate,joint_partner,ACH-000090,2,2220,1
+1144,PBRM1,Prostate,own_anchor,ACH-000090,2,2220,1
+1145,PBRM1,Prostate,own_partner,ACH-000090,2,2220,1
+1146,PBRM1,Prostate,joint_anchor,ACH-000090,2,2220,1
+1147,PBRM1,Prostate,joint_partner,ACH-000090,2,2220,1
+1148,ARID2,Prostate,own_anchor,ACH-000090,2,2220,1
+1149,ARID2,Prostate,own_partner,ACH-000090,2,2220,1
+1150,ARID2,Prostate,joint_anchor,ACH-000090,2,2220,1
+1151,ARID2,Prostate,joint_partner,ACH-000090,2,2220,1
+1152,BRD7,Prostate,own_anchor,ACH-000090,2,2220,1
+1153,BRD7,Prostate,own_partner,ACH-000090,2,2220,1
+1154,BRD7,Prostate,joint_anchor,ACH-000090,2,2220,1
+1155,BRD7,Prostate,joint_partner,ACH-000090,2,2220,1
+1156,PHF10,Prostate,own_anchor,ACH-000090,2,2220,4
+1157,PHF10,Prostate,own_partner,ACH-000090,2,2220,4
+1158,PHF10,Prostate,joint_anchor,ACH-000090,2,2220,4
+1159,PHF10,Prostate,joint_partner,ACH-000090,2,2220,4
+1160,PBRM1,Pleura,own_anchor,ACH-000092,5,2259,1
+1161,PBRM1,Pleura,own_partner,ACH-000092,5,2259,1
+1162,PBRM1,Pleura,joint_anchor,ACH-000092,5,2259,1
+1163,PBRM1,Pleura,joint_partner,ACH-000092,5,2259,1
+1164,BRD7,Pleura,own_anchor,ACH-000092,5,2259,2
+1165,BRD7,Pleura,own_partner,ACH-000092,5,2259,2
+1166,BRD7,Pleura,joint_anchor,ACH-000092,5,2259,2
+1167,BRD7,Pleura,joint_partner,ACH-000092,5,2259,2
+1168,BRD7,Soft Tissue,own_anchor,ACH-000169,2,2266,1
+1169,BRD7,Soft Tissue,own_partner,ACH-000169,2,2266,1
+1170,BRD7,Soft Tissue,joint_anchor,ACH-000169,2,2266,1
+1171,BRD7,Soft Tissue,joint_partner,ACH-000169,2,2266,1
+1172,PHF10,Prostate,own_anchor,ACH-000115,3,2279,5
+1173,PHF10,Prostate,own_partner,ACH-000115,3,2279,5
+1174,PHF10,Prostate,joint_anchor,ACH-000115,3,2279,5
+1175,PHF10,Prostate,joint_partner,ACH-000115,3,2279,5
+1176,BRD7,Pleura,own_anchor,ACH-000335,2,2302,9
+1177,BRD7,Pleura,own_partner,ACH-000335,2,2302,9
+1178,BRD7,Pleura,joint_anchor,ACH-000335,2,2302,9
+1179,BRD7,Pleura,joint_partner,ACH-000335,2,2302,9
+1180,BRD9,Liver,own_anchor,ACH-000577,5,2312,10
+1181,BRD9,Liver,own_partner,ACH-000577,5,2312,10
+1182,BRD9,Liver,joint_anchor,ACH-000577,5,2312,10
+1183,BRD9,Liver,joint_partner,ACH-000577,5,2312,10
+1184,BRD9,Head and Neck,own_anchor,ACH-000546,4,2407,1
+1185,BRD9,Head and Neck,own_partner,ACH-000546,4,2407,1
+1186,BRD9,Head and Neck,joint_anchor,ACH-000546,4,2407,1
+1187,BRD9,Head and Neck,joint_partner,ACH-000546,4,2407,1
+1188,BRD9,Myeloid,own_anchor,ACH-000386,6,2428,1
+1189,BRD9,Myeloid,own_partner,ACH-000386,6,2428,1
+1190,BRD9,Myeloid,joint_anchor,ACH-000386,6,2428,1
+1191,BRD9,Myeloid,joint_partner,ACH-000386,6,2428,1
+1192,PHF10,Prostate,own_anchor,ACH-000115,2,2527,10
+1193,PHF10,Prostate,own_partner,ACH-000115,2,2527,10
+1194,PHF10,Prostate,joint_anchor,ACH-000115,2,2527,10
+1195,PHF10,Prostate,joint_partner,ACH-000115,2,2527,10
+1196,BRD7,Pleura,own_anchor,ACH-000335,3,2534,4
+1197,BRD7,Pleura,own_partner,ACH-000335,3,2534,4
+1198,BRD7,Pleura,joint_anchor,ACH-000335,3,2534,4
+1199,BRD7,Pleura,joint_partner,ACH-000335,3,2534,4
+1200,BRD9,Head and Neck,own_anchor,ACH-000207,4,2553,3
+1201,BRD9,Head and Neck,own_partner,ACH-000207,4,2553,3
+1202,BRD9,Head and Neck,joint_anchor,ACH-000207,4,2553,3
+1203,BRD9,Head and Neck,joint_partner,ACH-000207,4,2553,3
+1204,BRD9,Head and Neck,own_anchor,ACH-001626,3,2575,13
+1205,BRD9,Head and Neck,own_partner,ACH-001626,3,2575,13
+1206,BRD9,Head and Neck,joint_anchor,ACH-001626,3,2575,13
+1207,BRD9,Head and Neck,joint_partner,ACH-001626,3,2575,13
+1208,PHF10,Prostate,own_anchor,ACH-000090,4,2600,4
+1209,PHF10,Prostate,own_partner,ACH-000090,4,2600,4
+1210,PHF10,Prostate,joint_anchor,ACH-000090,4,2600,4
+1211,PHF10,Prostate,joint_partner,ACH-000090,4,2600,4
+1212,PBRM1,Pleura,own_anchor,ACH-000569,3,2649,1
+1213,PBRM1,Pleura,own_partner,ACH-000569,3,2649,1
+1214,PBRM1,Pleura,joint_anchor,ACH-000569,3,2649,1
+1215,PBRM1,Pleura,joint_partner,ACH-000569,3,2649,1
+1216,PHF10,Liver,own_anchor,ACH-000625,3,2649,1
+1217,PHF10,Liver,own_partner,ACH-000625,3,2649,1
+1218,PHF10,Liver,joint_anchor,ACH-000625,3,2649,1
+1219,PHF10,Liver,joint_partner,ACH-000625,3,2649,1
+1220,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000103,5,2659,2
+1221,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000103,5,2659,2
+1222,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000103,5,2659,2
+1223,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000103,5,2659,2
+1224,PBRM1,Pleura,own_anchor,ACH-000569,4,2695,3
+1225,PBRM1,Pleura,own_partner,ACH-000569,4,2695,3
+1226,PBRM1,Pleura,joint_anchor,ACH-000569,4,2695,3
+1227,PBRM1,Pleura,joint_partner,ACH-000569,4,2695,3
+1228,BRD7,Pleura,own_anchor,ACH-000569,4,2695,6
+1229,BRD7,Pleura,own_partner,ACH-000569,4,2695,6
+1230,BRD7,Pleura,joint_anchor,ACH-000569,4,2695,6
+1231,BRD7,Pleura,joint_partner,ACH-000569,4,2695,6
+1232,BRD9,Head and Neck,own_anchor,ACH-000254,4,2751,6
+1233,BRD9,Head and Neck,own_partner,ACH-000254,4,2751,6
+1234,BRD9,Head and Neck,joint_anchor,ACH-000254,4,2751,6
+1235,BRD9,Head and Neck,joint_partner,ACH-000254,4,2751,6
+1236,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000720,6,2782,2
+1237,BRD9,Bladder/Urinary Tract,own_partner,ACH-000720,6,2782,2
+1238,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000720,6,2782,2
+1239,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000720,6,2782,2
+1240,BRD9,Bone,own_anchor,ACH-000087,6,2819,3
+1241,BRD9,Bone,own_partner,ACH-000087,6,2819,3
+1242,BRD9,Bone,joint_anchor,ACH-000087,6,2819,3
+1243,BRD9,Bone,joint_partner,ACH-000087,6,2819,3
+1244,BRD9,Bladder/Urinary Tract,own_anchor,ACH-000973,6,2864,3
+1245,BRD9,Bladder/Urinary Tract,own_partner,ACH-000973,6,2864,3
+1246,BRD9,Bladder/Urinary Tract,joint_anchor,ACH-000973,6,2864,3
+1247,BRD9,Bladder/Urinary Tract,joint_partner,ACH-000973,6,2864,3
+1248,BRD9,Esophagus/Stomach,own_anchor,ACH-001368,5,2907,2
+1249,BRD9,Esophagus/Stomach,own_partner,ACH-001368,5,2907,2
+1250,BRD9,Esophagus/Stomach,joint_anchor,ACH-001368,5,2907,2
+1251,BRD9,Esophagus/Stomach,joint_partner,ACH-001368,5,2907,2
+1252,BRD9,Bone,own_anchor,ACH-002067,6,2919,1
+1253,BRD9,Bone,own_partner,ACH-002067,6,2919,1
+1254,BRD9,Bone,joint_anchor,ACH-002067,6,2919,1
+1255,BRD9,Bone,joint_partner,ACH-002067,6,2919,1
+1256,SMARCC2,Prostate,own_anchor,ACH-001453,4,2979,1
+1257,SMARCC2,Prostate,own_partner,ACH-001453,4,2979,1
+1258,SMARCC2,Prostate,joint_anchor,ACH-001453,4,2979,1
+1259,SMARCC2,Prostate,joint_partner,ACH-001453,4,2979,1
+1260,SMARCA4,Prostate,own_anchor,ACH-001453,4,2979,1
+1261,SMARCA4,Prostate,own_partner,ACH-001453,4,2979,1
+1262,SMARCA4,Prostate,joint_anchor,ACH-001453,4,2979,1
+1263,SMARCA4,Prostate,joint_partner,ACH-001453,4,2979,1
+1264,SMARCD1,Prostate,own_anchor,ACH-001453,4,2979,1
+1265,SMARCD1,Prostate,own_partner,ACH-001453,4,2979,1
+1266,SMARCD1,Prostate,joint_anchor,ACH-001453,4,2979,1
+1267,SMARCD1,Prostate,joint_partner,ACH-001453,4,2979,1
+1268,SMARCB1,Prostate,own_anchor,ACH-001453,4,2979,1
+1269,SMARCB1,Prostate,own_partner,ACH-001453,4,2979,1
+1270,SMARCB1,Prostate,joint_anchor,ACH-001453,4,2979,1
+1271,SMARCB1,Prostate,joint_partner,ACH-001453,4,2979,1
+1272,SMARCE1,Prostate,own_anchor,ACH-001453,4,2979,1
+1273,SMARCE1,Prostate,own_partner,ACH-001453,4,2979,1
+1274,SMARCE1,Prostate,joint_anchor,ACH-001453,4,2979,1
+1275,SMARCE1,Prostate,joint_partner,ACH-001453,4,2979,1
+1276,DPF2,Prostate,own_anchor,ACH-001453,4,2979,1
+1277,DPF2,Prostate,own_partner,ACH-001453,4,2979,1
+1278,DPF2,Prostate,joint_anchor,ACH-001453,4,2979,1
+1279,DPF2,Prostate,joint_partner,ACH-001453,4,2979,1
+1280,ACTL6A,Prostate,own_anchor,ACH-001453,4,2979,1
+1281,ACTL6A,Prostate,own_partner,ACH-001453,4,2979,1
+1282,ACTL6A,Prostate,joint_anchor,ACH-001453,4,2979,1
+1283,ACTL6A,Prostate,joint_partner,ACH-001453,4,2979,1
+1284,PBRM1,Prostate,own_anchor,ACH-001453,4,2979,1
+1285,PBRM1,Prostate,own_partner,ACH-001453,4,2979,1
+1286,PBRM1,Prostate,joint_anchor,ACH-001453,4,2979,1
+1287,PBRM1,Prostate,joint_partner,ACH-001453,4,2979,1
+1288,ARID2,Prostate,own_anchor,ACH-001453,4,2979,1
+1289,ARID2,Prostate,own_partner,ACH-001453,4,2979,1
+1290,ARID2,Prostate,joint_anchor,ACH-001453,4,2979,1
+1291,ARID2,Prostate,joint_partner,ACH-001453,4,2979,1
+1292,BRD7,Prostate,own_anchor,ACH-001453,4,2979,1
+1293,BRD7,Prostate,own_partner,ACH-001453,4,2979,1
+1294,BRD7,Prostate,joint_anchor,ACH-001453,4,2979,1
+1295,BRD7,Prostate,joint_partner,ACH-001453,4,2979,1
+1296,BRD9,Skin,own_anchor,ACH-001704,5,3137,3
+1297,BRD9,Skin,own_partner,ACH-001704,5,3137,3
+1298,BRD9,Skin,joint_anchor,ACH-001704,5,3137,3
+1299,BRD9,Skin,joint_partner,ACH-001704,5,3137,3
+1300,PHF10,Prostate,own_anchor,ACH-000090,3,3215,4
+1301,PHF10,Prostate,own_partner,ACH-000090,3,3215,4
+1302,PHF10,Prostate,joint_anchor,ACH-000090,3,3215,4
+1303,PHF10,Prostate,joint_partner,ACH-000090,3,3215,4
+1304,BRD7,Pleura,own_anchor,ACH-000092,4,3237,2
+1305,BRD7,Pleura,own_partner,ACH-000092,4,3237,2
+1306,BRD7,Pleura,joint_anchor,ACH-000092,4,3237,2
+1307,BRD7,Pleura,joint_partner,ACH-000092,4,3237,2
+1308,PHF10,Liver,own_anchor,ACH-000475,2,3348,1
+1309,PHF10,Liver,own_partner,ACH-000475,2,3348,1
+1310,PHF10,Liver,joint_anchor,ACH-000475,2,3348,1
+1311,PHF10,Liver,joint_partner,ACH-000475,2,3348,1
+1312,BRD9,Peripheral Nervous System,own_anchor,ACH-000149,6,3440,3
+1313,BRD9,Peripheral Nervous System,own_partner,ACH-000149,6,3440,3
+1314,BRD9,Peripheral Nervous System,joint_anchor,ACH-000149,6,3440,3
+1315,BRD9,Peripheral Nervous System,joint_partner,ACH-000149,6,3440,3
+1316,SMARCD1,Cervix,own_anchor,ACH-001525,4,3546,1
+1317,SMARCD1,Cervix,own_partner,ACH-001525,4,3546,1
+1318,SMARCD1,Cervix,joint_anchor,ACH-001525,4,3546,1
+1319,SMARCD1,Cervix,joint_partner,ACH-001525,4,3546,1
+1320,BRD7,Pleura,own_anchor,ACH-000648,3,3568,1
+1321,BRD7,Pleura,own_partner,ACH-000648,3,3568,1
+1322,BRD7,Pleura,joint_anchor,ACH-000648,3,3568,1
+1323,BRD7,Pleura,joint_partner,ACH-000648,3,3568,1
+1324,PBRM1,Pleura,own_anchor,ACH-000319,3,3627,1
+1325,PBRM1,Pleura,own_partner,ACH-000319,3,3627,1
+1326,PBRM1,Pleura,joint_anchor,ACH-000319,3,3627,1
+1327,PBRM1,Pleura,joint_partner,ACH-000319,3,3627,1
+1328,BRD9,Bone,own_anchor,ACH-000613,5,3659,4
+1329,BRD9,Bone,own_partner,ACH-000613,5,3659,4
+1330,BRD9,Bone,joint_anchor,ACH-000613,5,3659,4
+1331,BRD9,Bone,joint_partner,ACH-000613,5,3659,4
+1332,BRD9,Liver,own_anchor,ACH-000848,6,3671,1
+1333,BRD9,Liver,own_partner,ACH-000848,6,3671,1
+1334,BRD9,Liver,joint_anchor,ACH-000848,6,3671,1
+1335,BRD9,Liver,joint_partner,ACH-000848,6,3671,1
+1336,PHF10,Uterus,own_anchor,ACH-000965,2,3684,1
+1337,PHF10,Uterus,own_partner,ACH-000965,2,3684,1
+1338,PHF10,Uterus,joint_anchor,ACH-000965,2,3684,1
+1339,PHF10,Uterus,joint_partner,ACH-000965,2,3684,1
+1340,BRD9,Esophagus/Stomach,own_anchor,ACH-000383,6,3698,1
+1341,BRD9,Esophagus/Stomach,own_partner,ACH-000383,6,3698,1
+1342,BRD9,Esophagus/Stomach,joint_anchor,ACH-000383,6,3698,1
+1343,BRD9,Esophagus/Stomach,joint_partner,ACH-000383,6,3698,1
+1344,PBRM1,Pleura,own_anchor,ACH-000153,4,3731,1
+1345,PBRM1,Pleura,own_partner,ACH-000153,4,3731,1
+1346,PBRM1,Pleura,joint_anchor,ACH-000153,4,3731,1
+1347,PBRM1,Pleura,joint_partner,ACH-000153,4,3731,1
+1348,BRD7,Pleura,own_anchor,ACH-000153,4,3731,3
+1349,BRD7,Pleura,own_partner,ACH-000153,4,3731,3
+1350,BRD7,Pleura,joint_anchor,ACH-000153,4,3731,3
+1351,BRD7,Pleura,joint_partner,ACH-000153,4,3731,3
+1352,BRD9,CNS/Brain,own_anchor,ACH-000756,5,3796,1
+1353,BRD9,CNS/Brain,own_partner,ACH-000756,5,3796,1
+1354,BRD9,CNS/Brain,joint_anchor,ACH-000756,5,3796,1
+1355,BRD9,CNS/Brain,joint_partner,ACH-000756,5,3796,1
+1356,BRD9,Thyroid,own_anchor,ACH-000174,6,3840,1
+1357,BRD9,Thyroid,own_partner,ACH-000174,6,3840,1
+1358,BRD9,Thyroid,joint_anchor,ACH-000174,6,3840,1
+1359,BRD9,Thyroid,joint_partner,ACH-000174,6,3840,1
+1360,BRD9,Head and Neck,own_anchor,ACH-001626,6,4040,1
+1361,BRD9,Head and Neck,own_partner,ACH-001626,6,4040,1
+1362,BRD9,Head and Neck,joint_anchor,ACH-001626,6,4040,1
+1363,BRD9,Head and Neck,joint_partner,ACH-001626,6,4040,1
+1364,PHF10,Uterus,own_anchor,ACH-000913,3,4098,1
+1365,PHF10,Uterus,own_partner,ACH-000913,3,4098,1
+1366,PHF10,Uterus,joint_anchor,ACH-000913,3,4098,1
+1367,PHF10,Uterus,joint_partner,ACH-000913,3,4098,1
+1368,BRD9,Myeloid,own_anchor,ACH-000294,7,4683,1
+1369,BRD9,Myeloid,own_partner,ACH-000294,7,4683,1
+1370,BRD9,Myeloid,joint_anchor,ACH-000294,7,4683,1
+1371,BRD9,Myeloid,joint_partner,ACH-000294,7,4683,1
+1372,BRD9,CNS/Brain,own_anchor,ACH-000376,3,4909,1
+1373,BRD9,CNS/Brain,own_partner,ACH-000376,3,4909,1
+1374,BRD9,CNS/Brain,joint_anchor,ACH-000376,3,4909,1
+1375,BRD9,CNS/Brain,joint_partner,ACH-000376,3,4909,1
+1376,BRD7,Pleura,own_anchor,ACH-000153,5,5027,1
+1377,BRD7,Pleura,own_partner,ACH-000153,5,5027,1
+1378,BRD7,Pleura,joint_anchor,ACH-000153,5,5027,1
+1379,BRD7,Pleura,joint_partner,ACH-000153,5,5027,1
+1380,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-000527,4,5175,10
+1381,BRD9,Ovary/Fallopian Tube,own_partner,ACH-000527,4,5175,10
+1382,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-000527,4,5175,10
+1383,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-000527,4,5175,10
+1384,SMARCC2,Prostate,own_anchor,ACH-000177,5,5191,1
+1385,SMARCC2,Prostate,own_partner,ACH-000177,5,5191,1
+1386,SMARCC2,Prostate,joint_anchor,ACH-000177,5,5191,1
+1387,SMARCC2,Prostate,joint_partner,ACH-000177,5,5191,1
+1388,SMARCA4,Prostate,own_anchor,ACH-000177,5,5191,1
+1389,SMARCA4,Prostate,own_partner,ACH-000177,5,5191,1
+1390,SMARCA4,Prostate,joint_anchor,ACH-000177,5,5191,1
+1391,SMARCA4,Prostate,joint_partner,ACH-000177,5,5191,1
+1392,SMARCD1,Prostate,own_anchor,ACH-000177,5,5191,1
+1393,SMARCD1,Prostate,own_partner,ACH-000177,5,5191,1
+1394,SMARCD1,Prostate,joint_anchor,ACH-000177,5,5191,1
+1395,SMARCD1,Prostate,joint_partner,ACH-000177,5,5191,1
+1396,SMARCB1,Prostate,own_anchor,ACH-000177,5,5191,1
+1397,SMARCB1,Prostate,own_partner,ACH-000177,5,5191,1
+1398,SMARCB1,Prostate,joint_anchor,ACH-000177,5,5191,1
+1399,SMARCB1,Prostate,joint_partner,ACH-000177,5,5191,1
+1400,SMARCE1,Prostate,own_anchor,ACH-000177,5,5191,1
+1401,SMARCE1,Prostate,own_partner,ACH-000177,5,5191,1
+1402,SMARCE1,Prostate,joint_anchor,ACH-000177,5,5191,1
+1403,SMARCE1,Prostate,joint_partner,ACH-000177,5,5191,1
+1404,DPF2,Prostate,own_anchor,ACH-000177,5,5191,1
+1405,DPF2,Prostate,own_partner,ACH-000177,5,5191,1
+1406,DPF2,Prostate,joint_anchor,ACH-000177,5,5191,1
+1407,DPF2,Prostate,joint_partner,ACH-000177,5,5191,1
+1408,ACTL6A,Prostate,own_anchor,ACH-000177,5,5191,1
+1409,ACTL6A,Prostate,own_partner,ACH-000177,5,5191,1
+1410,ACTL6A,Prostate,joint_anchor,ACH-000177,5,5191,1
+1411,ACTL6A,Prostate,joint_partner,ACH-000177,5,5191,1
+1412,PBRM1,Prostate,own_anchor,ACH-000177,5,5191,1
+1413,PBRM1,Prostate,own_partner,ACH-000177,5,5191,1
+1414,PBRM1,Prostate,joint_anchor,ACH-000177,5,5191,1
+1415,PBRM1,Prostate,joint_partner,ACH-000177,5,5191,1
+1416,ARID2,Prostate,own_anchor,ACH-000177,5,5191,1
+1417,ARID2,Prostate,own_partner,ACH-000177,5,5191,1
+1418,ARID2,Prostate,joint_anchor,ACH-000177,5,5191,1
+1419,ARID2,Prostate,joint_partner,ACH-000177,5,5191,1
+1420,BRD7,Prostate,own_anchor,ACH-000177,5,5191,1
+1421,BRD7,Prostate,own_partner,ACH-000177,5,5191,1
+1422,BRD7,Prostate,joint_anchor,ACH-000177,5,5191,1
+1423,BRD7,Prostate,joint_partner,ACH-000177,5,5191,1
+1424,PHF10,Prostate,own_anchor,ACH-000177,5,5191,1
+1425,PHF10,Prostate,own_partner,ACH-000177,5,5191,1
+1426,PHF10,Prostate,joint_anchor,ACH-000177,5,5191,1
+1427,PHF10,Prostate,joint_partner,ACH-000177,5,5191,1
+1428,BRD7,Pleura,own_anchor,ACH-000092,6,5612,1
+1429,BRD7,Pleura,own_partner,ACH-000092,6,5612,1
+1430,BRD7,Pleura,joint_anchor,ACH-000092,6,5612,1
+1431,BRD7,Pleura,joint_partner,ACH-000092,6,5612,1
+1432,BRD7,Liver,own_anchor,ACH-000217,2,5729,1
+1433,BRD7,Liver,own_partner,ACH-000217,2,5729,1
+1434,BRD7,Liver,joint_anchor,ACH-000217,2,5729,1
+1435,BRD7,Liver,joint_partner,ACH-000217,2,5729,1
+1436,PHF10,Liver,own_anchor,ACH-000625,4,5802,1
+1437,PHF10,Liver,own_partner,ACH-000625,4,5802,1
+1438,PHF10,Liver,joint_anchor,ACH-000625,4,5802,1
+1439,PHF10,Liver,joint_partner,ACH-000625,4,5802,1
+1440,BRD9,Ovary/Fallopian Tube,own_anchor,ACH-001373,5,5817,1
+1441,BRD9,Ovary/Fallopian Tube,own_partner,ACH-001373,5,5817,1
+1442,BRD9,Ovary/Fallopian Tube,joint_anchor,ACH-001373,5,5817,1
+1443,BRD9,Ovary/Fallopian Tube,joint_partner,ACH-001373,5,5817,1
+1444,BRD9,Breast,own_anchor,ACH-000930,3,6095,1
+1445,BRD9,Breast,own_partner,ACH-000930,3,6095,1
+1446,BRD9,Breast,joint_anchor,ACH-000930,3,6095,1
+1447,BRD9,Breast,joint_partner,ACH-000930,3,6095,1
+1448,BRD9,Head and Neck,own_anchor,ACH-000207,5,6204,1
+1449,BRD9,Head and Neck,own_partner,ACH-000207,5,6204,1
+1450,BRD9,Head and Neck,joint_anchor,ACH-000207,5,6204,1
+1451,BRD9,Head and Neck,joint_partner,ACH-000207,5,6204,1
+1452,BRD9,CNS/Brain,own_anchor,ACH-000622,4,6730,1
+1453,BRD9,CNS/Brain,own_partner,ACH-000622,4,6730,1
+1454,BRD9,CNS/Brain,joint_anchor,ACH-000622,4,6730,1
+1455,BRD9,CNS/Brain,joint_partner,ACH-000622,4,6730,1
+1456,SMARCC2,Prostate,own_anchor,ACH-000115,4,6837,2
+1457,SMARCC2,Prostate,own_partner,ACH-000115,4,6837,2
+1458,SMARCC2,Prostate,joint_anchor,ACH-000115,4,6837,2
+1459,SMARCC2,Prostate,joint_partner,ACH-000115,4,6837,2
+1460,SMARCA4,Prostate,own_anchor,ACH-000115,4,6837,2
+1461,SMARCA4,Prostate,own_partner,ACH-000115,4,6837,2
+1462,SMARCA4,Prostate,joint_anchor,ACH-000115,4,6837,2
+1463,SMARCA4,Prostate,joint_partner,ACH-000115,4,6837,2
+1464,SMARCD1,Prostate,own_anchor,ACH-000115,4,6837,2
+1465,SMARCD1,Prostate,own_partner,ACH-000115,4,6837,2
+1466,SMARCD1,Prostate,joint_anchor,ACH-000115,4,6837,2
+1467,SMARCD1,Prostate,joint_partner,ACH-000115,4,6837,2
+1468,SMARCB1,Prostate,own_anchor,ACH-000115,4,6837,2
+1469,SMARCB1,Prostate,own_partner,ACH-000115,4,6837,2
+1470,SMARCB1,Prostate,joint_anchor,ACH-000115,4,6837,2
+1471,SMARCB1,Prostate,joint_partner,ACH-000115,4,6837,2
+1472,SMARCE1,Prostate,own_anchor,ACH-000115,4,6837,2
+1473,SMARCE1,Prostate,own_partner,ACH-000115,4,6837,2
+1474,SMARCE1,Prostate,joint_anchor,ACH-000115,4,6837,2
+1475,SMARCE1,Prostate,joint_partner,ACH-000115,4,6837,2
+1476,DPF2,Prostate,own_anchor,ACH-000115,4,6837,2
+1477,DPF2,Prostate,own_partner,ACH-000115,4,6837,2
+1478,DPF2,Prostate,joint_anchor,ACH-000115,4,6837,2
+1479,DPF2,Prostate,joint_partner,ACH-000115,4,6837,2
+1480,ACTL6A,Prostate,own_anchor,ACH-000115,4,6837,2
+1481,ACTL6A,Prostate,own_partner,ACH-000115,4,6837,2
+1482,ACTL6A,Prostate,joint_anchor,ACH-000115,4,6837,2
+1483,ACTL6A,Prostate,joint_partner,ACH-000115,4,6837,2
+1484,PBRM1,Prostate,own_anchor,ACH-000115,4,6837,2
+1485,PBRM1,Prostate,own_partner,ACH-000115,4,6837,2
+1486,PBRM1,Prostate,joint_anchor,ACH-000115,4,6837,2
+1487,PBRM1,Prostate,joint_partner,ACH-000115,4,6837,2
+1488,ARID2,Prostate,own_anchor,ACH-000115,4,6837,2
+1489,ARID2,Prostate,own_partner,ACH-000115,4,6837,2
+1490,ARID2,Prostate,joint_anchor,ACH-000115,4,6837,2
+1491,ARID2,Prostate,joint_partner,ACH-000115,4,6837,2
+1492,BRD7,Prostate,own_anchor,ACH-000115,4,6837,2
+1493,BRD7,Prostate,own_partner,ACH-000115,4,6837,2
+1494,BRD7,Prostate,joint_anchor,ACH-000115,4,6837,2
+1495,BRD7,Prostate,joint_partner,ACH-000115,4,6837,2
+1496,BRD9,Peripheral Nervous System,own_anchor,ACH-000227,6,7006,1
+1497,BRD9,Peripheral Nervous System,own_partner,ACH-000227,6,7006,1
+1498,BRD9,Peripheral Nervous System,joint_anchor,ACH-000227,6,7006,1
+1499,BRD9,Peripheral Nervous System,joint_partner,ACH-000227,6,7006,1
+1500,BRD9,Skin,own_anchor,ACH-000827,7,7154,1
+1501,BRD9,Skin,own_partner,ACH-000827,7,7154,1
+1502,BRD9,Skin,joint_anchor,ACH-000827,7,7154,1
+1503,BRD9,Skin,joint_partner,ACH-000827,7,7154,1
+1504,PHF10,Uterus,own_anchor,ACH-000913,2,7479,1
+1505,PHF10,Uterus,own_partner,ACH-000913,2,7479,1
+1506,PHF10,Uterus,joint_anchor,ACH-000913,2,7479,1
+1507,PHF10,Uterus,joint_partner,ACH-000913,2,7479,1
+1508,BRD9,Kidney,own_anchor,ACH-000250,6,7870,1
+1509,BRD9,Kidney,own_partner,ACH-000250,6,7870,1
+1510,BRD9,Kidney,joint_anchor,ACH-000250,6,7870,1
+1511,BRD9,Kidney,joint_partner,ACH-000250,6,7870,1
+1512,PBRM1,Pleura,own_anchor,ACH-000648,2,8023,1
+1513,PBRM1,Pleura,own_partner,ACH-000648,2,8023,1
+1514,PBRM1,Pleura,joint_anchor,ACH-000648,2,8023,1
+1515,PBRM1,Pleura,joint_partner,ACH-000648,2,8023,1
+1516,PHF10,Prostate,own_anchor,ACH-000177,4,8041,1
+1517,PHF10,Prostate,own_partner,ACH-000177,4,8041,1
+1518,PHF10,Prostate,joint_anchor,ACH-000177,4,8041,1
+1519,PHF10,Prostate,joint_partner,ACH-000177,4,8041,1
+1520,BRD9,Uterus,own_anchor,ACH-000192,6,8282,1
+1521,BRD9,Uterus,own_partner,ACH-000192,6,8282,1
+1522,BRD9,Uterus,joint_anchor,ACH-000192,6,8282,1
+1523,BRD9,Uterus,joint_partner,ACH-000192,6,8282,1
+1524,SMARCC2,Prostate,own_anchor,ACH-000115,5,8326,1
+1525,SMARCC2,Prostate,own_partner,ACH-000115,5,8326,1
+1526,SMARCC2,Prostate,joint_anchor,ACH-000115,5,8326,1
+1527,SMARCC2,Prostate,joint_partner,ACH-000115,5,8326,1
+1528,SMARCA4,Prostate,own_anchor,ACH-000115,5,8326,1
+1529,SMARCA4,Prostate,own_partner,ACH-000115,5,8326,1
+1530,SMARCA4,Prostate,joint_anchor,ACH-000115,5,8326,1
+1531,SMARCA4,Prostate,joint_partner,ACH-000115,5,8326,1
+1532,SMARCD1,Prostate,own_anchor,ACH-000115,5,8326,1
+1533,SMARCD1,Prostate,own_partner,ACH-000115,5,8326,1
+1534,SMARCD1,Prostate,joint_anchor,ACH-000115,5,8326,1
+1535,SMARCD1,Prostate,joint_partner,ACH-000115,5,8326,1
+1536,SMARCB1,Prostate,own_anchor,ACH-000115,5,8326,1
+1537,SMARCB1,Prostate,own_partner,ACH-000115,5,8326,1
+1538,SMARCB1,Prostate,joint_anchor,ACH-000115,5,8326,1
+1539,SMARCB1,Prostate,joint_partner,ACH-000115,5,8326,1
+1540,SMARCE1,Prostate,own_anchor,ACH-000115,5,8326,1
+1541,SMARCE1,Prostate,own_partner,ACH-000115,5,8326,1
+1542,SMARCE1,Prostate,joint_anchor,ACH-000115,5,8326,1
+1543,SMARCE1,Prostate,joint_partner,ACH-000115,5,8326,1
+1544,DPF2,Prostate,own_anchor,ACH-000115,5,8326,1
+1545,DPF2,Prostate,own_partner,ACH-000115,5,8326,1
+1546,DPF2,Prostate,joint_anchor,ACH-000115,5,8326,1
+1547,DPF2,Prostate,joint_partner,ACH-000115,5,8326,1
+1548,ACTL6A,Prostate,own_anchor,ACH-000115,5,8326,1
+1549,ACTL6A,Prostate,own_partner,ACH-000115,5,8326,1
+1550,ACTL6A,Prostate,joint_anchor,ACH-000115,5,8326,1
+1551,ACTL6A,Prostate,joint_partner,ACH-000115,5,8326,1
+1552,PBRM1,Prostate,own_anchor,ACH-000115,5,8326,1
+1553,PBRM1,Prostate,own_partner,ACH-000115,5,8326,1
+1554,PBRM1,Prostate,joint_anchor,ACH-000115,5,8326,1
+1555,PBRM1,Prostate,joint_partner,ACH-000115,5,8326,1
+1556,ARID2,Prostate,own_anchor,ACH-000115,5,8326,1
+1557,ARID2,Prostate,own_partner,ACH-000115,5,8326,1
+1558,ARID2,Prostate,joint_anchor,ACH-000115,5,8326,1
+1559,ARID2,Prostate,joint_partner,ACH-000115,5,8326,1
+1560,BRD7,Prostate,own_anchor,ACH-000115,5,8326,1
+1561,BRD7,Prostate,own_partner,ACH-000115,5,8326,1
+1562,BRD7,Prostate,joint_anchor,ACH-000115,5,8326,1
+1563,BRD7,Prostate,joint_partner,ACH-000115,5,8326,1
+1564,PHF10,Prostate,own_anchor,ACH-000115,5,8326,2
+1565,PHF10,Prostate,own_partner,ACH-000115,5,8326,2
+1566,PHF10,Prostate,joint_anchor,ACH-000115,5,8326,2
+1567,PHF10,Prostate,joint_partner,ACH-000115,5,8326,2
+1568,PHF10,Pleura,own_anchor,ACH-000569,6,8477,1
+1569,PHF10,Pleura,own_partner,ACH-000569,6,8477,1
+1570,PHF10,Pleura,joint_anchor,ACH-000569,6,8477,1
+1571,PHF10,Pleura,joint_partner,ACH-000569,6,8477,1
+1572,BRD9,Head and Neck,own_anchor,ACH-001626,5,8530,1
+1573,BRD9,Head and Neck,own_partner,ACH-001626,5,8530,1
+1574,BRD9,Head and Neck,joint_anchor,ACH-001626,5,8530,1
+1575,BRD9,Head and Neck,joint_partner,ACH-001626,5,8530,1
+1576,BRD9,CNS/Brain,own_anchor,ACH-000570,3,8889,1
+1577,BRD9,CNS/Brain,own_partner,ACH-000570,3,8889,1
+1578,BRD9,CNS/Brain,joint_anchor,ACH-000570,3,8889,1
+1579,BRD9,CNS/Brain,joint_partner,ACH-000570,3,8889,1
+1580,BRD9,Uterus,own_anchor,ACH-000879,6,8940,1
+1581,BRD9,Uterus,own_partner,ACH-000879,6,8940,1
+1582,BRD9,Uterus,joint_anchor,ACH-000879,6,8940,1
+1583,BRD9,Uterus,joint_partner,ACH-000879,6,8940,1
+1584,BRD9,Breast,own_anchor,ACH-000902,6,9004,1
+1585,BRD9,Breast,own_partner,ACH-000902,6,9004,1
+1586,BRD9,Breast,joint_anchor,ACH-000902,6,9004,1
+1587,BRD9,Breast,joint_partner,ACH-000902,6,9004,1
+1588,PBRM1,Pleura,own_anchor,ACH-000092,2,9248,1
+1589,PBRM1,Pleura,own_partner,ACH-000092,2,9248,1
+1590,PBRM1,Pleura,joint_anchor,ACH-000092,2,9248,1
+1591,PBRM1,Pleura,joint_partner,ACH-000092,2,9248,1
+1592,BRD7,Cervix,own_anchor,ACH-001402,2,9661,1
+1593,BRD7,Cervix,own_partner,ACH-001402,2,9661,1
+1594,BRD7,Cervix,joint_anchor,ACH-001402,2,9661,1
+1595,BRD7,Cervix,joint_partner,ACH-001402,2,9661,1
+1596,BRD7,Soft Tissue,own_anchor,ACH-001702,2,9965,1
+1597,BRD7,Soft Tissue,own_partner,ACH-001702,2,9965,1
+1598,BRD7,Soft Tissue,joint_anchor,ACH-001702,2,9965,1
+1599,BRD7,Soft Tissue,joint_partner,ACH-001702,2,9965,1
+1600,BRD9,Breast,own_anchor,ACH-000212,2,9974,1
+1601,BRD9,Breast,own_partner,ACH-000212,2,9974,1
+1602,BRD9,Breast,joint_anchor,ACH-000212,2,9974,1
+1603,BRD9,Breast,joint_partner,ACH-000212,2,9974,1

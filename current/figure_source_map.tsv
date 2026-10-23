@@ -1,0 +1,9 @@
+figure	content	source
+Figure 1	Focused study schematic	Original schematic; definitions and endpoints in manuscript
+Figure 2	Deposited structure and binary contact robustness	S2 structures; S8 structure_validation CSV; deposited EMD-0974 projection, not micrograph
+Figure 3	Residual protein co-variation and layer contrasts	S3 proteogenomics/results/cellline_v3 and cptac_v3
+Figure 4a-c	Proteome-wide ranks, nulls and PC sensitivities	S6 results/proteome_scan.csv, competitive_tests.csv, PC_sensitivity.csv
+Figure 4d	Published iPSC knockout molecular changes	S7 results/fixed_panel_KO_results.csv; Roumeliotis Table S6
+Figures S1-S19	Extended analyses	S1-S7; individual captions specify endpoints and limits
+Figure S20	Published H1299/A549 rescue source values	S8 figure_sources/Figure5_molecular_validation_source.csv; Ye et al. DOI 10.1038/s41467-025-67322-2
+TOC graphic	Patient fixed-panel residual-correlation contrasts	S8 TOC_source_data.csv; full primary tests in S3

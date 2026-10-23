@@ -1,0 +1,386 @@
+[
+  {
+    "key": "behan2019",
+    "doi": "10.1038/s41586-019-1103-9",
+    "first_author": "Behan, Fiona M.",
+    "title": "Prioritization of cancer therapeutic targets using CRISPR–Cas9 screens",
+    "year": 2019,
+    "journal": "Nature"
+  },
+  {
+    "key": "benjamini1995",
+    "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+    "first_author": "Benjamini, Yoav",
+    "title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+    "year": 1995,
+    "journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology"
+  },
+  {
+    "key": "cock2009",
+    "doi": "10.1093/bioinformatics/btp163",
+    "first_author": "Cock, Peter J. A.",
+    "title": "Biopython: freely available Python tools for computational molecular biology and bioinformatics",
+    "year": 2009,
+    "journal": "Bioinformatics"
+  },
+  {
+    "key": "depmap2025",
+    "doi": "10.1038/s41568-024-00763-x",
+    "first_author": "Arafeh, Rand",
+    "title": "The present and future of the Cancer Dependency Map",
+    "year": 2025,
+    "journal": "Nature Reviews Cancer"
+  },
+  {
+    "key": "evans2024",
+    "doi": "10.1101/2021.10.04.463034",
+    "first_author": "Evans, Richard",
+    "title": "Protein complex prediction with AlphaFold-Multimer",
+    "year": 2021,
+    "journal": "bioRxiv"
+  },
+  {
+    "key": "he2020",
+    "doi": "10.1126/science.aaz9761",
+    "first_author": "He, Shuang",
+    "title": "Structure of nucleosome-bound human BAF complex",
+    "year": 2020,
+    "journal": "Science"
+  },
+  {
+    "key": "helming2014",
+    "doi": "10.1038/nm.3480",
+    "first_author": "Helming, Katherine C",
+    "title": "ARID1B is a specific vulnerability in ARID1A-mutant cancers",
+    "year": 2014,
+    "journal": "Nature Medicine"
+  },
+  {
+    "key": "ito2021",
+    "doi": "10.1038/s41588-021-00967-z",
+    "first_author": "Ito, Takahiro",
+    "title": "Paralog knockout profiling identifies DUSP4 and DUSP6 as a digenic dependence in MAPK pathway-driven cancers",
+    "year": 2021,
+    "journal": "Nature Genetics"
+  },
+  {
+    "key": "jimenez2018",
+    "doi": "10.1093/bioinformatics/btx555",
+    "first_author": "Jimenez-Garcia, Brian",
+    "title": "LightDock: a new multi-scale approach to protein–protein docking",
+    "year": 2018,
+    "journal": "Bioinformatics"
+  },
+  {
+    "key": "jumper2021",
+    "doi": "10.1038/s41586-021-03819-2",
+    "first_author": "Jumper, John",
+    "title": "Highly accurate protein structure prediction with AlphaFold",
+    "year": 2021,
+    "journal": "Nature"
+  },
+  {
+    "key": "kadoch2013",
+    "doi": "10.1038/ng.2628",
+    "first_author": "Kadoch, Cigall",
+    "title": "Proteomic and bioinformatic analysis of mammalian SWI/SNF complexes identifies extensive roles in human malignancy",
+    "year": 2013,
+    "journal": "Nature Genetics"
+  },
+  {
+    "key": "kasinath2018",
+    "doi": "10.1126/science.aar5700",
+    "first_author": "Kasinath, Vignesh",
+    "title": "Structures of human PRC2 with its cofactors AEBP2 and JARID2",
+    "year": 2018,
+    "journal": "Science"
+  },
+  {
+    "key": "kasinath2021",
+    "doi": "10.1126/science.abc3393",
+    "first_author": "Kasinath, Vignesh",
+    "title": "JARID2 and AEBP2 regulate PRC2 in the presence of H2AK119ub1 and other histone modifications",
+    "year": 2021,
+    "journal": "Science"
+  },
+  {
+    "key": "kim2020",
+    "doi": "10.1038/s41467-020-16164-1",
+    "first_author": "Kim, Nayoung",
+    "title": "Single-cell RNA sequencing demonstrates the molecular and cellular reprogramming of metastatic lung adenocarcinoma",
+    "year": 2020,
+    "journal": "Nature Communications"
+  },
+  {
+    "key": "koferle2022",
+    "doi": "10.1016/j.celrep.2022.110636",
+    "first_author": "Koferle, Anna",
+    "title": "Interrogation of cancer gene dependencies reveals paralog interactions of autosome and sex chromosome-encoded genes",
+    "year": 2022,
+    "journal": "Cell Reports"
+  },
+  {
+    "key": "love2014",
+    "doi": "10.1186/s13059-014-0550-8",
+    "first_author": "Love, Michael I",
+    "title": "Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2",
+    "year": 2014,
+    "journal": "Genome Biology"
+  },
+  {
+    "key": "lundberg2020",
+    "doi": "10.1038/s42256-019-0138-9",
+    "first_author": "Lundberg, Scott M.",
+    "title": "From local explanations to global understanding with explainable AI for trees",
+    "year": 2020,
+    "journal": "Nature Machine Intelligence"
+  },
+  {
+    "key": "mashtalir2018",
+    "doi": "10.1016/j.cell.2018.09.032",
+    "first_author": "Mashtalir, Nazar",
+    "title": "Modular Organization and Assembly of SWI/SNF Family Chromatin Remodeling Complexes",
+    "year": 2018,
+    "journal": "Cell"
+  },
+  {
+    "key": "mashtalir2020",
+    "doi": "10.1016/j.cell.2020.09.051",
+    "first_author": "Mashtalir, Nazar",
+    "title": "A Structural Model of the Endogenous Human BAF Complex Informs Disease Mechanisms",
+    "year": 2020,
+    "journal": "Cell"
+  },
+  {
+    "key": "meldal2022",
+    "doi": "10.1093/nar/gkab991",
+    "first_author": "Meldal, Birgit H M",
+    "title": "Complex Portal 2022: new curation frontiers",
+    "year": 2022,
+    "journal": "Nucleic Acids Research"
+  },
+  {
+    "key": "mayakonda2018",
+    "doi": "10.1101/gr.239244.118",
+    "first_author": "Mayakonda, Anand",
+    "title": "Maftools: efficient and comprehensive analysis of somatic variants in cancer",
+    "year": 2018,
+    "journal": "Genome Research"
+  },
+  {
+    "key": "michel2018",
+    "doi": "10.1038/s41556-018-0221-1",
+    "first_author": "Michel, Brittany C.",
+    "title": "A non-canonical SWI/SNF complex is a synthetic lethal target in cancers driven by BAF complex perturbation",
+    "year": 2018,
+    "journal": "Nature Cell Biology"
+  },
+  {
+    "key": "mirdita2022",
+    "doi": "10.1038/s41592-022-01488-1",
+    "first_author": "Mirdita, Milot",
+    "title": "ColabFold: making protein folding accessible to all",
+    "year": 2022,
+    "journal": "Nature Methods"
+  },
+  {
+    "key": "pacini2021",
+    "doi": "10.1038/s41467-021-21898-7",
+    "first_author": "Pacini, Clare",
+    "title": "Integrated cross-study datasets of genetic dependencies in cancer",
+    "year": 2021,
+    "journal": "Nature Communications"
+  },
+  {
+    "key": "pan2018",
+    "doi": "10.1016/j.cels.2018.04.011",
+    "first_author": "Pan, Joshua",
+    "title": "Interrogation of Mammalian Protein Complex Structure, Function, and Membership Using Genome-Scale Fitness Screens",
+    "year": 2018,
+    "journal": "Cell Systems"
+  },
+  {
+    "key": "tcgaluad2014",
+    "doi": "10.1038/nature13385",
+    "first_author": "{The Cancer Genome Atlas Research Network}",
+    "title": "Comprehensive molecular profiling of lung adenocarcinoma",
+    "year": 2014,
+    "journal": "Nature"
+  },
+  {
+    "key": "traag2019",
+    "doi": "10.1038/s41598-019-41695-z",
+    "first_author": "Traag, V. A.",
+    "title": "From Louvain to Leiden: guaranteeing well-connected communities",
+    "year": 2019,
+    "journal": "Scientific Reports"
+  },
+  {
+    "key": "wainberg2021",
+    "doi": "10.1038/s41588-021-00840-z",
+    "first_author": "Wainberg, Michael",
+    "title": "A genome-wide atlas of co-essential modules assigns function to uncharacterized genes",
+    "year": 2021,
+    "journal": "Nature Genetics"
+  },
+  {
+    "key": "wanior2021",
+    "doi": "10.1038/s41388-021-01781-x",
+    "first_author": "Wanior, Marek",
+    "title": "Exploiting vulnerabilities of SWI/SNF chromatin remodelling complexes for cancer therapy",
+    "year": 2021,
+    "journal": "Oncogene"
+  },
+  {
+    "key": "xie2021",
+    "doi": "10.1002/cpz1.90",
+    "first_author": "Xie, Zhuorui",
+    "title": "Gene Set Knowledge Discovery with Enrichr",
+    "year": 2021,
+    "journal": "Current Protocols"
+  },
+  {
+    "key": "korsunsky2019",
+    "doi": "10.1038/s41592-019-0619-0",
+    "first_author": "Korsunsky, Ilya",
+    "title": "Fast, sensitive and accurate integration of single-cell data with Harmony",
+    "year": 2019,
+    "journal": "Nature Methods"
+  },
+  {
+    "key": "stlaurent2025",
+    "doi": "10.1038/s41588-025-02333-9",
+    "first_author": "St. Laurent, Jessica D.",
+    "title": "Shifted assembly and function of mSWI/SNF family subcomplexes underlie targetable dependencies in dedifferentiated endometrial carcinomas",
+    "year": 2025,
+    "journal": "Nature Genetics"
+  },
+  {
+    "key": "mcdonald2017",
+    "doi": "10.1016/j.cell.2017.07.005",
+    "first_author": "McDonald, E. Robert",
+    "title": "Project DRIVE: A Compendium of Cancer Dependencies and Synthetic Lethal Relationships Uncovered by Large-Scale, Deep RNAi Screening",
+    "year": 2017,
+    "journal": "Cell"
+  },
+  {
+    "key": "srivatsa2022",
+    "doi": "10.1038/s41467-022-35378-z",
+    "first_author": "Srivatsa, Sumana",
+    "title": "Discovery of synthetic lethal interactions from large-scale pan-cancer perturbation screens",
+    "year": 2022,
+    "journal": "Nature Communications"
+  },
+  {
+    "key": "awwad2025",
+    "doi": "10.1038/s41467-024-55637-5",
+    "first_author": "Awwad, Samah W.",
+    "title": "KLF5 loss sensitizes cells to ATR inhibition and is synthetic lethal with ARID1A deficiency",
+    "year": 2025,
+    "journal": "Nature Communications"
+  },
+  {
+    "key": "fournier2024",
+    "doi": "10.3390/cancers16172949",
+    "first_author": "Fournier, Louis-Alexandre",
+    "title": "Genome-Wide CRISPR Screen Identifies KEAP1 Perturbation as a Vulnerability of ARID1A-Deficient Cells",
+    "year": 2024,
+    "journal": "Cancers"
+  },
+  {
+    "key": "feng2022",
+    "doi": "10.1126/sciadv.abm6638",
+    "first_author": "Feng, Xu",
+    "title": "Genome-wide CRISPR screens using isogenic cells reveal vulnerabilities conferred by loss of tumor suppressors",
+    "year": 2022,
+    "journal": "Science Advances"
+  },
+  {
+    "key": "li2023proteogenomic",
+    "doi": "10.1016/j.ccell.2023.06.009",
+    "first_author": "Li, Yize",
+    "title": "Proteogenomic data and resources for pan-cancer analysis",
+    "year": 2023,
+    "journal": "Cancer Cell"
+  },
+  {
+    "key": "kelso2017",
+    "doi": "10.7554/elife.30506",
+    "first_author": "Kelso, Timothy W R",
+    "title": "Chromatin accessibility underlies synthetic lethality of SWI/SNF subunits in ARID1A-mutant cancers",
+    "year": 2017,
+    "journal": "eLife"
+  },
+  {
+    "key": "ritchie2015",
+    "doi": "10.1093/nar/gkv007",
+    "first_author": "Ritchie, Matthew E.",
+    "title": "limma powers differential expression analyses for RNA-sequencing and microarray studies",
+    "year": 2015,
+    "journal": "Nucleic Acids Research"
+  },
+  {
+    "key": "billmann2026",
+    "doi": "10.1016/j.cell.2026.03.044",
+    "first_author": "Billmann, Maximilian",
+    "title": "Global genetic interaction network of a human cell maps conserved principles and informs functional interpretation of gene co-essentiality profiles",
+    "year": 2026,
+    "journal": "Cell"
+  },
+  {
+    "key": "roumeliotis2017",
+    "doi": "10.1016/j.celrep.2017.08.010",
+    "first_author": "Roumeliotis, Theodoros I.",
+    "title": "Genomic Determinants of Protein Abundance Variation in Colorectal Cancer Cells",
+    "year": 2017,
+    "journal": "Cell Reports"
+  },
+  {
+    "key": "gillette2020",
+    "doi": "10.1016/j.cell.2020.06.013",
+    "first_author": "Gillette, Michael A.",
+    "title": "Proteogenomic Characterization Reveals Therapeutic Vulnerabilities in Lung Adenocarcinoma",
+    "year": 2020,
+    "journal": "Cell"
+  },
+  {
+    "key": "satpathy2021",
+    "doi": "10.1016/j.cell.2021.07.016",
+    "first_author": "Satpathy, Shankha",
+    "title": "A proteogenomic portrait of lung squamous cell carcinoma",
+    "year": 2021,
+    "journal": "Cell"
+  },
+  {
+    "key": "patil2023",
+    "doi": "10.1016/j.cell.2023.08.032",
+    "first_author": "Patil, Ajinkya",
+    "title": "A disordered region controls cBAF activity via condensation and partner recruitment",
+    "year": 2023,
+    "journal": "Cell"
+  },
+  {
+    "key": "ye2026",
+    "doi": "10.1038/s41467-025-67322-2",
+    "first_author": "Ye, Xifu",
+    "title": "Co-condensation between transcription factor and cBAF selectively modulates chromatin remodeling and gene expression",
+    "year": 2026,
+    "journal": "Nature Communications"
+  },
+  {
+    "key": "ryan2017",
+    "doi": "10.1016/j.cels.2017.09.011",
+    "first_author": "Ryan, Colm J.",
+    "title": "A Compendium of Co-regulated Protein Complexes in Breast Cancer Reveals Collateral Loss Events",
+    "year": 2017,
+    "journal": "Cell Systems"
+  },
+  {
+    "key": "goncalves2017",
+    "doi": "10.1016/j.cels.2017.08.013",
+    "first_author": "Goncalves, Emanuel",
+    "title": "Widespread Post-transcriptional Attenuation of Genomic Copy-Number Variation in Cancer",
+    "year": 2017,
+    "journal": "Cell Systems"
+  }
+]

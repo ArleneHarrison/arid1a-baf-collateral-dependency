@@ -1,0 +1,170 @@
+{
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "executed_on": "User NVIDIA RTX 5090 Linux server",
+  "network_note": "Small public source files relayed via workstation because direct NCBI SSL timed out; all scientific transformations/statistics executed here.",
+  "raw_SRA_downloaded": false,
+  "maximum_analysis_threads": 1,
+  "started_from_original_study": "GSE101966; DOI 10.7554/eLife.30506",
+  "inputs": [
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_HCT116_FPKM.txt.gz",
+      "bytes": 1434253,
+      "sha256": "21f7ac0d23529dec7c27c3da40d117e4872d3555e62cb24dac9cbc1325287c67"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_RAW.tar",
+      "bytes": 24197120,
+      "sha256": "36dce9c17b23bd3466e8ec0f1eb7a0952055db4900e241a40280509c07b368c3"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_family.soft",
+      "bytes": 27326284,
+      "sha256": "81032da15ae1d30921e353445b074dfbd34471bffe2f11801537718b5b987bf5"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/kelso_europepmc_search.json",
+      "bytes": 1191,
+      "sha256": "04e38d58f860194db57cd8c9c5e5f1cbc5fc75a6ee4ac6b4ea82bd3deecf0cea"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/kelso_fulltext.xml",
+      "bytes": 241112,
+      "sha256": "bc71bdab20579004228424b4057f77d058bf904b27d678f77cc8495f54595519"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/r12_analysis_spec.json",
+      "bytes": 3920,
+      "sha256": "011bde9bc32d44c3bab1601c8f11759788593304e5af26c88cbbaea58f694b51"
+    }
+  ],
+  "scripts": [
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/scripts/r12_epigenomic_audit.py",
+      "bytes": 9629,
+      "sha256": "378baa3ac34d549e6bf1717b2c2e9dbba18d2d0ed1cc9019430cefb188f647f6"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/scripts/r12_epigenomic_chromatin_support.py",
+      "bytes": 10793,
+      "sha256": "9636802c059139700ed0d39f9f27fa75136055da186735758e7a867b81512cf0"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/scripts/r12_epigenomic_finalize.py",
+      "bytes": 4564,
+      "sha256": "39d0be0ad884b11d03ca81a9c16d977e707e5b268b5cdbadc6418c7df052f0f9"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/scripts/r12_epigenomic_rna_interaction.R",
+      "bytes": 10542,
+      "sha256": "d6d5ca904ab8b9160c628fd7dbb8ba3120f18bcb9640bc414046479fc1ff8c16"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_chromatin_file_audit.csv",
+      "bytes": 13956,
+      "sha256": "222a3d1006e4b5097d44125972eb510f4d687376f2e9b3bca3ff6deeb9f7c74f"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_gene_molecular_evidence.csv",
+      "bytes": 8721052,
+      "sha256": "370564bcb9b7815fc44ea6ed684ab54f35650a7a44318b94b2d626e1457cf433"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_literature_anchor_gene_response.csv",
+      "bytes": 7836,
+      "sha256": "4226980b43b9fd589febd46d45b9f0a32b42bdfd445547c2a6d642faf13b513c"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_numeric_audit.json",
+      "bytes": 830,
+      "sha256": "1bec736d9b7cc060da898a6fecea535a66cf39eea476f9e9b5cf4688867c1e50"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_prespecified_module_gene_response.csv",
+      "bytes": 31524,
+      "sha256": "0299f992e53e8ffa3b1f7ec00d59f662af723bb440178c6bdd56f716f06c3e6f"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_prespecified_module_response_summary.csv",
+      "bytes": 887,
+      "sha256": "67266dd0868da0a9e8a78e4b0725b57326bda601eb8cad985bbdf85f98d34fd3"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_promoter_peak_support.csv",
+      "bytes": 4345482,
+      "sha256": "3573a3a4e1fcd8a7d48297bbfe981a9f9a3c8d7eb80881d7650588f12437267a"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_PCA_variance.csv",
+      "bytes": 193,
+      "sha256": "c8529109ee73e94ab21a1a8cee4ec2ba2183fa1986e6fb07a5a46b8abf2c667e"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_analysis_summary.json",
+      "bytes": 2487,
+      "sha256": "f686ef84d39f819c169530f29f6b1209fc0bbd22f34e11c5baa39ed1a1e650cb"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_design_matrix.csv",
+      "bytes": 423,
+      "sha256": "661363883d293110ff324cbbf3127fbeb40b82e37d3f42ed585b890098225f67"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_primary_interaction.csv",
+      "bytes": 4824553,
+      "sha256": "d490c8e16428f8ee9e98df50ef299e8731489ffd2f997bc36ea8287dd542fdac"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sample_PCA.csv",
+      "bytes": 1021,
+      "sha256": "65ec4098ba86eaa724eae49875d87c16415c7769ec5fa11831b0763698aa4e88"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sample_correlation.csv",
+      "bytes": 1373,
+      "sha256": "48720ffaf8f9bb91ee39178fec038bd49e25cbcb37619e2153acba630b934c97"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sample_design.csv",
+      "bytes": 444,
+      "sha256": "d737ff606f589105190eeb7e6ed11569a9fa317054eb6aa87415570cab7f27ed"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_secondary_diagnostic_contrasts.csv",
+      "bytes": 8359942,
+      "sha256": "b029a55555d9702dd83dc0531e3b1020744078d17beceb76c3479971acd2b90e"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_selected_gene_FPKM.csv",
+      "bytes": 978506,
+      "sha256": "0aa553651d7cabb4e09d44fc49a23de55356696b6e862c8f77d9613bb6fc8da0"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sensitivity_comparison.csv",
+      "bytes": 1763340,
+      "sha256": "1b947986e2d8fb444b41e0552ecff34f24343220d49c6a68ceef0c3aa8388571"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sensitivity_longest_transcript.csv",
+      "bytes": 4824553,
+      "sha256": "d490c8e16428f8ee9e98df50ef299e8731489ffd2f997bc36ea8287dd542fdac"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sensitivity_offset_0p1.csv",
+      "bytes": 4827213,
+      "sha256": "edc87be653584c59751ff6fed29521673e36b94d27c84fe5c3945fc1c81d74e9"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_rna_sessionInfo.txt",
+      "bytes": 498,
+      "sha256": "8efd6b0d07e094cf8dc88a26a5692331dc224e35f2904dc2bfb46f6621930bfa"
+    },
+    {
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/outputs/r12_secondary_contrast_summary.csv",
+      "bytes": 445,
+      "sha256": "9248d6f827aa3f708306b7ab49a3dac27f4830add76ceaad972bf5af90ccb675"
+    }
+  ],
+  "completed_utc": "2026-09-05T01:36:28.358001+00:00"
+}

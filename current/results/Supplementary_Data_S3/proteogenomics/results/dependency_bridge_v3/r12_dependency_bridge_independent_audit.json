@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "audited_version": "v3",
+  "shared_n": 417,
+  "unique_analysis_patients": 417,
+  "lineages": 26,
+  "same_historical_input_hashes": true,
+  "same_historical_specification": true,
+  "same_historical_bridge_script": true,
+  "current_helper_matches_production_run": true,
+  "helper_sha256_current": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad",
+  "point_max_absolute_rho_error_vs_explicit_OLS": 9.020562075079397e-17,
+  "point_max_absolute_delta_r2_error_vs_explicit_OLS": 1.2967057982926633e-16,
+  "bootstrap_replays": 50,
+  "bootstrap_max_absolute_rho_error_vs_explicit_OLS": 5.551115123125783e-17,
+  "rare_odd_constant_block_replays": 8,
+  "rare_odd_constant_block_max_abs_centered_value": 0.0,
+  "rare_odd_constant_block_max_abs_rho_error": 2.7755575615628914e-17,
+  "confidence_interval_max_abs_recalculation_error": 6.938893903907228e-17,
+  "centered_p_max_abs_recalculation_error": 5.551115123125783e-17,
+  "BH_q_max_abs_recalculation_error": 5.551115123125783e-17,
+  "bootstrap_valid_counts": [
+    10000,
+    10000
+  ],
+  "bootstrap_counts_match_summary_and_spec": true,
+  "target_order": [
+    "ARID1A",
+    "ARID1B"
+  ],
+  "current_minus_historical_versions": {
+    "v1": {
+      "helper_sha256": "9e0deb7889a247bd61d306b91637df9fc5cac8bd9a2afb7c7eb2c4c087f42790",
+      "same_inputs": true,
+      "same_specification": true,
+      "same_bridge_script": true,
+      "bootstrap_max_abs_rho_change": [
+        1.1528430117077604e-05,
+        1.0879914828787474e-05
+      ],
+      "bootstrap_changed_above_1e_minus12": [
+        4,
+        4
+      ],
+      "point_rho_change": [
+        0.0,
+        0.0
+      ],
+      "rho_ci_low_change": [
+        0.0,
+        0.0
+      ],
+      "rho_ci_high_change": [
+        0.0,
+        0.0
+      ],
+      "p_change": [
+        0.0,
+        0.0
+      ],
+      "q_change": [
+        0.0,
+        0.0
+      ]
+    },
+    "v2": {
+      "helper_sha256": "2f0590d414bafd99b19acf8624eeded64543de737e40ce8523a5acc3dafc81c9",
+      "same_inputs": true,
+      "same_specification": true,
+      "same_bridge_script": true,
+      "bootstrap_max_abs_rho_change": [
+        1.1528430117077604e-05,
+        1.0879914828787474e-05
+      ],
+      "bootstrap_changed_above_1e_minus12": [
+        4,
+        4
+      ],
+      "point_rho_change": [
+        0.0,
+        0.0
+      ],
+      "rho_ci_low_change": [
+        0.0,
+        0.0
+      ],
+      "rho_ci_high_change": [
+        0.0,
+        0.0
+      ],
+      "p_change": [
+        0.0,
+        0.0
+      ],
+      "q_change": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "audit_script_sha256": "b1f4da72a370898551c18c6c6e2169894f3ac49e6e95ab3792b3353abf7815c5"
+}

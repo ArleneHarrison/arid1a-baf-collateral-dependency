@@ -1,0 +1,1037 @@
+[
+  {
+    "file": "code/Supplementary_Data_S1/hap1/r15_hap1_acquire.py",
+    "bytes": 7164,
+    "sha256": "774a77b19fd43dfef990167ab6a1423f8e58124c78dacc2b856103fb5eb94ab8"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/hap1/r15_hap1_analyze.py",
+    "bytes": 14740,
+    "sha256": "940d102fe96884e1e1302766284411010634d4de9b5293d99c5716816636cbae"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/hap1/r15_hap1_independent_audit.py",
+    "bytes": 4968,
+    "sha256": "4de641201a9f7cb2e7cddd84a3dde4cf44705853e5b49a9fd5e7ea6a08246465"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/hap1/r15_hap1_source_methods.py",
+    "bytes": 1074,
+    "sha256": "e13366b76f5013d99931438560fc09bb523739d9eaf02710f683d47181b0f0a6"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/scripts/r15_ml_independent_audit.py",
+    "bytes": 7717,
+    "sha256": "1f859c47223a4784d37a936a08966012c94195c4df993f84332187590822ce54"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/scripts/r15_ml_validation.py",
+    "bytes": 17614,
+    "sha256": "0a1adc416716f16304a43426b7f5d4f62ab71317d87f36b0afb6d0c496b8ccc2"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/strong_null/r15_null_final_training_balance.py",
+    "bytes": 4385,
+    "sha256": "02af8ebdde9c1f8efda728c93f72c3f64e618793eefc7e76d17b9b2a10adf024"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/strong_null/r15_null_independent_audit.py",
+    "bytes": 6074,
+    "sha256": "37babdd0ce6199486defb94734c845d9dc533a207b931a286e7245fcd6617f2e"
+  },
+  {
+    "file": "code/Supplementary_Data_S1/strong_null/r15_null_strengthening.py",
+    "bytes": 24093,
+    "sha256": "44c84bee6fdb802ea6ba103b891b0e28758c8e4231edcc7cbdc4d40467e8a3f1"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/07_leiden_community.py",
+    "bytes": 4011,
+    "sha256": "48336e3543fb3771a25b1415af9a22c4aa050517ae928fcd66eb113a4546d278"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/08_tcga_mutation_summary.py",
+    "bytes": 2665,
+    "sha256": "433f6a2c50f4ea50d9f580e43a4d099882aeba4c508308ff21ba8f3101d6ddc0"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/complex_module_codependency.py",
+    "bytes": 3588,
+    "sha256": "a7569c2c020d4053d84c903555a60e2de4d941e4398ff96d7cfd649e4a3f0b06"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/make_cryoem_density_panel.py",
+    "bytes": 8776,
+    "sha256": "ddb3fe04f562dc3752dd53546b7f788f1bb177f8a05a509bb974d521b446a72d"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/prc2_structure_refinement.py",
+    "bytes": 6148,
+    "sha256": "2d74355753a99203c857c1e3d661a9112eaf84b69394446bec8fc481007f6b8a"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r10_cbaf_direct_competition.py",
+    "bytes": 15366,
+    "sha256": "7d2740c652ff974242459daec7549f92854e76b1967033b461aa4a5b4cfd4266"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r11_long_term_dependency_validation.py",
+    "bytes": 20483,
+    "sha256": "350be5288e0d4d87e3f29f824b459582c464042468a76325a9ff909056ca5b08"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r1_contacts_9a0k.py",
+    "bytes": 3043,
+    "sha256": "c35631d78f0104642295836a72d72c355bd61aceda6d97e496093b6b25525e30"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r1_replicate_structure_partition_9a0k.py",
+    "bytes": 3493,
+    "sha256": "35b38c6e8fd92967c0f1655d8b460fa2fb0d9be001a699bdce3399ced1496ce7"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r2_arid1a_null_positive_control.py",
+    "bytes": 5372,
+    "sha256": "55352d247d0c25e173afed18119c657ec776400693d24fe03835d90e98a5cc4c"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r3_scrna_sample_level.py",
+    "bytes": 2021,
+    "sha256": "6f0d66e0143a36cd2573faa2704f888612c81733503daf82ff7504af2bdb62ef"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r3_structural_claim_audit.py",
+    "bytes": 4077,
+    "sha256": "81f972940dffc4e8d5fd282f6562c4bd2a2eb64f988910d1940f78e3ea657306"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r5_arid1a_null_module_scores.py",
+    "bytes": 10161,
+    "sha256": "30b5aae2328c0343d7130a9c0d8b7e9e4f2fb06c3adefbc36a4b87448d566573"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r5_structure_quality_sensitivity.py",
+    "bytes": 14077,
+    "sha256": "325b35422572e4da9435b59608f7bec31fa36f257c329e1a15c152c7d65859c8"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r6_depmap26q1_replication.py",
+    "bytes": 13469,
+    "sha256": "e7bc6f28f1738816c12b3bdf29878c81cd19c28ee1f51087ced1d48c7d39e6f1"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r6_extract_gse131907_patient_map.py",
+    "bytes": 3854,
+    "sha256": "be05193c31de2ed838847d33aac98cb80bd3ed9b13d900b6797785ba2fbb03ae"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r6_leiden_stability.py",
+    "bytes": 9135,
+    "sha256": "1a6b5fe5635eaae0eb620169a062b227f58434735ffb56950681e6d5b84fcd52"
+  },
+  {
+    "file": "code/Supplementary_Data_S2/scripts/r6_scrna_patient_robustness.py",
+    "bytes": 7846,
+    "sha256": "160387ea6f9f684322b657be72720bd38cb2ce54735266228c64998cf9971ead"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/cptac_v3/frozen/r12_cptac_independent_statistics_audit.py",
+    "bytes": 14258,
+    "sha256": "d6eefc4dea7595fc8c6c1eef9581a03b63eb76921e3480b53aa2181ec54236d0"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/cptac_v3/frozen/r12_cptac_run.py",
+    "bytes": 4214,
+    "sha256": "6c80ae7cbb1096c18d9661805e05b437724009ab6c7914e1858dcfea165cb421"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/cptac_v3/frozen/r12_cptac_validate_results.py",
+    "bytes": 5341,
+    "sha256": "259c316b644273efabb433b809113fe398779140609d7391a31b76dece23d066"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/cptac_v3/frozen/r12_protein_multiomics.py",
+    "bytes": 24760,
+    "sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_audit_v3_used.py",
+    "bytes": 11109,
+    "sha256": "b1f4da72a370898551c18c6c6e2169894f3ac49e6e95ab3792b3353abf7815c5"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_v3_used.py",
+    "bytes": 19058,
+    "sha256": "78a3673f8cbdb80a2e46e31d16c70218e14d25697ddf374dd27b515fffa6e56f"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_protein_multiomics_v3_used.py",
+    "bytes": 24760,
+    "sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cellline_input_audit.py",
+    "bytes": 2590,
+    "sha256": "4109e083b9a1a6ac442ef5471a8ccf33a107f951b445d8dd05525d321405cab0"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_acquire_audit.py",
+    "bytes": 14891,
+    "sha256": "12bd64e0449d0882845eb395e6731dd9003177c26be28cd47d14f7140bd16256"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_cellline_extended_audit.py",
+    "bytes": 10359,
+    "sha256": "9b8951453157495f5d2be79b771baddcf5b52afc32c96a9719c2283bad9ff9ef"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_gene_map.py",
+    "bytes": 1595,
+    "sha256": "5982b26fa8855a13ba35ccc7dba499edfb39cb462d3f7048ca199093754e64ee"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_independent_statistics_audit.py",
+    "bytes": 14258,
+    "sha256": "d6eefc4dea7595fc8c6c1eef9581a03b63eb76921e3480b53aa2181ec54236d0"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_pancan_acquire.py",
+    "bytes": 2529,
+    "sha256": "6011993b27d0d791e14aadf3e1443f02b644d17c61deae5c3d263a25ffc2b9b9"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_pancan_prepare.py",
+    "bytes": 15443,
+    "sha256": "9d199799d05fbd1c99ee720e1a0bd9a054c52e191a7d1891a3c74d8befd26cc2"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_run.py",
+    "bytes": 4214,
+    "sha256": "6c80ae7cbb1096c18d9661805e05b437724009ab6c7914e1858dcfea165cb421"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_cptac_validate_results.py",
+    "bytes": 5341,
+    "sha256": "259c316b644273efabb433b809113fe398779140609d7391a31b76dece23d066"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_dependency_bridge.py",
+    "bytes": 19058,
+    "sha256": "78a3673f8cbdb80a2e46e31d16c70218e14d25697ddf374dd27b515fffa6e56f"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_dependency_bridge_audit.py",
+    "bytes": 11109,
+    "sha256": "b1f4da72a370898551c18c6c6e2169894f3ac49e6e95ab3792b3353abf7815c5"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_download_depmap.py",
+    "bytes": 2725,
+    "sha256": "9094843aadaf893d0ad0584848a101798621b6bd018fd3127f5edf6b6ff3ec3d"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_epigenomic_audit.py",
+    "bytes": 9629,
+    "sha256": "378baa3ac34d549e6bf1717b2c2e9dbba18d2d0ed1cc9019430cefb188f647f6"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_epigenomic_chromatin_support.py",
+    "bytes": 10793,
+    "sha256": "9636802c059139700ed0d39f9f27fa75136055da186735758e7a867b81512cf0"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_epigenomic_finalize.py",
+    "bytes": 4564,
+    "sha256": "39d0be0ad884b11d03ca81a9c16d977e707e5b268b5cdbadc6418c7df052f0f9"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_prepare_cellline.py",
+    "bytes": 7793,
+    "sha256": "2d841bf659f0b6ccf5b3b5673ce111ee53aeda1244963282571252c346afff62"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_protein_multiomics.py",
+    "bytes": 24760,
+    "sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad"
+  },
+  {
+    "file": "code/Supplementary_Data_S3/proteogenomics/scripts/r12_run_cellline.py",
+    "bytes": 1747,
+    "sha256": "6b0bc5d215de27683db5d36a741a1f4a6d47bb66f83911db1915526321254c93"
+  },
+  {
+    "file": "code/Supplementary_Data_S4/alphafold/source/r14_recompute_af_mapping.py",
+    "bytes": 11953,
+    "sha256": "9108107cca707af1dd1d62cb29c3990ae29abbd3a180734da0247c4a0c717d3d"
+  },
+  {
+    "file": "code/Supplementary_Data_S4/alphafold/source/reproduce_final_af_interfaces.py",
+    "bytes": 4214,
+    "sha256": "5c23fbf1039fb80378b08cb224847570ec771a9c724b13dcba7c76e8b83535c0"
+  },
+  {
+    "file": "code/Supplementary_Data_S4/alphafold/source/run_af.py",
+    "bytes": 1311,
+    "sha256": "ad46303ed6131b03f7d0eae433664a60dba6497b2a8908c470409286f3413d98"
+  },
+  {
+    "file": "code/Supplementary_Data_S5/cross_histology_analysis.py",
+    "bytes": 5803,
+    "sha256": "e3da03982a2157d806fce11d04bee01992009fb2cdaf269099e09759486a1234"
+  },
+  {
+    "file": "code/Supplementary_Data_S6/independent_audit.py",
+    "bytes": 1585,
+    "sha256": "e698920d5773909fe53baaf695accb9a7edc83ab3fd769de069e633a9280ea9c"
+  },
+  {
+    "file": "code/Supplementary_Data_S6/proteome_wide_analysis.py",
+    "bytes": 8697,
+    "sha256": "45c1d98ca216eb5b16a1ae34a13d3e79d12ddcb69a030352d50ad65612bb480e"
+  },
+  {
+    "file": "code/Supplementary_Data_S6/replay_ready.py",
+    "bytes": 3643,
+    "sha256": "d62517d6fa1ac6efee3101aa08692eaa9d375d58a7148dab73e1ffd006d700b9"
+  },
+  {
+    "file": "code/Supplementary_Data_S7/acquire_ipsc.py",
+    "bytes": 978,
+    "sha256": "940cd00abede7cb88c406bee53636a522f4cf9843897fbb791c43f604f00956e"
+  },
+  {
+    "file": "code/Supplementary_Data_S7/audit_ipsc.py",
+    "bytes": 1626,
+    "sha256": "c4ae5855faa4ce34fd95258ffd0cfc057c39ab2c2c44312dcd496c66a4d9dcc4"
+  },
+  {
+    "file": "code/Supplementary_Data_S7/ipsc_analysis.py",
+    "bytes": 3642,
+    "sha256": "cf2f37d719d5655796e773ee9188ed39dafc3d674deb0cb2c91959873c8342d2"
+  },
+  {
+    "file": "figure_source_map.tsv",
+    "bytes": 981,
+    "sha256": "5ccc6c7df378bff0b94af5e8c4d6cbededec576defe3f5b3e3bfedbe53a80071"
+  },
+  {
+    "file": "figure_sources/build_focused_revision_figures.py",
+    "bytes": 17139,
+    "sha256": "e0793955aad88733113507ed8b7b5aba145b7b36765069f8a70c099c6353ff1e"
+  },
+  {
+    "file": "figure_sources/Figure5_molecular_validation_source.csv",
+    "bytes": 1961,
+    "sha256": "95cd59aa7452d3e3a525f52ebbc292cc61a9e85f745f4a8080e5f6e7f2383b1b"
+  },
+  {
+    "file": "figure_sources/focused_figure_manifest.json",
+    "bytes": 4031,
+    "sha256": "e7463a81a046a47c33b7f7f16b6dc034905ee8c5a436b69cbacd376907addbd9"
+  },
+  {
+    "file": "figure_sources/structural_group_sensitivity.csv",
+    "bytes": 6528,
+    "sha256": "17843da339862daa47e91496d80d29b04255a6985a5495acfe763dbfefd553ed"
+  },
+  {
+    "file": "figure_sources/structure_contact_cutoff_sensitivity.csv",
+    "bytes": 2361,
+    "sha256": "e2b7dc181c2aac9841dcb1c7d6fa410818cf09af20f4d3c781a3d451c8c5f2fa"
+  },
+  {
+    "file": "figure_sources/structure_global_validation.csv",
+    "bytes": 333,
+    "sha256": "f5cd6695592cf4cbfbb6ffb381588847341d80d870ad2a99b694cfec9c22b413"
+  },
+  {
+    "file": "figures/Figure1.pdf",
+    "bytes": 30333,
+    "sha256": "972854a23e84f10964c90daaedbd0321c320634862b39cb3b4f23e4494cd1748"
+  },
+  {
+    "file": "figures/Figure2.pdf",
+    "bytes": 60941,
+    "sha256": "b95bc2a56075cbd60fd71fc6360963682a7706090ed85641f56a58af0de35ada"
+  },
+  {
+    "file": "figures/Figure3.pdf",
+    "bytes": 24884,
+    "sha256": "77b867c7921301672e06b7af65321f70d5046261839df0ba487b1db0184a6f43"
+  },
+  {
+    "file": "figures/Figure4.pdf",
+    "bytes": 31736,
+    "sha256": "4561771bfe263f0335a6f07f719ef3fcfd85e5d074b752290689d27069a79ad1"
+  },
+  {
+    "file": "figures/SupplementaryFigureS1.pdf",
+    "bytes": 23271,
+    "sha256": "01833a21f9ca7aab055f458a1c5ecd7f4ef794f32f073320ee3875466e88d35f"
+  },
+  {
+    "file": "figures/SupplementaryFigureS10.pdf",
+    "bytes": 25939,
+    "sha256": "6cdfef2ba92c63813e7847e50df279c8c39ead85609bd3fac16316d04738f258"
+  },
+  {
+    "file": "figures/SupplementaryFigureS11.pdf",
+    "bytes": 59122,
+    "sha256": "a1adf96a4a2a4cacf705bd4a03837a6730ce3cb596e4c4fd0a1edd06472b397c"
+  },
+  {
+    "file": "figures/SupplementaryFigureS12.pdf",
+    "bytes": 67116,
+    "sha256": "bf8fc0168be15baaaa2708f40754435a8d97a1cc2a9e2828bb1595359d977f44"
+  },
+  {
+    "file": "figures/SupplementaryFigureS13.pdf",
+    "bytes": 28556,
+    "sha256": "23385bfc6fa4a9643a23d0558c9c69f321c38a9fe599cba984d978e1b4245977"
+  },
+  {
+    "file": "figures/SupplementaryFigureS14.pdf",
+    "bytes": 22510,
+    "sha256": "f102c558b71689a65827dfd347f78126e4f0719d381030ef9a402c920face141"
+  },
+  {
+    "file": "figures/SupplementaryFigureS15.pdf",
+    "bytes": 70037,
+    "sha256": "069e07faba75c7d4412362a8f1ecce59b5da894def97f1e6344bf180b868acf6"
+  },
+  {
+    "file": "figures/SupplementaryFigureS16.pdf",
+    "bytes": 2557976,
+    "sha256": "47891516ae7ebbcdb2913095801da517e019f7b00eac808916f21cf7c351e4fe"
+  },
+  {
+    "file": "figures/SupplementaryFigureS17.pdf",
+    "bytes": 641268,
+    "sha256": "e516f4f0e14c1f411ce731c61c175942b02fec0a4d289c153f8d7e493ff99f64"
+  },
+  {
+    "file": "figures/SupplementaryFigureS18.pdf",
+    "bytes": 44997,
+    "sha256": "0eed975dc7e33d651382dc4aeede6971f3504cd644011d4ac46e1140f8aba93e"
+  },
+  {
+    "file": "figures/SupplementaryFigureS19.pdf",
+    "bytes": 64228,
+    "sha256": "2741f0ebef7403118e2176d35d8c740080018faff50fab0eff1ca4af0a76a09d"
+  },
+  {
+    "file": "figures/SupplementaryFigureS2.pdf",
+    "bytes": 475915,
+    "sha256": "057490b911d0e7fcf9365167a6e695f098d91caf9a2bfaf1fbe94ce6e5eee68e"
+  },
+  {
+    "file": "figures/SupplementaryFigureS20.pdf",
+    "bytes": 36057,
+    "sha256": "ff624cd1d8539b23247188bb9dc6c5bad5f39ef043190012eeb05e56f62fce66"
+  },
+  {
+    "file": "figures/SupplementaryFigureS3.pdf",
+    "bytes": 1616799,
+    "sha256": "13d1dea61e380b89a0788748753d72c06d0911ca809e1d2dccec57b8e1cc26b9"
+  },
+  {
+    "file": "figures/SupplementaryFigureS4.pdf",
+    "bytes": 29735,
+    "sha256": "c7469ffa7565e7a4f3e7191f7fd06057bf6c3ebb238f0e69d373aca2846f1ac1"
+  },
+  {
+    "file": "figures/SupplementaryFigureS5.pdf",
+    "bytes": 29743,
+    "sha256": "cef993b12762923ca39aee3e06fe5a3910e49ec86b567cf6d1587fe99a0157ca"
+  },
+  {
+    "file": "figures/SupplementaryFigureS6.pdf",
+    "bytes": 56953,
+    "sha256": "c88c1b7b331379b2f96d548cb896e40583022147e39081d0dc46b0f6b110bef8"
+  },
+  {
+    "file": "figures/SupplementaryFigureS7.pdf",
+    "bytes": 28336,
+    "sha256": "06e32972959966a88d97e8c362726a7d57b6c7a819fcc5f9789e82d1adcf25a6"
+  },
+  {
+    "file": "figures/SupplementaryFigureS8.pdf",
+    "bytes": 433231,
+    "sha256": "93cc8271468aa4932c2ea91acbbc544c0f51f73f8a8df66a7bef97aa58ad0ad7"
+  },
+  {
+    "file": "figures/SupplementaryFigureS9.pdf",
+    "bytes": 45480,
+    "sha256": "267ce2105d8c9afab84d306d880609881ea6b2d846df5bda5fa8f6f355315e01"
+  },
+  {
+    "file": "manuscript.pdf",
+    "bytes": 534048,
+    "sha256": "7e65f161531ccd2c0c124d98717f468e067d687cc6b0ed434edaeb16412bf2b9"
+  },
+  {
+    "file": "manuscript.tex",
+    "bytes": 38315,
+    "sha256": "31794f616eb3f7234d0a0059f12ffe6e1d9900702a7e36202b8615b6cb045d4f"
+  },
+  {
+    "file": "metadata/abstract_word_count.json",
+    "bytes": 47,
+    "sha256": "8a6bfd849107e0f442d11322b5823ac49026e6a9f4598bef223016d75b7ecb3b"
+  },
+  {
+    "file": "metadata/crossref_metadata.json",
+    "bytes": 2150422,
+    "sha256": "520d6f129f191620d3ccbcf2e63544f309f5fcdde472986da4e2a9d7a7384aa1"
+  },
+  {
+    "file": "metadata/reference_audit.json",
+    "bytes": 13103,
+    "sha256": "a845ddb96569c85643277d25d469f52478394601f1c0c26be20cada5a36a8258"
+  },
+  {
+    "file": "plot_toc.py",
+    "bytes": 2791,
+    "sha256": "0891398de38fecb4230d716f7941a49a8375b07d21e8043edde7d75bb942e0e5"
+  },
+  {
+    "file": "README.md",
+    "bytes": 4125,
+    "sha256": "bc2016bae5600c1981e358914bdddda573d0dbdcab48fc87f1d17b5df5fddb54"
+  },
+  {
+    "file": "references_jpr.bib",
+    "bytes": 25545,
+    "sha256": "454301885c2c704687777e432843da7dd285f46bd75c9b05bf3127065b27ab71"
+  },
+  {
+    "file": "requirements-render.txt",
+    "bytes": 109,
+    "sha256": "782b53a5147f43e25d43d0cd966a0a23123a6d2714fdeaecc735aa61071004a2"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_analysis_samples.csv",
+    "bytes": 75181,
+    "sha256": "5478943796cdbd0367a8f60114e0348f5ddf5fe77c95f6fb586cad8e519a6232"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_all_npz_summary_audit.csv",
+    "bytes": 27835,
+    "sha256": "77124c0f80249944ab535ad090ed8e05afb6f07899cc6c98215688b81f11002e"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_constant_input_patterns.csv",
+    "bytes": 85021,
+    "sha256": "0e1cc3c0c91aef2401d08d75c8e6aa7190ef2bb1b969cb5bf3465437f889b772"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_extended_numerical_audit.json",
+    "bytes": 1674,
+    "sha256": "b42451e6541ec0365660740b03a3559f74c50d1d17389397edc9122718bda8f8"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_independent_gene_point_audit.csv",
+    "bytes": 5331,
+    "sha256": "dff6c17d85dd4a37c6840025dcc8e9adcf8242928de8064075e4787e9da7f1e6"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_independent_primary_tests.csv",
+    "bytes": 910,
+    "sha256": "0de5d9017247fae01e14e6db474e23476262ed1dc52ec5bc9474332cdf3e4ba3"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_independent_statistics_audit.json",
+    "bytes": 2105,
+    "sha256": "db9a37206e9b2f68b3f3d20e0dc673ceb7eac2c44d813f5a4fc8c9d5a165c75d"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_cellline_input_pattern_OLS_replay.csv",
+    "bytes": 295973,
+    "sha256": "3c828041cc55262a7c87cda9638eb0cc02534b3176aa37bc97d72409470824bf"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_coupling_by_gene.csv",
+    "bytes": 5934,
+    "sha256": "62f57a745b8191542e0c4c2640d6608864d352d7b056e6fd4542809b4c059670"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_coupling_contrasts.csv",
+    "bytes": 3792,
+    "sha256": "f8a01dc223b7b8449f07eba0306555e87443b011cb6aa4ef6c69ca786e412521"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_coupling_manifest.json",
+    "bytes": 6767,
+    "sha256": "0b6ef8e28eddd92c6a84c38810df47d471bf89d2b2d1302b3244befbd190cbda"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_leave_one_lineage_out_by_gene.csv",
+    "bytes": 60000,
+    "sha256": "3460c382fd65221304185a75245e81039009b35f0917cebbda0d6a82c90249df"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_leave_one_lineage_out_contrasts.csv",
+    "bytes": 10852,
+    "sha256": "963c09e64d703c32c9957ec38ae8570fcc6e7b7ae6446992074ac1d3fa1d00af"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cellline_v3/r12_sample_exclusions.csv",
+    "bytes": 17,
+    "sha256": "aede6b9f85b43030a6886685f04e5f058a95ffb93c4aadba245bd37a26e4a81d"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/frozen/r12_analysis_spec.json",
+    "bytes": 4220,
+    "sha256": "d6a11136f62bf1551adc6b3df0cc2a2014bb1456860c17b836ac9878056a9cae"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_base/r12_analysis_samples.csv",
+    "bytes": 6852,
+    "sha256": "4a56d3d6255f38edeca6b2982beb24b4553d79b8c17b1730bd07a0c2ce61984c"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_base/r12_coupling_by_gene.csv",
+    "bytes": 6261,
+    "sha256": "cc553faeef4549c0015fb07c9003f25b957ebc7a7d36a2e654ed979e56ec752f"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_base/r12_coupling_contrasts.csv",
+    "bytes": 3800,
+    "sha256": "287e055af37876781e47ef31ad2b44adee0c860b3840b02992bc9baf219c25a7"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_base/r12_coupling_manifest.json",
+    "bytes": 6599,
+    "sha256": "dc8ca009b90c24d713fba710bc465747704505aa74a264b81e17a2ccf61bda41"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_base/r12_sample_exclusions.csv",
+    "bytes": 17,
+    "sha256": "aede6b9f85b43030a6886685f04e5f058a95ffb93c4aadba245bd37a26e4a81d"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_purity/r12_analysis_samples.csv",
+    "bytes": 6798,
+    "sha256": "0c8685d515be9ce86b619938f1b7f729af78a56d0a8f94e13c6972b7ecade423"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_purity/r12_coupling_by_gene.csv",
+    "bytes": 6269,
+    "sha256": "b9e53f6e336b004bb547d69f8ef576d94be25fc45ff77a6689d440cb8d69002e"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_purity/r12_coupling_contrasts.csv",
+    "bytes": 3800,
+    "sha256": "500fa4473e1fa8c2ef5dded17dcd2ae2fe84c6f0b7b67d39e88bd3a92f2cb356"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_purity/r12_coupling_manifest.json",
+    "bytes": 6721,
+    "sha256": "e83b65cd2216009d03898d525427809fee9e16ee22d55e345f1cec78790cb157"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUAD_purity/r12_sample_exclusions.csv",
+    "bytes": 86,
+    "sha256": "1bd0a97b2e0e50c7a0362f90a58b5edbd57f3276b880ee498600accceeebfd59"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_base/r12_analysis_samples.csv",
+    "bytes": 6812,
+    "sha256": "1dd71febed93b5a58f06b60bba003af891ab14a63f4f3e66652fbb0d00973094"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_base/r12_coupling_by_gene.csv",
+    "bytes": 6227,
+    "sha256": "120a2e5c43c63a88a8d14b91c54119ad4c6746a79495972a4b999eb84d33bb6a"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_base/r12_coupling_contrasts.csv",
+    "bytes": 3815,
+    "sha256": "410fbcf7edde158c7713025594bd21706a8958844f8838ef111e01230b2c5263"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_base/r12_coupling_manifest.json",
+    "bytes": 6599,
+    "sha256": "505021317d734f3f536d135f35ccbb5f48fec57d51168437e405dce7c3f032bb"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_base/r12_sample_exclusions.csv",
+    "bytes": 17,
+    "sha256": "aede6b9f85b43030a6886685f04e5f058a95ffb93c4aadba245bd37a26e4a81d"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_purity/r12_analysis_samples.csv",
+    "bytes": 6754,
+    "sha256": "5a91e6278f0d6f2d5c72f0fd880a7c776e46a3bae65b1a58517f09aa3b85358a"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_purity/r12_coupling_by_gene.csv",
+    "bytes": 6242,
+    "sha256": "475646bc49dbb9da00baf660c1163d1c84397d71e945108024ede6aabf9ea423"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_purity/r12_coupling_contrasts.csv",
+    "bytes": 3801,
+    "sha256": "0a1a8d4f976fb85d185de3749f333204b8058dfab159207da7e0d25b51ee52fd"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_purity/r12_coupling_manifest.json",
+    "bytes": 6720,
+    "sha256": "9649248c517cb94fabbbd3dbb61f14dce0ab1e8053cf93437acc949cfeb182cc"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/LUSC_purity/r12_sample_exclusions.csv",
+    "bytes": 86,
+    "sha256": "dc81811f75de061d379a06e384ae68917670ed34444a1804ef5ef4f5b109f2bc"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_external_primary_tests.csv",
+    "bytes": 1644,
+    "sha256": "9b1be5b44cba895b1881a52de0495ea2c0fc649541b613454945ec642a6c092d"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_four_runs_primary_summary.csv",
+    "bytes": 2817,
+    "sha256": "b1b9750ad733956a326323603d0ac33a07b071e18ebbe4fb7bd1c6f0c9176c10"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_independent_gene_point_audit.csv",
+    "bytes": 9039,
+    "sha256": "467b43ee904a4585a59edab24a47a215bea3bdc389de36dcc03d988df8cc29b3"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_independent_statistics_audit.json",
+    "bytes": 2950,
+    "sha256": "e616808498dd64100b9fef3b1c5b2aa104306591d164f4d7ee032affe3922c35"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_release_artifact_manifest.json",
+    "bytes": 5577,
+    "sha256": "472be4c43226eb7daa72ed4016512d2f07c04329cc7d4de6c1445aa1666b8bdf"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_replay_smoke.json",
+    "bytes": 246,
+    "sha256": "564a04adffc6e31a53d8fcf97de64a8d824f26d0ffc696d91b063da8e75a3c80"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/cptac_v3/r12_cptac_result_validation.json",
+    "bytes": 1351,
+    "sha256": "0fd456ebb9e67d54171c6944ff995ba9277e4759f043eee434c50adced5e5cc4"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_exclusions.csv",
+    "bytes": 22920,
+    "sha256": "e0a15c80edec5d7ee85550c53d121f804863762db053c0061e5f5de61973dec2"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_gene_diagnostics.csv",
+    "bytes": 414,
+    "sha256": "0399ca9396a4cae6404467f9c2ecccea2fa6c5ac0bc0dc878d72307fedd7af07"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_independent_audit.json",
+    "bytes": 2688,
+    "sha256": "f3772fcf7d08856753e61532c497e6d3a6c54092d2bcde7eb65ac1bffbbe5003"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_independent_bootstrap_replay.csv",
+    "bytes": 6401,
+    "sha256": "4a245d2ce2511a78344183956a17df0151499ca2c5dd1875f9ebf71253e7126c"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_manifest.json",
+    "bytes": 12717,
+    "sha256": "0a8ce3c4e24132c5893b98219429991808884c040c6ac1e05142e4aa56eace34"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_rare_constant_block_replay.csv",
+    "bytes": 428,
+    "sha256": "7a896c54748af5ea60425a69cc9640aa0610fe7196ab04adefdb7634a6703c71"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_samples.csv",
+    "bytes": 127433,
+    "sha256": "8418c4a495b29909e8a4addcfbdc55581d9c32ab7b97268b3a262a7c18cb65a0"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_spec_v3_used.json",
+    "bytes": 4582,
+    "sha256": "5c17af55e48c221d0bc3f39b2153a8b33286d30e6495fde6b1443c44b09983bf"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/dependency_bridge_v3/r12_dependency_bridge_summary.csv",
+    "bytes": 988,
+    "sha256": "51a82e3b2d0584bd62ddbe169f1a03ccf19756a7c3f1a19a821c8fb94048bbf3"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/HCT116_chromatin_validity.json",
+    "bytes": 617,
+    "sha256": "babf3a50bf669dd4281b0245f6e403eae734f7187f98718ba5cb1128d7de8591"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/HCT116_data_audit.json",
+    "bytes": 21124571,
+    "sha256": "b8428880809a9f26e8c75600e6d69375df88085721e8d92366919c94a4055e56"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/HCT116_download_manifest.json",
+    "bytes": 1949,
+    "sha256": "efa51a2c727b29a4748567b5089649504ddd5f4568ee6d9f0922e27cfc96e5b9"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/HCT116_execution_provenance.json",
+    "bytes": 7217,
+    "sha256": "db5a475e6fb557577bcad7300145970a284ff1ab349e47e5d5e06b0637a062d4"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_chromatin_file_audit.csv",
+    "bytes": 13956,
+    "sha256": "222a3d1006e4b5097d44125972eb510f4d687376f2e9b3bca3ff6deeb9f7c74f"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_gene_molecular_evidence.csv",
+    "bytes": 8721052,
+    "sha256": "370564bcb9b7815fc44ea6ed684ab54f35650a7a44318b94b2d626e1457cf433"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_literature_anchor_gene_response.csv",
+    "bytes": 7836,
+    "sha256": "4226980b43b9fd589febd46d45b9f0a32b42bdfd445547c2a6d642faf13b513c"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_numeric_audit.json",
+    "bytes": 830,
+    "sha256": "1bec736d9b7cc060da898a6fecea535a66cf39eea476f9e9b5cf4688867c1e50"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_prespecified_module_gene_response.csv",
+    "bytes": 31524,
+    "sha256": "0299f992e53e8ffa3b1f7ec00d59f662af723bb440178c6bdd56f716f06c3e6f"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_prespecified_module_response_summary.csv",
+    "bytes": 887,
+    "sha256": "67266dd0868da0a9e8a78e4b0725b57326bda601eb8cad985bbdf85f98d34fd3"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_promoter_peak_support.csv",
+    "bytes": 4345482,
+    "sha256": "3573a3a4e1fcd8a7d48297bbfe981a9f9a3c8d7eb80881d7650588f12437267a"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_analysis_summary.json",
+    "bytes": 2487,
+    "sha256": "f686ef84d39f819c169530f29f6b1209fc0bbd22f34e11c5baa39ed1a1e650cb"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_design_matrix.csv",
+    "bytes": 423,
+    "sha256": "661363883d293110ff324cbbf3127fbeb40b82e37d3f42ed585b890098225f67"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_PCA_variance.csv",
+    "bytes": 193,
+    "sha256": "c8529109ee73e94ab21a1a8cee4ec2ba2183fa1986e6fb07a5a46b8abf2c667e"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_primary_interaction.csv",
+    "bytes": 4824553,
+    "sha256": "d490c8e16428f8ee9e98df50ef299e8731489ffd2f997bc36ea8287dd542fdac"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sample_correlation.csv",
+    "bytes": 1373,
+    "sha256": "48720ffaf8f9bb91ee39178fec038bd49e25cbcb37619e2153acba630b934c97"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sample_design.csv",
+    "bytes": 444,
+    "sha256": "d737ff606f589105190eeb7e6ed11569a9fa317054eb6aa87415570cab7f27ed"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sample_PCA.csv",
+    "bytes": 1021,
+    "sha256": "65ec4098ba86eaa724eae49875d87c16415c7769ec5fa11831b0763698aa4e88"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_secondary_diagnostic_contrasts.csv",
+    "bytes": 8359942,
+    "sha256": "b029a55555d9702dd83dc0531e3b1020744078d17beceb76c3479971acd2b90e"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_selected_gene_FPKM.csv",
+    "bytes": 978506,
+    "sha256": "0aa553651d7cabb4e09d44fc49a23de55356696b6e862c8f77d9613bb6fc8da0"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sensitivity_comparison.csv",
+    "bytes": 1763340,
+    "sha256": "1b947986e2d8fb444b41e0552ecff34f24343220d49c6a68ceef0c3aa8388571"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sensitivity_longest_transcript.csv",
+    "bytes": 4824553,
+    "sha256": "d490c8e16428f8ee9e98df50ef299e8731489ffd2f997bc36ea8287dd542fdac"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_rna_sensitivity_offset_0p1.csv",
+    "bytes": 4827213,
+    "sha256": "edc87be653584c59751ff6fed29521673e36b94d27c84fe5c3945fc1c81d74e9"
+  },
+  {
+    "file": "results/Supplementary_Data_S3/proteogenomics/results/epigenomic/r12_secondary_contrast_summary.csv",
+    "bytes": 445,
+    "sha256": "9248d6f827aa3f708306b7ab49a3dac27f4830add76ceaad972bf5af90ccb675"
+  },
+  {
+    "file": "results/Supplementary_Data_S5/results/analysis_summary.json",
+    "bytes": 2016,
+    "sha256": "19dbae0b6f0c991accb09544b1b229035b6c84689fd83d0f5953f2ff1da6cb9f"
+  },
+  {
+    "file": "results/Supplementary_Data_S5/results/gene_replicability.csv",
+    "bytes": 2010,
+    "sha256": "a2627374982330742e097b119b3b0f048eaedba8aba29ba3aeee2293d91cbf5d"
+  },
+  {
+    "file": "results/Supplementary_Data_S5/results/histology_difference.csv",
+    "bytes": 339,
+    "sha256": "b87613fd4d4769cfd48aeea3ce6457842424eb6963a590d8dfc5a68a538644ec"
+  },
+  {
+    "file": "results/Supplementary_Data_S5/results/leave_one_subunit_out.csv",
+    "bytes": 3743,
+    "sha256": "b17332188486ee51445dd93976d806c88fb5bffadb19c8937feeed47afe63ac6"
+  },
+  {
+    "file": "results/Supplementary_Data_S5/results/verification.json",
+    "bytes": 323,
+    "sha256": "d43487b1d07ad874579956d82628172c71e88d656932fa5fcfb873a86700a013"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/analysis_plan.json",
+    "bytes": 2495,
+    "sha256": "4ecfe93ae800c387ca2633f4b4b6f9f2fad3d865af9e88db5a9d8b837f1d06b9"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/competitive_tests.csv",
+    "bytes": 713,
+    "sha256": "eff2b7e86bde67bd270bf62b48f3eeefa2bbd7789861930fb535ff4b3716a94c"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/full_replay_audit.json",
+    "bytes": 534,
+    "sha256": "b276b25404ec35316e1b74ac6e62e5a1ea00bc2b013e336fcd07290ae02ec2b6"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/independent_audit.json",
+    "bytes": 388,
+    "sha256": "265d35721814430da88e7ba2001cb2ec9c34e422dd7b570f1dc44c95ae943f51"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUAD/global_PC_scores.csv",
+    "bytes": 12534,
+    "sha256": "6cebdd3b87442428e1e435f95d527fd340170e6f22aac2362deda3630a0ce0a7"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUAD/matched_candidates.csv",
+    "bytes": 69912,
+    "sha256": "6c80b2bceb2138dc72e57b0f20f346ebbc63f342ee71b4d406897ab543465ba3"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUAD/PC_gene_sensitivity.csv",
+    "bytes": 1365,
+    "sha256": "bd5ceff090a477c5dcbe845cc7a7b079e2644de84c750fbfe1fd8a81c44fa290"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUAD/processed_matrix_QC.csv",
+    "bytes": 7348,
+    "sha256": "a6124ca20cbbaa43b8674bd3340683f59fca71bc05e1c5a6c7ebbcd5b400d3df"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUAD/proteome_scan.csv",
+    "bytes": 1041684,
+    "sha256": "2206a7047c7f10c9873f37fddc14daf321c7d5fed334ae29310e45d2657d4c97"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUSC/global_PC_scores.csv",
+    "bytes": 12421,
+    "sha256": "370f9c070c985d86be89b11c7f64fddc6e859cf60ceae5184077600f8a2e4a2f"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUSC/matched_candidates.csv",
+    "bytes": 69948,
+    "sha256": "ec8530345840f91650415b2332b7fa88aaa6fcb77c2e32b9ed4e4bb5b5078bbe"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUSC/PC_gene_sensitivity.csv",
+    "bytes": 1360,
+    "sha256": "f46984056f641557a27cf2f71260aff1ab88b5f1c76137bd896e7f8c17bebb54"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUSC/processed_matrix_QC.csv",
+    "bytes": 7295,
+    "sha256": "8dd215a1d7169d868442e508e2e6509080a77ecf661ee91194b8d58d0850dab4"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/LUSC/proteome_scan.csv",
+    "bytes": 1133839,
+    "sha256": "588691eaf626a8f02a90d68bd77ee56228fd1138af59ccb7afedfd3ec6e97849"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/patient_influence.csv",
+    "bytes": 7459,
+    "sha256": "7f01622d6fa2917d7e6d9af738337335ebecba18d07da4c9c903d8bbcde69037"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/PC_sensitivity.csv",
+    "bytes": 890,
+    "sha256": "2f2fca2a9192ce3ac9e16461a868cdab4ed6d71e8231f99fc8b8f70d895778d2"
+  },
+  {
+    "file": "results/Supplementary_Data_S6/results/summary.json",
+    "bytes": 7633,
+    "sha256": "8a7dee1ef3914e19acb15960515acef98d9d101161357134a2cb5aab03d41a7d"
+  },
+  {
+    "file": "results/Supplementary_Data_S7/results/fixed_panel_KO_results.csv",
+    "bytes": 6787,
+    "sha256": "3183d322622e8e4d5fd3ea1b7487f082f352a686f62de3e56281e64ea4af9b2f"
+  },
+  {
+    "file": "results/Supplementary_Data_S7/results/independent_audit.json",
+    "bytes": 268,
+    "sha256": "63deecdd42ef7b2a9990ac0d6a0ba5cb59de1421962370afb9d459303f2a8f1a"
+  },
+  {
+    "file": "results/Supplementary_Data_S7/results/ipsc_summary.json",
+    "bytes": 2581,
+    "sha256": "45e2326216b87f95de659ff7c7ee1724ef18e6c0f2253b0d2afb3e9e42e33198"
+  },
+  {
+    "file": "supplementary_information.pdf",
+    "bytes": 6762812,
+    "sha256": "370b4cc7de6a237bb3944a5cc6ce1de43ed4312a363b40239c6d67d888895fcf"
+  },
+  {
+    "file": "supplementary_information.tex",
+    "bytes": 54557,
+    "sha256": "9b3ced2573a6a49ef17f9bb9ffe2b0c3ae145c70405ca2ab745ca6f482bbf936"
+  },
+  {
+    "file": "TOC_graphic.pdf",
+    "bytes": 22823,
+    "sha256": "94ad95630d4ca5f8af9cb1ce4cfa37992fec07b3c6426e227affa10a368cfc60"
+  },
+  {
+    "file": "TOC_source_data.csv",
+    "bytes": 134,
+    "sha256": "a73d71c2de7ebec945518d8cc8438e29f7f53b9e4edb63b39ebf4ec613e49a02"
+  },
+  {
+    "file": "validate_release.py",
+    "bytes": 3373,
+    "sha256": "7f8a032f239cfdbf310e2bbe7c85a26ec98a52c7942907a18eaf5f57740b18dd"
+  }
+]

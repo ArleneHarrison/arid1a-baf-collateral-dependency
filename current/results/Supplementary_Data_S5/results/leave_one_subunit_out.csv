@@ -1,0 +1,27 @@
+cohort,removed,estimate,ci_low,ci_high,n_bootstrap,interpretation
+LUAD,none,0.25031200281993393,0.1281615967168159,0.39355626742953903,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,SMARCC2,0.21783512913582365,0.10944549464764625,0.3777032012522357,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,SMARCA4,0.28278887650404416,0.12166126708859921,0.4200305187472304,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,SMARCD1,0.28278887650404416,0.13304168135556318,0.4162548366498932,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,SMARCB1,0.28278887650404416,0.13713834000675823,0.42135181540754957,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,SMARCE1,0.21783512913582365,0.11655912007046917,0.3888808266163974,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,DPF2,0.21783512913582365,0.12294953160719475,0.38841796620813773,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,ACTL6A,0.24849714672230327,0.10351240745572822,0.39485265586756685,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,PBRM1,0.24849714672230327,0.13505006193725597,0.40995887948951953,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,ARID2,0.2521268589175646,0.12093613898657207,0.4114089430523442,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,BRD7,0.2521268589175646,0.1317742186886543,0.4122892310143523,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,PHF10,0.24849714672230327,0.10421186259788315,0.37944197769005483,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUAD,BRD9,0.2521268589175646,0.13390421236796393,0.4123647334853204,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,none,0.17016399224122725,0.05179621695365972,0.31660638572474753,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,SMARCC2,0.16671564881757084,0.0350811773210551,0.30784933165896267,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,SMARCA4,0.17361233566488365,0.05198697761927053,0.3363875147607517,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,SMARCD1,0.16671564881757084,0.04582250161973693,0.3179859673943304,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,SMARCB1,0.17361233566488365,0.03581036409201321,0.3304754625262629,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,SMARCE1,0.17361233566488365,0.06125756301407667,0.3380967682752011,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,DPF2,0.16671564881757084,0.039586098508161,0.3081020553394699,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,ACTL6A,0.1683124669370481,0.03175515899984688,0.3017375178066555,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,PBRM1,0.1683124669370481,0.04568139863047672,0.3247917448308656,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,ARID2,0.17201551754540645,0.04473125515783392,0.3291054162809874,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,BRD7,0.1683124669370481,0.04517404723962262,0.3140302986236612,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,PHF10,0.17201551754540645,0.05178147227723617,0.3408069298400439,10000,descriptive nominal interval; no multiplicity-adjusted inference
+LUSC,BRD9,0.17201551754540645,0.04910944493699291,0.3394758413249121,10000,descriptive nominal interval; no multiplicity-adjusted inference

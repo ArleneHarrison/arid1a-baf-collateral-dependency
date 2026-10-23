@@ -1,0 +1,63 @@
+{
+  "checks": [
+    {
+      "cohort": "LUAD",
+      "model": "purity",
+      "n_patients": 108,
+      "bootstrap": 10000,
+      "npz_shape": [
+        10000,
+        17,
+        4
+      ],
+      "all_input_hashes_match": true,
+      "sample_integrity": "PASS",
+      "min_valid_primary_bootstraps": 10000
+    },
+    {
+      "cohort": "LUAD",
+      "model": "base",
+      "n_patients": 109,
+      "bootstrap": 10000,
+      "npz_shape": [
+        10000,
+        17,
+        4
+      ],
+      "all_input_hashes_match": true,
+      "sample_integrity": "PASS",
+      "min_valid_primary_bootstraps": 10000
+    },
+    {
+      "cohort": "LUSC",
+      "model": "purity",
+      "n_patients": 107,
+      "bootstrap": 10000,
+      "npz_shape": [
+        10000,
+        17,
+        4
+      ],
+      "all_input_hashes_match": true,
+      "sample_integrity": "PASS",
+      "min_valid_primary_bootstraps": 10000
+    },
+    {
+      "cohort": "LUSC",
+      "model": "base",
+      "n_patients": 108,
+      "bootstrap": 10000,
+      "npz_shape": [
+        10000,
+        17,
+        4
+      ],
+      "all_input_hashes_match": true,
+      "sample_integrity": "PASS",
+      "min_valid_primary_bootstraps": 10000
+    }
+  ],
+  "all_formal_result_hashes_match": true,
+  "primary_model": "purity",
+  "external_multiplicity": "root to pool four tests; no final q computed here"
+}

@@ -1,0 +1,252 @@
+{
+  "specification": {
+    "status": "frozen_before_dependency_bridge_association_results_not_prospective_preregistration",
+    "date": "2026-09-04",
+    "source_spec_file": "r12_analysis_spec.json",
+    "source_spec_relationship": "Uses the same six experimentally mapped contacts. This is a separate two-target explanatory association family, not a replacement for the two R12 cross-layer primary tests or an independent replication of prior cell-line analyses.",
+    "anchor": "ARID1A",
+    "contact_experimental": [
+      "SMARCC2",
+      "SMARCA4",
+      "SMARCD1",
+      "SMARCB1",
+      "SMARCE1",
+      "DPF2"
+    ],
+    "dependency_targets": [
+      "ARID1A",
+      "ARID1B"
+    ],
+    "target_roles": {
+      "ARID1A": "primary_target",
+      "ARID1B": "secondary_target_in_same_two_test_family"
+    },
+    "dependency_score_convention": "Chronos_or_equivalent_gene_effect_lower_more_negative_means_stronger_dependency",
+    "cohort": "Cell lines with complete protein, RNA and CNV for ARID1A and all six contacts, known lineage, and both prespecified target dependency scores. Both targets use exactly the same complete-case rows.",
+    "patient_selection": "Reuse R12 patient selection: after assay-index and valid-lineage matching, keep the lexicographically smallest ModelID per known patient, before shared complete-case filtering. Unknown patient identifiers are cell-specific. Do not substitute a different same-patient line when the selected line has missing bridge measurements.",
+    "module_model": "For each of the six fixed contact genes, OLS protein ~ own RNA + own CNV + lineage. Globally center and scale each residual vector to sample SD 1 (ddof=1), then take their equally weighted mean. Neither target dependency is used to select genes, signs, weights, covariates or transformations. ARID1A and ARID1B are never module members.",
+    "conditional_association_model": "For each target, regress the target dependency and the protein module separately on the identical covariates ARID1A protein + ARID1A RNA + ARID1A CNV + lineage. Compute Spearman correlation of the two residual vectors. This is residual Spearman coupling after linear adjustment, not a rank-transformed partial-Spearman regression.",
+    "descriptive_incremental_r_squared": "In the same rows, compare OLS dependency ~ ARID1A protein + ARID1A RNA + ARID1A CNV + lineage with the model additionally containing the fixed protein module. Report in-sample ordinary R-squared and its increment without a separate P value or any claim of generalizable prediction. The full model must separately meet the minimum residual-df rule.",
+    "minimum_shared_n": 60,
+    "minimum_residual_df": 20,
+    "minimum_original_scale_sd": 1e-10,
+    "seed": 20260905,
+    "bootstrap_replicates": 10000,
+    "minimum_valid_bootstrap_fraction": 0.95,
+    "resampling": "Stratified nonparametric cell-row bootstrap within lineage with shared indices for both dependency targets and every assay. Preserve repeated draws. Refit all six RNA/CNV/lineage models, recalculate residual standardization and module means, and refit both common-covariate regressions in every replicate. No resampling or reselection of genes.",
+    "uncertainty": "Percentile 95% CI for residual rho plus two-sided centered approximate bootstrap P=(1+count(abs(rho_boot-rho_obs)>=abs(rho_obs)))/(1+B_valid). This is not an exact null test; percentile CI and centered P are not strictly dual. A primary result requires at least 95% valid replicates.",
+    "multiplicity": "BH over exactly the ARID1A and ARID1B residual-correlation tests. Retain family size two even if one is non-evaluable. This family is reported distinctly from the original R12 cross-layer and external-replication families; do not claim study-wide FDR control.",
+    "non_evaluable_policy": "Do not omit, replace, reweight or impute a missing or zero-residual-variance module member. Insufficient shared n, insufficient module/conditional-model df, or a degenerate fixed module makes the relevant association non-evaluable. A constant target invalidates only that target, not the other target. Retain corrected-null estimates.",
+    "interpretation": "Negative rho means a higher adjusted protein-module score accompanies stronger (more negative) dependency; positive rho means weaker dependency. Conditioning on measured ARID1A protein asks about coupling beyond the measured anchor and may remove a biologically mediated component or introduce conditioning bias. Association does not establish protein degradation, complex stability, causal dependency, cBAF-specific synthetic lethality, treatment benefit or generalizable prediction. No new deep-learning or supervised feature-selection model is introduced."
+  },
+  "source_specification": {
+    "status": "frozen_after_input_header_audit_before_R12_association_results",
+    "date": "2026-09-04",
+    "external_cohorts": [
+      "CPTAC_LUAD",
+      "CPTAC_LUSC"
+    ],
+    "patient_selection": "Among matched cell lines, retain lexicographically smallest ModelID per known patient in primary analysis. Missing/Unknown/NA patient IDs receive unique cell-specific identifiers, never one shared missing-patient cluster.",
+    "seed": 20260904,
+    "bootstrap_replicates": 10000,
+    "anchor": "ARID1A",
+    "contact_experimental": [
+      "SMARCC2",
+      "SMARCA4",
+      "SMARCD1",
+      "SMARCB1",
+      "SMARCE1",
+      "DPF2"
+    ],
+    "primary_baf_background": [
+      "ACTL6A",
+      "PBRM1",
+      "ARID2",
+      "BRD7",
+      "PHF10",
+      "BRD9"
+    ],
+    "physically_present_noncontact": [
+      "ACTB",
+      "ACTL6A"
+    ],
+    "integrative_contact_sensitivity": [
+      "SMARCC1"
+    ],
+    "alternative_subunit_descriptive": [
+      "ARID1B",
+      "SMARCA2"
+    ],
+    "unmeasured_background": [
+      "ACTB",
+      "BICRA"
+    ],
+    "coverage_design_note": "Sanger protein header audit finds no ACTB or BICRA. Primary background is the six prespecified broad-BAF background genes with exact symbol measurements; it is not a geometry-controlled within-cBAF noncontact panel. The ACTB+ACTL6A physical contrast must be reported non-evaluable if ACTB is absent; ACTL6A-only is descriptive sensitivity. No association results were used to make this feasibility decision.",
+    "primary_tests": [
+      "median_own_rna_cnv_adjusted_protein_rho_contact_minus_background",
+      "raw_protein_contact_contrast_minus_raw_rna_contact_contrast"
+    ],
+    "primary_adjustment": "Each protein is regressed on its own RNA, own gene-level CNV, and available predeclared sample covariates. Spearman correlation of residuals. Cell-line covariate is lineage; CPTAC covariates are documented purity/batch when available, with a base RNA/CNV-only analysis reported separately.",
+    "sensitivity_adjustment": "Both proteins are regressed on the common set of the anchor and partner RNA/CNV and the same sample covariates.",
+    "minimum_pair_n": 40,
+    "minimum_residual_df": 20,
+    "minimum_valid_bootstrap_fraction": 0.95,
+    "resampling": "Shared lineage-stratified cell-line row indices for all genes and modalities, retaining repeated draws, refitting both regressions per pair per draw. One cell line per source patient in the inferential primary cell-line panel; retain additional same-patient lines only for descriptive sensitivity. CPTAC one tumor per patient per cohort; same cohort row draws shared across all genes.",
+    "p_value": "Two-sided centered bootstrap approximation: (1+count(abs(T_boot-T_obs)>=abs(T_obs)))/(1+B_valid). Report percentile confidence intervals separately; not an exact test.",
+    "multiplicity": "BH across the two primary tests within discovery. External replication: BH across two tests times available predeclared cancer cohorts, not selecting the more favorable cohort/model. Sensitivity analyses report estimates and intervals without creating alternative primary positives.",
+    "sensitivity_panels": [
+      "ACTL6A_only_background",
+      "high_detection_90_percent",
+      "leave_one_subunit_out",
+      "integrative_SMARCC1_added",
+      "common_covariate_partial_coupling",
+      "leave_one_lineage_out"
+    ],
+    "modules": {
+      "ARID1A_contact_experimental": [
+        "SMARCC2",
+        "SMARCA4",
+        "SMARCD1",
+        "SMARCB1",
+        "SMARCE1",
+        "DPF2"
+      ],
+      "core_shared": [
+        "SMARCB1",
+        "SMARCC1",
+        "SMARCC2",
+        "SMARCD1",
+        "SMARCD2",
+        "SMARCE1",
+        "ACTL6A",
+        "ACTB"
+      ],
+      "cBAF_specific": [
+        "ARID1B",
+        "DPF1",
+        "DPF2",
+        "DPF3",
+        "BCL7A",
+        "BCL7B",
+        "BCL7C",
+        "SS18",
+        "SS18L1"
+      ],
+      "PBAF_specific": [
+        "PBRM1",
+        "ARID2",
+        "BRD7",
+        "PHF10"
+      ],
+      "ncBAF_specific": [
+        "BRD9",
+        "BICRA",
+        "BICRAL"
+      ],
+      "alternative_ATPase": [
+        "SMARCA2"
+      ]
+    },
+    "epigenomic_primary": "GSE101966 interaction (ARID1A_KO+ARID1B_KD minus ARID1A_KO) minus (ARID1B_KD minus WT). Genome-wide BH. Public FPKM-only limma is explicitly exploratory. Two independent infections per group, not two independent ARID1A-KO clones. Module expression does not imply module dependency.",
+    "interpretation": "Fixed-panel conditional association and cross-cohort replication, not proof of protein degradation, complex assembly, cBAF-specific synthetic lethality, or patient treatment benefit. Retain corrected-null findings. No new deep-learning model unless prespecified molecular analyses establish a data-supported need."
+  },
+  "input_flow": {
+    "metadata": 694,
+    "protein": 694,
+    "rna": 694,
+    "cnv": 694,
+    "matched_before_covariate_filter": 694,
+    "covariate_exclusion_counts": {
+      "missing_or_unknown_prespecified_categorical_covariate:lineage": 0
+    },
+    "final_rows": 694,
+    "unique_known_or_cell_specific_patients": 694,
+    "covariates": [
+      "lineage"
+    ],
+    "deduplicate_patient": true,
+    "dependency_rows": 528,
+    "before_shared_complete_case_filter": 694,
+    "shared_complete_case_rows": 417,
+    "missing_required_columns": [],
+    "complete_case_columns": [
+      "protein:ARID1A",
+      "rna:ARID1A",
+      "cnv:ARID1A",
+      "protein:SMARCC2",
+      "rna:SMARCC2",
+      "cnv:SMARCC2",
+      "protein:SMARCA4",
+      "rna:SMARCA4",
+      "cnv:SMARCA4",
+      "protein:SMARCD1",
+      "rna:SMARCD1",
+      "cnv:SMARCD1",
+      "protein:SMARCB1",
+      "rna:SMARCB1",
+      "cnv:SMARCB1",
+      "protein:SMARCE1",
+      "rna:SMARCE1",
+      "cnv:SMARCE1",
+      "protein:DPF2",
+      "rna:DPF2",
+      "cnv:DPF2",
+      "dependency:ARID1A",
+      "dependency:ARID1B"
+    ],
+    "shared_complete_case_lineages": 26,
+    "shared_complete_case_patients": 417,
+    "shared_complete_case_lineage_counts": {
+      "Adrenal Gland": 1,
+      "Biliary Tract": 2,
+      "Bladder/Urinary Tract": 12,
+      "Bone": 15,
+      "Bowel": 27,
+      "Breast": 20,
+      "CNS/Brain": 33,
+      "Cervix": 8,
+      "Esophagus/Stomach": 34,
+      "Head and Neck": 21,
+      "Kidney": 7,
+      "Liver": 9,
+      "Lung": 64,
+      "Lymphoid": 44,
+      "Myeloid": 15,
+      "Ovary/Fallopian Tube": 15,
+      "Pancreas": 14,
+      "Peripheral Nervous System": 15,
+      "Pleura": 7,
+      "Prostate": 5,
+      "Skin": 22,
+      "Soft Tissue": 7,
+      "Testis": 2,
+      "Thyroid": 7,
+      "Uterus": 9,
+      "Vulva/Vagina": 2
+    }
+  },
+  "specification_sha256": "5c17af55e48c221d0bc3f39b2153a8b33286d30e6495fde6b1443c44b09983bf",
+  "source_specification_sha256": "d6a11136f62bf1551adc6b3df0cc2a2014bb1456860c17b836ac9878056a9cae",
+  "script_sha256": "78a3673f8cbdb80a2e46e31d16c70218e14d25697ddf374dd27b515fffa6e56f",
+  "helper_script_sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad",
+  "input_sha256": {
+    "protein": "50044f499ba4390d0bffb07405b614ec111457cdfa3d817639aa4ea5df0919ca",
+    "rna": "302071acf6beb418eb464a8c857442bc166c2daff00d6eca082597dfcce04457",
+    "cnv": "b9db3e848f3c3eb7dd624680e4fac452b88e4a54c1087e317b69f9d5bef22a7b",
+    "metadata": "9d318ac849d3c819ef4bb154b68563ea83529adf36bb86e0103b7f18a704a89b",
+    "dependency": "91e2d5a4917cf420048c7a4cb87847926ae695d6f057cf076aa5f689bc942b67"
+  },
+  "versions": {
+    "python": "3.12.9",
+    "numpy": "2.3.2",
+    "pandas": "2.3.3",
+    "scipy": "1.18.0"
+  },
+  "lineage_column": "lineage",
+  "bootstrap_requested": 10000,
+  "bootstrap_executed": 10000,
+  "elapsed_seconds": 29.921884963288903,
+  "status": "completed",
+  "inference": "Two-target fixed-module conditional association family; in-sample R-squared is descriptive only",
+  "input_preparation_manifest_sha256": "458b574ba6cf7a7311f7512f957902141033a6f69c7f310ee7e985eab8772244"
+}

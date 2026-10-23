@@ -1,0 +1,7 @@
+{
+  "archived_S3_input_hashes": "6/6 exact matches",
+  "independent_gene_tail_p_and_Holm_recalculation": "passed",
+  "leave_one_out_point_recalculation": "26/26 passed",
+  "scientific_computation_host": "autodl-container-9et576fs3e-c3252443",
+  "figure_source": "server-derived CSV files; no simulated observations"
+}

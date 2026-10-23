@@ -1,0 +1,9 @@
+cohort,n_PC,estimate,interpretation
+LUAD,0,0.25031200281993393,descriptive point estimate; PCs contain both biological and technical variation
+LUAD,1,0.2664646984290301,descriptive point estimate; PCs contain both biological and technical variation
+LUAD,3,0.2522078367486924,descriptive point estimate; PCs contain both biological and technical variation
+LUAD,5,0.22027875427515314,descriptive point estimate; PCs contain both biological and technical variation
+LUSC,0,0.17016399224122725,descriptive point estimate; PCs contain both biological and technical variation
+LUSC,1,0.23945414291032352,descriptive point estimate; PCs contain both biological and technical variation
+LUSC,3,0.10646270499030158,descriptive point estimate; PCs contain both biological and technical variation
+LUSC,5,0.15751680087776018,descriptive point estimate; PCs contain both biological and technical variation

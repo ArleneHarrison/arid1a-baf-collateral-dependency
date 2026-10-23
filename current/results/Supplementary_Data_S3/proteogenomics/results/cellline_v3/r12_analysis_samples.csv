@@ -1,0 +1,695 @@
+sample_id,patient_id,lineage,cell_line_name,disease,cohort,sample_type,analysis_patient_id
+ACH-000001,PT-gj46wT,Ovary/Fallopian Tube,NIH:OVCAR-3,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-gj46wT
+ACH-000002,PT-5qa3uk,Myeloid,HL-60,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-5qa3uk
+ACH-000004,PT-q4K2cp,Myeloid,HEL,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-q4K2cp
+ACH-000006,PT-ej13Dz,Myeloid,MONO-MAC-6,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-ej13Dz
+ACH-000007,PT-NOXwpH,Bowel,LS513,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-NOXwpH
+ACH-000009,PT-puKIyc,Bowel,C2BBe1,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-puKIyc
+ACH-000012,PT-NdspH5,Lung,HCC-827,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-NdspH5
+ACH-000015,PT-ffwajI,Lung,NCI-H1581,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ffwajI
+ACH-000018,PT-Mi0cKz,Bladder/Urinary Tract,T24,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Mi0cKz
+ACH-000019,PT-viJKnw,Breast,MCF7,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-viJKnw
+ACH-000021,PT-9p1WQv,Lung,NCI-H1693,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-9p1WQv
+ACH-000023,PT-lVglGI,Pancreas,PA-TU-8988T,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-lVglGI
+ACH-000024,PT-codP7n,Lymphoid,OPM-2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-codP7n
+ACH-000030,PT-nDRyc6,Lung,PC-14,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-nDRyc6
+ACH-000035,PT-5LVIPg,Lung,NCI-H1650,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-5LVIPg
+ACH-000040,PT-5XnRfQ,CNS/Brain,U-118 MG,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-5XnRfQ
+ACH-000042,PT-QOpMVz,Pancreas,Panc 02.03,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-QOpMVz
+ACH-000045,PT-zb7Sx0,Myeloid,MV4-11,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-zb7Sx0
+ACH-000046,PT-zV8Sol,Kidney,ACHN,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zV8Sol
+ACH-000048,PT-EehOTC,Ovary/Fallopian Tube,TOV-112D,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-EehOTC
+ACH-000050,PT-HOg2sh,Lymphoid,NCI-H929,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-HOg2sh
+ACH-000052,PT-IAac7b,Bone,A-673,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-IAac7b
+ACH-000053,PT-nECHHn,Lymphoid,KARPAS-299,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-nECHHn
+ACH-000054,PT-cVfhmE,Soft Tissue,HT-1080,Fibrosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cVfhmE
+ACH-000055,PT-xKYZGz,CNS/Brain,D283 Med,Embryonal Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-xKYZGz
+ACH-000056,PT-QeK3sM,Lymphoid,DOHH-2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-QeK3sM
+ACH-000058,PT-HRqr49,Thyroid,ML-1,Well-Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-HRqr49
+ACH-000059,PT-rikOUx,Lymphoid,SUP-B15,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-rikOUx
+ACH-000060,PT-9JMXWA,Pancreas,Panc 10.05,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9JMXWA
+ACH-000061,PT-hDGIfb,Lymphoid,HH,Non-Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-hDGIfb
+ACH-000062,PT-Rt0hf4,Lung,RERF-LC-MS,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Rt0hf4
+ACH-000065,PT-EsXLcC,Myeloid,OCI-AML5,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-EsXLcC
+ACH-000067,PT-25yL7C,CNS/Brain,Hs 683,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-25yL7C
+ACH-000070,PT-0yrZJC,Lymphoid,697,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0yrZJC
+ACH-000072,PT-yx4h8S,Myeloid,MEG-01,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-yx4h8S
+ACH-000073,PT-wktVrL,Lymphoid,GRANTA-519,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-wktVrL
+ACH-000074,PT-FJahu6,Myeloid,KU812,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-FJahu6
+ACH-000078,PT-Vot01h,Peripheral Nervous System,MHH-NB-11,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Vot01h
+ACH-000081,PT-OtgTTm,Myeloid,GDM-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-OtgTTm
+ACH-000082,PT-noCCE4,Bone,"G-292, clone A141B1",Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-noCCE4
+ACH-000087,PT-VA04Md,Bone,SK-ES-1,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-VA04Md
+ACH-000090,PT-j0lUB5,Prostate,PC-3,Prostate Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-j0lUB5
+ACH-000091,PT-kmyeHR,Ovary/Fallopian Tube,OV56,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-kmyeHR
+ACH-000092,PT-GaubVg,Pleura,NCI-H2452,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-GaubVg
+ACH-000096,PT-ABKGjf,Kidney,G-401,Rhabdoid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ABKGjf
+ACH-000098,PT-HmIANs,CNS/Brain,GAMG,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-HmIANs
+ACH-000099,PT-JpfhsL,Peripheral Nervous System,SIMA,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JpfhsL
+ACH-000100,PT-BN67ox,Soft Tissue,RH-41,Rhabdomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-BN67ox
+ACH-000101,PT-6Sunyd,Lymphoid,KE-37,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-6Sunyd
+ACH-000103,PT-gCHPXX,Ovary/Fallopian Tube,Caov-4,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-gCHPXX
+ACH-000104,PT-JJAsvr,Lymphoid,Loucy,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JJAsvr
+ACH-000105,PT-MYSpL6,Lymphoid,ALL-SIL,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-MYSpL6
+ACH-000106,PT-JfG7uC,Lymphoid,JVM-2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-JfG7uC
+ACH-000107,PT-vjRLEt,Pancreas,Capan-2,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vjRLEt
+ACH-000108,PT-GEVVKA,Pancreas,KP-3,Adenosquamous Carcinoma of the Pancreas,Sanger_DepMap24Q4,cancer_cell_line,PT-GEVVKA
+ACH-000109,PT-Zwpb82,Lung,NCI-H3255,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Zwpb82
+ACH-000111,PT-yKJqsn,Breast,HCC1187,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-yKJqsn
+ACH-000112,PT-SHvyVR,Myeloid,SIG-M5,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-SHvyVR
+ACH-000113,PT-OA9fna,Myeloid,OCI-AML2,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-OA9fna
+ACH-000114,PT-SNQPtX,Pancreas,SU.86.86,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-SNQPtX
+ACH-000115,PT-O15HlH,Prostate,VCaP,Prostate Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-O15HlH
+ACH-000116,PT-eqFmWE,Ovary/Fallopian Tube,OAW28,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-eqFmWE
+ACH-000117,PT-qkpbqp,Breast,EFM-192A,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-qkpbqp
+ACH-000118,PT-jYcdmK,Pancreas,HUP-T3,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-jYcdmK
+ACH-000120,PT-6jhjWI,Peripheral Nervous System,CHP-212,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-6jhjWI
+ACH-000121,PT-5S5Gmg,Lung,NCI-H2405,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-5S5Gmg
+ACH-000124,PT-xqygCF,Lymphoid,OCI-LY-19,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-xqygCF
+ACH-000129,PT-jzLNtr,Lung,NCI-H1341,SMARCA4-deficient undifferentiated tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-jzLNtr
+ACH-000132,PT-F6NvL5,Ovary/Fallopian Tube,JHOS-2,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-F6NvL5
+ACH-000135,PT-Shihsq,Fibroblast,Hs 940.T,Non-Cancerous,Sanger_DepMap24Q4,cancer_cell_line,PT-Shihsq
+ACH-000136,PT-3ZPjBh,Peripheral Nervous System,CHP-126,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3ZPjBh
+ACH-000137,PT-WFlL15,CNS/Brain,8-MG-BA,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-WFlL15
+ACH-000138,PT-1nbcaA,Pancreas,CFPAC-1,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-1nbcaA
+ACH-000139,PT-rXQo6a,Pancreas,Panc 03.27,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-rXQo6a
+ACH-000142,PT-Er9zxL,Bladder/Urinary Tract,CAL-29,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Er9zxL
+ACH-000144,PT-n15ylb,Esophagus/Stomach,RERF-GC-1B,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-n15ylb
+ACH-000145,PT-LH2axx,Soft Tissue,SK-LMS-1,Leiomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-LH2axx
+ACH-000146,PT-Sv45MF,Myeloid,THP-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-Sv45MF
+ACH-000147,PT-9WkxWW,Breast,T-47D,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9WkxWW
+ACH-000148,PT-sW6DWH,Breast,Hs 578T,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-sW6DWH
+ACH-000149,PT-ombRgU,Peripheral Nervous System,SK-N-SH,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ombRgU
+ACH-000151,PT-t7KWtB,Lymphoid,JM1,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-t7KWtB
+ACH-000153,PT-TexA3V,Pleura,NCI-H2052,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-TexA3V
+ACH-000155,PT-qPqCUF,Pancreas,SW 1990,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-qPqCUF
+ACH-000156,PT-yxisxt,Lymphoid,MHH-CALL-4,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-yxisxt
+ACH-000157,PT-jcPkpq,Lymphoid,A4/Fuk,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-jcPkpq
+ACH-000159,PT-T2g8EU,Kidney,OS-RC-2,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-T2g8EU
+ACH-000161,PT-G4xjbZ,Lung,COR-L105,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-G4xjbZ
+ACH-000162,PT-MGPf78,Lymphoid,GA-10,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-MGPf78
+ACH-000168,PT-FTVcJW,Myeloid,NOMO-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-FTVcJW
+ACH-000169,PT-TG4t9c,Soft Tissue,RD,Rhabdomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-TG4t9c
+ACH-000171,PT-pJpjja,Kidney,VMRC-RCZ,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-pJpjja
+ACH-000174,PT-dTkV2T,Thyroid,CAL-62,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-dTkV2T
+ACH-000176,PT-wKL1PE,Lung,LOU-NH91,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-wKL1PE
+ACH-000177,PT-Noh10Y,Prostate,NCI-H660,Prostate Small Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Noh10Y
+ACH-000178,PT-3ZZnoD,Pancreas,Hs 766T,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3ZZnoD
+ACH-000181,PT-UbMDmb,Head and Neck,SCC-9,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UbMDmb
+ACH-000183,PT-T1yBnE,Lymphoid,L-363,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-T1yBnE
+ACH-000186,PT-w40Tnr,Lung,NCI-H2444,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-w40Tnr
+ACH-000187,PT-bfVDxm,Lung,COR-L311,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-bfVDxm
+ACH-000188,PT-Iz4kXj,Head and Neck,SCC-25,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Iz4kXj
+ACH-000189,PT-yDBvIq,Kidney,RCC10RGB,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-yDBvIq
+ACH-000191,PT-Lc6cyf,Thyroid,BHT-101,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Lc6cyf
+ACH-000192,PT-Vhzgp5,Uterus,MFE-280,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Vhzgp5
+ACH-000193,PT-gADQdp,Lymphoid,KARPAS-620,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-gADQdp
+ACH-000196,PT-ZerhVq,Breast,HCC1599,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ZerhVq
+ACH-000197,PT-XChmHC,Lymphoid,TALL-1,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-XChmHC
+ACH-000198,PT-FYT6ze,Myeloid,EOL-1,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-FYT6ze
+ACH-000200,PT-bkGAPG,CNS/Brain,NMC-G1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-bkGAPG
+ACH-000201,PT-EY60tR,Kidney,A-204,Rhabdoid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-EY60tR
+ACH-000204,PT-gN5ZVQ,Lymphoid,LP-1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-gN5ZVQ
+ACH-000207,PT-5QKbtV,Head and Neck,Detroit 562,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-5QKbtV
+ACH-000210,PT-L8aHyf,Bone,CADO-ES1,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-L8aHyf
+ACH-000211,PT-5fvUg8,CNS/Brain,Daoy,Embryonal Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-5fvUg8
+ACH-000212,PT-y6HadC,Breast,CAL-120,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-y6HadC
+ACH-000213,PT-Fn6aO6,Pancreas,HUP-T4,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Fn6aO6
+ACH-000217,PT-YfFi4d,Liver,JHH-6,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YfFi4d
+ACH-000218,PT-ADoL4a,Myeloid,PL-21,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-ADoL4a
+ACH-000219,PT-3FxmoJ,Skin,A-375,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3FxmoJ
+ACH-000221,PT-7v9ThA,Liver,SNU-398,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-7v9ThA
+ACH-000222,PT-y5xucl,Pancreas,AsPC-1,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-y5xucl
+ACH-000223,PT-Vntr9y,Breast,HCC1937,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Vntr9y
+ACH-000225,PT-0QAhIt,Esophagus/Stomach,ECC12,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0QAhIt
+ACH-000226,PT-ktST3K,Lymphoid,SUP-M2,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-ktST3K
+ACH-000227,PT-N9Xbr1,Peripheral Nervous System,KP-N-YN,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-N9Xbr1
+ACH-000228,PT-HX0QLG,Head and Neck,BICR 31,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-HX0QLG
+ACH-000231,PT-nIom71,CNS/Brain,KALS-1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-nIom71
+ACH-000232,PT-88IC1n,CNS/Brain,U-251 MG,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-88IC1n
+ACH-000233,PT-zshCzw,Lymphoid,DEL,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-zshCzw
+ACH-000235,PT-zLTXv3,Pancreas,Panc 04.03,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zLTXv3
+ACH-000236,PT-DDlBLT,Bowel,SW1417,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-DDlBLT
+ACH-000238,PT-Kf5TA3,Head and Neck,SCC-4,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Kf5TA3
+ACH-000242,PT-9zV4k1,Bladder/Urinary Tract,RT4,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9zV4k1
+ACH-000243,PT-dLpuzD,Pancreas,DAN-G,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-dLpuzD
+ACH-000244,PT-9fPvh2,CNS/Brain,DK-MG,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-9fPvh2
+ACH-000245,PT-IrNAYx,Lymphoid,BL-41,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-IrNAYx
+ACH-000247,PT-JKf5mS,Esophagus/Stomach,OCUM-1,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JKf5mS
+ACH-000248,PT-8CE6ah,Breast,AU565,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8CE6ah
+ACH-000249,PT-hYUBUD,Bowel,CL-11,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-hYUBUD
+ACH-000250,PT-66upm1,Kidney,KMRC-20,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-66upm1
+ACH-000252,PT-XQHvQF,Bowel,LS1034,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-XQHvQF
+ACH-000254,PT-nowpOK,Head and Neck,SCC-15,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-nowpOK
+ACH-000257,PT-7LsK3v,Lung,COR-L279,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-7LsK3v
+ACH-000258,PT-XTyUEa,Breast,Du4475,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-XTyUEa
+ACH-000259,PT-S07K7h,Peripheral Nervous System,KELLY,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-S07K7h
+ACH-000260,PT-7WPGtR,Peripheral Nervous System,SK-N-AS,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-7WPGtR
+ACH-000263,PT-uzWVHa,Myeloid,KASUMI-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-uzWVHa
+ACH-000264,PT-T9nCW5,Lung,Calu-6,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-T9nCW5
+ACH-000265,PT-o1wR3t,Pancreas,KP-4,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-o1wR3t
+ACH-000267,PT-YdqP9d,Lymphoid,HDLM-2,Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YdqP9d
+ACH-000269,PT-Qasynk,CNS/Brain,AM-38,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-Qasynk
+ACH-000270,PT-htpobI,Pancreas,HPAC,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-htpobI
+ACH-000271,PT-i02i7U,Lymphoid,SU-DHL-10,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-i02i7U
+ACH-000273,PT-qWYBLI,CNS/Brain,SF539,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-qWYBLI
+ACH-000276,PT-S4bLNM,Breast,HCC38,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-S4bLNM
+ACH-000277,PT-osxHUh,Breast,HCC1419,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-osxHUh
+ACH-000281,PT-aIUMLY,Pancreas,KP-2,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-aIUMLY
+ACH-000287,PT-dNbHpB,Lymphoid,NU-DUL-1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-dNbHpB
+ACH-000288,PT-hgWgpg,Breast,BT-549,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-hgWgpg
+ACH-000290,PT-DzY90c,Lung,NCI-H209,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-DzY90c
+ACH-000291,PT-MtLxSF,Ovary/Fallopian Tube,OV-90,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-MtLxSF
+ACH-000293,PT-tjaCAG,Uterus,KLE,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tjaCAG
+ACH-000294,PT-ogTwsS,Myeloid,NB-4,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-ogTwsS
+ACH-000295,PT-PfwDZx,Myeloid,EM-2,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-PfwDZx
+ACH-000298,PT-2tJBcj,Lung,NCI-H2029,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-2tJBcj
+ACH-000301,PT-qTtBxS,Myeloid,LAMA-84,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-qTtBxS
+ACH-000303,PT-7cPLvN,Esophagus/Stomach,SNU-5,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-7cPLvN
+ACH-000304,PT-JAyPtz,Skin,WM-115,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JAyPtz
+ACH-000305,PT-iltdpC,Esophagus/Stomach,EC-GI-10,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-iltdpC
+ACH-000308,PT-cdCVJ4,Ovary/Fallopian Tube,EFO-21,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-cdCVJ4
+ACH-000311,PT-6IoG5q,Lung,NCI-H2122,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-6IoG5q
+ACH-000315,PT-lrPA2x,Lymphoid,KARPAS-422,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-lrPA2x
+ACH-000318,PT-8hgOdH,Esophagus/Stomach,TE-10,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8hgOdH
+ACH-000319,PT-5z2CJx,Pleura,MPP 89,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-5z2CJx
+ACH-000320,PT-tXqEg0,Pancreas,PSN1,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tXqEg0
+ACH-000322,PT-czDcsE,Skin,HT-144,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-czDcsE
+ACH-000323,PT-PE7kNG,CNS/Brain,42-MG-BA,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-PE7kNG
+ACH-000326,PT-mEKuqA,Myeloid,JURL-MK1,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-mEKuqA
+ACH-000330,PT-ykXL80,Breast,EFM-19,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ykXL80
+ACH-000332,PT-Lio3jT,Pancreas,YAPC,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Lio3jT
+ACH-000334,PT-mgfMcU,Lymphoid,DB,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-mgfMcU
+ACH-000335,PT-MFqmhR,Pleura,MSTO-211H,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-MFqmhR
+ACH-000337,PT-0fXDWz,Lung,NCI-H3122,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-0fXDWz
+ACH-000341,PT-I4N9IW,Peripheral Nervous System,SK-N-FI,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-I4N9IW
+ACH-000343,PT-6ukZx4,Lung,NCI-H522,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-6ukZx4
+ACH-000345,PT-LZIxuV,Peripheral Nervous System,KP-N-RT-BM-1,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-LZIxuV
+ACH-000346,PT-Qpiidf,Lymphoid,JVM-3,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-Qpiidf
+ACH-000347,PT-J6GNwJ,Pancreas,QGP-1,Pancreatic Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-J6GNwJ
+ACH-000348,PT-xMEDHc,Skin,RPMI-7951,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-xMEDHc
+ACH-000349,PT-nuy7MI,Breast,HCC1500,Breast Ductal Carcinoma In Situ,Sanger_DepMap24Q4,cancer_cell_line,PT-nuy7MI
+ACH-000350,PT-j0XD5z,Bowel,COLO-678,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-j0XD5z
+ACH-000352,PT-jBpXJh,Breast,HCC1428,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-jBpXJh
+ACH-000353,PT-h9Imcs,Esophagus/Stomach,TE-15,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-h9Imcs
+ACH-000354,PT-MDCOET,Pancreas,Capan-1,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-MDCOET
+ACH-000355,PT-TQn0DO,Lung,NCI-H82,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-TQn0DO
+ACH-000356,PT-cE9wYI,Esophagus/Stomach,MKN-45,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cE9wYI
+ACH-000357,PT-97FBgP,Lymphoid,JeKo-1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-97FBgP
+ACH-000358,PT-XQlkPK,Lung,NCI-H69,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-XQlkPK
+ACH-000359,PT-qWqYVi,Bone,MG-63,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-qWqYVi
+ACH-000360,PT-M0lnCb,Bowel,NCI-H508,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-M0lnCb
+ACH-000361,PT-sPLV6L,Liver,SK-HEP-1,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-sPLV6L
+ACH-000362,PT-H3wdRq,Myeloid,MOLM-13,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-H3wdRq
+ACH-000363,PT-35DpVF,Lymphoid,SK-MM-2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-35DpVF
+ACH-000364,PT-WN1oZd,Bone,U-2 OS,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-WN1oZd
+ACH-000365,PT-I24dRR,Lymphoid,SU-DHL-4,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-I24dRR
+ACH-000366,PT-lIgcxS,Peripheral Nervous System,SK-N-DZ,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-lIgcxS
+ACH-000367,PT-hfcpvz,Pleura,NCI-H226,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-hfcpvz
+ACH-000369,PT-sUmz7V,Myeloid,MOLM-16,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-sUmz7V
+ACH-000371,PT-B4jW32,Lymphoid,RL,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-B4jW32
+ACH-000372,PT-n3wTBx,Lymphoid,P12-ICHIKAWA,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-n3wTBx
+ACH-000373,PT-8qF7hQ,Myeloid,SKM-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-8qF7hQ
+ACH-000374,PT-UPBMOO,Breast,HCC1143,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UPBMOO
+ACH-000375,PT-U7nXm3,Kidney,G-402,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-U7nXm3
+ACH-000376,PT-O9gP17,CNS/Brain,SF-295,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-O9gP17
+ACH-000378,PT-svCGFs,Lung,NCI-H647,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-svCGFs
+ACH-000379,PT-ZMox9l,Lung,NCI-H1781,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ZMox9l
+ACH-000380,PT-n47XwC,Lymphoid,KMS-12-BM,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-n47XwC
+ACH-000381,PT-3aeu41,Bowel,T84,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3aeu41
+ACH-000383,PT-MSH6ZN,Esophagus/Stomach,OE33,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-MSH6ZN
+ACH-000384,PT-9PFG4H,Bladder/Urinary Tract,SW 780,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9PFG4H
+ACH-000386,PT-7cCzYA,Myeloid,KG-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-7cCzYA
+ACH-000389,PT-9RF4Fl,CNS/Brain,H4,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-9RF4Fl
+ACH-000391,PT-APr9xS,Bone,MHH-ES-1,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-APr9xS
+ACH-000392,PT-v3MIz8,Lung,Calu-3,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-v3MIz8
+ACH-000394,PT-PzvfS6,Lung,NCI-H2081,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-PzvfS6
+ACH-000395,PT-mQfWto,Lung,NCI-H520,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-mQfWto
+ACH-000396,PT-jGS2bl,Bladder/Urinary Tract,J82,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-jGS2bl
+ACH-000400,PT-cPXTdY,Bowel,SK-CO-1,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cPXTdY
+ACH-000401,PT-hf4hbl,Skin,COLO-800,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-hf4hbl
+ACH-000403,PT-cabct5,Bowel,NCI-H747,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cabct5
+ACH-000408,PT-Tt9e9T,Esophagus/Stomach,TE-5,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Tt9e9T
+ACH-000410,PT-mOrUlf,Bone,Saos-2,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-mOrUlf
+ACH-000411,PT-Kwk2bU,Kidney,769-P,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Kwk2bU
+ACH-000414,PT-0Fp6tq,Lung,NCI-H1944,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-0Fp6tq
+ACH-000416,PT-YdBNCw,Lung,NCI-H838,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-YdBNCw
+ACH-000417,PT-9CcA8P,Pancreas,Panc 08.13,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9CcA8P
+ACH-000420,PT-zjdwU2,Liver,SNU-449,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zjdwU2
+ACH-000421,PT-M67oxD,Bowel,SW837,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-M67oxD
+ACH-000422,PT-UjP297,Liver,SNU-475,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UjP297
+ACH-000423,PT-TEoeSm,Skin,SK-MEL-3,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-TEoeSm
+ACH-000424,PT-BIG8te,Bone,TC-71,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-BIG8te
+ACH-000425,PT-Zu8A8i,Skin,UACC-62,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Zu8A8i
+ACH-000427,PT-e4bHZ8,Esophagus/Stomach,NCI-N87,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-e4bHZ8
+ACH-000428,PT-8RqCEL,Kidney,UO-31,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8RqCEL
+ACH-000429,PT-hu5eOQ,Kidney,A-704,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-hu5eOQ
+ACH-000430,PT-z46I0M,Ovary/Fallopian Tube,TYK-nu,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-z46I0M
+ACH-000431,PT-5l8uJX,Lung,NCI-H1694,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-5l8uJX
+ACH-000432,PT-6P3A35,Myeloid,BV-173,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-6P3A35
+ACH-000433,PT-0UOmyW,Kidney,Caki-1,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0UOmyW
+ACH-000434,PT-3DrWN5,Lung,NCI-H1915,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-3DrWN5
+ACH-000437,PT-uhtVUf,CNS/Brain,SW 1088,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-uhtVUf
+ACH-000438,PT-DJtGj2,Lung,Lu-65,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-DJtGj2
+ACH-000439,PT-do6aX9,Myeloid,ME-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-do6aX9
+ACH-000440,PT-1BkfPG,Lymphoid,CA46,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-1BkfPG
+ACH-000441,PT-wx4HmM,Skin,SH-4,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wx4HmM
+ACH-000442,PT-uWXLpm,Lung,RERF-LC-Sq1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-uWXLpm
+ACH-000443,PT-9fFef6,Ovary/Fallopian Tube,OVKATE,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-9fFef6
+ACH-000447,PT-QmAMEj,Lung,NCI-H2228,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-QmAMEj
+ACH-000448,PT-3icxN1,Lung,NCI-H1666,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-3icxN1
+ACH-000449,PT-E7giyP,Uterus,MES-SA,Uterine Sarcoma/Mesenchymal,Sanger_DepMap24Q4,cancer_cell_line,PT-E7giyP
+ACH-000450,PT-tIdwwm,Skin,MEL-HO,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tIdwwm
+ACH-000451,PT-hZbJSf,Lung,NCI-H2085,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-hZbJSf
+ACH-000452,PT-xIsO4O,Esophagus/Stomach,TE-8,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-xIsO4O
+ACH-000456,PT-UFvK3A,Thyroid,B-CPAP,Poorly Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-UFvK3A
+ACH-000457,PT-lO2Jn8,Kidney,CAL-54,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-lO2Jn8
+ACH-000463,PT-gfHIRD,Lung,NCI-H460,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-gfHIRD
+ACH-000464,PT-3nLBts,CNS/Brain,CAS-1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-3nLBts
+ACH-000465,PT-spChit,Skin,SK-MEL-1,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-spChit
+ACH-000469,PT-hzuTX4,CNS/Brain,YH-13,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-hzuTX4
+ACH-000470,PT-XPa83T,Bowel,SW1463,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-XPa83T
+ACH-000472,PT-MxVfNi,Head and Neck,HSC-2,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-MxVfNi
+ACH-000473,PT-ESM25t,Bladder/Urinary Tract,RT-112,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ESM25t
+ACH-000475,PT-fHVhJI,Liver,huH-1,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-fHVhJI
+ACH-000476,PT-UVxXgl,Liver,JHH-4,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UVxXgl
+ACH-000478,PT-KvGBYp,Liver,SNU-387,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-KvGBYp
+ACH-000480,PT-cw7s0S,Liver,HuH-7,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cw7s0S
+ACH-000481,PT-CazMr1,Lung,NCI-H2170,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-CazMr1
+ACH-000482,PT-G8tjyE,Lung,RERF-LC-KJ,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-G8tjyE
+ACH-000484,PT-BHz6vU,Kidney,VMRC-RCW,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-BHz6vU
+ACH-000486,PT-W6AZYO,Bladder/Urinary Tract,KU-19-19,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-W6AZYO
+ACH-000488,PT-wdkGZi,Esophagus/Stomach,TE-11,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wdkGZi
+ACH-000489,PT-EtFrRG,Bowel,SW1116,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EtFrRG
+ACH-000491,PT-5GhHA6,Bowel,NCI-H716,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-5GhHA6
+ACH-000493,PT-nNGWmq,Liver,SNU-423,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-nNGWmq
+ACH-000496,PT-5umTu0,Lung,NCI-H1792,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-5umTu0
+ACH-000498,PT-pWs9uO,Myeloid,KO52,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-pWs9uO
+ACH-000501,PT-kCvNaO,Bowel,LS123,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-kCvNaO
+ACH-000504,PT-YFHa1n,CNS/Brain,SNB75,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-YFHa1n
+ACH-000505,PT-yLm1aj,Soft Tissue,RKN,Leiomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-yLm1aj
+ACH-000506,PT-VTukYY,Lung,NCI-H146,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-VTukYY
+ACH-000508,PT-YUXlCn,Lung,COR-L88,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-YUXlCn
+ACH-000510,PT-7qWq2K,Lung,NCI-H1299,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-7qWq2K
+ACH-000514,PT-Jj10yy,Lung,NCI-H1092,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-Jj10yy
+ACH-000515,PT-BuE22y,Lung,HCC-33,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-BuE22y
+ACH-000516,PT-gEiUjw,Bone,CAL-78,Chondrosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-gEiUjw
+ACH-000518,PT-czsVU5,Head and Neck,CAL-33,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-czsVU5
+ACH-000521,PT-hEuGfg,Lung,NCI-H2030,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-hEuGfg
+ACH-000522,PT-sPPqcj,Bladder/Urinary Tract,UM-UC-3,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-sPPqcj
+ACH-000524,PT-6ZFCGi,Ovary/Fallopian Tube,KURAMOCHI,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-6ZFCGi
+ACH-000525,PT-NNs10U,Lung,NCI-H2171,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-NNs10U
+ACH-000527,PT-oYazft,Ovary/Fallopian Tube,OVISE,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-oYazft
+ACH-000528,PT-id2eBb,Lung,ABC-1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-id2eBb
+ACH-000530,PT-Dxq8HG,Lung,DMS 114,SMARCA4-deficient undifferentiated tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-Dxq8HG
+ACH-000532,PT-663aNr,Bowel,SNU-61,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-663aNr
+ACH-000534,PT-kwERT7,Lymphoid,WSU-DLCL2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-kwERT7
+ACH-000535,PT-xfjEoE,Pancreas,BxPC-3,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-xfjEoE
+ACH-000536,PT-jtQBfm,Breast,BT-20,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-jtQBfm
+ACH-000538,PT-AXbbCE,Bowel,HUTU80,Small Bowel Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-AXbbCE
+ACH-000544,PT-SDTBu5,Esophagus/Stomach,OE21,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-SDTBu5
+ACH-000546,PT-F3GXIi,Head and Neck,HSC-4,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-F3GXIi
+ACH-000547,PT-Tid1hK,Bladder/Urinary Tract,HT-1197,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Tid1hK
+ACH-000548,PT-p0K5QM,Head and Neck,BHY,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-p0K5QM
+ACH-000551,PT-y8u0p3,Myeloid,K-562,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-y8u0p3
+ACH-000552,PT-sF39aT,Bowel,HT-29,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-sF39aT
+ACH-000554,PT-i8kZN9,Breast,UACC-893,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-i8kZN9
+ACH-000555,PT-n8dkSy,Kidney,A-498,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-n8dkSy
+ACH-000556,PT-ahSjGm,Cervix,SIHA,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ahSjGm
+ACH-000558,PT-LA0Wfj,CNS/Brain,A-172,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-LA0Wfj
+ACH-000559,PT-xIjoai,Lung,NCI-H1836,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-xIjoai
+ACH-000560,PT-mjQUio,Esophagus/Stomach,ECC10,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-mjQUio
+ACH-000561,PT-k9mv4v,Esophagus/Stomach,T.T,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-k9mv4v
+ACH-000562,PT-TdkTP0,Lung,HCC-78,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-TdkTP0
+ACH-000563,PT-YTpbR2,Lung,EBC-1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-YTpbR2
+ACH-000565,PT-XIcCcb,Bowel,RCM-1,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-XIcCcb
+ACH-000566,PT-OoHSSv,Bladder/Urinary Tract,SW-1710,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-OoHSSv
+ACH-000568,PT-4c0rgH,Breast,UACC-812,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-4c0rgH
+ACH-000569,PT-uTRkEi,Pleura,IST-MES1,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-uTRkEi
+ACH-000570,PT-mxsdQX,CNS/Brain,YKG1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-mxsdQX
+ACH-000571,PT-dw7sni,CNS/Brain,T98G,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-dw7sni
+ACH-000572,PT-GdtXdl,Skin,G-361,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-GdtXdl
+ACH-000573,PT-aOGEYV,Breast,MDA-MB-436,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-aOGEYV
+ACH-000574,PT-WpzPv5,Ovary/Fallopian Tube,FU-OV-1,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-WpzPv5
+ACH-000577,PT-DNXpFr,Liver,JHH-2,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-DNXpFr
+ACH-000579,PT-KoNkGk,Skin,UACC-257,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-KoNkGk
+ACH-000580,PT-Dlqu1U,Skin,C32,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Dlqu1U
+ACH-000581,PT-NDi54R,Esophagus/Stomach,SNU-16,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-NDi54R
+ACH-000583,PT-Lrf7XT,Lymphoid,MC116,Non-Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Lrf7XT
+ACH-000584,PT-g4qhEH,Ovary/Fallopian Tube,JHOS-4,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-g4qhEH
+ACH-000585,PT-HU0uli,Lung,EPLC-272H,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-HU0uli
+ACH-000586,PT-0a2F5a,Lung,NCI-H1876,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-0a2F5a
+ACH-000587,PT-HkdFKw,Lung,NCI-H1975,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-HkdFKw
+ACH-000589,PT-KKsvGZ,Lung,NCI-H1437,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-KKsvGZ
+ACH-000595,PT-jhnjmL,CNS/Brain,LN-229,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-jhnjmL
+ACH-000596,PT-9Zamyo,Lung,LCLC-97TM1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-9Zamyo
+ACH-000599,PT-cDj854,Pancreas,PA-TU-8902,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cDj854
+ACH-000601,PT-EzM7Ui,Pancreas,MIA PaCa-2,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EzM7Ui
+ACH-000603,PT-BPHtVG,Lung,BEN,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-BPHtVG
+ACH-000605,PT-4Pwq3T,Esophagus/Stomach,TE-6,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-4Pwq3T
+ACH-000607,PT-UnVDKb,Soft Tissue,KYM-1,Rhabdomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UnVDKb
+ACH-000609,PT-w4DAqh,CNS/Brain,SF126,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-w4DAqh
+ACH-000610,PT-mtt5MQ,Lung,NCI-H2227,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-mtt5MQ
+ACH-000611,PT-zkZBHL,Lymphoid,SU-DHL-6,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-zkZBHL
+ACH-000613,PT-epgMPc,Bone,HOS,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-epgMPc
+ACH-000614,PT-Zy2EsL,Skin,RVH-421,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Zy2EsL
+ACH-000615,PT-xtiBPE,Skin,SK-MEL-28,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-xtiBPE
+ACH-000616,PT-8WpAkT,Esophagus/Stomach,Hs 746T,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8WpAkT
+ACH-000617,PT-hZYskw,Ovary/Fallopian Tube,OVCAR-4,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-hZYskw
+ACH-000619,PT-UF0NQM,Head and Neck,PE/CA-PJ15,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UF0NQM
+ACH-000620,PT-JMO4rY,Liver,JHH-1,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JMO4rY
+ACH-000621,PT-ER2PWK,Breast,MDA-MB-157,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ER2PWK
+ACH-000622,PT-25ATIE,CNS/Brain,KNS-42,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-25ATIE
+ACH-000624,PT-j1ziCB,Breast,HCC1806,Breast Ductal Carcinoma In Situ,Sanger_DepMap24Q4,cancer_cell_line,PT-j1ziCB
+ACH-000625,PT-oPfLLk,Liver,Hep 3B2.1-7,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-oPfLLk
+ACH-000626,PT-e6abeY,Lymphoid,U266B1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-e6abeY
+ACH-000627,PT-Rd3J4D,Lung,LCLC-103H,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Rd3J4D
+ACH-000628,PT-QC2SAk,Lung,NCI-H596,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-QC2SAk
+ACH-000631,PT-j6IJnV,CNS/Brain,KS-1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-j6IJnV
+ACH-000633,PT-zUYVjw,Esophagus/Stomach,FU97,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zUYVjw
+ACH-000636,PT-yCJrgB,Lymphoid,RPMI-8402,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-yCJrgB
+ACH-000637,PT-bnLm4Y,Esophagus/Stomach,KYSE-520,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-bnLm4Y
+ACH-000638,PT-xglezn,Lung,NCI-H441,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-xglezn
+ACH-000639,PT-PkJ80f,Lung,NCI-H211,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-PkJ80f
+ACH-000643,PT-wBDiHn,Breast,HDQ-P1,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wBDiHn
+ACH-000644,PT-w6ABKA,Skin,COLO 829,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-w6ABKA
+ACH-000647,PT-bxGrwa,Esophagus/Stomach,TE-1,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-bxGrwa
+ACH-000648,PT-pVwyuS,Pleura,NCI-H28,Pleural Mesothelioma,Sanger_DepMap24Q4,cancer_cell_line,PT-pVwyuS
+ACH-000649,PT-4QH2lI,Kidney,786-O,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-4QH2lI
+ACH-000650,PT-Wg8rkx,Skin,IGR-37,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Wg8rkx
+ACH-000651,PT-IPboWn,Bowel,SW 620,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-IPboWn
+ACH-000652,PT-ETHfq8,Pancreas,SUIT-2,Pancreatic Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ETHfq8
+ACH-000653,PT-vA8rQh,Lymphoid,JJN-3,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-vA8rQh
+ACH-000654,PT-WEYO1e,Lymphoid,Raji,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-WEYO1e
+ACH-000655,PT-ZQKvHU,CNS/Brain,SF268,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-ZQKvHU
+ACH-000656,PT-qpbJK2,Lymphoid,SU-DHL-8,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-qpbJK2
+ACH-000657,PT-ug3gCf,Ovary/Fallopian Tube,A2780,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-ug3gCf
+ACH-000662,PT-S1tr6I,Lung,COR-L23,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-S1tr6I
+ACH-000663,PT-kymkHN,Ovary/Fallopian Tube,OVTOKO,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-kymkHN
+ACH-000664,PT-jm7IYN,Lymphoid,SU-DHL-1,Mature T and NK Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-jm7IYN
+ACH-000665,PT-41lHFE,Lung,SK-MES-1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-41lHFE
+ACH-000666,PT-ELrBOm,Lung,NCI-H1355,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ELrBOm
+ACH-000668,PT-3DyHhv,Breast,HCC70,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3DyHhv
+ACH-000670,PT-CGv0xl,Lung,SBC-5,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-CGv0xl
+ACH-000672,PT-C7amr4,Lung,IA-LM,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-C7amr4
+ACH-000674,PT-1QXwef,Esophagus/Stomach,NUGC-4,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-1QXwef
+ACH-000675,PT-HfJpz7,Lung,NCI-H1734,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-HfJpz7
+ACH-000677,PT-Z9x3iF,Lung,SW 1573,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Z9x3iF
+ACH-000678,PT-YUTQOS,Esophagus/Stomach,MKN7,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YUTQOS
+ACH-000679,PT-Tt2TJf,Esophagus/Stomach,OE-19,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Tt2TJf
+ACH-000680,PT-R9aZKI,Bowel,SW948,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-R9aZKI
+ACH-000681,PT-cqv92I,Lung,A549,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-cqv92I
+ACH-000684,PT-wbA1oa,Kidney,KMRC-1,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wbA1oa
+ACH-000688,PT-iVAxAa,Ovary/Fallopian Tube,OV7,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-iVAxAa
+ACH-000689,PT-W27kK4,Soft Tissue,RH-18,Rhabdomyosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-W27kK4
+ACH-000691,PT-vOaofa,Breast,HCC2157,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vOaofa
+ACH-000693,PT-mOm35A,Esophagus/Stomach,KYSE-180,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-mOm35A
+ACH-000694,PT-bNO06l,Esophagus/Stomach,TE-9,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-bNO06l
+ACH-000696,PT-AlUnJX,Ovary/Fallopian Tube,OVCAR-8,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-AlUnJX
+ACH-000697,PT-T19rUu,Lymphoid,A3/KAW,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-T19rUu
+ACH-000698,PT-ERlBcq,Lung,DMS 53,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-ERlBcq
+ACH-000699,PT-8MisfZ,Breast,HCC1395,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8MisfZ
+ACH-000702,PT-ImJeys,Lymphoid,L-1236,Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ImJeys
+ACH-000703,PT-BeO6a2,Lung,DMS 79,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-BeO6a2
+ACH-000704,PT-9pirK7,Ovary/Fallopian Tube,OAW42,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-9pirK7
+ACH-000706,PT-srkn4o,Lung,EKVX,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-srkn4o
+ACH-000708,PT-dNJJRP,Bowel,SNU-283,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-dNJJRP
+ACH-000711,PT-K0vetf,Breast,JIMT-1,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-K0vetf
+ACH-000713,PT-FQOeFS,Ovary/Fallopian Tube,Caov-3,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-FQOeFS
+ACH-000714,PT-KR5FTA,Lymphoid,KMS-11,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-KR5FTA
+ACH-000716,PT-EhboSJ,Thyroid,TT2609-C02,Well-Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-EhboSJ
+ACH-000717,PT-es34jp,Esophagus/Stomach,COLO-680N,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-es34jp
+ACH-000718,PT-8wDCNH,Lung,NCI-H2291,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-8wDCNH
+ACH-000719,PT-bnZfQQ,Ovary/Fallopian Tube,RMG-I,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-bnZfQQ
+ACH-000720,PT-ACqBkd,Bladder/Urinary Tract,TCCSUP,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ACqBkd
+ACH-000722,PT-04KbrE,Bowel,SNU-C1,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-04KbrE
+ACH-000724,PT-B0Dqk6,Bladder/Urinary Tract,HT-1376,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-B0Dqk6
+ACH-000729,PT-LzHDTV,Lung,NCI-H1963,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-LzHDTV
+ACH-000730,PT-2vBUWf,Skin,SK-MEL-5,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-2vBUWf
+ACH-000733,PT-eGglPA,Lung,NCI-H1838,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-eGglPA
+ACH-000738,PT-8oCN4x,CNS/Brain,GB-1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-8oCN4x
+ACH-000740,PT-T4PL7e,Head and Neck,A-253,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-T4PL7e
+ACH-000743,PT-WpdjRA,Lung,COR-L95,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-WpdjRA
+ACH-000744,PT-9tlxuS,Lung,NCI-H1623,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-9tlxuS
+ACH-000745,PT-A75zAQ,Lymphoid,MOLP-8,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-A75zAQ
+ACH-000747,PT-CmsNht,Lung,NCI-H1703,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-CmsNht
+ACH-000748,PT-OexHxF,Bone,SJSA-1,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-OexHxF
+ACH-000749,PT-d1NyBL,Lung,DMS 273,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-d1NyBL
+ACH-000750,PT-jI6Xhs,Skin,LOX IMVI,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-jI6Xhs
+ACH-000751,PT-0HjWKA,Myeloid,OCI-M1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-0HjWKA
+ACH-000752,PT-8aORoW,Lung,NCI-H196,SMARCA4-deficient undifferentiated tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-8aORoW
+ACH-000754,PT-Pi0OS5,Lymphoid,L-428,Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Pi0OS5
+ACH-000755,PT-DxHqyx,Breast,HCC2218,Breast Ductal Carcinoma In Situ,Sanger_DepMap24Q4,cancer_cell_line,PT-DxHqyx
+ACH-000756,PT-cJo3y3,CNS/Brain,GI-1,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-cJo3y3
+ACH-000757,PT-kI5CjI,Lung,A427,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-kI5CjI
+ACH-000759,PT-maODOx,Breast,MDA-MB-175-VII,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-maODOx
+ACH-000763,PT-wvxTew,Lymphoid,MM1-S,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-wvxTew
+ACH-000766,PT-wZGKqJ,Lung,NCI-H1648,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-wZGKqJ
+ACH-000767,PT-1nXRn7,Lung,NCI-H526,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-1nXRn7
+ACH-000768,PT-pYG6Rc,Breast,MDA-MB-231,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-pYG6Rc
+ACH-000769,PT-U2PG43,Lung,LK-2,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-U2PG43
+ACH-000770,PT-7N6azV,Myeloid,P31/FUJ,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-7N6azV
+ACH-000772,PT-nDp3Xt,Soft Tissue,TE 441.T,CIC-DUX4 Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-nDp3Xt
+ACH-000775,PT-u3m7Of,Lung,NCI-H727,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-u3m7Of
+ACH-000776,PT-DtdDWT,CNS/Brain,ONS-76,Embryonal Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-DtdDWT
+ACH-000778,PT-XJviYz,Head and Neck,HSC-3,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-XJviYz
+ACH-000780,PT-SCGBeX,Lung,NCI-H1105,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-SCGBeX
+ACH-000781,PT-CKs1VS,Lung,NCI-H2023,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-CKs1VS
+ACH-000783,PT-dK1tBm,Breast,CAMA-1,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-dK1tBm
+ACH-000784,PT-YTdWR1,Esophagus/Stomach,KYSE-70,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YTdWR1
+ACH-000786,PT-ieeLlY,Lymphoid,Daudi,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-ieeLlY
+ACH-000787,PT-w7dxuB,Lung,LXF-289,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-w7dxuB
+ACH-000788,PT-ZSJTWI,Skin,A2058,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ZSJTWI
+ACH-000789,PT-wTzkNy,Lung,NCI-H810,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-wTzkNy
+ACH-000790,PT-EI5eP1,Lung,SHP-77,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-EI5eP1
+ACH-000792,PT-FrUuvH,Kidney,BFTC-909,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FrUuvH
+ACH-000793,PT-xOmD9v,Esophagus/Stomach,KATO III,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-xOmD9v
+ACH-000794,PT-zkbKhd,Head and Neck,BICR 22,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zkbKhd
+ACH-000800,PT-RmrNlb,Lung,NCI-H446,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-RmrNlb
+ACH-000802,PT-YqLKaW,Bladder/Urinary Tract,BFTC-905,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YqLKaW
+ACH-000803,PT-dQkCfQ,Lung,COLO 668,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-dQkCfQ
+ACH-000804,PT-dk8yt2,Peripheral Nervous System,NB-1,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-dk8yt2
+ACH-000805,PT-SscYEx,Skin,COLO-679,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-SscYEx
+ACH-000806,PT-COK0Ia,Lymphoid,L-540,Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-COK0Ia
+ACH-000809,PT-zFPWWq,Esophagus/Stomach,KYSE-410,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zFPWWq
+ACH-000810,PT-1TshCj,Skin,SK-MEL-30,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-1TshCj
+ACH-000811,PT-RV3Y6W,Ovary/Fallopian Tube,SK-OV-3,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-RV3Y6W
+ACH-000812,PT-WHZxXI,Skin,COLO-783,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-WHZxXI
+ACH-000814,PT-2OcAGh,Skin,Hs 939.T,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-2OcAGh
+ACH-000815,PT-6Uzxpn,Lymphoid,KM-H2,Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-6Uzxpn
+ACH-000816,PT-veV7dF,Lung,NCI-H524,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-veV7dF
+ACH-000817,PT-pWj35D,Lymphoid,RPMI 8226,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-pWj35D
+ACH-000818,PT-EQndr2,Breast,BT-483,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EQndr2
+ACH-000819,PT-1DyLm0,CNS/Brain,LN-18,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-1DyLm0
+ACH-000821,PT-G4TwMh,Lymphoid,EJM,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-G4TwMh
+ACH-000822,PT-n2hnAf,Skin,SK-MEL-24,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-n2hnAf
+ACH-000823,PT-O7zBRO,Esophagus/Stomach,KYSE-140,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-O7zBRO
+ACH-000824,PT-ItKoPJ,Esophagus/Stomach,KYSE-510,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ItKoPJ
+ACH-000825,PT-fbGZ8j,Lung,HOP-92,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-fbGZ8j
+ACH-000826,PT-nAjtb0,Lung,CAL-12T,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-nAjtb0
+ACH-000827,PT-L3eOYW,Skin,WM793,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-L3eOYW
+ACH-000828,PT-mV0nNw,Breast,ZR-75-30,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-mV0nNw
+ACH-000830,PT-Fd4LwY,Lung,NCI-H1436,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-Fd4LwY
+ACH-000832,PT-JCJHPr,Head and Neck,CAL 27,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JCJHPr
+ACH-000835,PT-0RBdNq,Soft Tissue,GCT,Undifferentiated Pleomorphic Sarcoma/Malignant Fibrous Histiocytoma/High-Grade Spindle Cell Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0RBdNq
+ACH-000837,PT-9eMhTl,Lung,NCI-H322,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-9eMhTl
+ACH-000838,PT-CmSm57,Lymphoid,AMO-1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-CmSm57
+ACH-000840,PT-1JVU53,Lung,HCC-366,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-1JVU53
+ACH-000841,PT-lYuNel,Lung,NCI-H2087,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-lYuNel
+ACH-000843,PT-gQzNzd,Lung,HARA,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-gQzNzd
+ACH-000846,PT-tolPHE,Head and Neck,FaDu,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tolPHE
+ACH-000847,PT-dAMXIu,Esophagus/Stomach,HGC-27,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-dAMXIu
+ACH-000848,PT-WkfAGI,Liver,JHH-7,Hepatocellular Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-WkfAGI
+ACH-000849,PT-58loXx,Breast,MDA-MB-468,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-58loXx
+ACH-000852,PT-9wHWAd,Lung,NCI-H1435,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-9wHWAd
+ACH-000853,PT-FGrsoV,Lung,NCI-H661,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-FGrsoV
+ACH-000855,PT-8JwTBr,Esophagus/Stomach,KYSE-150,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8JwTBr
+ACH-000856,PT-PgOEtc,Breast,CAL-51,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-PgOEtc
+ACH-000858,PT-obWM4y,Lung,KNS-62,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-obWM4y
+ACH-000859,PT-603OA3,Breast,HCC1954,Breast Ductal Carcinoma In Situ,Sanger_DepMap24Q4,cancer_cell_line,PT-603OA3
+ACH-000860,PT-W8OaFq,Lung,NCI-H358,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-W8OaFq
+ACH-000861,PT-ExToNn,Lung,HOP-62,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ExToNn
+ACH-000863,PT-LeOcTX,CNS/Brain,DBTRG-05MG,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-LeOcTX
+ACH-000864,PT-8fO9EH,Uterus,COLO 684,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8fO9EH
+ACH-000865,PT-zNE9qB,Esophagus/Stomach,KYSE-450,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zNE9qB
+ACH-000866,PT-l2795j,Lung,NCI-H1048,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-l2795j
+ACH-000867,PT-3nyeTa,Lung,ChaGo-K-1,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-3nyeTa
+ACH-000869,PT-JylhbS,Lung,NCI-H1568,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-JylhbS
+ACH-000871,PT-IG35r8,Lung,NCI-H510,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-IG35r8
+ACH-000873,PT-8iaWjG,Esophagus/Stomach,KYSE-270,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-8iaWjG
+ACH-000874,PT-eEEvwF,Lymphoid,RS4;11,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-eEEvwF
+ACH-000875,PT-SrAh0r,Lung,NCI-H2347,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-SrAh0r
+ACH-000876,PT-FjJcwU,Breast,MDA-MB-415,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FjJcwU
+ACH-000878,PT-WMdXaj,Lung,HCC-15,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-WMdXaj
+ACH-000879,PT-wMzIqz,Uterus,MFE-296,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wMzIqz
+ACH-000880,PT-VHRCrj,Esophagus/Stomach,AGS,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-VHRCrj
+ACH-000881,PT-9PTPLm,Skin,MEL-JUSO,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9PTPLm
+ACH-000882,PT-MRf5jM,Skin,IGR-1,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-MRf5jM
+ACH-000883,PT-u7Vp6O,CNS/Brain,SW 1783,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-u7Vp6O
+ACH-000885,PT-6zI98h,Ovary/Fallopian Tube,TOV-21G,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-6zI98h
+ACH-000886,PT-bwPYLi,Lung,NCI-H2009,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-bwPYLi
+ACH-000888,PT-JWHrxe,Lung,NCI-H1793,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-JWHrxe
+ACH-000890,PT-Np75OL,Lung,SW 1271,SMARCA4-deficient undifferentiated tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-Np75OL
+ACH-000892,PT-msHTlh,Lung,NCI-H1563,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-msHTlh
+ACH-000893,PT-yo5QST,Lung,NCI-H1651,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-yo5QST
+ACH-000896,PT-bDT6oy,Bladder/Urinary Tract,647-V,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-bDT6oy
+ACH-000900,PT-rWMXJp,Lung,NCI-H23,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-rWMXJp
+ACH-000902,PT-vbLgiZ,Breast,CAL-148,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vbLgiZ
+ACH-000903,PT-ZSsyUS,Thyroid,FTC-133,Well-Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-ZSsyUS
+ACH-000905,PT-nC0LDL,Bladder/Urinary Tract,5637,Bladder Urothelial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-nC0LDL
+ACH-000906,PT-rH0cpo,Ovary/Fallopian Tube,ES-2,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-rH0cpo
+ACH-000910,PT-TFQ2Kc,Breast,MDA-MB-453,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-TFQ2Kc
+ACH-000911,PT-BTCHFg,Esophagus/Stomach,NUGC-3,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-BTCHFg
+ACH-000913,PT-6MnPg3,Uterus,ESS-1,Uterine Sarcoma/Mesenchymal,Sanger_DepMap24Q4,cancer_cell_line,PT-6MnPg3
+ACH-000914,PT-zrYGap,Lymphoid,HT,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-zrYGap
+ACH-000915,PT-Jc7cdo,Skin,IPC-298,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Jc7cdo
+ACH-000916,PT-tMdDt6,Lung,NCI-H1573,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-tMdDt6
+ACH-000917,PT-2HckVI,Esophagus/Stomach,TE-4,Esophageal Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-2HckVI
+ACH-000918,PT-vmdivL,Lymphoid,MOLT-16,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vmdivL
+ACH-000919,PT-Iu2j9I,Esophagus/Stomach,IM95,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Iu2j9I
+ACH-000920,PT-9UeFHL,Myeloid,CML-T1,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-9UeFHL
+ACH-000922,PT-0mdkef,Lymphoid,RCH-ACV,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0mdkef
+ACH-000924,PT-4qxYZb,Lung,NCI-H2172,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-4qxYZb
+ACH-000926,PT-vAncSZ,Bowel,HT-55,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vAncSZ
+ACH-000927,PT-Az6j9u,Breast,BT-474,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Az6j9u
+ACH-000929,PT-29i6JV,Lung,NCI-H2110,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-29i6JV
+ACH-000930,PT-AHaEgg,Breast,HCC1569,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-AHaEgg
+ACH-000932,PT-3F7Xgi,Esophagus/Stomach,SNU-1,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3F7Xgi
+ACH-000934,PT-0VWXIm,Breast,MDA-MB-361,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-0VWXIm
+ACH-000935,PT-snQqpb,Bowel,MDST8,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-snQqpb
+ACH-000936,PT-AiIzwN,Ovary/Fallopian Tube,EFO-27,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-AiIzwN
+ACH-000937,PT-UEq5KV,Lymphoid,PF-382,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-UEq5KV
+ACH-000938,PT-rgsUoa,Lymphoid,NALM-6,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-rgsUoa
+ACH-000939,PT-b2KmUs,Uterus,SK-UT-1,Uterine Sarcoma/Mesenchymal,Sanger_DepMap24Q4,cancer_cell_line,PT-b2KmUs
+ACH-000940,PT-P1Vdpe,Uterus,AN3 CA,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-P1Vdpe
+ACH-000943,PT-9E5O4L,Bowel,RKO,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9E5O4L
+ACH-000944,PT-grWxm0,Lymphoid,NAMALWA,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-grWxm0
+ACH-000945,PT-0uFhp8,Lung,NCI-H650,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-0uFhp8
+ACH-000947,PT-MsM9mi,Ovary/Fallopian Tube,OVK18,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-MsM9mi
+ACH-000948,PT-VDIRwk,Esophagus/Stomach,23132/87,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-VDIRwk
+ACH-000949,PT-cGBc5A,Esophagus/Stomach,TGBC11TKB,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cGBc5A
+ACH-000950,PT-6USEGU,Bowel,LoVo,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-6USEGU
+ACH-000951,PT-Q9lcwL,Lung,NCI-H2342,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Q9lcwL
+ACH-000953,PT-Zkuf8L,Lymphoid,SUP-T1,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Zkuf8L
+ACH-000955,PT-lgLAoF,Bowel,SNU-407,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-lgLAoF
+ACH-000956,PT-FFSOW0,Prostate,22Rv1,Prostate Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FFSOW0
+ACH-000957,PT-FXUrcz,Bowel,LS 180,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FXUrcz
+ACH-000958,PT-EB6qeM,Bowel,SW48,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EB6qeM
+ACH-000960,PT-N5YXV2,Lymphoid,Reh,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-N5YXV2
+ACH-000962,PT-3doOpy,Ovary/Fallopian Tube,OC 314,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-3doOpy
+ACH-000963,PT-c4ZGOD,Bowel,CCK-81,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-c4ZGOD
+ACH-000965,PT-de7J0H,Uterus,RL95-2,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-de7J0H
+ACH-000966,PT-bGFaJu,Ovary/Fallopian Tube,IGROV1,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-bGFaJu
+ACH-000968,PT-z7yLU0,Skin,COLO 792,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-z7yLU0
+ACH-000969,PT-ue72rD,Bowel,KM12,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ue72rD
+ACH-000970,PT-B2n6IN,Bowel,SNU-C5,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-B2n6IN
+ACH-000971,PT-2Roqq2,Bowel,HCT 116,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-2Roqq2
+ACH-000973,PT-P31KFG,Bladder/Urinary Tract,639-V,Urethral Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-P31KFG
+ACH-000974,PT-cgXnS7,Uterus,SNG-M,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-cgXnS7
+ACH-000976,PT-z66Tka,Biliary Tract,HuCCT1,Intraductal Papillary Neoplasm of the Bile Duct,Sanger_DepMap24Q4,cancer_cell_line,PT-z66Tka
+ACH-000977,PT-tY34fU,Prostate,LNCaP clone FGC,Prostate Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tY34fU
+ACH-000978,PT-bmKWJL,Uterus,EN,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-bmKWJL
+ACH-000979,PT-05dldv,Prostate,DU 145,Prostate Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-05dldv
+ACH-000980,PT-DdDGB6,Lung,NCI-H1155,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-DdDGB6
+ACH-000981,PT-zhUnhJ,Lymphoid,DND-41,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zhUnhJ
+ACH-000983,PT-AcI1bM,Myeloid,KCL-22,Myeloproliferative Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-AcI1bM
+ACH-000985,PT-KI0Di1,Bowel,LS411N,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-KI0Di1
+ACH-000986,PT-EoHcfh,Bowel,HT115,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EoHcfh
+ACH-000987,PT-1PBPXD,Skin,MeWo,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-1PBPXD
+ACH-000988,PT-blqauC,Uterus,MFE-319,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-blqauC
+ACH-000989,PT-iFoJMI,Bowel,SNU-175,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-iFoJMI
+ACH-000991,PT-pBOr7s,Bowel,SNU-81,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-pBOr7s
+ACH-000995,PT-lj83Ht,Lymphoid,JURKAT,T-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-lj83Ht
+ACH-000997,PT-i0VYNQ,Bowel,HCT-15,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-i0VYNQ
+ACH-000998,PT-A55gCd,Bowel,CW-2,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-A55gCd
+ACH-001016,PT-Pxi6oo,CNS/Brain,Becker,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-Pxi6oo
+ACH-001064,PT-Lz3i3Q,Lymphoid,EB-2,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-Lz3i3Q
+ACH-001075,PT-nKyqod,Lung,NCI-H292,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-nKyqod
+ACH-001086,PT-c34xau,Cervix,HeLa,Cervical Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-c34xau
+ACH-001106,PT-6djQUQ,Lymphoid,KOPN-8,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-6djQUQ
+ACH-001151,PT-u4FBpq,Ovary/Fallopian Tube,OVCAR-5,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-u4FBpq
+ACH-001190,PT-IHNbDy,Skin,SK-MEL-2,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-IHNbDy
+ACH-001193,PT-zjZ0Ko,Bone,SK-PN-DW,Ewing Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zjZ0Ko
+ACH-001274,PT-IfpyhV,Soft Tissue,SW982,Synovial Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-IfpyhV
+ACH-001306,PT-Dn9adW,Thyroid,8305C,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-Dn9adW
+ACH-001307,PT-1llqWx,Thyroid,8505C,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-1llqWx
+ACH-001321,PT-RAH5Wu,Thyroid,TT,Medullary Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-RAH5Wu
+ACH-001328,PT-BB1vF7,Skin,A-431,Cutaneous Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-BB1vF7
+ACH-001332,PT-aRE4u7,Head and Neck,BICR 78,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-aRE4u7
+ACH-001333,PT-9q6tDV,Cervix,C-33 A,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-9q6tDV
+ACH-001334,PT-ERAmPK,Cervix,C-4 I,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ERAmPK
+ACH-001336,PT-QAGzTB,Cervix,Ca Ski,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-QAGzTB
+ACH-001341,PT-tTbVoL,Cervix,DoTc2 4510,Mixed Cervical Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-tTbVoL
+ACH-001344,PT-smWXLD,Peripheral Nervous System,GI-ME-N,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-smWXLD
+ACH-001345,PT-sGJOXH,Bowel,GP5d,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-sGJOXH
+ACH-001350,PT-KgSHOe,Thyroid,HTC-C3,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-KgSHOe
+ACH-001360,PT-wH5ORo,Cervix,MS751,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wH5ORo
+ACH-001368,PT-1Sm4U9,Esophagus/Stomach,OAC-M5.1,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-1Sm4U9
+ACH-001373,PT-ND5kWh,Ovary/Fallopian Tube,OV17R,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-ND5kWh
+ACH-001374,PT-EoMkUH,Ovary/Fallopian Tube,PA-1 [PA1],Ovarian Germ Cell Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-EoMkUH
+ACH-001384,PT-F6euB4,Thyroid,RO82-W-1,Well-Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-F6euB4
+ACH-001398,PT-Xr379n,Kidney,SW 156,Renal Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Xr379n
+ACH-001399,PT-V8yAFO,Bowel,SW 626,Colorectal Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-V8yAFO
+ACH-001400,PT-2KkY6l,Vulva/Vagina,SW 954,Squamous Cell Carcinoma of the Vulva/Vagina,Sanger_DepMap24Q4,cancer_cell_line,PT-2KkY6l
+ACH-001401,PT-7a0mgm,Adrenal Gland,SW-13,Adrenocortical Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-7a0mgm
+ACH-001402,PT-zjOA3C,Cervix,SW756,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-zjOA3C
+ACH-001418,PT-JGzDYG,Ovary/Fallopian Tube,UWB1.289,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-JGzDYG
+ACH-001442,PT-QwG6Ej,Skin,A388,Cutaneous Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-QwG6Ej
+ACH-001443,PT-xji0Xg,Thyroid,ASH-3,Anaplastic Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-xji0Xg
+ACH-001453,PT-pIyNqk,Prostate,BPH-1,Non-Cancerous,Sanger_DepMap24Q4,cancer_cell_line,PT-pIyNqk
+ACH-001489,PT-JQqnTw,Lung,COR-L32,Non-Small Cell Lung Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-JQqnTw
+ACH-001496,PT-YHsN9r,Esophagus/Stomach,ESO26,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YHsN9r
+ACH-001497,PT-CNzzSN,Esophagus/Stomach,ESO51,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-CNzzSN
+ACH-001498,PT-5d2l7D,Lymphoid,Farage,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-5d2l7D
+ACH-001500,PT-JtOhdx,Esophagus/Stomach,FLO-1,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JtOhdx
+ACH-001517,PT-YZF57N,Uterus,HEC-1,Endometrial Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-YZF57N
+ACH-001519,PT-Ra8US3,Bone,H-EMC-SS,Chondrosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-Ra8US3
+ACH-001525,PT-GR4jOd,Cervix,HT-3,Cervical Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-GR4jOd
+ACH-001526,PT-JCLa8x,Bone,HuO9,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-JCLa8x
+ACH-001528,PT-1Qm9m0,Thyroid,IHH-4,Well-Differentiated Thyroid Cancer,Sanger_DepMap24Q4,cancer_cell_line,PT-1Qm9m0
+ACH-001529,PT-RI1Xeu,Uterus,JAR,Gestational Trophoblastic Disease,Sanger_DepMap24Q4,cancer_cell_line,PT-RI1Xeu
+ACH-001530,PT-hB4ARO,Uterus,JEG-3,Gestational Trophoblastic Disease,Sanger_DepMap24Q4,cancer_cell_line,PT-hB4ARO
+ACH-001542,PT-wu5c1x,Head and Neck,KON,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-wu5c1x
+ACH-001549,PT-QtHHhA,Lung,Lu-135,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-QtHHhA
+ACH-001578,PT-OqrZ3f,Testis,NCCIT,Non-Seminomatous Germ Cell Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-OqrZ3f
+ACH-001603,PT-HjdUWT,Peripheral Nervous System,NH-12,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-HjdUWT
+ACH-001605,PT-5s2EZm,CNS/Brain,no.10,Diffuse Glioma,Sanger_DepMap24Q4,cancer_cell_line,PT-5s2EZm
+ACH-001617,PT-X6RNMT,Lymphoid,OCI-LY7,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-X6RNMT
+ACH-001625,PT-FeUEcM,Head and Neck,OSC-19,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FeUEcM
+ACH-001626,PT-CVPxmk,Head and Neck,OSC-20,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-CVPxmk
+ACH-001630,PT-FMp5RI,Ovary/Fallopian Tube,PEO1,Ovarian Epithelial Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-FMp5RI
+ACH-001641,PT-4X1Phg,Head and Neck,SAT,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-4X1Phg
+ACH-001642,PT-HcsCe7,Lymphoid,SCC-3,Non-Hodgkin Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-HcsCe7
+ACH-001650,PT-97kTPc,Cervix,SISO,Cervical Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-97kTPc
+ACH-001653,PT-ZJjbcp,Esophagus/Stomach,SK-GT-2,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-ZJjbcp
+ACH-001654,PT-2qao55,Esophagus/Stomach,SK-GT-4,Esophagogastric Adenocarcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-2qao55
+ACH-001655,PT-yc0xLp,Uterus,SKN,Uterine Sarcoma/Mesenchymal,Sanger_DepMap24Q4,cancer_cell_line,PT-yc0xLp
+ACH-001674,PT-o4jARg,Peripheral Nervous System,TGW,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-o4jARg
+ACH-001680,PT-05hA76,Lymphoid,U-698-M,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-05hA76
+ACH-001702,PT-vslXtO,Soft Tissue,VA-ES-BJ,Epithelioid Sarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-vslXtO
+ACH-001703,PT-jXERAO,Lymphoid,VAL,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-jXERAO
+ACH-001704,PT-KL4Kmo,Skin,VMRC-MELG,Melanoma,Sanger_DepMap24Q4,cancer_cell_line,PT-KL4Kmo
+ACH-001709,PT-scpPOF,Lymphoid,WSU-NHL,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-scpPOF
+ACH-001711,PT-lzKK9W,CNS/Brain,PFSK-1,Embryonal Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-lzKK9W
+ACH-001715,PT-fcGStb,Bone,CAL-72,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-fcGStb
+ACH-001716,PT-v9NPqN,Peripheral Nervous System,GOTO,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-v9NPqN
+ACH-001819,PT-FVLPZS,Breast,MFM-223,Invasive Breast Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-FVLPZS
+ACH-001820,PT-UXPdpL,Breast,COLO 824,"Breast Neoplasm, NOS",Sanger_DepMap24Q4,cancer_cell_line,PT-UXPdpL
+ACH-001861,PT-5pDw3E,Biliary Tract,TGBC1TKB,Intracholecystic Papillary Neoplasm,Sanger_DepMap24Q4,cancer_cell_line,PT-5pDw3E
+ACH-002020,PT-3SrUkP,Cervix,SKG-IIIa,Cervical Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-3SrUkP
+ACH-002029,PT-rJXazG,Head and Neck,SAS,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-rJXazG
+ACH-002040,PT-YbtlK5,Vulva/Vagina,HMV-II,Mucosal Melanoma of the Vulva/Vagina,Sanger_DepMap24Q4,cancer_cell_line,PT-YbtlK5
+ACH-002043,PT-gB4Jfi,Head and Neck,Ca9-22,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-gB4Jfi
+ACH-002045,PT-a3mx1w,Head and Neck,HO-1-u-1,Head and Neck Squamous Cell Carcinoma,Sanger_DepMap24Q4,cancer_cell_line,PT-a3mx1w
+ACH-002051,PT-K31XId,Lung,Lu-134-A,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-K31XId
+ACH-002052,PT-0531Uw,Lung,Lu-139,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-0531Uw
+ACH-002059,PT-reOMOW,Lymphoid,P30/OHK,B-Lymphoblastic Leukemia/Lymphoma,Sanger_DepMap24Q4,cancer_cell_line,PT-reOMOW
+ACH-002062,PT-2hETfh,Lymphoid,SLVL,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-2hETfh
+ACH-002067,PT-EcVEYs,Bone,NOS-1,Osteosarcoma,Sanger_DepMap24Q4,cancer_cell_line,PT-EcVEYs
+ACH-002077,PT-qVbV4Q,Lung,Lu-165,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-qVbV4Q
+ACH-002170,PT-tr3kfu,Lung,NCI-H1688,Lung Neuroendocrine Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-tr3kfu
+ACH-002214,PT-83LwGP,Lymphoid,BC-1,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-83LwGP
+ACH-002215,PT-tSpUfL,Lymphoid,BC-3,Mature B-Cell Neoplasms,Sanger_DepMap24Q4,cancer_cell_line,PT-tSpUfL
+ACH-002283,PT-x400Sq,Peripheral Nervous System,NB5,Neuroblastoma,Sanger_DepMap24Q4,cancer_cell_line,PT-x400Sq
+ACH-002290,PT-mzDUGH,Myeloid,NKM-1,Acute Myeloid Leukemia,Sanger_DepMap24Q4,cancer_cell_line,PT-mzDUGH
+ACH-002291,PT-4gdieL,Testis,NTERA-2 cl.D1,Non-Seminomatous Germ Cell Tumor,Sanger_DepMap24Q4,cancer_cell_line,PT-4gdieL

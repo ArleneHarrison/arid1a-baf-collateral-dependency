@@ -52,6 +52,7 @@ def release_files() -> list[Path]:
         "README.md", "CITATION.cff", "LICENSE", "requirements.txt", "environment.yml",
         "config/**/*", "metadata/data_manifest.tsv", "metadata/claim_manifest.tsv",
         "results/derived/**/*", "src/**/*", "tests/**/*", "manuscript/**/*",
+        "current/**/*", ".zenodo.json",
     )
     files: set[Path] = set()
     for pattern in patterns:
@@ -60,6 +61,7 @@ def release_files() -> list[Path]:
             if path.is_file()
             and "__pycache__" not in path.parts
             and path.suffix.casefold() not in BUILD_SUFFIXES
+            and not path.name.startswith("cover_letter")
         )
     return sorted(files)
 

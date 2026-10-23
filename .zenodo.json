@@ -1,22 +1,55 @@
 {
-  "title": "ARID1A–BAF collateral dependency: reproducibility repository",
-  "description": "Code, compact derived tables, and manuscript materials for a structure-informed analysis of ARID1A-associated BAF-complex co-dependency across cancer cell lines, including nested module validation, wwPDB structure-quality sensitivity analyses, and abundance-defined null tests.",
-  "upload_type": "software",
-  "license": "MIT",
+  "title": "Structure-Guided Proteogenomics Identifies ARID1A-Associated cBAF Protein Co-variation in Lung Cancer — code and data, v1.1.0",
+  "upload_type": "dataset",
+  "description": "Reproducibility materials for a structure-selected ARID1A-associated cBAF protein co-variation analysis in lung cancer. Includes exact analysis inputs, code, derived results and an unpublished manuscript. Observational protein co-variation is not whole-panel synthetic lethality. See README for dataset-specific licenses and replay instructions.",
   "creators": [
-    {"name": "Tao, Zhiyong", "orcid": "0009-0001-2454-2432"},
-    {"name": "Xiong, Juan"},
-    {"name": "Zhang, Yiwei", "orcid": "0009-0008-7513-7956"},
-    {"name": "Zhong, Chulin", "orcid": "0009-0001-0840-3846"},
-    {"name": "Gao, Wenkai", "orcid": "0009-0000-2900-9832"},
-    {"name": "Fan, Guohua", "orcid": "0009-0005-7470-7863"}
+    {
+      "name": "Tao, Zhiyong",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Xiong, Juan",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Zhang, Yiwei",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Zhong, Chulin",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Gao, Wenkai",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Fan, Guohua",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University"
+    },
+    {
+      "name": "Huang, Yabing",
+      "affiliation": "Department of Pathology, Renmin Hospital of Wuhan University",
+      "orcid": "0000-0003-1714-1734"
+    }
   ],
-  "keywords": ["ARID1A", "BAF complex", "co-dependency", "DepMap", "NSCLC", "structural biology"],
+  "version": "1.1.0",
+  "publication_date": "2026-10-23",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "ARID1A",
+    "cBAF",
+    "proteogenomics",
+    "lung cancer",
+    "protein co-variation"
+  ],
   "related_identifiers": [
     {
-      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.0.5",
+      "identifier": "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency/tree/v1.1.0",
       "relation": "isSupplementTo",
       "scheme": "url"
     }
-  ]
+  ],
+  "notes": "Original project code: MIT; original manuscript/derived data: CC BY 4.0. Third-party source material retains its original terms. No controlled-access genomic files or referee reports are redistributed."
 }

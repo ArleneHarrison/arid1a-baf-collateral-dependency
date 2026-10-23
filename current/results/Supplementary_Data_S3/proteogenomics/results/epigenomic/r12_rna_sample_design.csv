@@ -1,0 +1,9 @@
+"sample","gsm","genotype","treatment","infection_replicate_label"
+"WT_Rep1 FPKM","GSM2719768","WT","scr",1
+"WT_Rep2 FPKM","GSM2719769","WT","scr",2
+"ARID1BKD_Rep1 FPKM","GSM2719770","WT","KD",1
+"ARID1BKD_Rep2 FPKM","GSM2719771","WT","KD",2
+"ARID1AKO_Rep1 FPKM","GSM2719772","KO","scr",1
+"ARID1AKO_Rep2 FPKM","GSM2719773","KO","scr",2
+"ARID1AKO_ARID1BKD_Rep1 FPKM","GSM2719774","KO","KD",1
+"ARID1AKO_ARID1BKD_Rep2 FPKM","GSM2719775","KO","KD",2

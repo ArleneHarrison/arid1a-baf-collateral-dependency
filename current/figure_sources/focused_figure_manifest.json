@@ -1,0 +1,137 @@
+{
+  "script_sha256": "e0793955aad88733113507ed8b7b5aba145b7b36765069f8a70c099c6353ff1e",
+  "source_xlsx": "F:\\\u79d1\u7814\u6570\u636e\u5e93\\NatureCommunications\\s41467-025-67322-2\\Source_Data.xlsx",
+  "source_xlsx_sha256": "e772e583ad1ec537111f2ac68a2a667736b361fd96c8906b5f35aa7a0664c086",
+  "frozen_project_sources": {
+    "structure_contact_cutoff_sensitivity.csv": "e2b7dc181c2aac9841dcb1c7d6fa410818cf09af20f4d3c781a3d451c8c5f2fa",
+    "structure_global_validation.csv": "f5cd6695592cf4cbfbb6ffb381588847341d80d870ad2a99b694cfec9c22b413",
+    "structural_group_sensitivity.csv": "17843da339862daa47e91496d80d29b04255a6985a5495acfe763dbfefd553ed"
+  },
+  "new_significance_tests": false,
+  "checks": [
+    {
+      "pdf": "Figure1_focused.pdf",
+      "width_mm": 179.99999491373697,
+      "height_mm": 118.00000025431314,
+      "minimum_font_pt": 7.199999809265137,
+      "text_outside_page": [],
+      "embedded_rasters": 0
+    },
+    {
+      "pdf": "Figure2_focused.pdf",
+      "width_mm": 179.99999491373697,
+      "height_mm": 155.00000279744464,
+      "minimum_font_pt": 6.099999904632568,
+      "text_outside_page": [],
+      "embedded_rasters": 2
+    },
+    {
+      "pdf": "Figure5_molecular_validation.pdf",
+      "width_mm": 179.99999491373697,
+      "height_mm": 125.00000364515515,
+      "minimum_font_pt": 6.5,
+      "text_outside_page": [],
+      "embedded_rasters": 0
+    }
+  ],
+  "external_molecular_descriptive_summary": {
+    "summary": [
+      {
+        "cell_line": "H1299",
+        "condition": "ARID1A",
+        "mean": 8.573483941000001,
+        "std": 0.28721432246693224,
+        "count": 5
+      },
+      {
+        "cell_line": "H1299",
+        "condition": "Delta-cIDR",
+        "mean": 6.0730666602,
+        "std": 0.15493725332335412,
+        "count": 5
+      },
+      {
+        "cell_line": "H1299",
+        "condition": "Y-to-A",
+        "mean": 6.0373619312,
+        "std": 0.5002665243644646,
+        "count": 5
+      },
+      {
+        "cell_line": "H1299",
+        "condition": "GATA2+ARID1A",
+        "mean": 10.7793030552,
+        "std": 1.3617953837718124,
+        "count": 5
+      },
+      {
+        "cell_line": "H1299",
+        "condition": "GATA2+Delta-cIDR",
+        "mean": 5.2992907114,
+        "std": 0.7254259729176847,
+        "count": 5
+      },
+      {
+        "cell_line": "H1299",
+        "condition": "GATA2+Y-to-A",
+        "mean": 5.920005673,
+        "std": 0.3778421809116379,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "ARID1A",
+        "mean": 9.513362406199999,
+        "std": 0.3801762878084423,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "Delta-cIDR",
+        "mean": 4.9345238094,
+        "std": 0.3376775420246888,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "Y-to-A",
+        "mean": 5.3756252288,
+        "std": 0.31408169184237933,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "GATA2+ARID1A",
+        "mean": 11.665409362,
+        "std": 0.5692341252438095,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "GATA2+Delta-cIDR",
+        "mean": 5.8467057276,
+        "std": 0.9006371649796312,
+        "count": 5
+      },
+      {
+        "cell_line": "A549",
+        "condition": "GATA2+Y-to-A",
+        "mean": 4.8740037508,
+        "std": 0.10135761945321324,
+        "count": 5
+      }
+    ],
+    "descriptive_GATA2_gains": {
+      "H1299": {
+        "GATA2_gain_with_ARID1A": 2.2058191141999988,
+        "GATA2_gain_with_Delta_cIDR": -0.7737759488,
+        "GATA2_gain_with_Y_to_A": -0.11735625820000006
+      },
+      "A549": {
+        "GATA2_gain_with_ARID1A": 2.1520469558000013,
+        "GATA2_gain_with_Delta_cIDR": 0.9121819181999999,
+        "GATA2_gain_with_Y_to_A": -0.5016214779999997
+      }
+    }
+  }
+}

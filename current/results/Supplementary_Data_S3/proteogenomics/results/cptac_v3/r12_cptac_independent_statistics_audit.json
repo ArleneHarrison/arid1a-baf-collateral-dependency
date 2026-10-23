@@ -1,0 +1,57 @@
+{
+  "date_utc": "2026-09-05T02:20:13.038004+00:00",
+  "tolerance": 1e-10,
+  "spec_sha256": "d6a11136f62bf1551adc6b3df0cc2a2014bb1456860c17b836ac9878056a9cae",
+  "script_sha256": "d6eefc4dea7595fc8c6c1eef9581a03b63eb76921e3480b53aa2181ec54236d0",
+  "independent_engine": "statsmodels OLS explicit intercept + own RNA/CNV + WES purity or full-rank lineage dummies; scipy Spearman",
+  "does_not_import_production_statistics": true,
+  "tie_stability_rule": "OLS predictions computed once per exactly equal design row and expanded; no rounding of distinct rows",
+  "exact_group_zero_rule": "If outcome and complete model design both constant within a categorical group, fitted group-intercept constraint implies residual exactly zero; applied explicitly",
+  "replay_bootstrap_draws_per_cohort": 50,
+  "versions": {
+    "numpy": "2.3.2",
+    "pandas": "2.3.3",
+    "statsmodels": "0.14.5",
+    "scipy": "1.18.0"
+  },
+  "cohorts": [
+    {
+      "cohort": "LUAD",
+      "n_patients": 108,
+      "sample_reconstruction_exact": true,
+      "n_genes_checked": 12,
+      "point_max_absolute_difference": 1.1102230246251565e-16,
+      "bootstrap_replay_max_absolute_difference": 2.220446049250313e-16,
+      "source_npz_sha256": "8d4a85ac43fc05befc2d7b445f84b6c82f6e3d5a3a5d41338d512b52805a201c",
+      "production_script_sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad",
+      "input_sha256": {
+        "protein": "013a8db1fae5c667b144f247c5c5949b51ddfe22890e77d76300fbf9a10ce6fd",
+        "rna": "af66d113c0f347e76910b1aa493c007185e0973727d0e6f2e30d198db43df813",
+        "cnv": "93d7102b1031c18de0d03da35fba62737638451d9f7685cb8831190edb4bc052",
+        "metadata": "3d6e845808e97b52df5bc4e085dfcde0d98add43dfb9b1136b0f07a5f4b15a2c"
+      }
+    },
+    {
+      "cohort": "LUSC",
+      "n_patients": 107,
+      "sample_reconstruction_exact": true,
+      "n_genes_checked": 12,
+      "point_max_absolute_difference": 1.1102230246251565e-16,
+      "bootstrap_replay_max_absolute_difference": 2.220446049250313e-16,
+      "source_npz_sha256": "5ca8e0beeafea1ac995be7c97358b7c003297a9ec823141eba986e87aa8ea60f",
+      "production_script_sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad",
+      "input_sha256": {
+        "protein": "42de9023dfc2eb3f0fc11b6d50f244bc8c188cabe1f895b7d44d7a34b865da02",
+        "rna": "dfda1b12b48413d28d102153ce7dea4e225bd11b9832141cf32761ece8e6a34e",
+        "cnv": "0f8afbbcb28ae0f2e9df092a83e2ff9b2d2b245ed2c6067d86f7edbb2b49d5d6",
+        "metadata": "d0ba46721f3b155ac9d9754e6c01b78e2d2e516e67967ff7a087865dc353f890"
+      }
+    }
+  ],
+  "deviations_over_tolerance": [],
+  "status": "PASS",
+  "BH_implementation": "statsmodels.stats.multitest.multipletests(method='fdr_bh')",
+  "BH_family_size": 4,
+  "results_sha256": "9b1be5b44cba895b1881a52de0495ea2c0fc649541b613454945ec642a6c092d",
+  "gene_audit_sha256": "467b43ee904a4585a59edab24a47a215bea3bdc389de36dcc03d988df8cc29b3"
+}

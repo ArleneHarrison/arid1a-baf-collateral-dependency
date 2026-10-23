@@ -1,0 +1,41 @@
+{
+  "date_utc": "2026-09-05T02:20:52.885277+00:00",
+  "tolerance": 1e-10,
+  "spec_sha256": "d6a11136f62bf1551adc6b3df0cc2a2014bb1456860c17b836ac9878056a9cae",
+  "script_sha256": "d6eefc4dea7595fc8c6c1eef9581a03b63eb76921e3480b53aa2181ec54236d0",
+  "independent_engine": "statsmodels OLS explicit intercept + own RNA/CNV + WES purity or full-rank lineage dummies; scipy Spearman",
+  "does_not_import_production_statistics": true,
+  "tie_stability_rule": "OLS predictions computed once per exactly equal design row and expanded; no rounding of distinct rows",
+  "exact_group_zero_rule": "If outcome and complete model design both constant within a categorical group, fitted group-intercept constraint implies residual exactly zero; applied explicitly",
+  "replay_bootstrap_draws_per_cohort": 0,
+  "versions": {
+    "numpy": "2.3.2",
+    "pandas": "2.3.3",
+    "statsmodels": "0.14.5",
+    "scipy": "1.18.0"
+  },
+  "cohorts": [
+    {
+      "cohort": "Sanger_DepMap24Q4",
+      "n_patients": 694,
+      "sample_reconstruction_exact": true,
+      "n_genes_checked": 12,
+      "point_max_absolute_difference": 1.6653345369377348e-16,
+      "bootstrap_replay_max_absolute_difference": 0.0,
+      "source_npz_sha256": "ea4e936262a72198626e6b0a049fcf8b9778b45386b99f568bac92b76473a05b",
+      "production_script_sha256": "8bf37404635bfa04f9711d383ffbec025f4e08505c13907c00fb5897fdca2cad",
+      "input_sha256": {
+        "protein": "50044f499ba4390d0bffb07405b614ec111457cdfa3d817639aa4ea5df0919ca",
+        "rna": "302071acf6beb418eb464a8c857442bc166c2daff00d6eca082597dfcce04457",
+        "cnv": "b9db3e848f3c3eb7dd624680e4fac452b88e4a54c1087e317b69f9d5bef22a7b",
+        "metadata": "9d318ac849d3c819ef4bb154b68563ea83529adf36bb86e0103b7f18a704a89b"
+      }
+    }
+  ],
+  "deviations_over_tolerance": [],
+  "status": "PASS",
+  "BH_implementation": "statsmodels.stats.multitest.multipletests(method='fdr_bh')",
+  "BH_family_size": 2,
+  "results_sha256": "0de5d9017247fae01e14e6db474e23476262ed1dc52ec5bc9474332cdf3e4ba3",
+  "gene_audit_sha256": "dff6c17d85dd4a37c6840025dcc8e9adcf8242928de8064075e4787e9da7f1e6"
+}

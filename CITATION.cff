@@ -1,32 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this code or its derived results, please cite this release and the associated manuscript."
-title: "ARID1A–BAF collateral dependency: reproducibility repository"
-type: software
-version: 1.0.5
-date-released: 2026-09-01
-doi: 10.5281/zenodo.22218064
-url: "https://doi.org/10.5281/zenodo.22218064"
+message: "Please cite this exact version and original data sources."
+title: "Structure-Guided Proteogenomics Identifies ARID1A-Associated cBAF Protein Co-variation in Lung Cancer"
+type: dataset
+version: 1.1.0
+date-released: 2026-10-23
+doi: 10.5281/zenodo.23587002
 repository-code: "https://github.com/ArleneHarrison/arid1a-baf-collateral-dependency"
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.22218064
-    description: "Version-independent Zenodo concept DOI"
 authors:
   - family-names: Tao
     given-names: Zhiyong
-    orcid: "https://orcid.org/0009-0001-2454-2432"
   - family-names: Xiong
     given-names: Juan
   - family-names: Zhang
     given-names: Yiwei
-    orcid: "https://orcid.org/0009-0008-7513-7956"
   - family-names: Zhong
     given-names: Chulin
-    orcid: "https://orcid.org/0009-0001-0840-3846"
   - family-names: Gao
     given-names: Wenkai
-    orcid: "https://orcid.org/0009-0000-2900-9832"
   - family-names: Fan
     given-names: Guohua
-    orcid: "https://orcid.org/0009-0005-7470-7863"
-    email: fgh202604@163.com
+  - family-names: Huang
+    given-names: Yabing
+    orcid: "https://orcid.org/0000-0003-1714-1734"

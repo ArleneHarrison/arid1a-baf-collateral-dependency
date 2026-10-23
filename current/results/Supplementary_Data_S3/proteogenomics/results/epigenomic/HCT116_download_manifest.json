@@ -1,0 +1,44 @@
+{
+  "started_utc": "2026-09-05T01:24:22.347734+00:00",
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "scope": "metadata and bounded processed-file audit only",
+  "downloads": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE101966&targ=all&form=text&view=full",
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_family.soft",
+      "bytes": 27326284,
+      "sha256": "81032da15ae1d30921e353445b074dfbd34471bffe2f11801537718b5b987bf5",
+      "cached": true
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101966/suppl/GSE101966_HCT116_FPKM.txt.gz",
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_HCT116_FPKM.txt.gz",
+      "bytes": 1434253,
+      "sha256": "21f7ac0d23529dec7c27c3da40d117e4872d3555e62cb24dac9cbc1325287c67",
+      "cached": true
+    },
+    {
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE101nnn/GSE101966/suppl/GSE101966_RAW.tar",
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/GSE101966_RAW.tar",
+      "bytes": 24197120,
+      "sha256": "36dce9c17b23bd3466e8ec0f1eb7a0952055db4900e241a40280509c07b368c3",
+      "cached": true
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28967863%20AND%20SRC%3AMED&format=json",
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/kelso_europepmc_search.json",
+      "bytes": 1191,
+      "sha256": "04e38d58f860194db57cd8c9c5e5f1cbc5fc75a6ee4ac6b4ea82bd3deecf0cea",
+      "cached": true
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC5643100/fullTextXML",
+      "file": "/root/autodl-tmp/arid1a_baf_r12_epigenomic/inputs/kelso_fulltext.xml",
+      "bytes": 241112,
+      "sha256": "bc71bdab20579004228424b4057f77d058bf904b27d678f77cc8495f54595519",
+      "cached": true
+    }
+  ],
+  "errors": [],
+  "completed_utc": "2026-09-05T01:24:23.260574+00:00"
+}

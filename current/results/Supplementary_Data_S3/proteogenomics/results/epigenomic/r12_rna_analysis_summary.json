@@ -1,0 +1,61 @@
+{
+  "source": "GSE101966; Kelso et al. eLife 2017; DOI 10.7554/eLife.30506",
+  "input_unit": "FPKM (HOMER RefSeq transcript-level normalized abundances)",
+  "analysis_class": "Exploratory limma-trend log-linear factorial interaction; not count-confirmatory",
+  "primary_formula": "~ genotype * treatment",
+  "primary_coefficient": "genotypeKO:treatmentKD",
+  "primary_contrast": "(ARID1A_KO_ARID1B_KD - ARID1A_KO_scr) - (WT_ARID1B_KD - WT_scr)",
+  "n_biological_infections_per_group": 2,
+  "n_groups": 4,
+  "clone_caveat": "One purchased isogenic ARID1A Q456* line and parental WT; infections are not independent KO clones.",
+  "shRNA": "V3LHS_306691; scrambled RHS4346 as deposited in GEO",
+  "pairing": "No cross-group infection pairing assumed from Rep1/Rep2 labels alone.",
+  "filtering": "At least 1 FPKM in at least 2/8 samples; independent of group labels",
+  "transcript_selection": "Highest pooled mean FPKM per gene, tie longest Length then transcript ID; no FPKM sum",
+  "multiplicity": "BH across all tested genes for the prespecified interaction; sensitivity analyses reported separately",
+  "primary": {
+    "tag": "primary_interaction",
+    "representative": "pooled_expression",
+    "offset": 1,
+    "genes_tested": 13505,
+    "genes_q_lt_005": 0,
+    "negative_interactions_q_lt_005": 0,
+    "positive_interactions_q_lt_005": 0,
+    "residual_df": 4,
+    "EB_prior_df": 3.4997,
+    "max_interaction_contrast_check_error": 7.6328e-15
+  },
+  "sensitivity_offset": {
+    "tag": "sensitivity_offset_0p1",
+    "representative": "pooled_expression",
+    "offset": 0.1,
+    "genes_tested": 13505,
+    "genes_q_lt_005": 0,
+    "negative_interactions_q_lt_005": 0,
+    "positive_interactions_q_lt_005": 0,
+    "residual_df": 4,
+    "EB_prior_df": 3.3937,
+    "max_interaction_contrast_check_error": 7.9936e-15
+  },
+  "sensitivity_longest": {
+    "tag": "sensitivity_longest_transcript",
+    "representative": "longest_transcript",
+    "offset": 1,
+    "genes_tested": 13505,
+    "genes_q_lt_005": 0,
+    "negative_interactions_q_lt_005": 0,
+    "positive_interactions_q_lt_005": 0,
+    "residual_df": 4,
+    "EB_prior_df": 3.4997,
+    "max_interaction_contrast_check_error": 7.6328e-15
+  },
+  "consistent_negative_q05_all_analyses": 0,
+  "raw_input_rows": 26549,
+  "unique_annotated_genes": 26548,
+  "software": {
+    "R": "R version 4.1.2 (2021-11-01)",
+    "limma": "3.50.0"
+  },
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "completed_utc": "2026-09-05 01:30:05 UTC"
+}

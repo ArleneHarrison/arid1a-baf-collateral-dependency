@@ -1,0 +1,12 @@
+{
+  "LUAD": {
+    "ranked_proteins": 7939,
+    "independent_QR_intercept_max_rho_difference": 1.1102230246251565e-16,
+    "null_draw_replay": "40000 sets passed; six distinct genes per set"
+  },
+  "LUSC": {
+    "ranked_proteins": 8649,
+    "independent_QR_intercept_max_rho_difference": 1.3877787807814457e-16,
+    "null_draw_replay": "40000 sets passed; six distinct genes per set"
+  }
+}

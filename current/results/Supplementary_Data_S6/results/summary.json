@@ -1,0 +1,224 @@
+{
+  "host": "autodl-container-9et576fs3e-c3252443",
+  "python": "3.12.9 | packaged by conda-forge | (main, Mar  4 2025, 22:48:41) [GCC 13.3.0]",
+  "numpy": "2.3.2",
+  "pandas": "2.3.3",
+  "spec_sha256": "615d9b510cc170dd9b1703e1277ff1a67d60d168d33682752cf8fcdcb8aa4329",
+  "script_sha256": "45c1d98ca216eb5b16a1ae34a13d3e79d12ddcb69a030352d50ad65612bb480e",
+  "input_sha256": {
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUAD_protein_tumor_gene_symbol.tsv.gz": "22eb5bd6b70dc8144105933350bc8b3ae7d92ec97950021f739776c29aed8e50",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUAD_rna_tumor_gene_symbol.tsv.gz": "6796d386fa96caa461c2e9d2ce104cf0d8c90368da734d114fc2c08d40b9bef3",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUAD_cnv_tumor_gene_symbol.tsv.gz": "9dfdb51478913ee89ba1a9571d8ee9426fc38f397a0ca9f349424e4d259348b0",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/analysis_ready/LUAD/metadata.csv": "3d6e845808e97b52df5bc4e085dfcde0d98add43dfb9b1136b0f07a5f4b15a2c",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUSC_protein_tumor_gene_symbol.tsv.gz": "ddf90ff5725569917dc49aa66c4aa1f1b3a39ea52d568ae9c05ad9d32fdb35b8",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUSC_rna_tumor_gene_symbol.tsv.gz": "dfcfc04102eef5d7843010d902987594befe4c55c84e9b8e3d98347d27d69cb5",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/audit/LUSC_cnv_tumor_gene_symbol.tsv.gz": "b3bc0d8c20814e0a7fab087d806e75cae5f0078804d3779c00bcb9595cf84fee",
+    "/root/autodl-tmp/arid1a_baf_r12_cptac/pancan_release/analysis_ready/LUSC/metadata.csv": "d0ba46721f3b155ac9d9754e6c01b78e2d2e516e67967ff7a087865dc353f890"
+  },
+  "cohorts": {
+    "LUAD": {
+      "patients": 108,
+      "ranked_proteins": 7939,
+      "complete_non_BAF": 7916,
+      "primary_max_absolute_replay_error": 5.551115123125783e-17,
+      "contact_ranks": [
+        {
+          "gene": "SMARCC2",
+          "rho": 0.6621128545161813,
+          "rank": 1,
+          "rank_percent": 0.012596044841919639
+        },
+        {
+          "gene": "SMARCE1",
+          "rho": 0.558184953366296,
+          "rank": 3,
+          "rank_percent": 0.03778813452575891
+        },
+        {
+          "gene": "DPF2",
+          "rho": 0.5542980174721579,
+          "rank": 5,
+          "rank_percent": 0.06298022420959819
+        },
+        {
+          "gene": "SMARCD1",
+          "rho": 0.48934427010393744,
+          "rank": 16,
+          "rank_percent": 0.20153671747071422
+        },
+        {
+          "gene": "SMARCA4",
+          "rho": 0.4689378566597121,
+          "rank": 24,
+          "rank_percent": 0.3023050762060713
+        },
+        {
+          "gene": "SMARCB1",
+          "rho": 0.45439995427134244,
+          "rank": 28,
+          "rank_percent": 0.35268925557374986
+        }
+      ],
+      "PC_variance_fraction": [
+        0.0963780827224341,
+        0.07617763684225945,
+        0.04979447971878923,
+        0.04174585944161129,
+        0.03227200323360775
+      ]
+    },
+    "LUSC": {
+      "patients": 107,
+      "ranked_proteins": 8649,
+      "complete_non_BAF": 8625,
+      "primary_max_absolute_replay_error": 8.326672684688674e-17,
+      "contact_ranks": [
+        {
+          "gene": "SMARCC2",
+          "rho": 0.5734046513450498,
+          "rank": 22,
+          "rank_percent": 0.25436466643542605
+        },
+        {
+          "gene": "DPF2",
+          "rho": 0.524755579066988,
+          "rank": 59,
+          "rank_percent": 0.6821597872586427
+        },
+        {
+          "gene": "SMARCD1",
+          "rho": 0.5135582593702854,
+          "rank": 71,
+          "rank_percent": 0.820904150768875
+        },
+        {
+          "gene": "SMARCB1",
+          "rho": 0.5066615725229726,
+          "rank": 81,
+          "rank_percent": 0.9365244536940687
+        },
+        {
+          "gene": "SMARCA4",
+          "rho": 0.43623503595289875,
+          "rank": 199,
+          "rank_percent": 2.300844028211354
+        },
+        {
+          "gene": "SMARCE1",
+          "rho": 0.36280099531730636,
+          "rank": 410,
+          "rank_percent": 4.74043241993294
+        }
+      ],
+      "PC_variance_fraction": [
+        0.07920439094921611,
+        0.05549936147187954,
+        0.048879218507488616,
+        0.040706561825809444,
+        0.03890659077111049
+      ]
+    }
+  },
+  "tests": [
+    {
+      "cohort": "LUAD",
+      "null": "size_only",
+      "observed_contact_median": 0.5218211437880477,
+      "null_median": 0.003122409900254367,
+      "null_low": -0.13058413596654186,
+      "null_high": 0.1462151199900919,
+      "competitive_p": 4.999750012499375e-05,
+      "universe": 7939,
+      "non_BAF_candidates": 7916,
+      "BH_q_four_tests": 4.999750012499375e-05
+    },
+    {
+      "cohort": "LUAD",
+      "null": "matched",
+      "observed_contact_median": 0.5218211437880477,
+      "null_median": 0.03076443072584717,
+      "null_low": -0.13048708165423417,
+      "null_high": 0.19339363800051407,
+      "competitive_p": 4.999750012499375e-05,
+      "universe": 7939,
+      "non_BAF_candidates": 7916,
+      "BH_q_four_tests": 4.999750012499375e-05
+    },
+    {
+      "cohort": "LUSC",
+      "null": "size_only",
+      "observed_contact_median": 0.510109915946629,
+      "null_median": 0.028098610866200358,
+      "null_low": -0.1202424861380513,
+      "null_high": 0.20140456317717784,
+      "competitive_p": 4.999750012499375e-05,
+      "universe": 8649,
+      "non_BAF_candidates": 8625,
+      "BH_q_four_tests": 4.999750012499375e-05
+    },
+    {
+      "cohort": "LUSC",
+      "null": "matched",
+      "observed_contact_median": 0.510109915946629,
+      "null_median": 0.04059885577695488,
+      "null_low": -0.1307040939281726,
+      "null_high": 0.2398684094515956,
+      "competitive_p": 4.999750012499375e-05,
+      "universe": 8649,
+      "non_BAF_candidates": 8625,
+      "BH_q_four_tests": 4.999750012499375e-05
+    }
+  ],
+  "PC_sensitivity": [
+    {
+      "cohort": "LUAD",
+      "n_PC": 0,
+      "estimate": 0.25031200281993393,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUAD",
+      "n_PC": 1,
+      "estimate": 0.2664646984290301,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUAD",
+      "n_PC": 3,
+      "estimate": 0.2522078367486924,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUAD",
+      "n_PC": 5,
+      "estimate": 0.22027875427515314,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUSC",
+      "n_PC": 0,
+      "estimate": 0.17016399224122725,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUSC",
+      "n_PC": 1,
+      "estimate": 0.23945414291032352,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUSC",
+      "n_PC": 3,
+      "estimate": 0.10646270499030158,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    },
+    {
+      "cohort": "LUSC",
+      "n_PC": 5,
+      "estimate": 0.15751680087776018,
+      "interpretation": "descriptive point estimate; PCs contain both biological and technical variation"
+    }
+  ],
+  "new_patients": 0,
+  "status": "exploratory; all specified endpoints retained"
+}
